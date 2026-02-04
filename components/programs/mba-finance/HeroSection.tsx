@@ -1,0 +1,44 @@
+import Image from "next/image";
+
+export default function HeroSection() {
+  return (
+    <section className="relative h-screen">
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1920&h=1080&fit=crop"
+          alt="Finance and analytics"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-black bg-opacity-30"></div>
+      </div>
+      {/* Title and description overlay - bottom left aligned on image */}
+      <div className="relative z-10 h-full flex items-end">
+        <div className="w-full pb-16">
+          <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
+            <div className="w-16 h-0.5 bg-white mb-6"></div>
+            <h1 className="text-5xl md:text-7xl font-trade-gothic-bold text-white mb-6">
+              MBA in Applied Finance
+            </h1>
+            <p className="text-xl md:text-2xl text-white font-trade-gothic-light mb-6">
+              A practice-driven finance program that builds strong analytical, valuation, and decision-making skills for modern financial careers.
+            </p>
+            <p className="text-lg md:text-xl text-white font-trade-gothic-light mb-8 opacity-90">
+              The MBA in Applied Finance at <strong className="font-trade-gothic-bold">RVS CAS MBA</strong> is designed for students who want to work at the intersection of finance, analytics, and real-world business decision-making.
+              The program blends finance fundamentals with hands-on tools, industry exposure, and applied projects.
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <a href="/programs/common/request-information" className="bg-booth-maroon text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-opacity-90 transition text-sm md:text-base">
+                Request Information
+              </a>
+              <a href="/programs/common/how-to-apply" className="border-2 border-white text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-white hover:text-booth-maroon transition text-sm md:text-base">
+                Apply Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
