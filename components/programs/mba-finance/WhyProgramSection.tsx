@@ -11,38 +11,62 @@ export default function WhyProgramSection() {
 
         <div className="space-y-6">
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            Finance today is no longer limited to accounting or reporting roles. Organizations demand professionals who can analyze data, assess risk, value businesses, and support strategic decisions.
+            Unlike traditional programs, the MBA in Applied Finance focuses on
+            how finance professionals think and make decisions—not on
+            textbook-driven learning.
           </p>
 
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            This program prepares students to:
+            What you’ll build here
           </p>
 
           <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
             <li className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Interpret financial statements critically</span>
+              <span>Faculty-Led, Thinking-Driven Learning</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Build financial models and valuations</span>
+              <span>Applied by Design, Not by Label</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Understand capital markets and fintech trends</span>
+              <span>Career Readiness Through Clarity, Not Shortcuts</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Apply finance concepts to real business problems</span>
+              <span>A Serious Program for Serious Learners</span>
             </li>
           </ul>
 
-          <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            The curriculum emphasizes <strong className="font-trade-gothic-bold">application over theory</strong>, ensuring graduates are industry-ready.
-          </p>
+          {/* <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+            The curriculum emphasizes{" "}
+            <strong className="font-trade-gothic-bold">
+              application over theory
+            </strong>
+            , ensuring graduates are industry-ready.
+          </p> */}
+          <a
+            href="/programs/common/request-information"
+            className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline"
+          >
+            Talk to an Academic Advisor
+            <svg
+              className="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </a>
         </div>
       </div>
     </section>
   );
 }
-

@@ -30,11 +30,19 @@ export default function IndustryConnectSection() {
           </ul>
 
           <div>
-            <h3 className="text-xl md:text-2xl font-trade-gothic-bold text-booth-dark-gray mb-4">
+            {/* <h3 className="text-xl md:text-2xl font-trade-gothic-bold text-booth-dark-gray mb-4">
               Tools & Platforms
-            </h3>
-            <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+            </h3> */}
+            {/* <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
               Excel · Bloomberg Terminal · RiskMetrics · FactSet · Stata · Moody's · MoneyControl
+            </p> */}
+            <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+              Throughout the MBA, students engage with faculty, alumni, and
+              industry professionals who actively shape financial
+              decision-making in organizations. These interactions expose
+              students to how finance operates in practice — across corporate
+              finance teams, advisory roles, analytics functions, and emerging
+              financial domains.
             </p>
           </div>
         </div>

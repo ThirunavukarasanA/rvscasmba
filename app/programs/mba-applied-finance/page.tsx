@@ -10,10 +10,12 @@ import IndustryConnectSection from "@/components/programs/mba-finance/IndustryCo
 import ProgramFitSection from "@/components/programs/mba-finance/ProgramFitSection";
 import AdmissionsSnapshotSection from "@/components/programs/mba-finance/AdmissionsSnapshotSection";
 import FinalCTASection from "@/components/programs/mba-finance/FinalCTASection";
+import RequestProgramInformation from "@/components/programs/mba-finance/RequestProgramInformation";
 
 export const metadata: Metadata = {
   title: "MBA in Applied Finance - RVS CAS MBA",
-  description: "A practice-driven finance program that builds strong analytical, valuation, and decision-making skills for modern financial careers.",
+  description:
+    "A practice-driven finance program that builds strong analytical, valuation, and decision-making skills for modern financial careers.",
 };
 
 export default function MBAAppliedFinancePage() {
@@ -25,10 +27,11 @@ export default function MBAAppliedFinancePage() {
       <ProgramExperienceSection />
       <CurriculumSection />
       <CareerOutcomesSection />
+      <FinalCTASection />
       <IndustryConnectSection />
       <ProgramFitSection />
       <AdmissionsSnapshotSection />
-      <FinalCTASection />
+      <RequestProgramInformation />
       <Footer />
     </main>
   );

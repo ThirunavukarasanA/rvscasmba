@@ -22,17 +22,30 @@ export default function HeroSection() {
               MBA in Applied Finance
             </h1>
             <p className="text-xl md:text-2xl text-white font-trade-gothic-light mb-6">
-              A practice-driven finance program that builds strong analytical, valuation, and decision-making skills for modern financial careers.
+              Learn to think, analyze, and decide like a financial analyst
             </p>
             <p className="text-lg md:text-xl text-white font-trade-gothic-light mb-8 opacity-90">
-              The MBA in Applied Finance at <strong className="font-trade-gothic-bold">RVS CAS MBA</strong> is designed for students who want to work at the intersection of finance, analytics, and real-world business decision-making.
-              The program blends finance fundamentals with hands-on tools, industry exposure, and applied projects.
+              A practice-driven{" "}
+              <strong className="font-trade-gothic-bold">
+                MBA at RVS CAS MBA
+              </strong>{" "}
+              is designed around real financial decision-making rather than
+              textbook theory. The program develops analyst-style thinking,
+              emphasizes company and valuation-led learning, and is delivered
+              through a faculty-led approach that prioritizes clarity, judgment,
+              and application over content-heavy instruction.
             </p>
             <div className="flex flex-wrap gap-4">
-              <a href="/programs/common/request-information" className="bg-booth-maroon text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-opacity-90 transition text-sm md:text-base">
+              <a
+                href="/programs/common/request-information"
+                className="bg-booth-maroon text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-opacity-90 transition text-sm md:text-base"
+              >
                 Request Information
               </a>
-              <a href="/programs/common/how-to-apply" className="border-2 border-white text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-white hover:text-booth-maroon transition text-sm md:text-base">
+              <a
+                href="/programs/common/how-to-apply"
+                className="border-2 border-white text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-white hover:text-booth-maroon transition text-sm md:text-base"
+              >
                 Apply Now
               </a>
             </div>

@@ -7,9 +7,19 @@ export default function ProgramExperienceSection() {
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
-            Academic Experience & Learning Model
+            Academic Experience
           </h2>
-          <p className="text-xl md:text-2xl text-booth-dark-gray font-trade-gothic-light mb-6">
+          {/* <p className="text-xl md:text-2xl text-booth-dark-gray font-trade-gothic-light mb-6">
+            The Applied Finance programme is structured to mirror the way
+            finance is practiced, analyzed, and taught in the professional
+            world.
+          </p> */}
+          <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light mb-6">
+            The Applied Finance programme is structured to mirror the way
+            finance is practiced, analyzed, and taught in the professional
+            world.
+          </p>
+          <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
             Learn finance by doing, not memorizing.
           </p>
         </div>
@@ -24,37 +34,51 @@ export default function ProgramExperienceSection() {
             />
           </div>
           <div className="space-y-6">
-          <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-            <li className="flex items-start gap-3">
-              <span className="text-booth-maroon mt-1">•</span>
-              <span>Project-based learning</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-booth-maroon mt-1">•</span>
-              <span>Case studies and simulations</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-booth-maroon mt-1">•</span>
-              <span>Continuous assessments</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-booth-maroon mt-1">•</span>
-              <span>Industry-aligned curriculum</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-booth-maroon mt-1">•</span>
-              <span>Capstone project in Applied Finance</span>
-            </li>
-          </ul>
+            <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
+              <li className="flex items-start gap-3">
+                <span className="text-booth-maroon mt-1">•</span>
+                <span>Project-based learning</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-booth-maroon mt-1">•</span>
+                <span>Case studies and simulations</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-booth-maroon mt-1">•</span>
+                <span>Continuous assessments</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-booth-maroon mt-1">•</span>
+                <span>Industry-aligned curriculum</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-booth-maroon mt-1">•</span>
+                <span>Capstone project in Applied Finance</span>
+              </li>
+            </ul>
 
-          <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            Students work with real datasets, financial statements, and market scenarios throughout the program.
-          </p>
+            {/* <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+              Students work with real datasets, financial statements, and market
+              scenarios throughout the program.
+            </p> */}
 
-            <a href="/programs/common/student-experience" className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline">
-              Explore Student Experience
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            <a
+              href="/programs/common/student-experience"
+              className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline"
+            >
+              View Full Academic Experience
+              <svg
+                className="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
               </svg>
             </a>
           </div>

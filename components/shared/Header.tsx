@@ -32,16 +32,28 @@ export default function Header() {
 
               {/* Primary Navigation Links - Larger size */}
               <div className="hidden lg:flex items-center gap-4">
-                <a href="/#why-rvs" className="text-white hover:text-gray-300 font-trade-gothic-light">
+                <a
+                  href="/#why-rvs"
+                  className="text-white hover:text-gray-300 font-trade-gothic-light"
+                >
                   Why RVS CAS MBA
                 </a>
-                <a href="/#programs" className="text-white hover:text-gray-300 font-trade-gothic-light">
+                <a
+                  href="/#programs"
+                  className="text-white hover:text-gray-300 font-trade-gothic-light"
+                >
                   Programs
                 </a>
-                <a href="/programs/common/admissions" className="text-white hover:text-gray-300 font-trade-gothic-light">
+                <a
+                  href="/programs/common/admissions"
+                  className="text-white hover:text-gray-300 font-trade-gothic-light"
+                >
                   Admissions
                 </a>
-                <a href="#" className="text-white hover:text-gray-300 font-trade-gothic-light">
+                <a
+                  href="#"
+                  className="text-white hover:text-gray-300 font-trade-gothic-light"
+                >
                   Faculty & Research
                 </a>
               </div>
@@ -49,45 +61,87 @@ export default function Header() {
 
             {/* Right Side: Secondary Links (smaller) + Search + Burger */}
             <div className="hidden lg:flex items-center gap-4">
-              <a href="#" className="text-white hover:text-gray-300 font-trade-gothic-light text-sm">
+              <a
+                href="#"
+                className="text-white hover:text-gray-300 font-trade-gothic-light text-sm"
+              >
                 Alumni
               </a>
-              <a href="#" className="text-white hover:text-gray-300 font-trade-gothic-light text-sm">
+              <a
+                href="#"
+                className="text-white hover:text-gray-300 font-trade-gothic-light text-sm"
+              >
                 Industry Connect
               </a>
-              <a href="#" className="text-white hover:text-gray-300 font-trade-gothic-light text-sm">
+              <a
+                href="#"
+                className="text-white hover:text-gray-300 font-trade-gothic-light text-sm"
+              >
                 Events
               </a>
-              <a href="#" className="text-white hover:text-gray-300 font-trade-gothic-light text-sm">
+              <a
+                href="#"
+                className="text-white hover:text-gray-300 font-trade-gothic-light text-sm"
+              >
                 Placements
               </a>
               {/* Search Icon */}
               <button className="text-white hover:text-gray-300 ml-2">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                <svg
+                  className="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  />
                 </svg>
               </button>
               {/* Burger Menu */}
-              <button 
+              <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                 className="text-white hover:text-gray-300"
                 aria-label="Menu"
               >
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                <svg
+                  className="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
                 </svg>
               </button>
             </div>
 
             {/* Mobile: Just burger menu */}
             <div className="lg:hidden flex items-center">
-              <button 
+              <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                 className="text-white hover:text-gray-300"
                 aria-label="Menu"
               >
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                <svg
+                  className="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
                 </svg>
               </button>
             </div>
@@ -100,7 +154,7 @@ export default function Header() {
         <div className="fixed inset-0 z-50 bg-booth-bg-gray overflow-y-auto">
           {/* Top Red Strip */}
           <div className="bg-booth-maroon h-1"></div>
-          
+
           {/* Menu Content with Side Margins */}
           <div className="w-full max-w-full min-[700px]:max-w-[80%] mx-auto">
             {/* Menu Header */}
@@ -117,15 +171,25 @@ export default function Header() {
                 {/* Crest/Logo icon placeholder */}
                 <div className="w-8 h-8 bg-booth-maroon bg-opacity-20 rounded"></div>
               </div>
-              
+
               {/* Close Button */}
-              <button 
+              <button
                 onClick={() => setIsMenuOpen(false)}
                 className="w-10 h-10 rounded-full bg-gray-300 flex items-center justify-center hover:bg-gray-400 transition"
                 aria-label="Close menu"
               >
-                <svg className="w-6 h-6 text-booth-dark-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                <svg
+                  className="w-6 h-6 text-booth-dark-gray"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 18L18 6M6 6l12 12"
+                  />
                 </svg>
               </button>
             </div>
@@ -133,52 +197,149 @@ export default function Header() {
             {/* Menu Links */}
             <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-4">
               <nav className="grid grid-cols-2 gap-4">
-                <a href="#" className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between">
+                <a
+                  href="#"
+                  className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
+                >
                   Why RVS CAS MBA
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
                   </svg>
                 </a>
-                <a href="/#programs" className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between">
+                <a
+                  href="/#programs"
+                  className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
+                >
                   Programs
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
                   </svg>
                 </a>
-                <a href="/programs/common/admissions" className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between">
+                <a
+                  href="/programs/common/admissions"
+                  className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
+                >
                   Admissions
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
                   </svg>
                 </a>
-                <a href="#" className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between">
+                <a
+                  href="#"
+                  className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
+                >
                   Faculty & Research
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
                   </svg>
                 </a>
-                <a href="#" className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between">
+                <a
+                  href="#"
+                  className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
+                >
                   Alumni
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
                   </svg>
                 </a>
-                <a href="#" className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300">
+                <a
+                  href="#"
+                  className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300"
+                >
                   Events
                 </a>
-                <a href="#" className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between">
+                <a
+                  href="#"
+                  className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
+                >
                   Industry Connect
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
                   </svg>
                 </a>
-                <a href="/programs/common/how-to-apply" className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300">
+                <a
+                  href="/programs/common/how-to-apply"
+                  className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300"
+                >
                   Apply
                 </a>
-                <a href="#" className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between">
+                <a
+                  href="#"
+                  className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
+                >
                   Privacy Policy
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
                   </svg>
                 </a>
               </nav>

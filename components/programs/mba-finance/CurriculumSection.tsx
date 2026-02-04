@@ -1,71 +1,89 @@
+import CurriculumAccordion from "./CurriculumAccordion";
+
+const curriculumData = [
+  {
+    title: "Core Learning Areas",
+    content: [
+      {
+        type: "list" as const,
+        items: [
+          "Financial Reporting & Performance Analysis",
+          "Capital Markets & Investment Analysis",
+          "Financial Planning & Analysis (FP&A)",
+          "Wealth & Portfolio Management",
+          "Equity Valuation & Financial Modeling",
+          "Financial Decision-Making for Business Leadership",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Specialization Courses",
+    content: [
+      {
+        type: "list" as const,
+        items: [
+          "Financial Reporting Analysis",
+          "Financial Management",
+          "Financial Statement Analysis (AFSA)",
+          "Accounting and Financial Analysis",
+          "Wealth Management",
+          "Capital Markets",
+          "Financial Planning and Analysis (FP&A) – I",
+          "Financial Planning and Analysis (FP&A) – II",
+          "Financial Modelling and Equity Valuation",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Tools & Platforms",
+    content: [
+      {
+        type: "list" as const,
+        items: [
+          "Excel",
+          "Bloomberg Terminal",
+          "RiskMetrics",
+          "FactSet",
+          "Stata",
+          "Moody's",
+          "MoneyControl",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Capstone Project",
+    content: [
+      {
+        type: "paragraph" as const,
+        text: "Students complete a capstone project focused on real financial cases, complemented by company visits that offer practical insights into pricing decisions, cost structures, and applied financial concepts used by businesses.",
+      },
+    ],
+  },
+  // {
+  //   title: "Test",
+  //   content: [
+  //     { type: "paragraph" as const, text: "Intro text..." },
+  //     { type: "list" as const, items: ["Point 1", "Point 2"] },
+  //     { type: "paragraph" as const, text: "Conclusion text..." },
+  //   ],
+  // },
+];
+
 export default function CurriculumSection() {
   return (
     <section className="py-8 md:py-20 bg-white">
       <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
-        <div className="mb-6 md:mb-12">
+        <div className="mb-8 md:mb-12">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
-            Curriculum at a Glance
+            Curriculum Overview
           </h2>
         </div>
 
-        <div className="space-y-8">
-          <div>
-            <h3 className="text-2xl md:text-3xl font-trade-gothic-bold text-booth-dark-gray mb-4">
-              Core Finance Areas
-            </h3>
-            <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-              <li className="flex items-start gap-3">
-                <span className="text-booth-maroon mt-1">•</span>
-                <span>Financial Statement Analysis</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-booth-maroon mt-1">•</span>
-                <span>Corporate Finance & Valuation</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-booth-maroon mt-1">•</span>
-                <span>Capital Markets & Investments</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-booth-maroon mt-1">•</span>
-                <span>Wealth Management</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-booth-maroon mt-1">•</span>
-                <span>Financial Technology (FinTech)</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-booth-maroon mt-1">•</span>
-                <span>Risk Management</span>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-2xl md:text-3xl font-trade-gothic-bold text-booth-dark-gray mb-4">
-              Applied & Tool-Based Learning
-            </h3>
-            <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-              <li className="flex items-start gap-3">
-                <span className="text-booth-maroon mt-1">•</span>
-                <span>Advanced Financial Modelling (Practical)</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-booth-maroon mt-1">•</span>
-                <span>Scenario & Sensitivity Analysis</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-booth-maroon mt-1">•</span>
-                <span>Investment Simulations</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-booth-maroon mt-1">•</span>
-                <span>Capstone Project</span>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <CurriculumAccordion items={curriculumData} />
       </div>
     </section>
   );
