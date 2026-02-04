@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function RequestProgramInformation() {
   const items = [
     {
-      title: "Request Information",
+      title: "Take career guidance",
       href: "/programs/common/request-info",
       icon: (
         <svg
@@ -55,7 +55,7 @@ export default function RequestProgramInformation() {
       ),
     },
     {
-      title: "Apply",
+      title: "Download Brochure",
       href: "/programs/common/how-to-apply",
       icon: (
         <svg
