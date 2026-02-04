@@ -14,7 +14,7 @@ export default function Footer() {
       </div>
 
       {/* Main Footer */}
-      <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12 py-12">
+      <div className="w-full max-w-full min-[700px]:max-w-[85%] lg:max-w-[75%] xl:max-w-[70%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12 py-12">
         {/* Horizontal line separator */}
         <div className="border-t-2 border-booth-maroon mb-12"></div>
 
@@ -202,7 +202,7 @@ export default function Footer() {
           <div>
             <a
               href="/programs/common/request-information"
-              className="border-2 border-booth-maroon bg-white text-booth-maroon px-4 py-2 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-sm w-full inline-block text-center"
+              className="border-2 border-booth-maroon bg-white text-booth-maroon px-2 md:px-4 py-2 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-xs md:text-sm w-full h-full flex items-center justify-center text-center leading-tight"
             >
               REQUEST INFORMATION
             </a>
@@ -210,13 +210,13 @@ export default function Footer() {
           <div>
             <a
               href="/programs/common/how-to-apply"
-              className="border-2 border-booth-maroon bg-white text-booth-maroon px-4 py-2 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-sm w-full inline-block text-center"
+              className="border-2 border-booth-maroon bg-white text-booth-maroon px-2 md:px-4 py-2 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-xs md:text-sm w-full h-full flex items-center justify-center text-center leading-tight"
             >
               APPLY
             </a>
           </div>
           <div>
-            <button className="border-2 border-booth-maroon bg-white text-booth-maroon px-4 py-2 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-sm w-full inline-flex items-center justify-center gap-1">
+            <button className="border-2 border-booth-maroon bg-white text-booth-maroon px-2 md:px-4 py-2 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-xs md:text-sm w-full h-full flex items-center justify-center gap-1 leading-tight">
               GIVE
               <svg
                 className="w-3 h-3"
@@ -243,17 +243,17 @@ export default function Footer() {
             </h3>
           </div>
           <div>
-            <button className="border-2 border-booth-maroon bg-white text-booth-maroon px-4 py-2 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-sm w-full">
+            <button className="border-2 border-booth-maroon bg-white text-booth-maroon px-2 md:px-4 py-2 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-xs md:text-sm w-full h-full flex items-center justify-center text-center leading-tight">
               UNDERGRADUATES
             </button>
           </div>
           <div>
-            <button className="border-2 border-booth-maroon bg-white text-booth-maroon px-4 py-2 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-sm w-full">
+            <button className="border-2 border-booth-maroon bg-white text-booth-maroon px-2 md:px-4 py-2 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-xs md:text-sm w-full h-full flex items-center justify-center text-center leading-tight">
               TAKING CLASSES
             </button>
           </div>
           <div>
-            <button className="border-2 border-booth-maroon bg-white text-booth-maroon px-4 py-2 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-sm w-full">
+            <button className="border-2 border-booth-maroon bg-white text-booth-maroon px-2 md:px-4 py-2 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-xs md:text-sm w-full h-full flex items-center justify-center text-center leading-tight">
               ALL OTHER OFFERINGS
             </button>
           </div>
