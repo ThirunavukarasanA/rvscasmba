@@ -66,7 +66,7 @@ export default function ProgramExperienceSection() {
               href="/programs/common/student-experience"
               className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline"
             >
-              View Full Academic Experience
+              View Full Experience
               <svg
                 className="w-4 h-4"
                 fill="none"

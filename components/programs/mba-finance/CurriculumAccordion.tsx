@@ -1,9 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useState, ReactNode } from "react";
 
 type ContentBlock =
-  | { type: "paragraph"; text: string }
+  | { type: "paragraph"; text: string | ReactNode }
   | { type: "list"; items: string[] };
 
 type AccordionItem = {
@@ -19,7 +19,7 @@ export default function CurriculumAccordion({
   items,
 }: CurriculumAccordionProps) {
   // Allow single open item at a time (standard accordion behavior)
-  const [openIndex, setOpenIndex] = useState<number | null>(0);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const toggleItem = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
@@ -83,10 +83,10 @@ export default function CurriculumAccordion({
                   {item.content.map((block, blockIdx) => (
                     <div key={blockIdx}>
                       {block.type === "paragraph" ? (
-                        <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-                          {block.text}
-                        </p>
+                        // <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
+                        <>{block.text}</>
                       ) : (
+                        // </p>
                         <ul className="space-y-3">
                           {block.items.map((point, pointIdx) => (
                             <li

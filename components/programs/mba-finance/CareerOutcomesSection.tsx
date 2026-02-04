@@ -3,15 +3,22 @@ import CurriculumAccordion from "./CurriculumAccordion";
 
 const items = [
   {
-    title: "Career Outcomes at a Glance",
+    title: "Real Roles for Real Financial Thinking",
     content: [
+      // {
+      //   type: "paragraph" as const,
+      //   text: "Real Roles for Real Financial Thinking",
+      // },
       {
         type: "paragraph" as const,
-        text: "Real Roles for Real Financial Thinking",
-      },
-      {
-        type: "paragraph" as const,
-        text: "Graduates of the Applied Finance specialization have gone on to careers such as:",
+        text: (
+          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
+            <strong>
+              Graduates of the Applied Finance specialization have gone on to
+              careers such as:
+            </strong>
+          </p>
+        ),
       },
       {
         type: "list" as const,
@@ -25,7 +32,12 @@ const items = [
       },
       {
         type: "paragraph" as const,
-        text: "This career profile reflects the program’s emphasis on integrated financial judgment and applied decision skills.",
+        text: (
+          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
+            This career profile reflects the program’s emphasis on integrated
+            financial judgment and applied decision skills.
+          </p>
+        ),
       },
     ],
   },
@@ -34,7 +46,13 @@ const items = [
     content: [
       {
         type: "paragraph" as const,
-        text: "RVS CAS combines academic rigor with structured career readiness:",
+        text: (
+          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
+            <strong>
+              RVS CAS combines academic rigor with structured career readiness:
+            </strong>
+          </p>
+        ),
       },
       {
         type: "list" as const,
@@ -47,7 +65,13 @@ const items = [
       },
       {
         type: "paragraph" as const,
-        text: "Unlike programs that focus only on placement numbers, we focus on career clarity and capability — helping you articulate your analytical edge and long-term potential.",
+        text: (
+          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
+            Unlike programs that focus only on placement numbers, we focus on
+            career clarity and capability — helping you articulate your
+            analytical edge and long-term potential.
+          </p>
+        ),
       },
     ],
   },
@@ -56,15 +80,27 @@ const items = [
     content: [
       {
         type: "paragraph" as const,
-        text: "Year 1: Build financial foundations and analytical reasoning",
+        text: (
+          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
+            Year 1: Build financial foundations and analytical reasoning
+          </p>
+        ),
       },
       {
         type: "paragraph" as const,
-        text: "Summer Break: Internship Offer with faculty support",
+        text: (
+          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
+            Summer Break: Internship Offer with faculty support
+          </p>
+        ),
       },
       {
         type: "paragraph" as const,
-        text: "Year 2: Apply frameworks in real signals, cases, and projects",
+        text: (
+          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
+            Year 2: Apply frameworks in real signals, cases, and projects
+          </p>
+        ),
       },
     ],
   },
@@ -73,7 +109,14 @@ const items = [
     content: [
       {
         type: "paragraph" as const,
-        text: "Organizations that commonly recruit RVS CAS Applied Finance graduates include:",
+        text: (
+          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
+            <strong>
+              Organizations that commonly recruit RVS CAS Applied Finance
+              graduates include:
+            </strong>
+          </p>
+        ),
       },
       {
         type: "list" as const,

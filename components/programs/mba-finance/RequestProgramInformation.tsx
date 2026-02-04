@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function RequestProgramInformation() {
   const items = [
     {
-      title: "Take career guidance",
+      title: "Take Career Guidance",
       href: "/programs/common/request-information",
       icon: (
         <svg
@@ -176,7 +176,7 @@ export default function RequestProgramInformation() {
             admissions process delivered straight to your inbox.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 text-center">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 md:gap-8 text-center">
           {items.map((item, index) => (
             <Link
               key={index}

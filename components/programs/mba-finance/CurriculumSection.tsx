@@ -58,7 +58,14 @@ const curriculumData = [
     content: [
       {
         type: "paragraph" as const,
-        text: "Students complete a capstone project focused on real financial cases, complemented by company visits that offer practical insights into pricing decisions, cost structures, and applied financial concepts used by businesses.",
+        text: (
+          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
+            Students complete a capstone project focused on real financial
+            cases, complemented by company visits that offer practical insights
+            into pricing decisions, cost structures, and applied financial
+            concepts used by businesses.
+          </p>
+        ),
       },
     ],
   },
