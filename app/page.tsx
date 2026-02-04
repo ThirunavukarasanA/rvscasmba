@@ -12,9 +12,9 @@ import FinalCTASection from "@/components/home/FinalCTASection";
 
 export const metadata: Metadata = {
   title: "RVS CAS MBA - Management Education for the Digital Era",
-  description: "RVS CAS MBA prepares techno-managers who combine strong business fundamentals with technology, analytics, and real-world decision-making.",
+  description:
+    "RVS CAS MBA prepares techno-managers who combine strong business fundamentals with technology, analytics, and real-world decision-making.",
 };
-
 export default function Home() {
   return (
     <main className="min-h-screen">
