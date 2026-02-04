@@ -1,11 +1,10 @@
-import React from "react";
 import Link from "next/link";
 
 export default function RequestProgramInformation() {
   const items = [
     {
       title: "Take career guidance",
-      href: "/programs/common/request-info",
+      href: "/programs/common/request-information",
       icon: (
         <svg
           width="80"
