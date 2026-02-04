@@ -16,7 +16,7 @@ export default function HeroSection() {
       {/* Title and description overlay - bottom left aligned on image */}
       <div className="relative z-10 h-full flex items-end">
         <div className="w-full pb-16">
-          <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
+          <div className="w-full max-w-full min-[700px]:max-w-[70%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
             <div className="w-16 h-0.5 bg-white mb-6"></div>
             <h1 className="text-5xl md:text-7xl font-trade-gothic-bold text-white mb-6">
               MBA in Applied Finance

@@ -163,7 +163,7 @@ export default function RequestProgramInformation() {
 
   return (
     <section className="py-12 md:py-24 bg-white">
-      <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
+      <div className="w-full max-w-full min-[700px]:max-w-[70%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
@@ -176,12 +176,12 @@ export default function RequestProgramInformation() {
             admissions process delivered straight to your inbox.
           </p>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 md:gap-8 text-center">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 text-center">
           {items.map((item, index) => (
             <Link
               key={index}
               href={item.href}
-              className="group flex flex-col items-center justify-start gap-6 p-4"
+              className="group flex flex-col items-center justify-start gap-y-6 "
             >
               {/* Icon Container with Scale Effect */}
               <div className="transform transition-transform duration-300 group-hover:scale-110">
