@@ -59,32 +59,35 @@ export default function Header() {
               </div>
             </div>
 
-            {/* Right Side: Secondary Links (smaller) + Search + Burger */}
+            {/* Right Side: Secondary Links (visible only on XL) + Search + Burger */}
             <div className="hidden lg:flex items-center gap-4">
-              <a
-                href="#"
-                className="text-white hover:text-gray-300 font-trade-gothic-light text-sm"
-              >
-                Alumni
-              </a>
-              <a
-                href="#"
-                className="text-white hover:text-gray-300 font-trade-gothic-light text-sm"
-              >
-                Industry Connect
-              </a>
-              <a
-                href="#"
-                className="text-white hover:text-gray-300 font-trade-gothic-light text-sm"
-              >
-                Events
-              </a>
-              <a
-                href="#"
-                className="text-white hover:text-gray-300 font-trade-gothic-light text-sm"
-              >
-                Placements
-              </a>
+              <div className="hidden xl:flex items-center gap-4">
+                <a
+                  href="#"
+                  className="text-white hover:text-gray-300 font-trade-gothic-light text-sm"
+                >
+                  Alumni
+                </a>
+                <a
+                  href="#"
+                  className="text-white hover:text-gray-300 font-trade-gothic-light text-sm"
+                >
+                  Industry Connect
+                </a>
+                <a
+                  href="#"
+                  className="text-white hover:text-gray-300 font-trade-gothic-light text-sm"
+                >
+                  Events
+                </a>
+                <a
+                  href="#"
+                  className="text-white hover:text-gray-300 font-trade-gothic-light text-sm"
+                >
+                  Placements
+                </a>
+              </div>
+
               {/* Search Icon */}
               <button className="text-white hover:text-gray-300 ml-2">
                 <svg
@@ -297,6 +300,12 @@ export default function Header() {
                   className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300"
                 >
                   Events
+                </a>
+                <a
+                  href="#"
+                  className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300"
+                >
+                  Placements
                 </a>
                 <a
                   href="#"
