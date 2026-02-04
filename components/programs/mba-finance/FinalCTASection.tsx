@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function FinalCTASection() {
   return (
     <section className="py-8 md:py-20 bg-booth-teal">
@@ -10,12 +12,18 @@ export default function FinalCTASection() {
         </div>
 
         <div className="flex flex-wrap gap-4">
-          <a href="/programs/common/request-information" className="bg-booth-maroon text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-opacity-90 transition text-sm md:text-base">
+          <Link
+            href="/programs/common/request-information"
+            className="bg-booth-maroon text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-opacity-90 transition text-sm md:text-base"
+          >
             Request Information
-          </a>
-          <a href="/programs/common/how-to-apply" className="border-2 border-white text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-white hover:text-booth-teal transition text-sm md:text-base">
+          </Link>
+          <Link
+            href="/programs/common/how-to-apply"
+            className="border-2 border-white text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-white hover:text-booth-teal transition text-sm md:text-base"
+          >
             Apply Now
-          </a>
+          </Link>
         </div>
       </div>
     </section>

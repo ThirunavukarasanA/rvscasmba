@@ -1,21 +1,28 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const locations = [
   {
     title: "Campus Life",
-    description: "Life at RVS CAS MBA is collaborative, immersive, and growth-oriented. Students learn through classrooms, labs, clubs, and industry interactions.",
-    image: "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=800&h=600&fit=crop"
+    description:
+      "Life at RVS CAS MBA is collaborative, immersive, and growth-oriented. Students learn through classrooms, labs, clubs, and industry interactions.",
+    image:
+      "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=800&h=600&fit=crop",
   },
   {
     title: "Student Community",
-    description: "From professional clubs and research forums to cultural and management events, the RVS CAS MBA community supports holistic development.",
-    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop"
+    description:
+      "From professional clubs and research forums to cultural and management events, the RVS CAS MBA community supports holistic development.",
+    image:
+      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop",
   },
   {
     title: "Industry Connect",
-    description: "Building leadership, teamwork, and confidence beyond academics through real-world industry exposure and campus initiatives.",
-    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop"
-  }
+    description:
+      "Building leadership, teamwork, and confidence beyond academics through real-world industry exposure and campus initiatives.",
+    image:
+      "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+  },
 ];
 
 export default function GlobalCommunitySection() {
@@ -28,7 +35,10 @@ export default function GlobalCommunitySection() {
             Life at RVS CAS MBA
           </h2>
           <p className="text-booth-light-gray text-sm md:text-lg font-trade-gothic-light">
-            Life at RVS CAS MBA is collaborative, immersive, and growth-oriented. Students learn through classrooms, labs, clubs, industry interactions, and campus initiatives that build leadership, teamwork, and confidence beyond academics.
+            Life at RVS CAS MBA is collaborative, immersive, and
+            growth-oriented. Students learn through classrooms, labs, clubs,
+            industry interactions, and campus initiatives that build leadership,
+            teamwork, and confidence beyond academics.
           </p>
         </div>
 
@@ -82,12 +92,25 @@ export default function GlobalCommunitySection() {
                 <p className="text-booth-light-gray mb-2 md:mb-4 font-trade-gothic-light text-base">
                   {location.description}
                 </p>
-                <a href="#" className="inline-flex items-center gap-2 text-booth-maroon font-medium hover:underline">
+                <Link
+                  href="#"
+                  className="inline-flex items-center gap-2 text-booth-maroon font-medium hover:underline"
+                >
                   Learn More
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           ))}

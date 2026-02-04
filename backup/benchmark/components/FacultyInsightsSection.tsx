@@ -3,19 +3,25 @@ import Image from "next/image";
 const insights = [
   {
     title: "Is Inflation Here to Stay?",
-    description: "Our faculty explore the factors driving inflation and what it means for the global economy.",
-    image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=600&h=400&fit=crop"
+    description:
+      "Our faculty explore the factors driving inflation and what it means for the global economy.",
+    image:
+      "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=600&h=400&fit=crop",
   },
   {
     title: "How Inflation Makes the Labor Market Appear Hot",
-    description: "Understanding the relationship between inflation and labor market dynamics.",
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop"
+    description:
+      "Understanding the relationship between inflation and labor market dynamics.",
+    image:
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop",
   },
   {
     title: "Job Loss Sustains a Public Business-Making",
-    description: "Research on how job loss affects public policy and business decision-making.",
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&fit=crop"
-  }
+    description:
+      "Research on how job loss affects public policy and business decision-making.",
+    image:
+      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&fit=crop",
+  },
 ];
 
 export default function FacultyInsightsSection() {
@@ -29,7 +35,8 @@ export default function FacultyInsightsSection() {
               Insights from Booth's Faculty
             </h2>
             <p className="text-booth-light-gray text-sm md:text-lg max-w-3xl font-trade-gothic-light">
-              Our world-renowned faculty share their research and insights on the most pressing business and economic issues.
+              Our world-renowned faculty share their research and insights on
+              the most pressing business and economic issues.
             </p>
           </div>
         </div>
@@ -52,10 +59,23 @@ export default function FacultyInsightsSection() {
                 <p className="text-booth-light-gray mb-2 md:mb-4 font-trade-gothic-light text-base">
                   {insight.description}
                 </p>
-                <a href="#" className="inline-flex items-center gap-2 text-booth-maroon font-medium hover:underline">
+                <a
+                  href="#"
+                  className="inline-flex items-center gap-2 text-booth-maroon font-medium hover:underline"
+                >
                   Read More
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
                   </svg>
                 </a>
               </div>

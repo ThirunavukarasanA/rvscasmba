@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function AdmissionsSnapshotSection() {
   return (
     <section className="py-8 md:py-20 bg-booth-bg-gray">
@@ -47,18 +49,18 @@ export default function AdmissionsSnapshotSection() {
           </div>
 
           <div className="flex flex-wrap gap-4">
-            <a
+            <Link
               href="/programs/common/admissions"
               className="border-2 border-booth-maroon bg-white text-booth-maroon px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-sm md:text-base"
             >
               Admissions Details
-            </a>
-            <a
+            </Link>
+            <Link
               href="/programs/common/how-to-apply"
               className="border-2 border-booth-maroon bg-white text-booth-maroon px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-sm md:text-base"
             >
               How to Apply
-            </a>
+            </Link>
           </div>
         </div>
       </div>

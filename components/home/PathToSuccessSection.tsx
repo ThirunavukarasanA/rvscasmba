@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function PathToSuccessSection() {
   return (
     <section className="py-8 md:py-20 bg-booth-teal">
@@ -8,11 +10,15 @@ export default function PathToSuccessSection() {
             Choose Your Path to Success
           </h2>
           <p className="text-base md:text-xl text-white mb-4 md:mb-8 font-trade-gothic-light">
-            Tell us about yourself, and we will show you the value of an RVS CAS MBA education.
+            Tell us about yourself, and we will show you the value of an RVS CAS
+            MBA education.
           </p>
-          <a href="/programs/common/request-information" className="border-2 border-white text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-white hover:text-booth-teal transition text-sm md:text-base inline-block">
+          <Link
+            href="/programs/common/request-information"
+            className="border-2 border-white text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-white hover:text-booth-teal transition text-sm md:text-base inline-block"
+          >
             Start Today
-          </a>
+          </Link>
         </div>
       </div>
     </section>

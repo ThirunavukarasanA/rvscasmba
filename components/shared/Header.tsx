@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Header() {
@@ -17,7 +18,7 @@ export default function Header() {
             {/* Left Side: Logo + 4 Primary Links */}
             <div className="flex items-center gap-4">
               {/* Logo Section */}
-              <a href="/" className="flex items-center gap-3">
+              <Link href="/" className="flex items-center gap-3">
                 <div>
                   <div className="font-trade-gothic-bold text-white text-lg">
                     RVS CAS MBA
@@ -28,64 +29,64 @@ export default function Header() {
                 </div>
                 {/* Crest/Logo icon placeholder */}
                 <div className="w-8 h-8 bg-white bg-opacity-20 rounded"></div>
-              </a>
+              </Link>
 
               {/* Primary Navigation Links - Larger size */}
               <div className="hidden lg:flex items-center gap-4">
-                <a
+                <Link
                   href="/#why-rvs"
                   className="text-white hover:text-gray-300 font-trade-gothic-light"
                 >
                   Why RVS CAS MBA
-                </a>
-                <a
+                </Link>
+                <Link
                   href="/#programs"
                   className="text-white hover:text-gray-300 font-trade-gothic-light"
                 >
                   Programs
-                </a>
-                <a
+                </Link>
+                <Link
                   href="/programs/common/admissions"
                   className="text-white hover:text-gray-300 font-trade-gothic-light"
                 >
                   Admissions
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="text-white hover:text-gray-300 font-trade-gothic-light"
                 >
                   Faculty & Research
-                </a>
+                </Link>
               </div>
             </div>
 
             {/* Right Side: Secondary Links (visible only on XL) + Search + Burger */}
             <div className="hidden lg:flex items-center gap-4">
               <div className="hidden xl:flex items-center gap-4">
-                <a
+                <Link
                   href="#"
                   className="text-white hover:text-gray-300 font-trade-gothic-light text-sm"
                 >
                   Alumni
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="text-white hover:text-gray-300 font-trade-gothic-light text-sm"
                 >
                   Industry Connect
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="text-white hover:text-gray-300 font-trade-gothic-light text-sm"
                 >
                   Events
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="text-white hover:text-gray-300 font-trade-gothic-light text-sm"
                 >
                   Placements
-                </a>
+                </Link>
               </div>
 
               {/* Search Icon */}
@@ -200,7 +201,7 @@ export default function Header() {
             {/* Menu Links */}
             <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-4">
               <nav className="grid grid-cols-2 gap-4">
-                <a
+                <Link
                   href="#"
                   className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
                 >
@@ -218,8 +219,8 @@ export default function Header() {
                       d="M9 5l7 7-7 7"
                     />
                   </svg>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="/#programs"
                   className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
                 >
@@ -237,8 +238,8 @@ export default function Header() {
                       d="M9 5l7 7-7 7"
                     />
                   </svg>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="/programs/common/admissions"
                   className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
                 >
@@ -256,8 +257,8 @@ export default function Header() {
                       d="M9 5l7 7-7 7"
                     />
                   </svg>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
                 >
@@ -275,8 +276,8 @@ export default function Header() {
                       d="M9 5l7 7-7 7"
                     />
                   </svg>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
                 >
@@ -294,20 +295,20 @@ export default function Header() {
                       d="M9 5l7 7-7 7"
                     />
                   </svg>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300"
                 >
                   Events
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300"
                 >
                   Placements
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
                 >
@@ -325,14 +326,14 @@ export default function Header() {
                       d="M9 5l7 7-7 7"
                     />
                   </svg>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="/programs/common/how-to-apply"
                   className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300"
                 >
                   Apply
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
                 >
@@ -350,7 +351,7 @@ export default function Header() {
                       d="M9 5l7 7-7 7"
                     />
                   </svg>
-                </a>
+                </Link>
               </nav>
             </div>
           </div>

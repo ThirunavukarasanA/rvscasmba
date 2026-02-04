@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function FinalCTASection() {
   return (
     <section className="py-8 md:py-20 bg-booth-bg-gray">
@@ -10,9 +12,12 @@ export default function FinalCTASection() {
           <p className="text-base md:text-xl text-booth-dark-gray mb-4 md:mb-8 font-trade-gothic-light">
             Learn more about studying at RVS CAS MBA
           </p>
-          <a href="/programs/mba-applied-finance" className="bg-booth-maroon text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-opacity-90 transition text-sm md:text-base inline-block">
+          <Link
+            href="/programs/mba-applied-finance"
+            className="bg-booth-maroon text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-opacity-90 transition text-sm md:text-base inline-block"
+          >
             DISCOVER
-          </a>
+          </Link>
         </div>
       </div>
     </section>

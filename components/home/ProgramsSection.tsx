@@ -1,36 +1,44 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const programs = [
   {
     title: "Tech MBA",
     description: "A future-focused MBA integrating business and technology.",
-    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=400&fit=crop"
+    image:
+      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=400&fit=crop",
   },
   {
     title: "Business Analytics",
     description: "Transforming data into strategic business insights.",
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=400&fit=crop"
+    image:
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=400&fit=crop",
   },
   {
     title: "Digital Marketing",
-    description: "Building brands and growth strategies in a digital-first world.",
-    image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=400&fit=crop"
+    description:
+      "Building brands and growth strategies in a digital-first world.",
+    image:
+      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=400&fit=crop",
   },
   {
     title: "Human Resources",
     description: "Leading people, culture, and organizational change.",
-    image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=400&h=400&fit=crop"
+    image:
+      "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=400&h=400&fit=crop",
   },
   {
     title: "Applied Finance",
     description: "Finance skills aligned to modern markets and fintech.",
-    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=400&fit=crop"
+    image:
+      "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=400&fit=crop",
   },
   {
     title: "Logistics & Supply Chain Management",
     description: "Designing efficient, resilient global supply systems.",
-    image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=400&h=400&fit=crop"
-  }
+    image:
+      "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=400&h=400&fit=crop",
+  },
 ];
 
 export default function ProgramsSection() {
@@ -46,7 +54,10 @@ export default function ProgramsSection() {
 
         <div className="space-y-4 md:space-y-8">
           {programs.map((program, index) => (
-            <div key={index} className="flex gap-3 md:gap-6 items-start pb-4 md:pb-8 border-b border-gray-200 last:border-b-0">
+            <div
+              key={index}
+              className="flex gap-3 md:gap-6 items-start pb-4 md:pb-8 border-b border-gray-200 last:border-b-0"
+            >
               <div className="flex-shrink-0">
                 <Image
                   src={program.image}
@@ -63,27 +74,38 @@ export default function ProgramsSection() {
                 <p className="text-booth-light-gray mb-2 md:mb-4 font-trade-gothic-light text-sm md:text-base">
                   {program.description}
                 </p>
-                <a 
+                <Link
                   href={
-                    program.title === "Applied Finance" 
+                    program.title === "Applied Finance"
                       ? "/programs/mba-applied-finance"
                       : program.title === "Business Analytics"
-                      ? "#"
-                      : program.title === "Digital Marketing"
-                      ? "#"
-                      : program.title === "Human Resources"
-                      ? "#"
-                      : program.title === "Logistics & Supply Chain Management"
-                      ? "#"
-                      : "#"
+                        ? "#"
+                        : program.title === "Digital Marketing"
+                          ? "#"
+                          : program.title === "Human Resources"
+                            ? "#"
+                            : program.title ===
+                                "Logistics & Supply Chain Management"
+                              ? "#"
+                              : "#"
                   }
                   className="inline-flex items-center gap-2 text-booth-maroon font-medium hover:underline"
                 >
                   Learn More
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           ))}

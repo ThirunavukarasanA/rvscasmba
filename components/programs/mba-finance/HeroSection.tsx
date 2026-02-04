@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -36,18 +37,18 @@ export default function HeroSection() {
               and application over content-heavy instruction.
             </p>
             <div className="flex flex-wrap gap-4">
-              <a
+              <Link
                 href="/programs/common/request-information"
                 className="bg-booth-maroon text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-opacity-90 transition text-sm md:text-base"
               >
                 Request Information
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/programs/common/how-to-apply"
                 className="border-2 border-white text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-white hover:text-booth-maroon transition text-sm md:text-base"
               >
                 Apply Now
-              </a>
+              </Link>
             </div>
           </div>
         </div>

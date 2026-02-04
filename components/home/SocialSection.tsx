@@ -5,7 +5,7 @@ const socialImages = [
   "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=300&h=300&fit=crop",
   "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=300&h=300&fit=crop",
   "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=300&h=300&fit=crop",
-  "https://images.unsplash.com/photo-1552664730-d307ca884978?w=300&h=300&fit=crop"
+  "https://images.unsplash.com/photo-1552664730-d307ca884978?w=300&h=300&fit=crop",
 ];
 
 export default function SocialSection() {
@@ -18,31 +18,39 @@ export default function SocialSection() {
             RVS CAS MBA on Social
           </h2>
           <p className="text-booth-light-gray text-sm md:text-lg font-trade-gothic-light">
-            Connect with RVS CAS MBA online and stay up to date with the latest news, events, and insights from our community.
+            Connect with RVS CAS MBA online and stay up to date with the latest
+            news, events, and insights from our community.
           </p>
         </div>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-5 gap-0 mt-6 md:mt-12">
-          {socialImages.map((image, index) => (
-            <div key={index} className="relative aspect-square group cursor-pointer">
-              <Image
-                src={image}
-                alt={`Social media post ${index + 1}`}
-                fill
-                className="object-cover"
-              />
-              <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition"></div>
-              {index === 0 && (
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-16 h-16 bg-white bg-opacity-90 rounded-full flex items-center justify-center">
-                    <svg className="w-8 h-8 text-booth-maroon" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z"/>
-                    </svg>
-                  </div>
+        {socialImages.map((image, index) => (
+          <div
+            key={index}
+            className="relative aspect-square group cursor-pointer"
+          >
+            <Image
+              src={image}
+              alt={`Social media post ${index + 1}`}
+              fill
+              className="object-cover"
+            />
+            <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition"></div>
+            {index === 0 && (
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="w-16 h-16 bg-white bg-opacity-90 rounded-full flex items-center justify-center">
+                  <svg
+                    className="w-8 h-8 text-booth-maroon"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
                 </div>
-              )}
-            </div>
-          ))}
+              </div>
+            )}
+          </div>
+        ))}
       </div>
     </section>
   );

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function WhyProgramSection() {
   return (
     <section className="py-8 md:py-20 bg-white">
@@ -46,7 +48,7 @@ export default function WhyProgramSection() {
             </strong>
             , ensuring graduates are industry-ready.
           </p> */}
-          <a
+          <Link
             href="/programs/common/request-information"
             className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline"
           >
@@ -64,7 +66,7 @@ export default function WhyProgramSection() {
                 d="M9 5l7 7-7 7"
               />
             </svg>
-          </a>
+          </Link>
         </div>
       </div>
     </section>
