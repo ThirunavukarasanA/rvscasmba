@@ -190,7 +190,7 @@ export default function RequestProgramInformation() {
 
               {/* Title and Arrow Container */}
               <div className="flex flex-col items-center gap-2">
-                <h3 className="text-xl md:text-2xl font-trade-gothic-bold text-booth-dark-gray decoration-booth-maroon transition-opacity decoration-4 group-hover:underline group-hover:underline-offset-8">
+                <h3 className="text-xl md:text-2xl font-trade-gothic-bold text-booth-dark-gray decoration-booth-maroon transition-opacity decoration-4 group-hover:underline group-hover:underline-offset-4">
                   {item.title}
                 </h3>
 
