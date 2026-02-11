@@ -81,7 +81,7 @@ export default function ProgramsSection() {
                       : program.title === "Business Analytics"
                         ? "#"
                         : program.title === "Digital Marketing"
-                          ? "#"
+                          ? "/programs/mba-digital-marketing"
                           : program.title === "Human Resources"
                             ? "#"
                             : program.title ===
