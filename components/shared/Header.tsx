@@ -352,6 +352,12 @@ export default function Header() {
                     />
                   </svg>
                 </Link>
+                <Link
+                  href="/contact"
+                  className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
+                >
+                  Contact
+                </Link>
               </nav>
             </div>
           </div>
