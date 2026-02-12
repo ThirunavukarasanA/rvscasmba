@@ -22,10 +22,10 @@ export default function HeroSection() {
               Request Information
             </h1>
             <p className="text-xl md:text-2xl text-white font-trade-gothic-light mb-6">
-              Learn more about RVS CAS MBA programs, admissions, and the student experience.
+              Get the details you need to decide with confidence
             </p>
             <p className="text-lg md:text-xl text-white font-trade-gothic-light opacity-90">
-              Complete the form below and the admissions team at <strong className="font-trade-gothic-bold">RVS CAS MBA</strong> will get in touch with details relevant to your interests.
+              If you’re considering the MBA at RVS College of Arts & Science, this is the easiest way to receive clear, relevant information about the program, specializations, and admissions.
             </p>
           </div>
         </div>

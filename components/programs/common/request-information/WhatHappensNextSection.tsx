@@ -7,31 +7,34 @@ export default function WhatHappensNextSection() {
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
             What Happens Next
           </h2>
+
         </div>
 
         <div className="space-y-6">
+          <p className="text-xl md:text-2xl text-booth-dark-gray font-trade-gothic-light">
+            <strong className="font-trade-gothic-bold">After you submit the form:</strong>
+          </p>
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            After you submit the form:
+            Once you request information:
           </p>
 
           <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
             <li className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Our admissions team will review your request</span>
+              <span>You’ll receive a response from the admissions team</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>You'll receive relevant program details</span>
+              <span>Program details will be shared via email or phone</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>An admissions counselor may contact you for guidance</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-booth-maroon mt-1">•</span>
-              <span>You can explore next steps such as admissions and application</span>
+              <span>You may be invited for a short guidance conversation (optional)</span>
             </li>
           </ul>
+          <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+            There is <b className="font-trade-gothic-bold">no pressure to apply</b> — just support to help you decide.
+          </p>
         </div>
       </div>
     </section>

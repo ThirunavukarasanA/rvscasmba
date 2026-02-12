@@ -45,9 +45,8 @@ export default function ProgramEligibilitySection() {
                   {faq.question}
                 </span>
                 <svg
-                  className={`w-5 h-5 text-booth-maroon flex-shrink-0 transition-transform ${
-                    openIndex === index ? "rotate-180" : ""
-                  }`}
+                  className={`w-5 h-5 text-booth-maroon flex-shrink-0 transition-transform ${openIndex === index ? "rotate-180" : ""
+                    }`}
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -55,13 +54,18 @@ export default function ProgramEligibilitySection() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
-              {openIndex === index && (
-                <div className="pb-4">
-                  <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light">
-                    {faq.answer}
-                  </p>
+              <div
+                className={`grid transition-[grid-template-rows] duration-300 ease-out ${openIndex === index ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
+                  }`}
+              >
+                <div className="overflow-hidden">
+                  <div className="pb-4">
+                    <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light">
+                      {faq.answer}
+                    </p>
+                  </div>
                 </div>
-              )}
+              </div>
             </div>
           ))}
         </div>

@@ -10,24 +10,34 @@ export default function WhatYoullReceiveSection() {
         </div>
 
         <div className="space-y-6">
+          <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+            By requesting information, you’ll receive:
+          </p>
           <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
             <li className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Program information and curriculum overview</span>
+              <span>Overview of the MBA program and specializations</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Admissions requirements and application guidance</span>
+              <span>Details on curriculum structure and academic experience</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Admissions process and eligibility information</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Fee structure and scholarship guidance</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>Important dates and next steps</span>
             </li>
-            <li className="flex items-start gap-3">
-              <span className="text-booth-maroon mt-1">•</span>
-              <span>Answers to your specific questions</span>
-            </li>
           </ul>
+          <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+            All information is shared in a <b className="font-trade-gothic-bold">clear, student-friendly format.</b>
+          </p>
         </div>
       </div>
     </section>

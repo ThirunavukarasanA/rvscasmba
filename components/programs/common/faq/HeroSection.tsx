@@ -5,7 +5,7 @@ export default function HeroSection() {
     <section className="relative h-screen">
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1920&h=1080&fit=crop"
+          src="/images/faq/faq2.png"
           alt="FAQ at RVS CAS MBA"
           fill
           className="object-cover"
@@ -21,9 +21,11 @@ export default function HeroSection() {
             <h1 className="text-5xl md:text-7xl font-trade-gothic-bold text-white mb-6">
               Frequently Asked Questions
             </h1>
-            <p className="text-xl md:text-2xl text-white font-trade-gothic-light">
-              Answers to common questions about MBA programs, admissions, and student life at RVS CAS MBA.
+            <p className="text-xl md:text-2xl text-white font-trade-gothic-light pb-4">
+              Choosing an MBA is an important decision, and it’s natural to have questions.
             </p>
+            <p className="text-xl md:text-2xl text-white font-trade-gothic-light pb-4">This section addresses common queries about the MBA at RVS College of Arts & Science, covering programs, admissions, learning approach, student life, careers, and fees.</p>
+            <p className="text-xl md:text-2xl text-white font-trade-gothic-light">If you don’t find what you’re looking for, the admissions team is always available to help.</p>
           </div>
         </div>
       </div>
