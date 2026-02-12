@@ -17,21 +17,24 @@ export default function AfterYouApplySection() {
           <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
             <li className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>You will receive confirmation from the admissions team</span>
+              <span>Your application is reviewed by the admissions team</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Your application status will be reviewed</span>
+              <span>You may be contacted for additional information or interaction</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>You may be contacted for additional information or verification</span>
+              <span>Successful applicants receive an offer letter</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Successful applicants will receive enrollment instructions</span>
+              <span>Enrollment guidance is provided for next steps</span>
             </li>
           </ul>
+          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light">
+            Throughout this stage, communication remains <strong className="font-trade-gothic-bold">clear and supportive</strong>.
+          </p>
         </div>
       </div>
     </section>

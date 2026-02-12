@@ -22,10 +22,10 @@ export default function HeroSection() {
               How to Apply to RVS CAS MBA
             </h1>
             <p className="text-xl md:text-2xl text-white font-trade-gothic-light mb-6">
-              A clear, step-by-step application process designed to guide you from interest to enrollment.
+              A clear, guided application process
             </p>
             <p className="text-lg md:text-xl text-white font-trade-gothic-light opacity-90">
-              Applying to <strong className="font-trade-gothic-bold">RVS CAS MBA</strong> is a straightforward process. This page outlines each step so you know exactly what to expect—from choosing a program to confirming your admission.
+              Applying to the MBA at RVS College of Arts & Science is designed to be simple and supportive. The goal is to understand your academic readiness and intent to learn, not to test your ability to navigate complex forms.
             </p>
           </div>
         </div>

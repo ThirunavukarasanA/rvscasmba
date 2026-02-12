@@ -2,33 +2,33 @@ export default function ApplicationStepsSection() {
   const steps = [
     {
       number: "1",
-      title: "Choose Your MBA Program",
-      description: "Select the MBA specialization that best aligns with your academic background and career goals."
+      title: "Choose Your Program",
+      description: "Identify the MBA specialization aligned with your career goals."
     },
     {
       number: "2",
-      title: "Complete the Application Form",
-      description: "Fill in your personal, academic, and entrance exam details accurately in the application form."
+      title: "Check Eligibility",
+      description: "Ensure you meet academic and entrance exam requirements."
     },
     {
       number: "3",
-      title: "Submit Required Documents",
-      description: "Upload or submit the necessary documents for verification, including academic records and entrance exam scorecards."
+      title: "Submit Application",
+      description: "Complete and submit the application form."
     },
     {
       number: "4",
       title: "Application Review",
-      description: "The admissions team reviews your application to assess eligibility and academic readiness."
+      description: "The admissions team reviews your application."
     },
     {
       number: "5",
-      title: "Campus Visit & Verification",
-      description: "Shortlisted candidates are invited to visit the campus for offline document verification."
+      title: "Offline Verification",
+      description: "Visit the campus with original documents for verification."
     },
     {
       number: "6",
-      title: "Confirm Admission",
-      description: "Upon successful verification, confirm your admission and secure your seat in the program."
+      title: "Enrollment",
+      description: "Confirm admission and begin your MBA journey."
     }
   ];
 
@@ -38,8 +38,11 @@ export default function ApplicationStepsSection() {
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
-            Application Steps
+            The Application Process
           </h2>
+          <p className="text-xl md:text-2xl text-booth-dark-gray font-trade-gothic-light mb-6">
+            6 Steps to Enrollment
+          </p>
         </div>
 
         <div className="space-y-8 md:space-y-12">

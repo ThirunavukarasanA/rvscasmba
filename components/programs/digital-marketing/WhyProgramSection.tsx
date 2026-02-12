@@ -7,7 +7,7 @@ export default function WhyProgramSection() {
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
-            WHY DIGITAL MARKETING PROGRAM at RVS CAS MBA
+            Why Digital Marketing Program at RVS CAS MBA
           </h2>
         </div>
 

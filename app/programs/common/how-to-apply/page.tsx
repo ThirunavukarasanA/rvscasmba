@@ -8,6 +8,8 @@ import ImportantDatesSection from "@/components/programs/common/how-to-apply/Imp
 import AfterYouApplySection from "@/components/programs/common/how-to-apply/AfterYouApplySection";
 import NeedHelpSection from "@/components/programs/common/how-to-apply/NeedHelpSection";
 import FinalCTASection from "@/components/programs/common/how-to-apply/FinalCTASection";
+import HowToApplySection from "@/components/programs/common/how-to-apply/HowToApplySection";
+import WeAreHereToHelp from "@/components/programs/common/how-to-apply/WeAreHereToHelp";
 
 export const metadata: Metadata = {
   title: "How to Apply - RVS CAS MBA",
@@ -20,11 +22,13 @@ export default function HowToApplyPage() {
       <Header />
       <HeroSection />
       <BeforeYouApplySection />
+      <HowToApplySection />
+      <FinalCTASection content="Start Your MBA Application" para="" applyLink="Apply Now" requestInfoLink="Request Information" admissionsLink="" />
       <ApplicationStepsSection />
       <ImportantDatesSection />
       <AfterYouApplySection />
-      <NeedHelpSection />
-      <FinalCTASection />
+      <WeAreHereToHelp />
+      <FinalCTASection content="Ready to Apply?" para="If you’re ready to begin your MBA journey, take the next step." applyLink="Apply Now" requestInfoLink="" admissionsLink=" Contact Admissions" />
       <Footer />
     </main>
   );

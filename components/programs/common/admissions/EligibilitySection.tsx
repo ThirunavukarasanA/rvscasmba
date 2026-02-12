@@ -5,32 +5,41 @@ export default function EligibilitySection() {
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
-            Eligibility Criteria
+            Eligibility
           </h2>
         </div>
 
         <div className="space-y-6">
+          <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-bold">Who Can Apply</p>
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            Applicants must meet the following requirements:
+            Applicants must meet the following criteria:
           </p>
 
           <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
             <li className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Graduation in any discipline</span>
+              <span>A <strong className="font-trade-gothic-bold">recognized undergraduate degree</strong> in any discipline</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Minimum <strong className="font-trade-gothic-bold">50% aggregate marks</strong> in 10th, 12th, and undergraduate degree</span>
+              <span>Final-year students awaiting results may also apply</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Valid score in <strong className="font-trade-gothic-bold">CAT / MAT / CMAT / TANCET</strong> (or equivalent)</span>
+              <span>Minimum 50% aggregate marks in 10th, 12th, and undergraduate degree</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Valid score in CAT / MAT / CMAT / TANCET (or equivalent)</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Work experience is welcome but <strong className="font-trade-gothic-bold">not mandatory</strong></span>
             </li>
           </ul>
 
           <p className="text-base md:text-lg text-booth-light-gray font-trade-gothic-light italic">
-            (Eligibility norms are aligned with Bharathiar University and regulatory guidelines.)
+            The program is open to candidates from diverse academic backgrounds, provided they demonstrate motivation and learning intent.
           </p>
         </div>
       </div>

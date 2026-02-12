@@ -5,11 +5,12 @@ export default function BeforeYouApplySection() {
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
-            Before You Begin
+            Before You Apply
           </h2>
         </div>
 
         <div className="space-y-6">
+          <p className="text-xl md:text-2xl text-booth-dark-gray font-trade-gothic-bold">Get Ready, Not Stressed</p>
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
             Before starting your application, we recommend that you:
           </p>
@@ -17,20 +18,24 @@ export default function BeforeYouApplySection() {
           <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
             <li className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Review the MBA programs and specializations offered</span>
+              <span>Review the MBA program and specialization options</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Confirm that you meet eligibility requirements</span>
+              <span>Ensure you meet basic eligibility requirements</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Gather required academic and entrance exam documents</span>
+              <span>Keep your academic documents accessible</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Reflect on why you want to pursue an MBA at RVS CAS</span>
             </li>
           </ul>
 
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            Taking a few minutes to prepare will help ensure a smooth application experience.
+            If you have questions at this stage, the admissions team is available to guide you.
           </p>
 
           <div className="flex flex-wrap gap-4">

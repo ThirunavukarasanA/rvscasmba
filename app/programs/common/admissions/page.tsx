@@ -21,12 +21,14 @@ export default function AdmissionsPage() {
       <Header />
       <HeroSection />
       <AdmissionsPhilosophySection />
+      <FinalCTASection content="Start Your MBA Application" />
       <EligibilitySection />
       <RequiredDocumentsSection />
+      <FinalCTASection content="Start Your MBA Application" />
       <ApplicationProcessSection />
       <ScholarshipsSection />
       <AdmissionsSupportSection />
-      <FinalCTASection />
+      <FinalCTASection content="Start Your MBA Application" />
       <Footer />
     </main>
   );

@@ -11,10 +11,24 @@ export default function ImportantDatesSection() {
 
         <div className="space-y-6">
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            Applications are accepted throughout the admission cycle, subject to seat availability. Early application is encouraged to secure preferred specialization options.
+            Applications are accepted throughout the admission cycle, subject to seat availability.
           </p>
+          <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
+            <li className="flex items-start gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Early applications are encouraged</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Final-year students may apply while awaiting results</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Admission offers are made on a rolling basis</span>
+            </li>
+          </ul>
           <p className="text-base md:text-lg text-booth-light-gray font-trade-gothic-light italic">
-            (Exact dates and deadlines will be communicated by the admissions team.)
+            Exact dates and deadlines are shared by the admissions team.
           </p>
         </div>
       </div>

@@ -22,10 +22,10 @@ export default function HeroSection() {
               Admissions at RVS CAS MBA
             </h1>
             <p className="text-xl md:text-2xl text-white font-trade-gothic-light mb-6">
-              A transparent, student-focused admission process designed to help you make informed decisions.
+              A thoughtful process for serious learners
             </p>
             <p className="text-lg md:text-xl text-white font-trade-gothic-light opacity-90">
-              At <strong className="font-trade-gothic-bold">RVS CAS MBA</strong>, the admissions process is designed to be clear, supportive, and aligned with academic readiness. From understanding eligibility to enrolling in the program, each step is structured to guide applicants with confidence.
+              Admissions to the MBA at RVS College of Arts & Science are designed to identify students who are prepared for rigorous, applied learning and long-term professional growth. We look beyond marks alone to understand a candidate’s intent, readiness, and commitment to learning.
             </p>
           </div>
         </div>

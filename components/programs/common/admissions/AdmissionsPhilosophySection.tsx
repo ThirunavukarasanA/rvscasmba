@@ -5,16 +5,33 @@ export default function AdmissionsPhilosophySection() {
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
-            How We Review Applications
+            Admissions philosophy
           </h2>
         </div>
 
         <div className="space-y-6">
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            Admissions at RVS CAS MBA focus on identifying students who demonstrate academic capability, motivation to learn, and readiness for management education in a digital economy.
+            The admissions philosophy at RVS CAS MBA reflects the program's academic character.
           </p>
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            We evaluate applicants holistically, considering academic background, entrance exam performance, and overall preparedness for postgraduate study.
+            We seek students who:
+          </p>
+          <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
+            <li className="flex items-start gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Are curious and willing to think deeply</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Value learning through application and analysis</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Are prepared for faculty-led, concept-driven education</span>
+            </li>
+          </ul>
+          <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+            Admissions decisions are guided by a belief that <b className="font-trade-gothic-bold">clarity of thought and willingness to learn</b> matter as much as prior academic performance.
           </p>
         </div>
       </div>
