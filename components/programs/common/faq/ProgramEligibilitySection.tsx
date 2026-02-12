@@ -1,20 +1,127 @@
 "use client";
+import { useState, ReactNode } from "react";
+type ContentBlock =
+  | { type: "paragraph"; text: string | ReactNode }
+  | { type: "list"; items: string[] };
 
-import { useState } from "react";
-
-const faqs = [
+interface FAQItem {
+  question: string;
+  content: ContentBlock[];
+}
+const faqs: FAQItem[] = [
   {
-    question: "What MBA programs are offered at RVS CAS MBA?",
-    answer: "RVS CAS MBA offers a Tech-enabled MBA with dual specialization options including Applied Finance, Business Analytics, Digital Marketing, Human Resources, and Logistics & Supply Chain Management."
+    question: "1. What MBA programs are offered at RVS CAS MBA?",
+    content: [
+      {
+        type: "paragraph",
+        text: "RVS CAS offers a general MBA with focused specializations designed around applied learning and career relevance."
+      },
+      {
+        type: "list",
+        items: [
+          "Applied Finance",
+          "Digital Marketing",
+          "Human Resource Management",
+          "Business Analytics",
+          "Logistics & Supply Chain Management"
+        ]
+      },
+      {
+        type: "paragraph",
+        text: <>Each specialization is designed with an <strong className="font-trade-gothic-bold">applied, industry-relevant learning approach.</strong></>
+      }
+    ]
   },
   {
-    question: "Who is eligible to apply?",
-    answer: "Graduates from any discipline with a minimum of 50% aggregate marks and a valid CAT / MAT / CMAT / TANCET score (or equivalent) are eligible."
+    question: "2. Is the MBA degree recognized?",
+    content: [
+      {
+        type: "paragraph",
+        text: "Yes. The MBA is offered by RVS College of Arts & Science, which is affiliated with Bharathiar University, and follows the university’s academic regulations and degree recognition."
+      }
+    ]
   },
   {
-    question: "Can I apply if my undergraduate degree is not in management or commerce?",
-    answer: "Yes. Graduates from all academic backgrounds are eligible to apply."
-  }
+    question: "3. What makes the RVS CAS MBA unique compared to other programs?",
+    content: [
+      {
+        type: "paragraph",
+        text: <>All students at RVS CAS MBA graduate with a <strong className="font-trade-gothic-bold">dual specialization</strong>, giving them expertise across two functional areas and greater flexibility in career opportunities.</>
+      }
+    ]
+  },
+  {
+    question: "4. Who is eligible to apply for the MBA?",
+    content: [
+      {
+        type: "paragraph",
+        text: <> Candidates with a recognized undergraduate degree in any discipline are eligible to apply.</>
+      }
+    ]
+  },
+  {
+    question: "5. Can final-year students apply?",
+    content: [
+      {
+        type: "paragraph",
+        text: <>Yes. Final-year undergraduate students awaiting results may apply.</>
+      }
+    ]
+  },
+  {
+    question: "6. Is work experience required?",
+    content: [
+      {
+        type: "paragraph",
+        text: <>No. Work experience is not mandatory, though it is considered positively.</>
+      }
+    ]
+  },
+  {
+    question: "7. Can students from non-commerce backgrounds apply?",
+    content: [
+      {
+        type: "paragraph",
+        text: <>Yes. Students from arts, science, engineering, and other backgrounds are welcome.</>
+      }
+    ]
+  },
+  {
+    question: "8. Is mathematics or statistics mandatory?",
+    content: [
+      {
+        type: "paragraph",
+        text: <>Strong fundamentals are helpful, but prior specialization is not mandatory.</>
+      }
+    ]
+  },
+  {
+    question: "9. Are there entrance exams required?",
+    content: [
+      {
+        type: "paragraph",
+        text: <>Admissions are based on academic review and interaction; no mandatory national entrance exam is required.</>
+      }
+    ]
+  },
+  {
+    question: "10. Can I switch specializations after joining?",
+    content: [
+      {
+        type: "paragraph",
+        text: <>Specialization flexibility depends on academic timelines and institutional guidelines.</>
+      }
+    ]
+  },
+  {
+    question: "11. How do I know which specialization is right for me?",
+    content: [
+      {
+        type: "paragraph",
+        text: <>Admissions counselors can help you understand which specialization aligns with your goals.</>
+      }
+    ]
+  },
 ];
 
 export default function ProgramEligibilitySection() {
@@ -59,10 +166,34 @@ export default function ProgramEligibilitySection() {
                   }`}
               >
                 <div className="overflow-hidden">
-                  <div className="pb-4">
-                    <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light">
-                      {faq.answer}
-                    </p>
+                  <div className="py-6 space-y-6">
+                    {faq.content.map((block, blockIdx) => (
+                      <div key={blockIdx}>
+                        {block.type === "paragraph" ? (
+                          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
+                            {block.text}
+                          </p>
+                        ) : (
+                          // </p>
+                          <ul className="space-y-3">
+                            {block.items.map((point, pointIdx) => (
+                              <li
+                                key={pointIdx}
+                                className="flex items-start gap-3"
+                              >
+                                {/* Bullet Point */}
+                                <span className="text-booth-maroon mt-1.5 text-xs">
+                                  ●
+                                </span>
+                                <span className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light">
+                                  {point}
+                                </span>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </div>
+                    ))}
                   </div>
                 </div>
               </div>

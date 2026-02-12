@@ -11,7 +11,7 @@ export default function StillHaveQuestionsSection() {
 
         <div className="space-y-6 mb-8">
           <p className="text-lg md:text-xl text-white font-trade-gothic-light">
-            If you didn't find your answer here, our admissions team is happy to help.
+            Our admissions team is happy to help.
           </p>
         </div>
 
@@ -21,9 +21,6 @@ export default function StillHaveQuestionsSection() {
           </a>
           <a href="/programs/common/admissions" className="border-2 border-white text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-white hover:text-booth-teal transition text-sm md:text-base">
             Contact Admissions
-          </a>
-          <a href="/programs/common/how-to-apply" className="border-2 border-white text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-white hover:text-booth-teal transition text-sm md:text-base">
-            How to Apply
           </a>
         </div>
       </div>

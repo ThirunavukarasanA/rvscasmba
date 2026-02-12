@@ -1,20 +1,107 @@
 "use client";
 
-import { useState } from "react";
+import { useState, ReactNode } from "react";
 
-const faqs = [
+
+type ContentBlock =
+  | { type: "paragraph"; text: string | ReactNode }
+  | { type: "list"; items: string[] };
+
+interface FAQItem {
+  question: string;
+  content: ContentBlock[];
+}
+
+const faqs: FAQItem[] = [
   {
-    question: "How do I apply to RVS CAS MBA?",
-    answer: "You can apply by completing the application process outlined on the How to Apply page. The admissions team will guide you through each step.",
-    link: "/programs/common/how-to-apply"
+    question: "1. How do I apply for the MBA?",
+    content: [
+      {
+        type: "paragraph",
+        text: <>You can apply online or through the admissions office.</>
+      }
+    ]
   },
   {
-    question: "Is there an application deadline?",
-    answer: "Applications are accepted based on seat availability. Early application is recommended."
+    question: "2. What is the application process like?",
+    content: [
+      {
+        type: "paragraph",
+        text: <>The process is simple: application submission, document review, interaction (if required), and admission decision.</>
+      }
+    ]
   },
   {
-    question: "Is an entrance exam mandatory?",
-    answer: "Yes. A valid score from CAT / MAT / CMAT / TANCET (or equivalent) is required."
+    question: "3. Is there an interview?",
+    content: [
+      {
+        type: "paragraph",
+        text: <>A short personal or academic interaction may be conducted to understand your readiness.</>
+      }
+    ]
+  },
+  {
+    question: "4. How long does the admissions process take?",
+    content: [
+      {
+        type: "paragraph",
+        text: <>Decisions are usually communicated within a few working days after review.</>
+      }
+    ]
+  },
+  {
+    question: "5. Are applications accepted throughout the year?",
+    content: [
+      {
+        type: "paragraph",
+        text: <>Admissions are conducted in multiple cycles; early applications are encouraged.</>
+      }
+    ]
+  },
+  {
+    question: "6. Can parents speak to the admissions team?",
+    content: [
+      {
+        type: "paragraph",
+        text: <>Yes. Parents are welcome to connect with the admissions office.</>
+      }
+    ]
+  },
+  {
+    question: "7. Is there an application fee?",
+    content: [
+      {
+        type: "paragraph",
+        text: <>Details regarding application fees are shared during the application process.</>
+      }
+    ]
+  },
+  {
+    question: "8. Can I visit the campus before applying?",
+    content: [
+      {
+        type: "paragraph",
+        text: <>Yes. Campus visits can be scheduled through the admissions team.</>
+      }
+    ]
+  },
+  {
+    question: "9. What happens after I receive an offer?",
+    content: [
+      {
+        type: "paragraph",
+        text: <>You will receive guidance on enrollment formalities and next steps.</>
+      }
+    ]
+  },
+  {
+    question: "10. Is admission guaranteed after applying?",
+    content: [
+      {
+        type: "paragraph",
+        text: <>Admission depends on eligibility, document review, and interaction outcomes.</>
+      }
+    ]
   }
 ];
 
@@ -31,7 +118,7 @@ export default function AdmissionsApplicationSection() {
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
-            Admissions & Application
+            Admissions
           </h2>
         </div>
 
@@ -60,23 +147,34 @@ export default function AdmissionsApplicationSection() {
                   }`}
               >
                 <div className="overflow-hidden">
-                  <div className="pb-4">
-                    <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light">
-                      {index === 0 ? (
-                        <>
-                          You can apply by completing the application process outlined on the{" "}
-                          <a
-                            href="/programs/common/how-to-apply"
-                            className="text-booth-maroon hover:underline font-trade-gothic-bold"
-                          >
-                            How to Apply
-                          </a>{" "}
-                          page. The admissions team will guide you through each step.
-                        </>
-                      ) : (
-                        faq.answer
-                      )}
-                    </p>
+                  <div className="py-6 space-y-6">
+                    {faq.content.map((block, blockIdx) => (
+                      <div key={blockIdx}>
+                        {block.type === "paragraph" ? (
+                          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
+                            {block.text}
+                          </p>
+                        ) : (
+                          // </p>
+                          <ul className="space-y-3">
+                            {block.items.map((point, pointIdx) => (
+                              <li
+                                key={pointIdx}
+                                className="flex items-start gap-3"
+                              >
+                                {/* Bullet Point */}
+                                <span className="text-booth-maroon mt-1.5 text-xs">
+                                  ●
+                                </span>
+                                <span className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light">
+                                  {point}
+                                </span>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </div>
+                    ))}
                   </div>
                 </div>
               </div>
