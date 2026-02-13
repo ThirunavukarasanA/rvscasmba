@@ -1,3 +1,7 @@
+import FacultyArticles from '@/components/programs/common/insights/FacultyArticles';
+import FinalCTASection from '@/components/programs/common/insights/FinalCTASection';
+import TalksAndSeminars from '@/components/programs/common/insights/TalksAndSeminars';
+import WhyInsightsMatter from '@/components/programs/common/insights/WhyInsightsMatter';
 import Footer from '@/components/shared/Footer'
 import Header from '@/components/shared/Header'
 import HeroSection from '@/components/shared/HeroSection';
@@ -22,6 +26,10 @@ export default function page() {
                 button2=""
                 button1Link=""
                 button2Link="" />
+            <FacultyArticles />
+            <TalksAndSeminars />
+            <WhyInsightsMatter />
+            <FinalCTASection content="Stay Updated" />
             <Footer />
         </div>
     )
