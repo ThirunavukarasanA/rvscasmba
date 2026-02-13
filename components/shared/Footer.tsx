@@ -107,7 +107,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/programs/common/admissions"
+                  href="/admissions"
                   className="text-booth-dark-gray hover:text-booth-maroon font-trade-gothic-light whitespace-nowrap"
                 >
                   Admissions
@@ -123,7 +123,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/programs/common/student-experience"
+                  href="/student-experience"
                   className="text-booth-dark-gray hover:text-booth-maroon font-trade-gothic-light whitespace-nowrap"
                 >
                   Campus Life
@@ -203,7 +203,7 @@ export default function Footer() {
           <div></div>
           <div>
             <Link
-              href="/programs/common/request-information"
+              href="/request-information"
               className="border-2 border-booth-maroon bg-white text-booth-maroon px-2 md:px-4 py-2 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-xs md:text-sm w-full h-full flex items-center justify-center text-center leading-tight"
             >
               REQUEST INFORMATION
@@ -211,7 +211,7 @@ export default function Footer() {
           </div>
           <div>
             <Link
-              href="/programs/common/how-to-apply"
+              href="/how-to-apply"
               className="border-2 border-booth-maroon bg-white text-booth-maroon px-2 md:px-4 py-2 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-xs md:text-sm w-full h-full flex items-center justify-center text-center leading-tight"
             >
               APPLY

@@ -13,13 +13,13 @@ export default function FinalCTASection({ content, para, applyLink, requestInfoL
         </div>
 
         <div className="flex flex-wrap gap-4">
-          {applyLink && <a href="/programs/common/how-to-apply" className="border-2 border-white bg-white text-booth-teal px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-transparent hover:text-white transition text-sm md:text-base">
+          {applyLink && <a href="/how-to-apply" className="border-2 border-white bg-white text-booth-teal px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-transparent hover:text-white transition text-sm md:text-base">
             {applyLink}
           </a>}
-          {requestInfoLink && <a href="/programs/common/request-information" className="border-2 border-white text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-white hover:text-booth-teal transition text-sm md:text-base">
+          {requestInfoLink && <a href="/request-information" className="border-2 border-white text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-white hover:text-booth-teal transition text-sm md:text-base">
             {requestInfoLink}
           </a>}
-          {admissionsLink && <a href="/programs/common/admissions" className="border-2 border-white text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-white hover:text-booth-teal transition text-sm md:text-base">
+          {admissionsLink && <a href="/admissions" className="border-2 border-white text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-white hover:text-booth-teal transition text-sm md:text-base">
             {admissionsLink}
           </a>}
         </div>

@@ -45,7 +45,7 @@ export default function BeforeYouApplySection() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
             </a>
-            <a href="/programs/common/admissions" className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline">
+            <a href="/admissions" className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline">
               Check Eligibility
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

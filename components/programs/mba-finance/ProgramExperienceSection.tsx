@@ -64,7 +64,7 @@ export default function ProgramExperienceSection() {
             </p> */}
 
             <Link
-              href="/programs/common/student-experience"
+              href="/student-experience"
               className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline"
             >
               View Full Experience

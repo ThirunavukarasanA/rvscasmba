@@ -47,7 +47,7 @@ export default function WhyProgramSection() {
             , ensuring graduates are industry-ready.
           </p> */}
           <Link
-            href="/programs/common/request-information"
+            href="/request-information"
             className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline"
           >
             Talk to an Academic Advisor

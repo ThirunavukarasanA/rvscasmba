@@ -38,13 +38,13 @@ export default function HeroSection() {
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
-                href="/programs/common/request-information"
+                href="/request-information"
                 className="bg-booth-maroon text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-opacity-90 transition text-sm md:text-base"
               >
                 Request Information
               </Link>
               <Link
-                href="/programs/common/how-to-apply"
+                href="/how-to-apply"
                 className="border-2 border-white text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-white hover:text-booth-maroon transition text-sm md:text-base"
               >
                 Apply Now

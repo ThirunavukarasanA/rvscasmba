@@ -14,7 +14,7 @@ export default function PathToSuccessSection() {
             MBA education.
           </p>
           <Link
-            href="/programs/common/request-information"
+            href="/request-information"
             className="border-2 border-white text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-white hover:text-booth-teal transition text-sm md:text-base inline-block"
           >
             Start Today

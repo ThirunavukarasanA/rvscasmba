@@ -1,11 +1,12 @@
 "use client";
-
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
-
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
 
+  const isActive = (path: string) => pathname === path;
   return (
     <>
       {/* Top Thin Red Strip - Sticky */}
@@ -35,25 +36,25 @@ export default function Header() {
               <div className="hidden lg:flex items-center gap-4">
                 <Link
                   href="/#why-rvs"
-                  className="text-white hover:text-gray-300 font-trade-gothic-light"
+                  className={`${pathname === "/#why-rvs" ? "border-b-4 border-white" : ""} text-white hover:text-gray-300 font-trade-gothic-light`}
                 >
                   Why RVS CAS MBA
                 </Link>
                 <Link
-                  href="/#programs"
-                  className="text-white hover:text-gray-300 font-trade-gothic-light"
+                  href="/programs"
+                  className={`${isActive("/programs") ? "border-b-4 border-white" : ""} text-white hover:text-gray-300 font-trade-gothic-light`}
                 >
                   Programs
                 </Link>
                 <Link
-                  href="/programs/common/admissions"
-                  className="text-white hover:text-gray-300 font-trade-gothic-light"
+                  href="/admissions"
+                  className={`${isActive("/admissions") ? "border-b-4 border-white" : ""} text-white hover:text-gray-300 font-trade-gothic-light`}
                 >
                   Admissions
                 </Link>
                 <Link
                   href="#"
-                  className="text-white hover:text-gray-300 font-trade-gothic-light"
+                  className={`${isActive("/faculty") ? "border-b-4 border-white" : ""} text-white hover:text-gray-300 font-trade-gothic-light`}
                 >
                   Faculty & Research
                 </Link>
@@ -203,7 +204,10 @@ export default function Header() {
               <nav className="grid grid-cols-2 gap-4">
                 <Link
                   href="#"
-                  className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
+                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${pathname === "/#why-rvs"
+                    ? "text-booth-maroon border-booth-maroon font-bold"
+                    : "text-booth-dark-gray border-gray-300"
+                    }`}
                 >
                   Why RVS CAS MBA
                   <svg
@@ -221,8 +225,11 @@ export default function Header() {
                   </svg>
                 </Link>
                 <Link
-                  href="/#programs"
-                  className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
+                  href="/programs"
+                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${isActive("/programs")
+                    ? "text-booth-maroon border-booth-maroon font-bold"
+                    : "text-booth-dark-gray border-gray-300"
+                    }`}
                 >
                   Programs
                   <svg
@@ -240,8 +247,11 @@ export default function Header() {
                   </svg>
                 </Link>
                 <Link
-                  href="/programs/common/admissions"
-                  className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
+                  href="/admissions"
+                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${isActive("/admissions")
+                    ? "text-booth-maroon border-booth-maroon font-bold"
+                    : "text-booth-dark-gray border-gray-300"
+                    }`}
                 >
                   Admissions
                   <svg
@@ -260,7 +270,7 @@ export default function Header() {
                 </Link>
                 <Link
                   href="#"
-                  className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
+                  className="py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
                 >
                   Faculty & Research
                   <svg
@@ -279,7 +289,7 @@ export default function Header() {
                 </Link>
                 <Link
                   href="#"
-                  className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
+                  className="py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
                 >
                   Alumni
                   <svg
@@ -310,7 +320,7 @@ export default function Header() {
                 </Link>
                 <Link
                   href="#"
-                  className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
+                  className="py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
                 >
                   Industry Connect
                   <svg
@@ -328,14 +338,17 @@ export default function Header() {
                   </svg>
                 </Link>
                 <Link
-                  href="/programs/common/how-to-apply"
-                  className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300"
+                  href="/how-to-apply"
+                  className={`py-3 font-trade-gothic-light border-b ${isActive("/how-to-apply")
+                    ? "text-booth-maroon border-booth-maroon font-bold"
+                    : "text-booth-dark-gray border-gray-300"
+                    }`}
                 >
                   Apply
                 </Link>
                 <Link
                   href="#"
-                  className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
+                  className="py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
                 >
                   Privacy Policy
                   <svg
@@ -354,7 +367,10 @@ export default function Header() {
                 </Link>
                 <Link
                   href="/contact"
-                  className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
+                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${isActive("/contact")
+                    ? "text-booth-maroon border-booth-maroon font-bold"
+                    : "text-booth-dark-gray border-gray-300"
+                    }`}
                 >
                   Contact
                 </Link>

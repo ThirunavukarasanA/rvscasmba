@@ -50,13 +50,13 @@ export default function AdmissionsSnapshotSection() {
 
           <div className="flex flex-wrap gap-4">
             <Link
-              href="/programs/common/admissions"
+              href="/admissions"
               className="border-2 border-booth-maroon bg-white text-booth-maroon px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-sm md:text-base"
             >
               Admissions Details
             </Link>
             <Link
-              href="/programs/common/how-to-apply"
+              href="/how-to-apply"
               className="border-2 border-booth-maroon bg-white text-booth-maroon px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-sm md:text-base"
             >
               How to Apply
