@@ -30,8 +30,8 @@ export default function MBAAppliedFinancePage() {
         image="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1920&h=1080&fit=crop"
         button1="Explore Program Structure"
         button2="Apply Now"
-        button1Link="/programs/common/request-information"
-        button2Link="/programs/common/how-to-apply"
+        button1Link="/request-information"
+        button2Link="/how-to-apply"
       />
       <WhyProgramSection />
       <ProgramExperienceSection />

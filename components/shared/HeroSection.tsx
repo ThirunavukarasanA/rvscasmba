@@ -77,10 +77,18 @@ export default function HeroSection({
                     </li>
                     <Link href="/programs/mba-digital-marketing">
                       <li
-                        className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white"
+                        className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white border-b border-white/30"
                       >
                         <RiArrowRightDoubleFill className="text-[18px] mt-1" />
                         <span className="font-trade-gothic-light">MBA in Digital Marketing</span>
+                      </li>
+                    </Link>
+                    <Link href="/programs/mba-business-analytics">
+                      <li
+                        className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white"
+                      >
+                        <RiArrowRightDoubleFill className="text-[18px] mt-1" />
+                        <span className="font-trade-gothic-light">MBA in Business Analytics</span>
                       </li>
                     </Link>
                   </ul>
@@ -111,6 +119,21 @@ export default function HeroSection({
                   <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
                     <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">
                       Applied Finance
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </>
+          ) : (
+            <></>
+          )}
+          {pathname === '/programs/mba-business-analytics' ? (
+            <>
+              <div className="relative group">
+                <div className="flex">
+                  <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
+                    <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">
+                      Business Analytics
                     </p>
                   </div>
                 </div>

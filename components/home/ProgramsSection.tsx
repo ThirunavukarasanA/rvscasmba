@@ -79,13 +79,13 @@ export default function ProgramsSection() {
                     program.title === "Applied Finance"
                       ? "/programs/mba-applied-finance"
                       : program.title === "Business Analytics"
-                        ? "#"
+                        ? "/programs/mba-business-analytics"
                         : program.title === "Digital Marketing"
                           ? "/programs/mba-digital-marketing"
                           : program.title === "Human Resources"
                             ? "#"
                             : program.title ===
-                                "Logistics & Supply Chain Management"
+                              "Logistics & Supply Chain Management"
                               ? "#"
                               : "#"
                   }

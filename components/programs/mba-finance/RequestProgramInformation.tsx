@@ -4,7 +4,7 @@ export default function RequestProgramInformation() {
   const items = [
     {
       title: "Take Career Guidance",
-      href: "/programs/common/request-information",
+      href: "/request-information",
       icon: (
         <svg
           width="80"
@@ -55,7 +55,7 @@ export default function RequestProgramInformation() {
     },
     {
       title: "Download Brochure",
-      href: "/programs/common/how-to-apply",
+      href: "/how-to-apply",
       icon: (
         <svg
           width="80"
