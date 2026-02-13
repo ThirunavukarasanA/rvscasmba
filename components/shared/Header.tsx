@@ -6,12 +6,16 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();
 
-  const isActive = (path: string) => pathname === path;
+  const isActive = (path: string) => {
+    if (path === "/") {
+      return pathname === "/";
+    }
+    return pathname?.startsWith(path);
+  };
   return (
     <>
       {/* Top Thin Red Strip - Sticky */}
       <div className="sticky top-0 z-50 bg-booth-maroon h-1"></div>
-
       {/* Main Navigation - Semi-transparent over hero */}
       <nav className="absolute top-1 left-0 right-0 z-40 bg-black bg-opacity-50 backdrop-blur-sm">
         <div className="w-full max-w-full min-[700px]:max-w-[80%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12 py-4">

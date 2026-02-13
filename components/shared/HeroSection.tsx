@@ -50,23 +50,23 @@ export default function HeroSection({
       <div className="relative z-10 h-full flex flex-col justify-between pt-32 pb-16">
 
         {/* Top Section: Programs Menu */}
-        <div className={containerWidthClass}>
+        <div className={`${containerWidthClass} flex space-x-4 md:space-x-12`}>
           {pathname && pathname.includes("/programs") && (
             <div className="relative group inline-block">
               <div className="flex">
                 <Link href="/programs">
-                  <div className="flex space-x-3 items-center border border-white group-hover:border-0 group-hover:bg-booth-maroon p-2 transition-all duration-300">
-                    <p className="text-white cursor-pointer font-trade-gothic-light uppercase tracking-wide text-sm">Programs</p>
+                  <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
+                    <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">Programs</p>
                     <RiArrowRightDoubleFill className="text-[16px] text-white transform transition-transform duration-300 group-hover:rotate-90" />
                   </div>
                 </Link>
               </div>
               {/* Dropdown Menu */}
-              <div className="absolute bg-booth-maroon w-[300px] transition duration-300 opacity-0 invisible group-hover:opacity-100 group-hover:visible translate-y-2 group-hover:translate-y-0 z-50 top-full left-0">
+              <div className="absolute bg-booth-maroon w-[277px] transition duration-300 opacity-0 invisible group-hover:opacity-100 group-hover:visible translate-y-2 group-hover:translate-y-0 z-50 top-full left-0">
                 <div className="">
                   <ul className="">
                     <li className="relative group/item">
-                      <div className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex items-center justify-between hover:bg-booth-maroon text-white py-3 w-full border-b border-white/20">
+                      <div className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex items-center justify-between bg-booth-maroon hover:bg-white hover:text-booth-maroon text-white py-3 w-full border-b border-white/30">
                         <Link href="/programs/mba-applied-finance">
                           <div className="flex items-center space-x-2">
                             <RiArrowRightDoubleFill className="text-[18px]" />
@@ -77,7 +77,7 @@ export default function HeroSection({
                     </li>
                     <Link href="/programs/mba-digital-marketing">
                       <li
-                        className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 hover:bg-bg_color py-3 w-full text-white"
+                        className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white"
                       >
                         <RiArrowRightDoubleFill className="text-[18px] mt-1" />
                         <span className="font-trade-gothic-light">MBA in Digital Marketing</span>
@@ -87,6 +87,37 @@ export default function HeroSection({
                 </div>
               </div>
             </div>
+          )}
+          {pathname === '/programs/mba-digital-marketing' ? (
+            <>
+              <div className="relative group">
+                <div className="flex">
+                  <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
+                    <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">
+                      Digital Marketing
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </>
+          ) : (
+            <></>
+          )}
+
+          {pathname === '/programs/mba-applied-finance' ? (
+            <>
+              <div className="relative group">
+                <div className="flex">
+                  <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
+                    <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">
+                      Applied Finance
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </>
+          ) : (
+            <></>
           )}
         </div>
 
