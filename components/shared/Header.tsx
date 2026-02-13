@@ -28,7 +28,7 @@ export default function Header() {
                   </div>
                 </div>
                 {/* Crest/Logo icon placeholder */}
-                <div className="w-8 h-8 bg-white bg-opacity-20 rounded"></div>
+                <div className=""></div>
               </Link>
 
               {/* Primary Navigation Links - Larger size */}
