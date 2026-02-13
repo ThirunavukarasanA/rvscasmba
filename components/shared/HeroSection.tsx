@@ -26,7 +26,7 @@ export default function HeroSection({
     "MBA in Applied Finance",
     "MBA in Business Analytics",
     "MBA in Digital Marketing",
-    "MBA in Human Resource Management",
+    "MBA in Human Resources",
     "MBA Programs",
     "MBA in Supply Chain Management"
   ].includes(pageName);
@@ -85,10 +85,18 @@ export default function HeroSection({
                     </Link>
                     <Link href="/programs/mba-business-analytics">
                       <li
-                        className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white"
+                        className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white border-b border-white/30"
                       >
                         <RiArrowRightDoubleFill className="text-[18px] mt-1" />
                         <span className="font-trade-gothic-light">MBA in Business Analytics</span>
+                      </li>
+                    </Link>
+                    <Link href="/programs/mba-human-resources">
+                      <li
+                        className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white"
+                      >
+                        <RiArrowRightDoubleFill className="text-[18px] mt-1" />
+                        <span className="font-trade-gothic-light">MBA in Human Resources</span>
                       </li>
                     </Link>
                   </ul>
@@ -134,6 +142,21 @@ export default function HeroSection({
                   <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
                     <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">
                       Business Analytics
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </>
+          ) : (
+            <></>
+          )}
+          {pathname === '/programs/mba-human-resources' ? (
+            <>
+              <div className="relative group">
+                <div className="flex">
+                  <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
+                    <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">
+                      Human Resources
                     </p>
                   </div>
                 </div>

@@ -38,7 +38,7 @@ export default function page() {
                         Build capability to bridge business questions and analytic answers — not just extract reports.
                     </>
                 }
-                image='https://images.unsplash.com/photo-1563986768494-4dee2763ff3f'
+                image='/images/business-analytics.png'
                 button1='Explore Analytics Curriculum'
                 button2='Apply Now'
                 button1Link='/request-information'
