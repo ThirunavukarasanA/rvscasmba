@@ -5,34 +5,36 @@ export default function IndustryExposureSection() {
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
-            Industry Exposure & Practical Learning
+            Industry Exposure
           </h2>
         </div>
 
         <div className="space-y-6">
+          <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-bold">Connecting Classroom Learning with Practice</p>
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            Industry exposure is integrated into the student experience through internships, live projects, and interactions with corporate professionals. These experiences help students understand workplace expectations and real-world problem-solving.
+            Industry exposure is integrated into the MBA experience through:
           </p>
-
           <div>
-            <h3 className="text-xl md:text-2xl font-trade-gothic-bold text-booth-dark-gray mb-4">
-              Elements
-            </h3>
             <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
               <li className="flex items-start gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Industry visits and guest talks</span>
+                <span>Guest lectures by industry professionals</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Internships aligned with specialization</span>
+                <span>Alumni interactions and discussions</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Live projects and simulations</span>
+                <span>Applied projects aligned to business contexts</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-booth-maroon mt-1">•</span>
+                <span>Simulation-based learning environments</span>
               </li>
             </ul>
           </div>
+          <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">These engagements help students understand how academic concepts translate into real-world decision-making.</p>
         </div>
       </div>
     </section>

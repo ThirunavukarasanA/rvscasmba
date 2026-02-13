@@ -5,15 +5,15 @@ export default function FinalCTASection() {
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-white mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-white mb-4">
-            Experience Life at RVS CAS MBA
+            Experience the MBA at RVS CAS
           </h2>
+          <p className="text-base md:text-xl text-white mb-4 font-trade-gothic-light">
+            If you’re looking for a program that values <strong className="font-trade-gothic-bold">thinking, application, and growth</strong>, we invite you to learn more.
+          </p>
         </div>
 
         <div className="flex flex-wrap gap-4">
-          <a href="/" className="border-2 border-white bg-white text-booth-teal px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-transparent hover:text-white transition text-sm md:text-base">
-            Explore Programs
-          </a>
-          <a href="/request-information" className="border-2 border-white text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-white hover:text-booth-teal transition text-sm md:text-base">
+          <a href="/request-information" className="border-2 border-white bg-white text-booth-teal px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-transparent hover:text-white transition text-sm md:text-base">
             Request Information
           </a>
           <a href="/how-to-apply" className="border-2 border-white text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-white hover:text-booth-teal transition text-sm md:text-base">
