@@ -3,39 +3,33 @@ import Link from "next/link";
 
 const programs = [
   {
-    title: "Tech MBA",
-    description: "A future-focused MBA integrating business and technology.",
-    image:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=400&fit=crop",
-  },
-  {
     title: "Business Analytics",
-    description: "Transforming data into strategic business insights.",
+    description: "Transforming data into strategic business insight.",
     image:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=400&fit=crop",
+      "/images/business-analytics.png",
   },
   {
     title: "Digital Marketing",
     description:
-      "Building brands and growth strategies in a digital-first world.",
+      "Designing performance-driven marketing and growth strategies.",
     image:
-      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f",
   },
   {
     title: "Human Resources",
-    description: "Leading people, culture, and organizational change.",
+    description: "Shaping people strategy, culture, and organizational performance.",
     image:
-      "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=400&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1471&auto=format&fit=crop",
   },
   {
     title: "Applied Finance",
-    description: "Finance skills aligned to modern markets and fintech.",
+    description: "Building financial expertise aligned with modern markets and fintech innovation.",
     image:
-      "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1920&h=1080&fit=crop",
   },
   {
     title: "Logistics & Supply Chain Management",
-    description: "Designing efficient, resilient global supply systems.",
+    description: "Designing efficient, resilient, and globally integrated supply systems.",
     image:
       "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=400&h=400&fit=crop",
   },
@@ -48,7 +42,7 @@ export default function ProgramsSection() {
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray">
-            Programs
+            Explore Our Programs / Specializations
           </h2>
         </div>
 
@@ -83,7 +77,7 @@ export default function ProgramsSection() {
                         : program.title === "Digital Marketing"
                           ? "/programs/mba-digital-marketing"
                           : program.title === "Human Resources"
-                            ? "#"
+                            ? "/programs/mba-human-resources"
                             : program.title ===
                               "Logistics & Supply Chain Management"
                               ? "#"

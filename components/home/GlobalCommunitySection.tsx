@@ -35,10 +35,7 @@ export default function GlobalCommunitySection() {
             Life at RVS CAS MBA
           </h2>
           <p className="text-booth-light-gray text-sm md:text-lg font-trade-gothic-light">
-            Life at RVS CAS MBA is collaborative, immersive, and
-            growth-oriented. Students learn through classrooms, labs, clubs,
-            industry interactions, and campus initiatives that build leadership,
-            teamwork, and confidence beyond academics.
+            RVS CAS MBA hosts seminars, workshops, industry talks, and academic forums throughout the year. These events connect classroom learning with real-world practice, encourage meaningful dialogue, and strengthen professional exposure. Participation helps students broaden their perspective and deepen their understanding of contemporary business challenges.
           </p>
         </div>
 

@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -24,6 +25,9 @@ export default function Header() {
             <div className="flex items-center gap-4">
               {/* Logo Section */}
               <Link href="/" className="flex items-center gap-3">
+                <div>
+                  <Image src="/images/header/RVSCAS_Logo.svg" alt="Logo" width={55} height={55} className="object-contain" />
+                </div>
                 <div>
                   <div className="font-trade-gothic-bold text-white text-lg">
                     RVS CAS MBA
@@ -170,6 +174,9 @@ export default function Header() {
             <div className="bg-booth-bg-gray px-4 md:px-6 lg:px-8 xl:px-12 py-4 flex items-center justify-between">
               <div className="flex items-center gap-3">
                 <div>
+                  <Image src="/images/header/RVSCAS_Logo_Black.svg" alt="Logo" width={55} height={55} />
+                </div>
+                <div>
                   <div className="font-trade-gothic-bold text-booth-dark-gray text-xl">
                     RVS CAS MBA
                   </div>
@@ -178,7 +185,7 @@ export default function Header() {
                   </div>
                 </div>
                 {/* Crest/Logo icon placeholder */}
-                <div className="w-8 h-8 bg-booth-maroon bg-opacity-20 rounded"></div>
+                {/* <div className="w-8 h-8 bg-booth-maroon bg-opacity-20 rounded"></div> */}
               </div>
 
               {/* Close Button */}

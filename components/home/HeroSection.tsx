@@ -24,7 +24,7 @@ export default function HeroSection() {
                 Education for the Digital Era.
               </h1>
               <p className="text-xl md:text-2xl text-white font-trade-gothic-light">
-                RVS CAS MBA prepares techno-managers who combine strong business fundamentals with technology, analytics, and real-world decision-making.
+                RVS CAS MBA develops techno-managers who blend business discipline with technological fluency and analytical clarity to lead real-world decisions.
               </p>
             </div>
           </div>
@@ -36,7 +36,7 @@ export default function HeroSection() {
         <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
           <div className="space-y-4">
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              At RVS CAS MBA, management education goes beyond theory. Our Tech MBA model integrates business knowledge with digital tools, analytics, and industry exposure—helping students think critically, adapt quickly, and lead confidently in a rapidly changing economy.
+              At RVS CAS MBA, The value of an MBA lies in how you think — not just what you learn. Our Tech MBA model integrates business knowledge with digital tools, analytics, and industry exposure—helping students think critically, adapt quickly, and lead confidently in a rapidly changing economy.
             </p>
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
               With over 30 years of management education, RVS CAS MBA focuses on relevance, rigor, and real-world readiness.
@@ -66,7 +66,7 @@ export default function HeroSection() {
                   Why RVS CAS MBA
                 </h2>
                 <p className="text-xl md:text-2xl text-white font-trade-gothic-light">
-                  RVS CAS MBA is for leaders who want to combine business excellence with technology expertise. Learn how we can help you unlock your potential in the digital economy.
+                  RVS CAS MBA is for those who want to combine business excellence with technology expertise. We believe management education should train the mind before it trains the resume.
                 </p>
               </div>
             </div>
