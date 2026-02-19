@@ -6,6 +6,7 @@ import WhyProgramSection from "@/components/programs/mba-finance/WhyProgramSecti
 import ProgramExperienceSection from "@/components/programs/mba-finance/ProgramExperienceSection";
 import CurriculumSection from "@/components/programs/mba-finance/CurriculumSection";
 import CareerOutcomesSection from "@/components/programs/mba-finance/CareerOutcomesSection";
+import VideoSeriesSection from "@/components/programs/mba-finance/VideoSeriesSection";
 import IndustryConnectSection from "@/components/programs/mba-finance/IndustryConnectSection";
 import ProgramFitSection from "@/components/programs/mba-finance/ProgramFitSection";
 import AdmissionsSnapshotSection from "@/components/programs/mba-finance/AdmissionsSnapshotSection";
@@ -37,6 +38,7 @@ export default function MBAAppliedFinancePage() {
       <ProgramExperienceSection />
       <CurriculumSection />
       <CareerOutcomesSection />
+      <VideoSeriesSection />
       <FinalCTASection />
       <IndustryConnectSection />
       <ProgramFitSection />
