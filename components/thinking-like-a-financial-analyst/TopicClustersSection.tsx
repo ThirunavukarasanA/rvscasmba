@@ -44,7 +44,9 @@ export default function TopicClustersSection() {
 
   // Compute cluster status for each cluster
   const getClusterStatus = (clusterIndex: number) => {
-    const topicIds = clusters[clusterIndex].topics.map((_, i) => `${clusterIndex}-${i}`);
+    const topicIds = clusters[clusterIndex].topics.map(
+      (_, i) => `${clusterIndex}-${i}`,
+    );
     const watchedCount = topicIds.filter((id) => watchedIds.has(id)).length;
     const total = topicIds.length;
     if (watchedCount === total) return "done";
@@ -61,7 +63,10 @@ export default function TopicClustersSection() {
   const goToStartHere = () => {
     if (startHereClusterIndex >= 0) {
       setOpenIndex(startHereClusterIndex);
-      clusterRefs.current[startHereClusterIndex]?.scrollIntoView({ behavior: "smooth", block: "center" });
+      clusterRefs.current[startHereClusterIndex]?.scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+      });
     }
   };
 
@@ -71,21 +76,23 @@ export default function TopicClustersSection() {
 
   return (
     <section id="roadmap" className="py-12 md:py-20 bg-white scroll-mt-20">
-      <div className="w-full max-w-full min-[700px]:max-w-[70%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
+      <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
         <div className="mb-8 md:mb-12">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-3 md:mb-4">
             Explore the Complete Roadmap
           </h2>
           <p className="text-booth-light-gray text-sm md:text-lg font-trade-gothic-light mb-6">
-            Click on a cluster to expand and view all topics. Click any topic to watch the video.
+            Click on a cluster to expand and view all topics. Click any topic to
+            watch the video.
           </p>
 
           {/* Start here banner */}
           <div className="flex flex-wrap items-center gap-4 p-4 bg-booth-bg-gray border-l-4 border-booth-maroon">
             {allDone ? (
               <span className="text-booth-dark-gray font-trade-gothic-light">
-                All caught up! You&apos;ve watched all {totalVideos} videos. Revisit any topic below.
+                All caught up! You&apos;ve watched all {totalVideos} videos.
+                Revisit any topic below.
               </span>
             ) : (
               <>
@@ -97,7 +104,10 @@ export default function TopicClustersSection() {
                 </button>
                 <span className="text-booth-dark-gray font-trade-gothic-light">
                   {startHereClusterIndex >= 0 && (
-                    <>Cluster {startHereClusterIndex + 1}: {clusters[startHereClusterIndex].title}</>
+                    <>
+                      Cluster {startHereClusterIndex + 1}:{" "}
+                      {clusters[startHereClusterIndex].title}
+                    </>
                   )}
                 </span>
                 <span className="text-booth-light-gray font-trade-gothic-light text-sm">
@@ -112,15 +122,21 @@ export default function TopicClustersSection() {
           {clusters.map((cluster, clusterIndex) => {
             const isOpen = openIndex === clusterIndex;
             const status = getClusterStatus(clusterIndex);
-            const topicIds = cluster.topics.map((_, i) => `${clusterIndex}-${i}`);
-            const watchedCount = topicIds.filter((id) => watchedIds.has(id)).length;
+            const topicIds = cluster.topics.map(
+              (_, i) => `${clusterIndex}-${i}`,
+            );
+            const watchedCount = topicIds.filter((id) =>
+              watchedIds.has(id),
+            ).length;
             const total = topicIds.length;
             const isStartHere = startHereClusterIndex === clusterIndex;
 
             return (
               <div
                 key={clusterIndex}
-                ref={(el) => { clusterRefs.current[clusterIndex] = el; }}
+                ref={(el) => {
+                  clusterRefs.current[clusterIndex] = el;
+                }}
                 className={`border overflow-hidden transition-colors ${
                   isOpen ? "border-booth-maroon border-2" : "border-gray-200"
                 }`}
@@ -173,7 +189,12 @@ export default function TopicClustersSection() {
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M19 9l-7 7-7-7"
+                    />
                   </svg>
                 </button>
 
@@ -201,14 +222,22 @@ export default function TopicClustersSection() {
                               )}
                               <div className="relative aspect-video">
                                 <Image
-                                  src={placeholderThumbnails[topicIndex % placeholderThumbnails.length]}
+                                  src={
+                                    placeholderThumbnails[
+                                      topicIndex % placeholderThumbnails.length
+                                    ]
+                                  }
                                   alt={topic}
                                   fill
                                   className="object-cover"
                                 />
                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors flex items-center justify-center">
                                   <div className="opacity-0 group-hover:opacity-100 transition-opacity w-12 h-12 rounded-full bg-white/90 flex items-center justify-center">
-                                    <svg className="w-6 h-6 text-booth-maroon ml-0.5" fill="currentColor" viewBox="0 0 24 24">
+                                    <svg
+                                      className="w-6 h-6 text-booth-maroon ml-0.5"
+                                      fill="currentColor"
+                                      viewBox="0 0 24 24"
+                                    >
                                       <path d="M8 5v14l11-7z" />
                                     </svg>
                                   </div>
