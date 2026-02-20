@@ -97,7 +97,25 @@ export default function VideoAccessModal({
         consent: formData.consent,
         submittedAt: new Date().toISOString(),
       };
+      
+      // Save to IndexedDB
       await saveUserAndWatched(userData, topicId);
+      
+      // Save to MongoDB
+      await fetch("/api/video-access", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          consent: formData.consent,
+          topicId: topicId,
+        }),
+      });
+      
       setUserSubmitted(true);
       setShowForm(false);
       setShowVideo(true);
@@ -111,7 +129,26 @@ export default function VideoAccessModal({
 
   const handleClose = () => {
     if (currentTopic && userSubmitted) {
-      markVideoWatched(currentTopic.id).then(() => onProgressUpdate?.());
+      markVideoWatched(currentTopic.id).then(async () => {
+        // Also update in MongoDB
+        const storedData = await getStoredData();
+        if (storedData?.user) {
+          await fetch("/api/video-access", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              name: storedData.user.name,
+              email: storedData.user.email,
+              phone: storedData.user.phone,
+              consent: storedData.user.consent,
+              topicId: currentTopic.id,
+            }),
+          });
+        }
+        onProgressUpdate?.();
+      });
     }
     onClose();
   };
@@ -119,7 +156,26 @@ export default function VideoAccessModal({
   const goToNext = () => {
     const nextId = getNextTopicId(currentTopic?.id ?? "");
     if (nextId && currentTopic) {
-      markVideoWatched(currentTopic.id).then(() => onProgressUpdate?.());
+      markVideoWatched(currentTopic.id).then(async () => {
+        // Also update in MongoDB
+        const storedData = await getStoredData();
+        if (storedData?.user) {
+          await fetch("/api/video-access", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              name: storedData.user.name,
+              email: storedData.user.email,
+              phone: storedData.user.phone,
+              consent: storedData.user.consent,
+              topicId: currentTopic.id,
+            }),
+          });
+        }
+        onProgressUpdate?.();
+      });
       const nextTopic = getTopicById(nextId);
       if (nextTopic) {
         setCurrentTopic(nextTopic);
