@@ -1,5 +1,4 @@
 "use client";
-
 import { useState, useEffect, useCallback, useRef } from "react";
 import Image from "next/image";
 import VideoAccessModal from "./VideoAccessModal";
