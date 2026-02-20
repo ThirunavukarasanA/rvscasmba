@@ -1,5 +1,4 @@
 "use client";
-
 import { useState, useEffect, useCallback } from "react";
 import {
   getTopicById,
@@ -97,10 +96,10 @@ export default function VideoAccessModal({
         consent: formData.consent,
         submittedAt: new Date().toISOString(),
       };
-      
+
       // Save to IndexedDB
       await saveUserAndWatched(userData, topicId);
-      
+
       // Save to MongoDB
       await fetch("/api/video-access", {
         method: "POST",
@@ -115,7 +114,7 @@ export default function VideoAccessModal({
           topicId: topicId,
         }),
       });
-      
+
       setUserSubmitted(true);
       setShowForm(false);
       setShowVideo(true);
