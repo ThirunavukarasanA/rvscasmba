@@ -128,14 +128,15 @@ export type TopicItem = {
   videoId: string;
 };
 
-export const allTopics: TopicItem[] = clusters.flatMap((cluster, clusterIndex) =>
-  cluster.topics.map((title, topicIndex) => ({
-    id: `${clusterIndex}-${topicIndex}`,
-    clusterIndex,
-    topicIndex,
-    title,
-    videoId: PLACEHOLDER_VIDEO_ID,
-  }))
+export const allTopics: TopicItem[] = clusters.flatMap(
+  (cluster, clusterIndex) =>
+    cluster.topics.map((title, topicIndex) => ({
+      id: `${clusterIndex}-${topicIndex}`,
+      clusterIndex,
+      topicIndex,
+      title,
+      videoId: PLACEHOLDER_VIDEO_ID,
+    })),
 );
 
 export function getTopicById(id: string): TopicItem | undefined {

@@ -1,5 +1,4 @@
 "use client";
-
 import { useState, useEffect, useCallback } from "react";
 import {
   getTopicById,
@@ -97,7 +96,25 @@ export default function VideoAccessModal({
         consent: formData.consent,
         submittedAt: new Date().toISOString(),
       };
+
+      // Save to IndexedDB
       await saveUserAndWatched(userData, topicId);
+
+      // Save to MongoDB
+      await fetch("/api/video-access", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          consent: formData.consent,
+          topicId: topicId,
+        }),
+      });
+
       setUserSubmitted(true);
       setShowForm(false);
       setShowVideo(true);
@@ -111,7 +128,26 @@ export default function VideoAccessModal({
 
   const handleClose = () => {
     if (currentTopic && userSubmitted) {
-      markVideoWatched(currentTopic.id).then(() => onProgressUpdate?.());
+      markVideoWatched(currentTopic.id).then(async () => {
+        // Also update in MongoDB
+        const storedData = await getStoredData();
+        if (storedData?.user) {
+          await fetch("/api/video-access", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              name: storedData.user.name,
+              email: storedData.user.email,
+              phone: storedData.user.phone,
+              consent: storedData.user.consent,
+              topicId: currentTopic.id,
+            }),
+          });
+        }
+        onProgressUpdate?.();
+      });
     }
     onClose();
   };
@@ -119,7 +155,26 @@ export default function VideoAccessModal({
   const goToNext = () => {
     const nextId = getNextTopicId(currentTopic?.id ?? "");
     if (nextId && currentTopic) {
-      markVideoWatched(currentTopic.id).then(() => onProgressUpdate?.());
+      markVideoWatched(currentTopic.id).then(async () => {
+        // Also update in MongoDB
+        const storedData = await getStoredData();
+        if (storedData?.user) {
+          await fetch("/api/video-access", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              name: storedData.user.name,
+              email: storedData.user.email,
+              phone: storedData.user.phone,
+              consent: storedData.user.consent,
+              topicId: currentTopic.id,
+            }),
+          });
+        }
+        onProgressUpdate?.();
+      });
       const nextTopic = getTopicById(nextId);
       if (nextTopic) {
         setCurrentTopic(nextTopic);
@@ -167,8 +222,18 @@ export default function VideoAccessModal({
             className="p-2 rounded-full hover:bg-gray-200 transition shrink-0"
             aria-label="Close"
           >
-            <svg className="w-5 h-5 text-booth-dark-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            <svg
+              className="w-5 h-5 text-booth-dark-gray"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M6 18L18 6M6 6l12 12"
+              />
             </svg>
           </button>
         </div>
@@ -177,12 +242,16 @@ export default function VideoAccessModal({
           <div className="px-6 md:px-8 py-6 overflow-y-auto flex-1">
             <div className="w-12 h-0.5 bg-booth-maroon mb-4"></div>
             <p className="text-booth-light-gray font-trade-gothic-light text-sm mb-6">
-              Share your details to access this video and receive updates on the series.
+              Share your details to access this video and receive updates on the
+              series.
             </p>
 
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
-                <label htmlFor="name" className="block text-booth-dark-gray font-trade-gothic-bold text-sm mb-1">
+                <label
+                  htmlFor="name"
+                  className="block text-booth-dark-gray font-trade-gothic-bold text-sm mb-1"
+                >
                   Full Name <span className="text-booth-maroon">*</span>
                 </label>
                 <input
@@ -198,7 +267,10 @@ export default function VideoAccessModal({
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-booth-dark-gray font-trade-gothic-bold text-sm mb-1">
+                <label
+                  htmlFor="email"
+                  className="block text-booth-dark-gray font-trade-gothic-bold text-sm mb-1"
+                >
                   Email <span className="text-booth-maroon">*</span>
                 </label>
                 <input
@@ -214,7 +286,10 @@ export default function VideoAccessModal({
               </div>
 
               <div>
-                <label htmlFor="phone" className="block text-booth-dark-gray font-trade-gothic-bold text-sm mb-1">
+                <label
+                  htmlFor="phone"
+                  className="block text-booth-dark-gray font-trade-gothic-bold text-sm mb-1"
+                >
                   Mobile <span className="text-booth-maroon">*</span>
                 </label>
                 <input
@@ -239,7 +314,10 @@ export default function VideoAccessModal({
                     className="mt-1 w-4 h-4 border-2 border-gray-300 text-booth-maroon focus:ring-booth-maroon"
                   />
                   <span className="text-booth-dark-gray font-trade-gothic-light text-sm">
-                    I agree to receive updates about this series and related content from RVS CAS MBA, including new video releases and program information. I understand I can unsubscribe at any time.
+                    I agree to receive updates about this series and related
+                    content from RVS CAS MBA, including new video releases and
+                    program information. I understand I can unsubscribe at any
+                    time.
                   </span>
                 </label>
                 {!formData.consent && (
