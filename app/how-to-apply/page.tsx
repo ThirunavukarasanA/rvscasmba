@@ -23,7 +23,7 @@ export default function HowToApplyPage() {
       <Header />
       <HeroSection
         pageName="How to Apply"
-        title="How to Apply to RVS CAS MBA"
+        title="How to Apply"
         description1={<>A clear, guided application process</>}
         description2={<>Applying to the MBA at RVS College of Arts & Science is designed to be simple and supportive. The goal is to understand your academic readiness and intent to learn, not to test your ability to navigate complex forms.</>}
         description3=""
