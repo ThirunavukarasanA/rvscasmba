@@ -85,7 +85,7 @@ export default function Header() {
                   Industry Connect
                 </Link>
                 <Link
-                  href="#"
+                  href="/events"
                   className="text-white hover:text-gray-300 font-trade-gothic-light text-sm"
                 >
                   Events
@@ -318,7 +318,7 @@ export default function Header() {
                   </svg>
                 </Link>
                 <Link
-                  href="#"
+                  href="/events"
                   className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300"
                 >
                   Events

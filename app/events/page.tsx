@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import Header from "@/components/shared/Header";
 import Footer from "@/components/shared/Footer";
 import HeroSection from "@/components/shared/HeroSection";
@@ -6,9 +5,10 @@ import FeaturedEvents from "@/components/events/FeaturedEvents";
 import PastEvents from "@/components/events/PastEvents";
 import UpCommingEvents from "@/components/events/UpCommingEvents";
 import EventCTA from "@/components/events/EventCTA";
+import type { Metadata } from "next";
 export const metadata: Metadata = {
-    title: "The Student Experience at RVS CAS MBA",
-    description: "An immersive learning environment that extends beyond the classroom. Discover life at RVS CAS MBA.",
+    title: "Events at RVS CAS MBA",
+    description: "Events at the RVS CAS MBA bring together students, faculty, alumni, and industry professionals to explore ideas, share experience, and deepen understanding of business, analytics, marketing, and leadership.",
 };
 export default function page() {
     return (

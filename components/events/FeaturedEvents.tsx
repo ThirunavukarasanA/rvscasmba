@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { BsArrowRight } from 'react-icons/bs';
+import Image from 'next/image';
 
 const events = [
     {
@@ -50,7 +51,6 @@ const events = [
 export default function FeaturedEvents() {
     return (
         <section className="py-16 bg-booth-bg-gray">
-            {/* Header */}
             <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
                 <div className="mb-6 md:mb-12">
                     <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
@@ -61,23 +61,18 @@ export default function FeaturedEvents() {
                     Whether you’re exploring the MBA or preparing your application, here’s how we can assist you:
                 </p> */}
                 </div>
-
-                {/* Grid */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12">
                     {events.map((event) => (
                         <Link href={event.link} key={event.id} className="group flex flex-col cursor-pointer">
-                            {/* Image Container */}
                             <div className="relative w-full aspect-[4/3] overflow-hidden mb-5 bg-gray-100">
-                                {/* Using standard img to avoid next/image domain configuration issues with placeholder images */}
-                                <img
+                                <Image
                                     src={event.image}
                                     alt={event.title}
+                                    fill
                                     className="object-cover w-full h-full transition-transform duration-700 ease-in-out group-hover:scale-105"
                                     loading="lazy"
                                 />
                             </div>
-
-                            {/* Content */}
                             <h3 className="text-lg md:text-xl font-trade-gothic-bold text-booth-dark-gray mb-2 md:mb-3 leading-[1.3] group-hover:text-[#7c0201] transition-colors duration-300">
                                 {event.title}
                             </h3>
@@ -90,6 +85,25 @@ export default function FeaturedEvents() {
                         </Link>
                     ))}
                 </div>
+                <Link
+                    href="/events/featured-events"
+                    className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline"
+                >
+                    See All Featured Events
+                    <svg
+                        className="w-4 h-4"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                    >
+                        <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M9 5l7 7-7 7"
+                        />
+                    </svg>
+                </Link>
             </div>
         </section>
     );
