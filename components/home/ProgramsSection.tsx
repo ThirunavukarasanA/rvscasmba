@@ -80,7 +80,7 @@ export default function ProgramsSection() {
                             ? "/programs/mba-human-resources"
                             : program.title ===
                               "Logistics & Supply Chain Management"
-                              ? "#"
+                              ? "/programs/mba-logistics-supply-chain-management"
                               : "#"
                   }
                   className="inline-flex items-center gap-2 text-booth-maroon font-medium hover:underline"
