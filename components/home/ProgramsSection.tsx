@@ -58,7 +58,7 @@ export default function ProgramsSection() {
                   alt={program.title}
                   width={120}
                   height={120}
-                  className="object-cover rounded w-20 h-20 md:w-[120px] md:h-[120px]"
+                  className="object-cover w-20 h-20 md:w-[120px] md:h-[120px]"
                 />
               </div>
               <div className="flex-1">

@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function WhyProgramSection() {
   return (
     <section className="py-8 md:py-20 bg-white">
