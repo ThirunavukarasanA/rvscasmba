@@ -39,7 +39,7 @@ export default function Footer() {
             <h3 className="font-trade-gothic-bold text-booth-maroon mb-3 md:mb-4">
               Explore
             </h3>
-            <ul className="flex flex-wrap gap-3 md:gap-4 md:flex-col md:space-y-2 md:gap-0">
+            <ul className="flex flex-wrap gap-3 md:gap-4 md:flex-col md:space-y-2">
               <li>
                 <Link
                   href="#"
@@ -153,7 +153,7 @@ export default function Footer() {
             <h3 className="font-trade-gothic-bold text-booth-maroon mb-3 md:mb-4">
               Resources
             </h3>
-            <ul className="flex flex-wrap gap-3 md:gap-4 md:flex-col md:space-y-2 md:gap-0">
+            <ul className="flex flex-wrap gap-3 md:gap-4 md:flex-col md:space-y-2">
               <li>
                 <Link
                   href="#"

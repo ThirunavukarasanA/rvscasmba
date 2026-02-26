@@ -1,3 +1,4 @@
+import IndustryConnectPartners from "@/components/industry-connect/IndustryConnectPartners";
 import Footer from "@/components/shared/Footer";
 import Header from "@/components/shared/Header";
 import HeroSection from "@/components/shared/HeroSection";
@@ -22,6 +23,7 @@ export default function page() {
                 button1Link=""
                 button2Link=""
             />
+            <IndustryConnectPartners />
             <Footer />
         </main>
     )
