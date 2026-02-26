@@ -43,10 +43,10 @@ export default function Header() {
               {/* Primary Navigation Links - Larger size */}
               <div className="hidden lg:flex items-center gap-4">
                 <Link
-                  href="/#why-rvs"
-                  className={`${pathname === "/#why-rvs" ? "border-b-4 border-white" : ""} text-white hover:text-gray-300 font-trade-gothic-light`}
+                  href="/about"
+                  className={`${pathname === "/about" ? "border-b-4 border-white" : ""} text-white hover:text-gray-300 font-trade-gothic-light`}
                 >
-                  Why RVS CAS MBA
+                  About RVS CAS MBA
                 </Link>
                 <Link
                   href="/programs"
@@ -214,13 +214,13 @@ export default function Header() {
             <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-4">
               <nav className="grid grid-cols-2 gap-4">
                 <Link
-                  href="#"
-                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${pathname === "/#why-rvs"
+                  href="/about"
+                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${pathname === "/about"
                     ? "text-booth-maroon border-booth-maroon font-bold"
                     : "text-booth-dark-gray border-gray-300"
                     }`}
                 >
-                  Why RVS CAS MBA
+                  About RVS CAS MBA
                   <svg
                     className="w-4 h-4"
                     fill="none"

@@ -3,14 +3,18 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'images.unsplash.com',
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
+      {
+        protocol: "https",
+        hostname: "rvscas.ac.in",
       },
     ],
   },
   turbopack: {
     root: __dirname,
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
