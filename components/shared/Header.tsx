@@ -19,7 +19,7 @@ export default function Header() {
       <div className="sticky top-0 z-50 bg-booth-maroon h-1"></div>
       {/* Main Navigation - Semi-transparent over hero */}
       <nav className="absolute top-1 left-0 right-0 z-40 bg-black bg-opacity-50 backdrop-blur-sm">
-        <div className="w-full max-w-full min-[700px]:max-w-[80%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12 py-4">
+        <div className="w-full max-w-full min-[700px]:max-w-[100%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12 py-4">
           <div className="flex items-center justify-between">
             {/* Left Side: Logo + 4 Primary Links */}
             <div className="flex items-center gap-4">
