@@ -1,4 +1,7 @@
 import IndustryConnectPartners from "@/components/industry-connect/IndustryConnectPartners";
+import MoUPartners from "@/components/industry-connect/MoUPartners";
+import MoUs from "@/components/industry-connect/MoUs";
+import WhyIndustryConnectMatters from "@/components/industry-connect/WhyIndustryConnectMatters";
 import Footer from "@/components/shared/Footer";
 import Header from "@/components/shared/Header";
 import HeroSection from "@/components/shared/HeroSection";
@@ -24,6 +27,9 @@ export default function page() {
                 button2Link=""
             />
             <IndustryConnectPartners />
+            <MoUs />
+            <MoUPartners />
+            <WhyIndustryConnectMatters />
             <Footer />
         </main>
     )
