@@ -61,7 +61,7 @@ export default function Header() {
                   Admissions
                 </Link>
                 <Link
-                  href="#"
+                  href="/faculty"
                   className={`${isActive("/faculty") ? "border-b-4 border-white" : ""} text-white hover:text-gray-300 font-trade-gothic-light`}
                 >
                   Faculty & Research
@@ -79,7 +79,7 @@ export default function Header() {
                   Alumni
                 </Link>
                 <Link
-                  href="#"
+                  href="/industry-connect"
                   className="text-white hover:text-gray-300 font-trade-gothic-light text-sm"
                 >
                   Industry Connect
@@ -91,7 +91,7 @@ export default function Header() {
                   Events
                 </Link>
                 <Link
-                  href="#"
+                  href="/placements"
                   className="text-white hover:text-gray-300 font-trade-gothic-light text-sm"
                 >
                   Placements
@@ -280,7 +280,7 @@ export default function Header() {
                   </svg>
                 </Link>
                 <Link
-                  href="#"
+                  href="/faculty"
                   className="py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
                 >
                   Faculty & Research
@@ -324,13 +324,13 @@ export default function Header() {
                   Events
                 </Link>
                 <Link
-                  href="#"
+                  href="/placements"
                   className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300"
                 >
                   Placements
                 </Link>
                 <Link
-                  href="#"
+                  href="/industry-connect"
                   className="py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
                 >
                   Industry Connect
