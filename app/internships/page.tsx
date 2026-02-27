@@ -21,7 +21,7 @@ export default function page() {
                 description1={<><strong>Experience Before Employment. Learning Before Leadership.</strong></>}
                 description2={<>Internships at RVS CAS MBA are an integral part of the curriculum across all specializations. They are structured engagements designed to help students apply classroom learning in real organizational environments.</>}
                 description3=""
-                image="https://images.unsplash.com/photo-1496247749665-49cf5b1022e9"
+                image="https://images.unsplash.com/photo-1527689368864-3a821dbccc34"
                 button1=""
                 button2=""
                 button1Link=""

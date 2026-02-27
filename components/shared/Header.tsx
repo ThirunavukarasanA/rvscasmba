@@ -73,7 +73,7 @@ export default function Header() {
             <div className="hidden lg:flex items-center gap-4">
               <div className="hidden xl:flex items-center gap-4">
                 <Link
-                  href="#"
+                  href="/alumni"
                   className="text-white hover:text-gray-300 font-trade-gothic-light text-sm"
                 >
                   Alumni
@@ -299,7 +299,7 @@ export default function Header() {
                   </svg>
                 </Link>
                 <Link
-                  href="#"
+                  href="/alumni"
                   className="py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
                 >
                   Alumni
