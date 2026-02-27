@@ -42,7 +42,7 @@ export default function Footer() {
             <ul className="flex flex-wrap gap-3 md:gap-4 md:flex-col md:space-y-2">
               <li>
                 <Link
-                  href="#"
+                  href="/about"
                   className="text-booth-dark-gray hover:text-booth-maroon font-trade-gothic-light whitespace-nowrap"
                 >
                   About RVS CAS
@@ -50,7 +50,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/"
+                  href="/programs"
                   className="text-booth-dark-gray hover:text-booth-maroon font-trade-gothic-light whitespace-nowrap"
                 >
                   Programs
@@ -58,7 +58,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/faculty"
                   className="text-booth-dark-gray hover:text-booth-maroon font-trade-gothic-light whitespace-nowrap"
                 >
                   Faculty
@@ -74,7 +74,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/alumni"
                   className="text-booth-dark-gray hover:text-booth-maroon font-trade-gothic-light whitespace-nowrap"
                 >
                   Alumni
@@ -82,7 +82,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/events"
                   className="text-booth-dark-gray hover:text-booth-maroon font-trade-gothic-light whitespace-nowrap"
                 >
                   Events
@@ -99,7 +99,7 @@ export default function Footer() {
             <ul className="flex flex-wrap gap-3 md:gap-4 md:flex-col md:space-y-2">
               <li>
                 <Link
-                  href="#"
+                  href="/industry-connect"
                   className="text-booth-dark-gray hover:text-booth-maroon font-trade-gothic-light whitespace-nowrap"
                 >
                   Industry Connect
@@ -115,7 +115,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/placements"
                   className="text-booth-dark-gray hover:text-booth-maroon font-trade-gothic-light whitespace-nowrap"
                 >
                   Placements
@@ -131,7 +131,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/careers"
                   className="text-booth-dark-gray hover:text-booth-maroon font-trade-gothic-light whitespace-nowrap"
                 >
                   Careers
@@ -139,7 +139,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/contact"
                   className="text-booth-dark-gray hover:text-booth-maroon font-trade-gothic-light whitespace-nowrap"
                 >
                   Contact Us
@@ -352,8 +352,8 @@ export default function Footer() {
             <p className="text-booth-dark-gray font-trade-gothic-light mb-1">
               Tamil Nadu, India
             </p>
-            <p className="text-booth-dark-gray font-trade-gothic-light mb-4">
-              Phone: [Placeholder]
+            <p className="text-booth-dark-gray font-trade-gothic-light mb-4 ">
+              Phone: <a href="tel:+919095692229" className="hover:text-booth-maroon hover:underline transition-opacity duration-300">+91 90956 92229</a>
             </p>
             <button className="border-2 border-booth-maroon bg-white text-booth-maroon px-4 py-2 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-sm">
               CONTACT
