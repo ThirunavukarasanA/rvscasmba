@@ -7,7 +7,7 @@ export default function HeroSection() {
       <section className="relative h-screen">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/herosection/home.JPG"
+            src="/images/herosection/home-img.png"
             // src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1920&h=1080&fit=crop"
             alt="University campus aerial view"
             fill
