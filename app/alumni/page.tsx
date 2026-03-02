@@ -22,7 +22,8 @@ export default function page() {
                 description1={<><strong>Lifelong Connections. Career Momentum. Meaningful Impact.</strong></>}
                 description2={<><strong>A community of thinkers, innovators, and professionals shaping organizations across industries.</strong></>}
                 description3={<>The RVS CAS MBA Alumni Network is a vibrant global community of graduates who carry forward our philosophy of <strong>structured thinking, applied decision-making, and professional impact</strong>. Our alumni work in diverse sectors — from analytics and finance to human resources, marketing, logistics, and operations — embodying both academic depth and real-world competence.</>}
-                image="https://images.unsplash.com/photo-1658235081452-c2ded30b8d9f"
+                image="/images/herosection/alumni.png"
+                // image="https://images.unsplash.com/photo-1658235081452-c2ded30b8d9f"
                 button1=""
                 button2=""
                 button1Link=""

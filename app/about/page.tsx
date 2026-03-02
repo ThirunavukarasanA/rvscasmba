@@ -25,7 +25,7 @@ export default function page() {
                 description1={<>An Institution Where Management Education Evolves with Industry</>}
                 description2={<>RVS CAS MBA operates within a larger educational ecosystem that values structured thinking, technological fluency, and long-term relevance. The program reflects a deliberate effort to integrate academic rigor with industry-aligned learning — preparing graduates for thoughtful and responsible professional careers.</>}
                 description3={<></>}
-                image="/images/herosection/why-mba.webp"
+                image="/images/herosection/about.png"
                 // image="https://images.unsplash.com/photo-1531545514256-b1400bc00f31"
                 button1=""
                 button2=""

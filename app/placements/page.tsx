@@ -24,7 +24,8 @@ export default function page() {
                 description1={<><strong>Structured preparation. Measurable readiness. Purposeful outcomes.</strong></>}
                 description2={<>RVS CAS MBA places career readiness at the center of the student experience. The objective is not simply placement numbers — but capacity building, professional clarity, and industry alignment. Students are supported from the first semester through a series of preparatory initiatives that build confidence, competence, and measurable capability.</>}
                 description3={<></>}
-                image="https://images.unsplash.com/photo-1698047682091-782b1e5c6536"
+                image="/images/herosection/placements.png"
+                // image="https://images.unsplash.com/photo-1698047682091-782b1e5c6536"
                 button1=""
                 button2=""
                 button1Link=""

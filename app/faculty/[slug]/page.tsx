@@ -33,7 +33,8 @@ export default async function FacultyProfilePage({ params }: { params: Promise<{
                 description1={faculty.title}
                 description2={faculty.academicArea}
                 description3=""
-                image="https://images.unsplash.com/photo-1524178232363-1fb2b075b655"
+                image="/images/herosection/faculty.png"
+                // image="https://images.unsplash.com/photo-1524178232363-1fb2b075b655"
                 button1=""
                 button2=""
                 button1Link=""

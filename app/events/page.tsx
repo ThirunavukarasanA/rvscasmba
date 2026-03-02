@@ -20,7 +20,8 @@ export default function page() {
                 description1={<><strong>Conversations. Insights. Connections.</strong></>}
                 description2={<>Events at the RVS CAS MBA bring together students, faculty, alumni, and industry professionals to explore ideas, share experience, and deepen understanding of business, analytics, marketing, and leadership.</>}
                 description3="We host seminars, workshops, conferences, industry talks, and experiential learning opportunities throughout the year."
-                image="https://images.unsplash.com/photo-1549451371-64aa98a6f660"
+                image="/images/herosection/events.png"
+                // image="https://images.unsplash.com/photo-1549451371-64aa98a6f660"
                 button1=""
                 button2=""
                 button1Link=""

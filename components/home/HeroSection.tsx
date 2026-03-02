@@ -7,7 +7,8 @@ export default function HeroSection() {
       <section className="relative h-screen">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1920&h=1080&fit=crop"
+            src="/images/herosection/home.jpg"
+            // src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1920&h=1080&fit=crop"
             alt="University campus aerial view"
             fill
             className="object-cover"
@@ -50,7 +51,8 @@ export default function HeroSection() {
         <div className="relative h-[70vh]">
           <div className="absolute inset-0 z-0">
             <Image
-              src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1920&h=1080&fit=crop"
+              src="/images/herosection/why-rvscasmba.jpg"
+              // src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1920&h=1080&fit=crop"
               alt="Why RVS CAS MBA - Business education"
               fill
               className="object-cover"
