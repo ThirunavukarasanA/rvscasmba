@@ -35,7 +35,8 @@ export default function page() {
                     </>
                 }
                 description3=''
-                image='https://images.unsplash.com/photo-1563986768494-4dee2763ff3f'
+                image='/images/herosection/digital-marketing.webp'
+                // image='https://images.unsplash.com/photo-1563986768494-4dee2763ff3f'
                 button1='Explore Program Structure'
                 button2='Apply Now'
                 button1Link='/request-information'
