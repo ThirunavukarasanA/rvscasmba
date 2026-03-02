@@ -56,6 +56,7 @@ export default function HeroSection() {
               alt="Why RVS CAS MBA - Business education"
               fill
               className="object-cover"
+              priority
             />
             <div className="absolute inset-0 bg-black bg-opacity-40"></div>
           </div>
