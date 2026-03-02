@@ -385,6 +385,15 @@ export default function Header() {
                 >
                   Contact
                 </Link>
+                <Link
+                  href="/careers"
+                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${isActive("/careers")
+                    ? "text-booth-maroon border-booth-maroon font-bold"
+                    : "text-booth-dark-gray border-gray-300"
+                    }`}
+                >
+                  Careers
+                </Link>
               </nav>
             </div>
           </div>

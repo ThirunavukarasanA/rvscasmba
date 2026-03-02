@@ -1,22 +1,79 @@
+"use client";
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { BsArrowRight } from 'react-icons/bs';
 import { facultyMembers } from '@/lib/data/faculty';
+import { useState } from 'react';
+
+const categories = [
+    "Leadership & Strategy",
+    "Digital Marketing",
+    "Applied Finance",
+    "Logistics & Supply Chain",
+    "Business Analytics",
+    "Aptitude",
+    "Career Readiness",
+    "Economics",
+    "Statistics",
+    "Research Methodology",
+    "Human resource"
+];
 
 export default function ExploreFaculty() {
+    const [activeFilter, setActiveFilter] = useState<string | null>(null);
+
+    const filteredFaculty = activeFilter ? facultyMembers.filter((faculty) => {
+        const searchString = `${faculty.academicArea} ${faculty.teachingAreas?.join(' ')} ${faculty.title}`.toLowerCase();
+
+        // Advanced mapping for specific categories
+        const filterMap: Record<string, string[]> = {
+            'Applied Finance': ['finance'],
+            'Career Readiness': ['career'],
+            'Human resource': ['hr', 'human resource'],
+            'Statistics': ['statistics'],
+            'Economics': ['economics'],
+            'Research Methodology': ['research method'],
+            'Logistics & Supply Chain': ['logistics & supply chain'],
+            'Aptitude': ['aptitude'],
+            'Business Analytics': ['business analytics', 'data science & analytics'],
+        };
+
+        const searchTerms = filterMap[activeFilter] || [activeFilter.toLowerCase()];
+        return searchTerms.some(term => searchString.includes(term));
+    }) : facultyMembers;
     return (
         <section className="py-16 md:py-24 bg-white">
             <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
                 {/* Header */}
                 <div className="mb-6 md:mb-12">
                     <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
-                    <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
+                    <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-6">
                         Explore Faculty by Academic Area
                     </h2>
+
+                    {/* Filters */}
+                    <div className="flex flex-wrap gap-x-6 gap-y-4 md:gap-x-10 md:gap-y-6 max-w-4xl pt-4">
+                        <button
+                            onClick={() => setActiveFilter(null)}
+                            className={`text-lg md:text-xl font-trade-gothic-light pb-0.5 transition-colors duration-300 border-b-2 ${activeFilter === null ? 'text-booth-maroon border-booth-maroon font-trade-gothic-bold' : 'text-booth-dark-gray hover:text-booth-maroon border-booth-maroon'}`}
+                        >
+                            All
+                        </button>
+                        {categories.map((category) => (
+                            <button
+                                key={category}
+                                onClick={() => setActiveFilter(category)}
+                                className={`text-lg md:text-xl font-trade-gothic-light pb-0.5 transition-colors duration-300 border-b-2 ${activeFilter === category ? 'text-booth-maroon border-booth-maroon font-trade-gothic-bold' : 'text-booth-dark-gray hover:text-booth-maroon border-booth-maroon'}`}
+                            >
+                                {category}
+                            </button>
+                        ))}
+                    </div>
                 </div>
                 {/* Grid */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-6 gap-y-12">
-                    {facultyMembers.map((faculty, index) => (
+                    {filteredFaculty.map((faculty, index) => (
                         <div key={index} className="flex flex-col group cursor-pointer">
                             <div className="relative w-full aspect-[3/4] mb-4 overflow-hidden bg-gray-100">
                                 <Link href={`/faculty/${faculty.slug}`}>
