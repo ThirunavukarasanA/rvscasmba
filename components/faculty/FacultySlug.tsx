@@ -26,7 +26,7 @@ export default async function FacultySlug({ params }: { params: Promise<{ slug: 
             <div className="w-full max-w-full min-[700px]:max-w-[80%] lg:max-w-[70%] xl:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-16 items-start">
                     {/* Image Left - Overlapping Hero */}
-                    <div className="md:col-span-4 lg:col-span-4 w-full -mt-24 md:-mt-32 lg:-mt-52 relative z-20">
+                    <div className="md:col-span-4 lg:col-span-4 w-full -mt-24 md:-mt-32 lg:-mt-44 relative z-20">
                         <div className="relative w-full aspect-[3/4] bg-gray-100 overflow-hidden shadow-md mb-6">
                             <Image
                                 src={faculty.image}
@@ -46,10 +46,75 @@ export default async function FacultySlug({ params }: { params: Promise<{ slug: 
                                     Biography
                                 </a>
                             )}
-                            {faculty.academicArea && (
+                            {/* {faculty.academicArea && (
                                 <div className="text-lg text-booth-dark-gray border-b-2 border-booth-maroon pb-1">
                                     <span className="font-trade-gothic-light">Academic Areas</span>
                                 </div>
+                            )} */}
+                            {faculty.accolades && (
+                                <a href="#accolades-recognition" className="text-lg text-booth-dark-gray font-trade-gothic-light border-b-2 border-booth-maroon pb-1 hover:text-booth-maroon transition-colors">
+                                    Accolades
+                                </a>
+                            )}
+                            {faculty.lifelongLearning && (
+                                <a href="#commitment-to-lifelong-learning" className="text-lg text-booth-dark-gray font-trade-gothic-light border-b-2 border-booth-maroon pb-1 hover:text-booth-maroon transition-colors">
+                                    Commitment to Lifelong Learning
+                                </a>
+                            )}
+                            {faculty.industryExperience && (
+                                <a href="#industry-entrepreneurial-experience" className="text-lg text-booth-dark-gray font-trade-gothic-light border-b-2 border-booth-maroon pb-1 hover:text-booth-maroon transition-colors">
+                                    Industry & Entrepreneurial Experience
+                                </a>
+                            )}
+                            {faculty.academicBackground && (
+                                <a href="#academic-background" className="text-lg text-booth-dark-gray font-trade-gothic-light border-b-2 border-booth-maroon pb-1 hover:text-booth-maroon transition-colors">
+                                    Academic Background
+                                </a>
+                            )}
+                            {faculty.vision && (
+                                <a href="#vision" className="text-lg text-booth-dark-gray font-trade-gothic-light border-b-2 border-booth-maroon pb-1 hover:text-booth-maroon transition-colors">
+                                    Vision
+                                </a>
+                            )}
+                            {faculty.teachingAreas && (
+                                <a href="#teaching-areas" className="text-lg text-booth-dark-gray font-trade-gothic-light border-b-2 border-booth-maroon pb-1 hover:text-booth-maroon transition-colors">
+                                    Teaching Areas
+                                </a>
+                            )}
+                            {faculty.professionalExpertise && (
+                                <a href="#professional-expertise" className="text-lg text-booth-dark-gray font-trade-gothic-light border-b-2 border-booth-maroon pb-1 hover:text-booth-maroon transition-colors">
+                                    Professional Expertise
+                                </a>
+                            )}
+                            {faculty.certifications && (
+                                <a href="#professional-certifications" className="text-lg text-booth-dark-gray font-trade-gothic-light border-b-2 border-booth-maroon pb-1 hover:text-booth-maroon transition-colors">
+                                    Professional Certifications
+                                </a>
+                            )}
+                            {faculty.engagements && (
+                                <a href="#engagement" className="text-lg text-booth-dark-gray font-trade-gothic-light border-b-2 border-booth-maroon pb-1 hover:text-booth-maroon transition-colors">
+                                    Engagement
+                                </a>
+                            )}
+                            {faculty.advancedPrograms && (
+                                <a href="#advanced-programs" className="text-lg text-booth-dark-gray font-trade-gothic-light border-b-2 border-booth-maroon pb-1 hover:text-booth-maroon transition-colors">
+                                    Advanced Programs
+                                </a>
+                            )}
+                            {faculty.projects && (
+                                <a href="#research-projects" className="text-lg text-booth-dark-gray font-trade-gothic-light border-b-2 border-booth-maroon pb-1 hover:text-booth-maroon transition-colors">
+                                    Research & Projects
+                                </a>
+                            )}
+                            {faculty.publications && (
+                                <a href="#publications" className="text-lg text-booth-dark-gray font-trade-gothic-light border-b-2 border-booth-maroon pb-1 hover:text-booth-maroon transition-colors">
+                                    Publications
+                                </a>
+                            )}
+                            {faculty.conferences && (
+                                <a href="#conference-presentations" className="text-lg text-booth-dark-gray font-trade-gothic-light border-b-2 border-booth-maroon pb-1 hover:text-booth-maroon transition-colors">
+                                    Conference Presentations
+                                </a>
                             )}
                         </div>
 

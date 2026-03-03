@@ -42,7 +42,7 @@ export default async function FacultyProfilePage({ params }: { params: Promise<{
                 </div>
 
                 <div className="relative z-10 w-full max-w-full min-[700px]:max-w-[80%] lg:max-w-[70%] xl:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12 h-full flex items-center">
-                    <div className="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-16 w-full md:mt-48">
+                    <div className="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-16 w-full md:mt-56">
                         <div className="hidden md:block md:col-span-4 lg:col-span-4"></div>
                         <div className="md:col-span-8 lg:col-span-8 flex flex-col justify-center text-left">
                             <h1 className="text-4xl md:text-5xl lg:text-5xl font-trade-gothic-light text-white mb-2 leading-tight">
