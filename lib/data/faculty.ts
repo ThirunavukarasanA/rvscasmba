@@ -28,6 +28,7 @@ export const facultyMembers: FacultyMember[] = [
     image: "/images/faculties/Trustee.png",
     academicArea: "Leadership & Strategy, Finance",
     slug: "dr-k-senthil-ganesh",
+    email: "trustee@rvsgroup.com",
     bio: [
       "Dr. K. Senthil Ganesh is the Managing Trustee of RVS Educational Institutions, which today encompasses over 50 institutions serving more than 20,000 students. Since 2000, he has played a pivotal role in the growth of the RVS Group, working alongside the Founder–Chairman, Dr. K. V. Kuppuswamy, to assemble a team of eminent academicians, management experts, and finance professionals. Between 2000 and 2008, this vision translated into the establishment of 10 new institutions in diverse fields including Dental, Health Sciences, Engineering, and Alternative Medicine.",
       "With more than 25 years of leadership experience spanning strategy, finance, and marketing, Dr. Senthil Ganesh has been instrumental in transforming RVS into one of South India's most respected educational groups. From 2008 onward, he embarked on a large-scale transformation project with a focus on Digital Disruption and Relevance in Education for the 21st century. Under his leadership, the Arts & Science, Health Sciences, and Ayurveda institutions were repositioned with innovative curricular, co-curricular, and administrative reforms. This division grew from 2,500 students to more than 7,500, earning numerous accolades along the way.",

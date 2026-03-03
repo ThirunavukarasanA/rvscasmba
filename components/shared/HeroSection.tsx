@@ -19,7 +19,8 @@ export default function HeroSection({
     image: string, button1: string,
     button2: string, button1Link: string,
     button2Link: string
-  }) {
+  }) 
+  {
   const pathname = usePathname();
 
   const isWidePage = [
@@ -65,7 +66,7 @@ export default function HeroSection({
               <div className="absolute bg-booth-maroon w-[390px] transition duration-300 opacity-0 invisible group-hover:opacity-100 group-hover:visible translate-y-2 group-hover:translate-y-0 z-50 top-full left-0">
                 <div className="">
                   <ul className="">
-                    <li className="relative group/item">
+                    {/* <li className="relative group/item">
                       <div className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex items-center justify-between bg-booth-maroon hover:bg-white hover:text-booth-maroon text-white py-3 w-full border-b border-white/30">
                         <Link href="/programs/mba-applied-finance">
                           <div className="flex items-center space-x-2">
@@ -74,7 +75,15 @@ export default function HeroSection({
                           </div>
                         </Link>
                       </div>
-                    </li>
+                    </li> */}
+                    <Link href="/programs/mba-applied-finance">
+                      <li
+                        className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white border-b border-white/30"
+                      >
+                        <RiArrowRightDoubleFill className="text-[18px] mt-1" />
+                        <span className="font-trade-gothic-light">MBA in Applied Finance</span>
+                      </li>
+                    </Link>
                     <Link href="/programs/mba-digital-marketing">
                       <li
                         className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white border-b border-white/30"
