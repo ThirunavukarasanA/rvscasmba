@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function FacultyArticles() {
     return (
         <section className="py-8 md:py-20 bg-white">
@@ -5,7 +7,7 @@ export default function FacultyArticles() {
                 <div className="mb-6 md:mb-12">
                     <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
                     <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
-                        Faculty Articles
+                        Faculty Insights
                     </h2>
                 </div>
 
@@ -32,6 +34,25 @@ export default function FacultyArticles() {
                     <p className="text-base md:text-lg text-booth-light-gray font-trade-gothic-light italic">
                         *Faculty articles will be published periodically.
                     </p>
+                    <Link
+                        href="/faculty"
+                        className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline"
+                    >
+                        See All CAS MBA Faculty
+                        <svg
+                            className="w-4 h-4"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                        >
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M9 5l7 7-7 7"
+                            />
+                        </svg>
+                    </Link>
                 </div>
             </div>
         </section>

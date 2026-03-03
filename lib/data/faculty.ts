@@ -26,7 +26,7 @@ export const facultyMembers: FacultyMember[] = [
     name: "Dr. K. Senthil Ganesh",
     title: "Associate Professor, Leadership & Strategy",
     image: "/images/faculties/Trustee.png",
-    academicArea: "Leadership & Strategy",
+    academicArea: "Leadership & Strategy, Finance",
     slug: "dr-k-senthil-ganesh",
     bio: [
       "Dr. K. Senthil Ganesh is the Managing Trustee of RVS Educational Institutions, which today encompasses over 50 institutions serving more than 20,000 students. Since 2000, he has played a pivotal role in the growth of the RVS Group, working alongside the Founder–Chairman, Dr. K. V. Kuppuswamy, to assemble a team of eminent academicians, management experts, and finance professionals. Between 2000 and 2008, this vision translated into the establishment of 10 new institutions in diverse fields including Dental, Health Sciences, Engineering, and Alternative Medicine.",
@@ -77,7 +77,7 @@ export const facultyMembers: FacultyMember[] = [
     name: "Dr. B. Raja Rajeswari",
     title: "Associate Professor, Marketing",
     image: "/images/faculties/Dr. B. Raja Rajeswari.webp",
-    academicArea: "Marketing & Systems",
+    academicArea: "Leadership & Strategy, Human Resource",
     slug: "dr-b-raja-rajeswari",
     email: "rajarajeswari@rvsgroup.com",
     bio: [

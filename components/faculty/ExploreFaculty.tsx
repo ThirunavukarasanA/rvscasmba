@@ -8,16 +8,13 @@ import { useState } from 'react';
 
 const categories = [
     "Leadership & Strategy",
-    "Digital Marketing",
     "Applied Finance",
-    "Logistics & Supply Chain",
+    "Digital Marketing",
     "Business Analytics",
-    "Aptitude",
-    "Career Readiness",
-    "Economics",
-    "Statistics",
-    "Research Methodology",
-    "Human resource"
+    "Human resource",
+    "Logistics & Supply Chain",
+    "Aptitude & Career Readiness",
+    "Economics & Statistics",
 ];
 
 export default function ExploreFaculty() {
@@ -29,14 +26,11 @@ export default function ExploreFaculty() {
         // Advanced mapping for specific categories
         const filterMap: Record<string, string[]> = {
             'Applied Finance': ['finance'],
-            'Career Readiness': ['career'],
             'Human resource': ['hr', 'human resource'],
-            'Statistics': ['statistics'],
-            'Economics': ['economics'],
-            'Research Methodology': ['research method'],
+            'Economics & Statistics': ['statistics'],
             'Logistics & Supply Chain': ['logistics & supply chain'],
-            'Aptitude': ['aptitude'],
-            'Business Analytics': ['business analytics', 'data science & analytics'],
+            'Aptitude & Career Readiness': ['aptitude', 'career'],
+            'Business Analytics': ['business analytics', 'data science & analytics', 'data engineering'],
         };
 
         const searchTerms = filterMap[activeFilter] || [activeFilter.toLowerCase()];
@@ -56,7 +50,7 @@ export default function ExploreFaculty() {
                     <div className="flex flex-wrap gap-x-6 gap-y-4 md:gap-x-10 md:gap-y-6 max-w-4xl pt-4">
                         <button
                             onClick={() => setActiveFilter(null)}
-                            className={`text-lg md:text-xl font-trade-gothic-light pb-0.5 transition-colors duration-300 border-b-2 ${activeFilter === null ? 'text-booth-maroon border-booth-maroon font-trade-gothic-bold' : 'text-booth-dark-gray hover:text-booth-maroon border-booth-maroon'}`}
+                            className={`text-lg md:text-xl font-trade-gothic-light pb-0.5 transition-colors duration-300 ${activeFilter === null ? 'text-booth-maroon border-booth-maroon font-trade-gothic-bold border-b-2' : 'text-booth-dark-gray hover:text-booth-maroon border-booth-maroon'}`}
                         >
                             All
                         </button>
@@ -64,7 +58,7 @@ export default function ExploreFaculty() {
                             <button
                                 key={category}
                                 onClick={() => setActiveFilter(category)}
-                                className={`text-lg md:text-xl font-trade-gothic-light pb-0.5 transition-colors duration-300 border-b-2 ${activeFilter === category ? 'text-booth-maroon border-booth-maroon font-trade-gothic-bold' : 'text-booth-dark-gray hover:text-booth-maroon border-booth-maroon'}`}
+                                className={`text-lg md:text-xl font-trade-gothic-light pb-0.5 transition-colors duration-300  ${activeFilter === category ? 'text-booth-maroon border-booth-maroon font-trade-gothic-bold border-b-2' : 'text-booth-dark-gray hover:text-booth-maroon border-booth-maroon'}`}
                             >
                                 {category}
                             </button>

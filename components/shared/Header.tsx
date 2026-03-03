@@ -61,10 +61,10 @@ export default function Header() {
                   Admissions
                 </Link>
                 <Link
-                  href="/faculty"
-                  className={`${isActive("/faculty") ? "border-b-4 border-white" : ""} text-white hover:text-gray-300 font-trade-gothic-light`}
+                  href="/insights"
+                  className={`${isActive("/insights") ? "border-b-4 border-white" : ""} text-white hover:text-gray-300 font-trade-gothic-light`}
                 >
-                  Faculty & Research
+                  Faculty & Insights
                 </Link>
               </div>
             </div>
