@@ -32,9 +32,9 @@ export default function FacultyHeroSection({ title, strong, pageName,
         "MBA in Supply Chain Management"
     ].includes(pageName);
 
-    const containerWidthClass = `w-full max-w-full min-[700px]:max-w-[${isWidePage ? "70%" : "60%"}] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12`;
+    const containerWidthClass = `w-full max-w-full ${isWidePage ? "min-[700px]:max-w-[90%] lg:max-w-[80%] xl:max-w-[70%]" : "min-[700px]:max-w-[80%] lg:max-w-[70%] xl:max-w-[60%]"} mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12`;
     return (
-        <section className="relative h-[75vh]">
+        <section className="relative min-h-[100vh] md:min-h-[75vh]">
             <div className="absolute inset-0 z-0">
                 <Image
                     src={image}
@@ -200,7 +200,7 @@ export default function FacultyHeroSection({ title, strong, pageName,
 
                 {/* Bottom Section: Hero Content */}
                 <div className={containerWidthClass}>
-                    <div className="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-16 items-start mt-72">
+                    <div className="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-16 items-start mt-16 md:mt-24 lg:mt-48 xl:mt-72">
                         {/* <div> */}
                         <div className="md:col-span-5 w-full">
                             <div className="relative w-full aspect-[3/4] bg-gray-100 overflow-hidden mb-6">

@@ -15,7 +15,7 @@ Below is the **EXACT Booth homepage structure**, recreated **block-by-block** fo
 ## 1️⃣ HERO BLOCK (Booth-style)
 
 **Headline**
-Education for the Digital Era.
+Education for Digital Era.
 
 **Sub-head**
 RVS CAS MBA prepares techno-managers who combine strong business fundamentals with technology, analytics, and real-world decision-making.

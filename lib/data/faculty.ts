@@ -72,7 +72,7 @@ export const facultyMembers: FacultyMember[] = [
       "BBA, East Texas State University, USA (1995)",
     ],
     vision:
-      "Dr. Senthil Ganesh is widely regarded as an edupreneur with a digital vision. His initiatives in curriculum design, faculty training, and industry-linked programs aim to create future-ready graduates equipped with skills in Data Science, AI, Big Data Analytics, and Cloud Computing. With a belief that education must evolve with technology, he has consistently worked to position RVS institutions as pioneers of Education for the Digital Era.",
+      "Dr. Senthil Ganesh is widely regarded as an edupreneur with a digital vision. His initiatives in curriculum design, faculty training, and industry-linked programs aim to create future-ready graduates equipped with skills in Data Science, AI, Big Data Analytics, and Cloud Computing. With a belief that education must evolve with technology, he has consistently worked to position RVS institutions as pioneers of Education for Digital Era.",
   },
   {
     name: "Dr. B. Raja Rajeswari",

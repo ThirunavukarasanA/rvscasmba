@@ -22,7 +22,7 @@ export default function HeroSection() {
             <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
               <div className="w-16 h-0.5 bg-white mb-6"></div>
               <h1 className="text-5xl md:text-7xl font-trade-gothic-bold text-white mb-6">
-                Education for the Digital Era.
+                Education for Digital Era.
               </h1>
               <p className="text-xl md:text-2xl text-white font-trade-gothic-light">
                 RVS CAS MBA develops techno-managers who blend business discipline with technological fluency and analytical clarity to lead real-world decisions.

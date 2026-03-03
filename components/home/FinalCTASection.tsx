@@ -7,7 +7,7 @@ export default function FinalCTASection() {
         <div>
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4 md:mb-6">
-            Education for the Digital Era.
+            Education for Digital Era.
           </h2>
           <p className="text-base md:text-xl text-booth-dark-gray mb-4 md:mb-8 font-trade-gothic-light">
             Learn more about studying at RVS CAS MBA
