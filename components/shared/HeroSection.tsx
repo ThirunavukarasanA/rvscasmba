@@ -19,8 +19,7 @@ export default function HeroSection({
     image: string, button1: string,
     button2: string, button1Link: string,
     button2Link: string
-  }) 
-  {
+  }) {
   const pathname = usePathname();
 
   const isWidePage = [
@@ -35,7 +34,7 @@ export default function HeroSection({
   const containerWidthClass = `w-full max-w-full min-[700px]:max-w-[${isWidePage ? "70%" : "60%"}] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12`;
 
   return (
-    <section className="relative h-screen">
+    <section className="relative h-[88svh]">
       <div className="absolute inset-0 z-0">
         <Image
           src={image}
@@ -44,7 +43,8 @@ export default function HeroSection({
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-black bg-opacity-30"></div>
+        {/* <div className="absolute inset-0 bg-black bg-opacity-30"></div> */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
       </div>
 
       {/* Main Container: Flex Column to separate Menu (Top) and Content (Bottom) */}

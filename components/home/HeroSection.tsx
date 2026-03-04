@@ -4,21 +4,23 @@ export default function HeroSection() {
   return (
     <>
       {/* Hero Section 1 - Title and description on image bottom left */}
-      <section className="relative h-screen">
+      <section className="relative h-[88svh]">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/herosection/home-img.png"
+            src="/images/herosection/home-img.JPG"
             // src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1920&h=1080&fit=crop"
             alt="University campus aerial view"
             fill
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-black bg-opacity-30"></div>
+          {/* <div className="absolute inset-0 bg-black bg-opacity-30"></div> */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+          {/* <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div> */}
         </div>
         {/* Title and description overlay - bottom left aligned on image */}
         <div className="relative z-10 h-full flex items-end">
-          <div className="w-full pb-16">
+          <div className="w-full md:pb-16 pb-9">
             <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
               <div className="w-16 h-0.5 bg-white mb-6"></div>
               <h1 className="text-5xl md:text-7xl font-trade-gothic-bold text-white mb-6">

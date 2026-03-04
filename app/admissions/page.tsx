@@ -26,7 +26,7 @@ export default function AdmissionsPage() {
         description1={<>A thoughtful process for serious learners</>}
         description2={<>Admissions to the MBA at RVS College of Arts & Science are designed to identify students who are prepared for rigorous, applied learning and long-term professional growth. We look beyond marks alone to understand a candidate’s intent, readiness, and commitment to learning.</>}
         description3=''
-        image="/images/herosection/admission1.png"
+        image="/images/herosection/admission2.png"
         // image="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1920&h=1080&fit=crop"
         button1=""
         button2=""

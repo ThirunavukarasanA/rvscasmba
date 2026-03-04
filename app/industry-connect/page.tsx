@@ -20,7 +20,7 @@ export default function page() {
                 description1={<><strong>Where Classroom Insight Meets Industry Practice</strong></>}
                 description2={<>RVS CAS MBA integrates industry expertise directly into academic learning to ensure students graduate with practical relevance and professional confidence. Through the Industry Connect initiative, curriculum inputs, workshops, simulations, and applied projects are shaped in collaboration with leaders from technology, analytics, finance, and digital business.</>}
                 description3="This approach ensures that learning is not isolated from practice — it is informed by it."
-                image="/images/herosection/industry-connect.png"
+                image="/images/herosection/industry-connect1.jpg"
                 // image="https://images.unsplash.com/photo-1496247749665-49cf5b1022e9"
                 button1=""
                 button2=""
