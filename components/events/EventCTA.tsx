@@ -91,12 +91,12 @@ export default function EventCTA() {
                             </div>
                         </form>
 
-                        <div className="mt-10 text-white text-[11px] md:text-xs font-trade-gothic-light leading-snug max-w-3xl">
+                        {/* <div className="mt-10 text-white text-[11px] md:text-xs font-trade-gothic-light leading-snug max-w-3xl">
                             <p className="font-trade-gothic-bold uppercase mb-1 tracking-wider">YOUR PRIVACY</p>
                             <p>
                                 We want to demonstrate our commitment to your privacy. Please review Chicago Booth's <a href="#" className="underline hover:text-gray-200">privacy notice</a>, which provides information explaining how and why we collect particular information when you visit our website.
                             </p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

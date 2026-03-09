@@ -37,6 +37,7 @@ export default function RequestFormSection() {
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
             Request Information Form
           </h2>
+          <p className="text-sm md:text-lg text-booth-dark-gray font-trade-gothic-light">The request form is simple and quick to complete. You’ll just need to provide your name and contact details, academic background, and your area of interest or specialization so we can share information that’s most relevant to you.</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-6">

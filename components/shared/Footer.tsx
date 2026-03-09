@@ -219,8 +219,8 @@ export default function Footer() {
           </div>
           <div>
             <button className="border-2 border-booth-maroon bg-white text-booth-maroon px-2 md:px-4 py-2 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-xs md:text-sm w-full h-full flex items-center justify-center gap-1 leading-tight">
-              GIVE
-              <svg
+              ALUMNI REGISTER
+              {/* <svg
                 className="w-3 h-3"
                 fill="none"
                 stroke="currentColor"
@@ -232,13 +232,13 @@ export default function Footer() {
                   strokeWidth={2}
                   d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
                 />
-              </svg>
+              </svg> */}
             </button>
           </div>
         </div>
 
         {/* Other Offerings Section */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+        {/* <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div>
             <h3 className="font-trade-gothic-bold text-booth-maroon mb-4">
               Other Offerings
@@ -259,7 +259,7 @@ export default function Footer() {
               ALL OTHER OFFERINGS
             </button>
           </div>
-        </div>
+        </div> */}
 
         {/* Horizontal line separator */}
         <div className="border-t-2 border-booth-maroon mb-12"></div>
@@ -295,13 +295,13 @@ export default function Footer() {
                 </svg>
               </Link>
               {/* X (Twitter) */}
-              <Link
+              {/* <Link
                 href="#"
                 className="w-8 h-8 bg-black rounded flex items-center justify-center text-white font-bold"
                 aria-label="X"
               >
                 X
-              </Link>
+              </Link> */}
               {/* YouTube */}
               <Link
                 href="#"
@@ -325,7 +325,7 @@ export default function Footer() {
                 in
               </Link>
               {/* Pinterest */}
-              <Link
+              {/* <Link
                 href="#"
                 className="w-8 h-8 bg-red-700 rounded flex items-center justify-center text-white"
                 aria-label="Pinterest"
@@ -337,7 +337,7 @@ export default function Footer() {
                 >
                   <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 19c-.721 0-1.418-.109-2.073-.312.286-.465.713-1.227.87-1.878.074-.28.447-1.812.447-1.812.234.448.918.836 1.644.836 2.166 0 3.636-1.966 3.636-4.597 0-1.906-1.644-3.434-3.978-3.434-2.723 0-4.22 1.977-4.22 3.75 0 1.174.447 2.214 1.405 2.607.157.073.179.27.066.416-.057.09-.184.32-.238.41-.075.14-.097.19-.063.31.046.15.186.195.336.144.48-.163 1.23-.69 1.61-1.24.15-.22.256-.48.35-.78.15-.48.086-.89-.026-1.31-.32-1.18-1.28-2.4-1.28-3.23 0-.83.5-1.58 1.5-1.58.71 0 1.25.48 1.25 1.12 0 .75-.48 1.88-.73 2.92-.21.8.4 1.45 1.19 1.45 1.43 0 2.4-1.51 2.4-3.69 0-1.53-1.1-2.61-2.68-2.61-1.82 0-2.89 1.37-2.89 2.79 0 .51.2.95.51 1.25.056.067.064.125.047.193-.017.07-.057.23-.074.3-.024.11-.098.15-.18.11-.67-.31-1.09-1.28-1.09-2.06 0-1.68 1.22-3.22 3.55-3.22 1.87 0 3.32 1.33 3.32 3.11 0 1.85-1.17 3.41-2.82 3.41-.55 0-1.07-.29-1.25-.65 0 0-.28 1.08-.35 1.35-.13.5-.48 1.12-.78 1.57C8.13 18.5 9.51 19 12 19c3.866 0 7-3.134 7-7s-3.134-7-7-7S5 5.134 5 9c0 1.76.744 3.369 1.971 4.51-.037.33-.073.66-.073 1.01 0 .5.04.99.12 1.47C5.5 14.5 4.5 12.5 4.5 10.5c0-4.142 3.358-7.5 7.5-7.5s7.5 3.358 7.5 7.5-3.358 7.5-7.5 7.5z" />
                 </svg>
-              </Link>
+              </Link> */}
             </div>
           </div>
 
@@ -365,7 +365,7 @@ export default function Footer() {
         <div className="border-t border-gray-300 pt-6">
           <div className="flex flex-wrap gap-4 items-center text-sm">
             <Link
-              href="#"
+              href="https://rvscas.ac.in/"
               className="text-booth-dark-gray hover:text-booth-maroon font-trade-gothic-light inline-flex items-center gap-1"
             >
               RVS College
@@ -384,19 +384,19 @@ export default function Footer() {
               </svg>
             </Link>
             <Link
-              href="#"
+              href="https://rvscas.ac.in/about/privacy-policy"
               className="text-booth-dark-gray hover:text-booth-maroon font-trade-gothic-light"
             >
               Privacy Policy
             </Link>
-            <Link
+            {/* <Link
               href="#"
               className="text-booth-dark-gray hover:text-booth-maroon font-trade-gothic-light"
             >
               Terms & Conditions
-            </Link>
+            </Link> */}
             <Link
-              href="#"
+              href="https://rvscas.ac.in/naac"
               className="text-booth-dark-gray hover:text-booth-maroon font-trade-gothic-light inline-flex items-center gap-1"
             >
               NAAC / AICTE
@@ -414,12 +414,12 @@ export default function Footer() {
                 />
               </svg>
             </Link>
-            <Link
+            {/* <Link
               href="#"
               className="text-booth-dark-gray hover:text-booth-maroon font-trade-gothic-light"
             >
               Website Feedback
-            </Link>
+            </Link> */}
             <span className="text-booth-dark-gray font-trade-gothic-light">
               © RVS CAS MBA
             </span>

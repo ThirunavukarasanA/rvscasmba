@@ -38,7 +38,7 @@ export default function EligibilitySection() {
             </li>
           </ul>
 
-          <p className="text-base md:text-lg text-booth-light-gray font-trade-gothic-light italic">
+          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light">
             The program is open to candidates from diverse academic backgrounds, provided they demonstrate motivation and learning intent.
           </p>
         </div>

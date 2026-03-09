@@ -39,7 +39,7 @@ export default function WhyProgramSection() {
             </li>
             <li className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Faculty with real industry experience</span>
+              <span>Faculty with <strong>real industry experience</strong></span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>

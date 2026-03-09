@@ -41,9 +41,18 @@ const items = [
         type: "paragraph" as const,
         text: (
           <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            Career support includes resume refinement, interview practice focused on case scenarios, and guidance on translating projects into professional narratives.
+            RVS CAS combines academic discipline with structured career readiness:
           </p>
         ),
+      },
+      {
+        type: "list" as const,
+        items: [
+          "Dedicated Career Workshops – Resume strategy, analytics case preparation, and portfolio development (Python, SQL, dashboards)",
+          "Live Industry Projects & Analytics Case Challenges – Solving real data-driven business problems",
+          "Mentoring by Faculty & Industry Professionals – Practical feedback grounded in statistical reasoning and model validation",
+          "Internships with Structured Evaluation – Exposure to analytics, consulting, fintech, marketing, and operations roles",
+        ],
       },
     ],
   },

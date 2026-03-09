@@ -11,7 +11,7 @@ export default function Leadership() {
                     {/* Content Left */}
                     <div className="order-2 md:order-1 md:col-span-5 flex flex-col justify-center">
                         <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
-                        <h2 className="text-2xl md:text-[28px] lg:text-[32px] font-trade-gothic-bold text-booth-dark-gray mb-4">
+                        <h2 className="text-2xl md:text-[28px] lg:text-[36px] font-trade-gothic-bold text-booth-dark-gray mb-4">
                             Leadership
                         </h2>
                         <div className="group inline-block">

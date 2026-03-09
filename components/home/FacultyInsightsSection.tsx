@@ -16,13 +16,13 @@ const insights = [
     image:
       "/images/insights/industry-talk.webp",
   },
-  {
-    title: "Student Research or Case Study",
-    description:
-      "Discover how our students are applying management principles to solve real-world business challenges.",
-    image:
-      "/images/insights/student-research.webp",
-  },
+  // {
+  //   title: "Student Research or Case Study",
+  //   description:
+  //     "Discover how our students are applying management principles to solve real-world business challenges.",
+  //   image:
+  //     "/images/insights/student-research.webp",
+  // },
 ];
 
 export default function FacultyInsightsSection() {
@@ -40,7 +40,7 @@ export default function FacultyInsightsSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 mt-6 md:mt-12">
+        <div className="grid grid-cols-2 md:grid-cols-2 gap-3 md:gap-4 mt-6 md:mt-12">
           {insights.map((insight, index) => (
             <div key={index} className="bg-white shadow-sm overflow-hidden">
               <div className="relative h-40 md:h-64">

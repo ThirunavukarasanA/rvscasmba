@@ -21,7 +21,8 @@ export default function StayConnected() {
                         {/* <div className="flex gap-3 flex-wrap"> */}
                         {/* Facebook */}
                         <Link
-                            href="#"
+                            href="https://www.facebook.com/rvssulur.mba/"
+                            target='_blank'
                             className="w-12 h-12 bg-blue-600 rounded flex items-center justify-center text-white font-bold text-5xl"
                             aria-label="Facebook"
                         >
@@ -29,7 +30,8 @@ export default function StayConnected() {
                         </Link>
                         {/* Instagram */}
                         <Link
-                            href="#"
+                            href="https://www.instagram.com/rvssulur.mba/"
+                            target='_blank'
                             className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded flex items-center justify-center text-white"
                             aria-label="Instagram"
                         >
@@ -43,7 +45,8 @@ export default function StayConnected() {
                         </Link>
                         {/* YouTube */}
                         <Link
-                            href="#"
+                            href="https://www.youtube.com/@rvssulur-mba"
+                            target='_blank'
                             className="w-12 h-12 bg-red-600 rounded flex items-center justify-center text-white"
                             aria-label="YouTube"
                         >
@@ -57,7 +60,8 @@ export default function StayConnected() {
                         </Link>
                         {/* LinkedIn */}
                         <Link
-                            href="#"
+                            href="https://www.linkedin.com/company/rvssulur-cas/"
+                            target='_blank'
                             className="w-12 h-12 bg-blue-700 rounded flex items-center justify-center text-white font-bold text-5xl"
                             aria-label="LinkedIn"
                         >

@@ -16,7 +16,7 @@ export default function page() {
             <Header />
             <HeroSection
                 pageName="Industry Connect"
-                title="Industry Connect at RVS CAS MBA"
+                title="Industry Connect"
                 description1={<><strong>Where Classroom Insight Meets Industry Practice</strong></>}
                 description2={<>RVS CAS MBA integrates industry expertise directly into academic learning to ensure students graduate with practical relevance and professional confidence. Through the Industry Connect initiative, curriculum inputs, workshops, simulations, and applied projects are shaped in collaboration with leaders from technology, analytics, finance, and digital business.</>}
                 description3="This approach ensures that learning is not isolated from practice — it is informed by it."

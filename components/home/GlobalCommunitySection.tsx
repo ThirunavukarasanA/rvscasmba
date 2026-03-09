@@ -11,7 +11,7 @@ const locations = [
     // "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=800&h=600&fit=crop",
   },
   {
-    title: "Student Community",
+    title: "Student Experience",
     description:
       "From professional clubs and research forums to cultural and management events, the RVS CAS MBA community supports holistic development.",
     image:
@@ -30,7 +30,7 @@ const locations = [
 
 export default function GlobalCommunitySection() {
   return (
-    <section className="py-8 md:py-20 bg-white">
+    <section className="py-8 md:py-20 bg-booth-bg-gray">
       <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
         <div className="mb-4 md:mb-8">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>

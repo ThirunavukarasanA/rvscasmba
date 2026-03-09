@@ -31,7 +31,7 @@ export default function HowToApply() {
                         sara@rvsgroup.com
                     </a>
                 </div>
-                <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">Please include the position title in the subject line</p>
+                <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">Please include the <b>position title</b> in the subject line</p>
                 {/* <div className='flex items-baseline justify-start gap-1.5'>
                     <h3 className="text-xl md:text-2xl font-trade-gothic-bold text-booth-dark-gray mb-2">
                         Office Hours:

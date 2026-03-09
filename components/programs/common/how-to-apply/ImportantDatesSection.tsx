@@ -27,7 +27,7 @@ export default function ImportantDatesSection() {
               <span>Admission offers are made on a rolling basis</span>
             </li>
           </ul>
-          <p className="text-base md:text-lg text-booth-light-gray font-trade-gothic-light italic">
+          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light">
             Exact dates and deadlines are shared by the admissions team.
           </p>
         </div>

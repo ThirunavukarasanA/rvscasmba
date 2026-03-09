@@ -36,7 +36,7 @@ export default function SocialSection() {
         <div className="mb-4 md:mb-8">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-3 md:mb-4">
-            RVS CAS MBA on Social
+            Follow Us on Social
           </h2>
           <p className="text-booth-light-gray text-sm md:text-lg font-trade-gothic-light">
             Prospective students and partners are encouraged to connect for further information regarding programs, collaborations, and admissions.

@@ -13,7 +13,7 @@ export default function FinalCTASection() {
             Learn more about studying at RVS CAS MBA
           </p>
           <Link
-            href="/programs/mba-applied-finance"
+            href="/programs"
             className="bg-booth-maroon text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-opacity-90 transition text-sm md:text-base inline-block"
           >
             DISCOVER

@@ -8,6 +8,7 @@ export default function AdmissionsPhilosophySection() {
             Admissions philosophy
           </h2>
         </div>
+          <h3 className="text-3xl md:text-3xl font-trade-gothic-bold text-booth-dark-gray pb-4">Selecting for Readiness, Not Just Eligibility</h3>
 
         <div className="space-y-6">
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">

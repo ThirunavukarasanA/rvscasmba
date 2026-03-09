@@ -280,10 +280,13 @@ export default function Header() {
                   </svg>
                 </Link>
                 <Link
-                  href="/faculty"
-                  className="py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
+                  href="/insights"
+                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${isActive("/insights")
+                    ? "text-booth-maroon border-booth-maroon font-bold"
+                    : "text-booth-dark-gray border-gray-300"
+                    }`}
                 >
-                  Faculty & Research
+                  Faculty & Insights
                   <svg
                     className="w-4 h-4"
                     fill="none"
@@ -300,7 +303,10 @@ export default function Header() {
                 </Link>
                 <Link
                   href="/alumni"
-                  className="py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
+                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${isActive("/alumni")
+                    ? "text-booth-maroon border-booth-maroon font-bold"
+                    : "text-booth-dark-gray border-gray-300"
+                    }`}
                 >
                   Alumni
                   <svg
@@ -319,19 +325,28 @@ export default function Header() {
                 </Link>
                 <Link
                   href="/events"
-                  className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300"
+                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${isActive("/events")
+                    ? "text-booth-maroon border-booth-maroon font-bold"
+                    : "text-booth-dark-gray border-gray-300"
+                    }`}
                 >
                   Events
                 </Link>
                 <Link
                   href="/placements"
-                  className="block py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300"
+                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${isActive("/placements")
+                    ? "text-booth-maroon border-booth-maroon font-bold"
+                    : "text-booth-dark-gray border-gray-300"
+                    }`}
                 >
                   Placements
                 </Link>
                 <Link
                   href="/industry-connect"
-                  className="py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
+                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${isActive("/industry-connect")
+                    ? "text-booth-maroon border-booth-maroon font-bold"
+                    : "text-booth-dark-gray border-gray-300"
+                    }`}
                 >
                   Industry Connect
                   <svg

@@ -21,7 +21,7 @@ export default function IndustryConnectSection() {
             </li>
             <li className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Exposure to real-world financial tools</span>
+              <span>Exposure to real-world digital marketing tools</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>

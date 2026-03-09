@@ -38,7 +38,7 @@ export default function BeforeYouApplySection() {
             If you have questions at this stage, the admissions team is available to guide you.
           </p>
 
-          <div className="flex flex-wrap gap-4">
+          {/* <div className="flex flex-wrap gap-4">
             <a href="/" className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline">
               View Programs
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -51,7 +51,7 @@ export default function BeforeYouApplySection() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

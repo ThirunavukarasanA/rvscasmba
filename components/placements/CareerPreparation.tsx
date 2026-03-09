@@ -97,7 +97,7 @@ export default function CareerPreparation() {
                     <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
                         Career Preparation – Before Placement Begins
                     </h2>
-                    <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed mb-6">Placement preparation at RVS CAS MBA is a deliberate, structured process that starts long before recruitment drives. Students benefit from a series of interventions designed to strengthen both functional expertise and professional presence.</p>
+                    <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed mb-6">Placement preparation at RVS CAS MBA is a <strong>deliberate, structured process</strong> that starts long before recruitment drives. Students benefit from a series of interventions designed to strengthen both functional expertise and professional presence.</p>
                     <h3 className="text-2xl md:text-3xl font-trade-gothic-bold text-booth-dark-gray mb-4">Pre-Placement Preparation Includes</h3>
                 </div>
 

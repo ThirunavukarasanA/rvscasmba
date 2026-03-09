@@ -75,7 +75,7 @@ const items = [
     ],
   },
   {
-    title: "Sample Career Trajectory",
+    title: "Sample Career Progression",
     content: [
       {
         type: "paragraph" as const,

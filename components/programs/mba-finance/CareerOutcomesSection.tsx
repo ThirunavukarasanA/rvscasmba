@@ -146,8 +146,8 @@ export default function CareerOutcomesSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-8">
           <div className="space-y-6">
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              A Launchpad for Financial Careers with Real Judgement and
-              Analytical Clarity
+              <strong>A Launchpad for Financial Careers with Real Judgement and
+                Analytical Clarity</strong>
             </p>
 
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
@@ -227,6 +227,9 @@ export default function CareerOutcomesSection() {
               className="object-cover rounded"
             />
           </div>
+        </div>
+        <div>
+          <p className="text-xl md:text-3xl font-trade-gothic-bold transition-colors text-booth-dark-gray pb-6">Career Outcomes at a Glance</p>
         </div>
         <CurriculumAccordion items={items} />
       </div>

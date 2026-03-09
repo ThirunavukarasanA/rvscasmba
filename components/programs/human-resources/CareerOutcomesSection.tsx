@@ -35,9 +35,7 @@ const items = [
         type: "paragraph" as const,
         text: (
           <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            <strong>
-              Students receive guidance in resume preparation, interview readiness, and practical exposure through internships and projects.
-            </strong>
+            Students receive guidance in resume preparation, interview readiness, workshops, case discussions, and practical exposure through internships and projects.
           </p>
         ),
       },
@@ -97,13 +95,13 @@ export default function CareerOutcomesSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-8">
           <div className="space-y-6">
-            {/* <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              The MBA in Digital Marketing prepares students for professional marketing roles where strategic thinking, execution capability, and performance analysis matter.
-            </p> */}
+            <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+              MBA in Human Resources is designed not merely to educate — but to build professional competence for roles that require organizational insight, strategic people management, and data-informed decision-making.
+            </p>
 
-            {/* <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              The program focuses on building role-ready graduates by combining academic frameworks, simulation-based learning, and applied projects.
-            </p> */}
+            <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+              This specialization prepares you for HR careers where aligning talent strategy with business objectives, shaping culture, and applying workforce analytics matter more than routine administrative execution.
+            </p>
 
             {/* <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
               Graduates are equipped to enter digital marketing functions with the ability to plan campaigns, use tools with intent, analyze outcomes, and explain their decisions clearly.
