@@ -27,7 +27,8 @@ export default function HowToApplyPage() {
         description1={<>A clear, guided application process</>}
         description2={<>Applying to the MBA at RVS College of Arts & Science is designed to be simple and supportive. The goal is to understand your academic readiness and intent to learn, not to test your ability to navigate complex forms.</>}
         description3=""
-        image="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1920&h=1080&fit=crop"
+        image="/images/herosection/apply.JPG"
+        // image="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1920&h=1080&fit=crop"
         button1=""
         button2=""
         button1Link=""

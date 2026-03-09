@@ -26,7 +26,8 @@ export default function StudentExperiencePage() {
         description1={<>Learning that shapes how you think — and who you become.</>}
         description2={<>MBA experience is designed to go beyond lectures. It is built around <strong className="font-trade-gothic-bold">structured thinking, applied learning, faculty interaction, and collaborative engagement.</strong></>}
         description3="The goal is to help students grow academically, professionally, and personally."
-        image="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1920&h=1080&fit=crop"
+        image="/images/herosection/why-rvscasmba.webp"
+        // image="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1920&h=1080&fit=crop"
         button1=""
         button2=""
         button1Link=""

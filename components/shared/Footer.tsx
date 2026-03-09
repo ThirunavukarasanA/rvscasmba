@@ -178,22 +178,22 @@ export default function Footer() {
                   Labs
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="#"
                   className="text-booth-dark-gray hover:text-booth-maroon font-trade-gothic-light whitespace-nowrap"
                 >
                   Sulur Campus
                 </Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link
                   href="#"
                   className="text-booth-dark-gray hover:text-booth-maroon font-trade-gothic-light whitespace-nowrap"
                 >
                   Coimbatore
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

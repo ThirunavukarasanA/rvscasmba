@@ -66,7 +66,7 @@ export default function HeroSection() {
         <div className="relative h-[70vh]">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/images/herosection/why-rvscasmba.webp"
+              src="/images/herosection/why-rvscasmba1.jpg"
               // src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1920&h=1080&fit=crop"
               alt="Why RVS CAS MBA - Business education"
               fill
