@@ -9,7 +9,7 @@ export default function CareerOutcomesPlacementSupport() {
                         <div className="relative aspect-video overflow-hidden">
                             <Image
                                 src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=450&fit=crop"
-                                alt="Thinking Like a Financial Analyst - Learning Series"
+                                alt="Career Outcomes & Placement Support"
                                 width={800}
                                 height={450}
                                 className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"

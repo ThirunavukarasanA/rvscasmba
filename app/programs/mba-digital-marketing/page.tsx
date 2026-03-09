@@ -35,7 +35,7 @@ export default function page() {
                     </>
                 }
                 description3=''
-                image='/images/herosection/digital-marketing.webp'
+                image='/images/herosection/digital.png'
                 // image='https://images.unsplash.com/photo-1563986768494-4dee2763ff3f'
                 button1='Explore Program Structure'
                 button2='Apply Now'

@@ -7,21 +7,21 @@ const insights = [
     description:
       "Our faculty share their research and insights on management, technology, and business in the digital era.",
     image:
-      "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=600&h=400&fit=crop",
+      "/images/insights/faculty-article.webp",
   },
   {
     title: "Industry Talk / Seminar Highlight",
     description:
       "Explore key insights from industry leaders and seminars that shape modern business thinking.",
     image:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop",
+      "/images/insights/industry-talk.webp",
   },
   {
     title: "Student Research or Case Study",
     description:
       "Discover how our students are applying management principles to solve real-world business challenges.",
     image:
-      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&fit=crop",
+      "/images/insights/student-research.webp",
   },
 ];
 
@@ -83,9 +83,9 @@ export default function FacultyInsightsSection() {
         </div>
 
         <div className="mt-6 md:mt-12">
-          <button className="bg-booth-maroon text-white px-8 py-4 font-trade-gothic-bold uppercase hover:bg-opacity-90 transition">
+          <Link href="/insights" className="bg-booth-maroon text-white px-8 py-4 font-trade-gothic-bold uppercase hover:bg-opacity-90 transition">
             EXPLORE INSIGHTS
-          </button>
+          </Link>
         </div>
       </div>
     </section>

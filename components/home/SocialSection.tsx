@@ -1,11 +1,34 @@
 import Image from "next/image";
-
+import { FaInstagram, FaFacebookF, FaXTwitter, FaLinkedinIn } from "react-icons/fa6";
 const socialImages = [
   "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=300&h=300&fit=crop",
   "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=300&h=300&fit=crop",
   "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=300&h=300&fit=crop",
   "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=300&h=300&fit=crop",
   "https://images.unsplash.com/photo-1552664730-d307ca884978?w=300&h=300&fit=crop",
+];
+
+const SOCIAL_POSTS = [
+  {
+    img: "/images/Social/Vidyarambha_2025.webp",
+    text: "Vidhyarambha 2025 is here!",
+    icon: <FaInstagram />,
+  },
+  {
+    img: "/images/Social/DIGIGO.webp",
+    text: "DIGIGO 5.0 – The Ultimate Digital Marketing Challenge",
+    icon: <FaInstagram />,
+  },
+  {
+    img: "/images/Social/IMPORT-PANDAS.webp",
+    text: "IMPORT PANDAS – 2K25",
+    icon: <FaInstagram />,
+  },
+  {
+    img: "/images/Social/onam.webp",
+    text: "Onam Celebration 2025",
+    icon: <FaInstagram />,
+  },
 ];
 
 export default function SocialSection() {
@@ -23,7 +46,36 @@ export default function SocialSection() {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-0 mt-6 md:mt-12">
+      {/* cards */}
+      <div className="w-full">
+        <div className="grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-4 lge:grid-cols-4 md:grid-cols-2 mdsm:grid-cols-2 sm:grid-cols-2">
+          {SOCIAL_POSTS.map((item, idx) => (
+            <div key={idx} className="relative hover:scale-95 transition-all duration-150 2xl:h-[300px] xl:h-[300px] lg:h-[300px] lge:h-[300px] md:h-[300px] mdsm:h-[300px] sm:h-[300px] overflow-hidden">
+              {/* background image */}
+              <Image
+                src={item.img}
+                alt={item.text}
+                fill
+                className="object-cover"
+              />
+
+              {/* dark gradient overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/0 to-black/0" />
+
+              {/* text + icon */}
+              <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between gap-3">
+                <p className="text-white text-sm md:text-base leading-snug max-w-[85%]">
+                  {item.text}
+                </p>
+                <span className="text-white text-xl shrink-0">
+                  {item.icon}
+                </span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      {/* <div className="grid grid-cols-2 md:grid-cols-5 gap-0 mt-6 md:mt-12">
         {socialImages.map((image, index) => (
           <div
             key={index}
@@ -51,7 +103,7 @@ export default function SocialSection() {
             )}
           </div>
         ))}
-      </div>
+      </div> */}
     </section>
   );
 }

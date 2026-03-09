@@ -34,7 +34,7 @@ export default function HeroSection({
   const containerWidthClass = `w-full max-w-full min-[700px]:max-w-[${isWidePage ? "70%" : "60%"}] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12`;
 
   return (
-    <section className="relative h-[88svh]">
+    <section className="relative md:h-[88svh] h-screen">
       <div className="absolute inset-0 z-0">
         <Image
           src={image}

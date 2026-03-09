@@ -7,21 +7,24 @@ const stories = [
     description:
       "Discover how RVS CAS MBA students are transforming their careers through our Tech MBA program. Learn from their journey and experiences.",
     image:
-      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&h=400&fit=crop",
+      "/images/stories/student-experience-story.webp",
+    // "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&h=400&fit=crop",
   },
   {
     title: "Alumni Journey",
     description:
       "Explore the career paths of our alumni who are making an impact in technology, business, and leadership roles across industries.",
     image:
-      "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600&h=400&fit=crop",
+      "/images/stories/alumni-journey.webp",
+    // "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600&h=400&fit=crop",
   },
   {
     title: "Faculty Perspective",
     description:
       "Gain insights from our faculty members on management education, industry trends, and the future of business in the digital era.",
     image:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop",
+      "/images/stories/faculty-perspective.webp",
+    // "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop",
   },
 ];
 

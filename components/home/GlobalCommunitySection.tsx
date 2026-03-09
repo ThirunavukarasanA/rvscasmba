@@ -7,21 +7,24 @@ const locations = [
     description:
       "Life at RVS CAS MBA is collaborative, immersive, and growth-oriented. Students learn through classrooms, labs, clubs, and industry interactions.",
     image:
-      "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=800&h=600&fit=crop",
+      "/images/life-at-rvs/campus-life.png",
+    // "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=800&h=600&fit=crop",
   },
   {
     title: "Student Community",
     description:
       "From professional clubs and research forums to cultural and management events, the RVS CAS MBA community supports holistic development.",
     image:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop",
+      "/images/life-at-rvs/student-community.png",
+    // "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop",
   },
   {
     title: "Industry Connect",
     description:
       "Building leadership, teamwork, and confidence beyond academics through real-world industry exposure and campus initiatives.",
     image:
-      "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+      "/images/life-at-rvs/industry-connect.jpg",
+    // "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
   },
 ];
 

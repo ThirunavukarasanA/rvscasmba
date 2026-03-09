@@ -31,7 +31,7 @@ export default function page() {
                     </>
                 }
                 description3="With a dual specialization model, students gain broader competence across business domains while developing depth in two functional or analytical areas."
-                image='/images/herosection/programs.JPG'
+                image='/images/herosection/programs.webp'
                 // image='https://images.unsplash.com/photo-1563986768494-4dee2763ff3f'
                 button1=''
                 button2=''

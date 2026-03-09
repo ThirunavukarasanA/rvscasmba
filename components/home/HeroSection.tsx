@@ -4,10 +4,23 @@ export default function HeroSection() {
   return (
     <>
       {/* Hero Section 1 - Title and description on image bottom left */}
-      <section className="relative h-[88svh]">
-        <div className="absolute inset-0 z-0">
+      <section className="relative md:h-[88svh] h-screen">
+        <div className="absolute inset-0 z-0 hidden md:block lg:block xl:block 2xl:block">
           <Image
-            src="/images/herosection/home-img.JPG"
+            src="/images/herosection/home-img1.webp"
+            // src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1920&h=1080&fit=crop"
+            alt="University campus aerial view"
+            fill
+            className="object-cover"
+            priority
+          />
+          {/* <div className="absolute inset-0 bg-black bg-opacity-30"></div> */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+          {/* <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div> */}
+        </div>
+        <div className="absolute inset-0 z-0 md:hidden lg:hidden xl:hidden 2xl:hidden">
+          <Image
+            src="/images/herosection/home-img1-mobile.jpg"
             // src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1920&h=1080&fit=crop"
             alt="University campus aerial view"
             fill
@@ -53,7 +66,7 @@ export default function HeroSection() {
         <div className="relative h-[70vh]">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/images/herosection/why-rvscasmba.JPG"
+              src="/images/herosection/why-rvscasmba.webp"
               // src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1920&h=1080&fit=crop"
               alt="Why RVS CAS MBA - Business education"
               fill
