@@ -10,7 +10,7 @@ export default function VideoSeriesSection() {
             <Link href="/thinking-like-a-financial-analyst" className="block group">
               <div className="relative aspect-video overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=450&fit=crop"
+                  src="/images/think-like-a-financial-analyst.png"
                   alt="Thinking Like a Financial Analyst - Learning Series"
                   width={800}
                   height={450}

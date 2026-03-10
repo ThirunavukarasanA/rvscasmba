@@ -12,8 +12,8 @@ export default function ConnectWithUs() {
                     <p className="text-xl md:text-2xl text-booth-dark-gray font-trade-gothic-light mb-6">
                         Whether you are just graduating or several years into your career, stay involved:
                     </p>
-                    <p className='text-xl md:text-2xl text-booth-dark-gray font-trade-gothic-light mb-4'><strong>Join the Alumni Network</strong></p>
-                    <p className='text-xl md:text-2xl text-booth-dark-gray font-trade-gothic-light mb-4'><strong>Share Your Story</strong></p>
+                    <p className='text-xl md:text-2xl text-booth-dark-gray font-trade-gothic-light mb-3'><strong>Join the Alumni Network</strong></p>
+                    <p className='text-xl md:text-2xl text-booth-dark-gray font-trade-gothic-light mb-3'><strong>Share Your Story</strong></p>
                 </div>
 
                 <div className='space-y-4 mb-6'>

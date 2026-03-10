@@ -28,7 +28,7 @@ export default function ProgramExperienceSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-8">
           <div className="relative h-64 md:h-80">
             <Image
-              src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop"
+              src="/images/program/academic-experience.webp"
               alt="Students working on finance projects"
               fill
               className="object-cover rounded"

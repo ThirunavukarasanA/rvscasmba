@@ -2,13 +2,13 @@ import Image from 'next/image'
 export default function CareerOutcomesPlacementSupport() {
     return (
         <section className="py-8 md:py-20 bg-white">
-            <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
+            <div className="w-full max-w-full min-[700px]:max-w-[70%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
                 <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-center">
                     <div className="flex-shrink-0 w-full md:w-[45%]">
                         {/* <Link href="/thinking-like-a-financial-analyst" className="block group"> */}
                         <div className="relative aspect-video overflow-hidden">
                             <Image
-                                src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=450&fit=crop"
+                                src="/images/program/career-outcomes.webp"
                                 alt="Career Outcomes & Placement Support"
                                 width={800}
                                 height={450}
