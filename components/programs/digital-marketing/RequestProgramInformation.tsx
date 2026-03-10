@@ -131,7 +131,7 @@ export default function RequestProgramInformation() {
     },
     {
       title: "Contact Us",
-      href: "#",
+      href: "/contact",
       icon: (
         <svg
           width="80"

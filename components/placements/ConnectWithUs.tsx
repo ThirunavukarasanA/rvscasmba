@@ -14,9 +14,9 @@ export default function ConnectWithUs() {
                     </p>
                 </div>
 
-                <div className='space-y-4 mb-6'>
+                <div className='space-y-2.5 mb-6'>
                     <div className='flex items-baseline justify-start gap-1.5'>
-                        <h3 className="text-xl md:text-2xl font-trade-gothic-bold text-booth-dark-gray mb-2">
+                        <h3 className="text-lg md:text-xl font-trade-gothic-bold text-booth-dark-gray mb-2">
                             Placement Officer Name:
                         </h3>
                         <span className="text-lg transition-all duration-300 md:text-xl text-booth-dark-gray font-trade-gothic-light">
@@ -24,7 +24,7 @@ export default function ConnectWithUs() {
                         </span>
                     </div>
                     <div className='flex items-baseline justify-start gap-1.5'>
-                        <h3 className="text-xl md:text-2xl font-trade-gothic-bold text-booth-dark-gray mb-2">
+                        <h3 className="text-lg md:text-xl font-trade-gothic-bold text-booth-dark-gray mb-2">
                             Phone Number:
                         </h3>
                         <a href="tel:+919750915171" className="text-lg hover:text-booth-maroon hover:underline transition-all duration-300 md:text-xl text-booth-dark-gray font-trade-gothic-light">
@@ -32,7 +32,7 @@ export default function ConnectWithUs() {
                         </a>
                     </div>
                     <div className='flex items-baseline justify-start gap-1.5'>
-                        <h3 className="text-xl md:text-2xl font-trade-gothic-bold text-booth-dark-gray mb-2">
+                        <h3 className="text-lg md:text-xl font-trade-gothic-bold text-booth-dark-gray mb-2">
                             Email:
                         </h3>
                         <a href="mailto:sharankrishnan@rvsgroup.com" className="text-lg hover:text-booth-maroon hover:underline transition-all duration-300 md:text-xl text-booth-dark-gray font-trade-gothic-light">

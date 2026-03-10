@@ -24,7 +24,7 @@ export default function CurrentOpenings() {
                             Full-Time | MBA Department
                         </p>
                         <Link
-                            href="#"
+                            href="https://admissions.rvscas.ac.in/"
                             className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline"
                         >
                             Apply Now
@@ -51,7 +51,7 @@ export default function CurrentOpenings() {
                             Full-Time | MBA Department
                         </p>
                         <Link
-                            href="#"
+                            href="https://admissions.rvscas.ac.in/"
                             className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline"
                         >
                             Apply Now
@@ -78,7 +78,7 @@ export default function CurrentOpenings() {
                             Full-Time | Career Services
                         </p>
                         <Link
-                            href="#"
+                            href="https://admissions.rvscas.ac.in/"
                             className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline"
                         >
                             Apply Now

@@ -202,22 +202,9 @@ export default function Footer() {
             </Link>
           </div>
           <div>
-            <button className="border-2 border-booth-maroon bg-white text-booth-maroon px-2 md:px-4 py-2 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-xs md:text-sm w-full h-full flex items-center justify-center gap-1 leading-tight">
-              ALUMNI REGISTER
-              {/* <svg
-                className="w-3 h-3"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                />
-              </svg> */}
-            </button>
+            <Link href='/alumni' className="border-2 border-booth-maroon bg-white text-booth-maroon px-2 md:px-4 py-2 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-xs md:text-sm w-full h-full flex items-center justify-center gap-1 leading-tight">
+              ALUMNI CONNECT
+            </Link>
           </div>
         </div>
 
@@ -302,7 +289,7 @@ export default function Footer() {
               </Link>
               {/* LinkedIn */}
               <Link
-                href="https://www.linkedin.com/company/rvssulur-cas/"
+                href="https://www.linkedin.com/school/rvssulur-mba/"
                 className="w-8 h-8 bg-blue-700 rounded flex items-center justify-center text-white font-bold text-xs"
                 aria-label="LinkedIn"
               >

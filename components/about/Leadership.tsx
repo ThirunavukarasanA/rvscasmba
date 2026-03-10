@@ -21,7 +21,7 @@ export default function Leadership() {
                             <p className="text-lg md:text-xl text-booth-light-gray font-trade-gothic-light mb-4">
                                 Under the stewardship of <strong>Dr. K. Senthil Ganesh</strong>, Managing Trustee of RVS Educational Institutions, the group has expanded significantly while embracing technology-driven reform. With over 25 years of leadership experience across strategy, finance, and marketing, he has positioned RVS institutions toward curriculum modernization and industry integration.
                             </p>
-                            <Link href="" className="text-base flex items-center gap-3 underline md:text-lg text-booth-maroon font-trade-gothic-bold mb-4">Read More <BsArrowRight className="w-[18px] h-[18px]" strokeWidth={0.5} /></Link>
+                            <Link href="https://rvscasmba.vercel.app/faculty/dr-k-senthil-ganesh" className="text-base flex items-center gap-3 underline md:text-lg text-booth-maroon font-trade-gothic-bold mb-4">Read More <BsArrowRight className="w-[18px] h-[18px]" strokeWidth={0.5} /></Link>
                             {/* <p className="text-lg md:text-xl text-booth-light-gray font-trade-gothic-light">
                                 Academic leadership in the MBA program includes distinguished scholars and administrators with doctoral credentials, extensive experience in public policy and management, and strong industry engagement. Faculty leadership emphasizes academic discipline, applied research, and structured mentorship.
                             </p> */}

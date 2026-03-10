@@ -38,7 +38,7 @@ export default function page() {
                 button1='Explore the HR Curriculum'
                 button2='Apply Now'
                 button1Link='/request-information'
-                button2Link='/how-to-apply'
+                button2Link='https://admissions.rvscas.ac.in/'
             />
             <WhyProgramSection />
             <ProgramExperienceSection />

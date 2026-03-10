@@ -13,10 +13,10 @@ export default function ContactDetails() {
                     <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
                         <strong>RVS College of Arts and Science – MBA</strong>
                     </p>
-                    <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+                    <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light">
                         Sulur, Coimbatore, Tamil Nadu
                     </p>
-                    <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+                    <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light">
                         For program inquiries, admissions support, or academic information:
                     </p>
                     <div>

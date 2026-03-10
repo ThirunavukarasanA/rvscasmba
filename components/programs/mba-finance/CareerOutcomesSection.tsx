@@ -82,23 +82,23 @@ const items = [
         type: "paragraph" as const,
         text: (
           <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            Year 1: Build financial foundations and analytical reasoning
+            Graduates typically progress through capability-based financial roles.
           </p>
         ),
+      },
+      {
+        type: "list" as const,
+        items: [
+          "Entry-level roles such as Financial Analyst, Banking Associate, or Credit Analyst",
+          "Specialized roles in investment analysis, financial planning, risk management, or corporate finance",
+          "Strategic or managerial responsibilities in finance, investment management, or treasury with experience",
+        ],
       },
       {
         type: "paragraph" as const,
         text: (
           <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            Summer Break: Internship Offer with faculty support
-          </p>
-        ),
-      },
-      {
-        type: "paragraph" as const,
-        text: (
-          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            Year 2: Apply frameworks in real signals, cases, and projects
+            The program develops analytical judgment and financial decision-making capability for long-term career growth, not just initial placement.
           </p>
         ),
       },

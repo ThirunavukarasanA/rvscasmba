@@ -49,7 +49,7 @@ export default function Header() {
                   href="/about"
                   className={`${pathname === "/about" ? "border-b-4 border-white" : ""} text-white hover:text-gray-300 font-trade-gothic-light`}
                 >
-                  About RVS CAS MBA
+                  RVS CAS MBA
                 </Link>
                 <Link
                   href="/programs"
@@ -376,10 +376,10 @@ export default function Header() {
                   Apply
                 </Link>
                 <Link
-                  href="#"
+                  href="/internships"
                   className="py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
                 >
-                  Privacy Policy
+                  Internships
                   <svg
                     className="w-4 h-4"
                     fill="none"
