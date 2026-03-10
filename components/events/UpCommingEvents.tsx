@@ -9,18 +9,18 @@ const insights = [
             "/images/Social/onam.webp",
     },
     {
-        title: "Industry Talk / Seminar Highlight",
+        title: "Vidhyarambha 2025 is here!",
         description:
-            "Explore key insights from industry leaders and seminars that shape modern business thinking.",
+            "RVS College of Arts and Science is all set to welcome the incoming MBA batch with VIDYARAMBHA 2025 — an inspiring and engaging orientation program scheduled from 15th July to 21st July 2025.",
         image:
-            "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop",
+            "/images/Social/Vidyarambha_2025.webp",
     },
     {
-        title: "Student Research or Case Study",
+        title: "Campus to Corporate - Bridge Program",
         description:
-            "Discover how our students are applying management principles to solve real-world business challenges.",
+            "RVS College of Arts & Science (RVS CAS MBA) successfully organized the 'Campus to Corporate - Bridge Program' on 01 Aug 2024, at 9:30 am in the prestigious VM Hall.",
         image:
-            "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&fit=crop",
+            "/images/Social/campus-to-corporate.webp",
     },
 ];
 export default function UpCommingEvents() {
@@ -53,7 +53,7 @@ export default function UpCommingEvents() {
                                 <h3 className="text-lg md:text-xl font-trade-gothic-bold text-booth-dark-gray mb-2 md:mb-3">
                                     {insight.title}
                                 </h3>
-                                <p className="text-booth-light-gray mb-2 md:mb-4 font-trade-gothic-light text-base">
+                                <p className="text-booth-light-gray mb-2 md:mb-4 font-trade-gothic-light text-base line-clamp-2">
                                     {insight.description}
                                 </p>
                                 <Link

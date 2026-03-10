@@ -2,25 +2,40 @@ import Image from "next/image";
 import Link from "next/link";
 const insights = [
     {
-        title: "Faculty Article / Thought Leadership",
+        title: "DIJO PHILIP",
+        batch: "(Batch 2015-17)",
         description:
-            "Our faculty share their research and insights on management, technology, and business in the digital era.",
+            "Chief Business Development Officer Box Room Innovations",
         image:
-            "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=600&h=400&fit=crop",
+            "/images/alumni/dijo.jpg",
+        place: "Cochin",
     },
     {
-        title: "Industry Talk / Seminar Highlight",
+        title: "ABHIRAJ",
+        batch: "(Batch 2015-17)",
         description:
-            "Explore key insights from industry leaders and seminars that shape modern business thinking.",
+            "Tax Analyst Ernst & Young",
         image:
-            "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop",
+            "/images/alumni/abhiraj.jpg",
+        place: "Bangalore",
     },
     {
-        title: "Student Research or Case Study",
+        title: "PARTHIBAN",
+        batch: "(Batch 2014-16)",
         description:
-            "Discover how our students are applying management principles to solve real-world business challenges.",
+            "Assistant Manager – Projects Sundaram Finance",
         image:
-            "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&fit=crop",
+            "/images/alumni/parthiban.jpg",
+        place: "Chennai",
+    },
+    {
+        title: "PREDEESH K. VARGHESE",
+        batch: "(Batch 2015-17)",
+        description:
+            "Resource Specialist NewAgeSys Solutions P.Ltd.,",
+        image:
+            "/images/alumni/predeesh.jpg",
+        place: "Cochin",
     },
 ];
 export default function AlumniStories() {
@@ -38,25 +53,30 @@ export default function AlumniStories() {
                     </p> */}
                 </div>
 
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 mt-6 md:mt-12">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mt-6 md:mt-12">
                     {insights.map((insight, index) => (
                         <div key={index} className="bg-booth-bg-gray shadow-md hover:scale-105 transition-all hover:shadow-xl p-3 overflow-hidden">
-                            <div className="relative h-40 md:h-64">
+                            <div className="relative h-40 md:h-60">
                                 <Image
                                     src={insight.image}
-                                    alt={insight.title}
-                                    fill
-                                    className="object-cover"
+                                    alt={insight.title} fill
+                                    className="object-cover object-top"
                                 />
                             </div>
                             <div className="py-2 md:py-6">
                                 <h3 className="text-lg md:text-xl font-trade-gothic-bold text-booth-dark-gray mb-2 md:mb-3">
                                     {insight.title}
                                 </h3>
-                                <p className="text-booth-light-gray mb-2 md:mb-4 font-trade-gothic-light text-base">
+                                <p className="text-booth-dark-gray mb-2 md:mb-4 font-trade-gothic-light text-base">
+                                    <strong>{insight.batch}</strong>
+                                </p>
+                                <p className="text-booth-maroon mb-2 md:mb-4 font-trade-gothic-light text-base">
                                     {insight.description}
                                 </p>
-                                <Link
+                                <p className="text-booth-dark-gray mb-2 md:mb-4 font-trade-gothic-bold text-base">
+                                    {insight.place}
+                                </p>
+                                {/* <Link
                                     href="#"
                                     className="inline-flex items-center gap-2 text-booth-maroon font-medium hover:underline"
                                 >
@@ -74,7 +94,7 @@ export default function AlumniStories() {
                                             d="M9 5l7 7-7 7"
                                         />
                                     </svg>
-                                </Link>
+                                </Link> */}
                             </div>
                         </div>
                     ))}
