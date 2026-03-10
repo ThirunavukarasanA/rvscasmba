@@ -41,7 +41,7 @@ export default function HeroSection({
             src={image}
             alt={title}
             fill
-            className="object-cover"
+            className="object-cover object-top"
             priority
           />
           {/* <div className="absolute inset-0 bg-black bg-opacity-30"></div> */}
@@ -380,12 +380,12 @@ export default function HeroSection({
         </div>
 
         {/* Hero Image */}
-        <div className="relative h-[250px] w-full">
+        <div className="relative h-[400px] w-full">
           <Image
             src={image}
             alt={title}
             fill
-            className="object-cover"
+            className="object-cover object-top"
             priority
           />
         </div>

@@ -5,32 +5,32 @@ const programs = [
         title: "Business Analytics",
         description: "Transforming data into strategic business insight.",
         image:
-            "/images/business-analytics.png",
+            "/images/program/business-analytics.png",
     },
     {
         title: "Digital Marketing",
         description:
             "Designing performance-driven marketing and growth strategies.",
         image:
-            "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f",
+            "/images/program/digital-marketing.png",
     },
     {
         title: "Human Resources",
         description: "Shaping people strategy, culture, and organizational performance.",
         image:
-            "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1471&auto=format&fit=crop",
+            "/images/program/hr.png",
     },
     {
         title: "Applied Finance",
         description: "Building financial expertise aligned with modern markets and fintech innovation.",
         image:
-            "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1920&h=1080&fit=crop",
+            "/images/program/applied-finance.png",
     },
     {
         title: "Logistics & Supply Chain Management",
         description: "Designing efficient, resilient, and globally integrated supply systems.",
         image:
-            "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=400&h=400&fit=crop",
+            "/images/program/logistics.png",
     },
 ];
 export default function SpecializationHighlights() {

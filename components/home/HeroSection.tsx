@@ -38,7 +38,7 @@ export default function HeroSection() {
 
         {/* Mobile View */}
         <div className="block lg:hidden bg-white">
-          <div className="relative h-[250px] w-full">
+          <div className="relative h-[300px] w-full">
             <Image
               src="/images/herosection/home-img1.webp"
               alt="University campus aerial view"
@@ -49,7 +49,7 @@ export default function HeroSection() {
           </div>
           <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
             <div className="py-12">
-              <h1 className="text-[2.5rem] leading-tight font-trade-gothic-bold text-booth-dark-gray mb-4">
+              <h1 className="text-4xl md:text-6xl font-trade-gothic-bold text-booth-dark-gray mb-4">
                 Education for Digital Era.
               </h1>
               <div className="w-16 h-1 bg-booth-maroon mb-6"></div>

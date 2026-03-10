@@ -143,7 +143,7 @@ export default function Header() {
             <div className="lg:hidden flex items-center">
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="text-booth-maroon hover:text-gray-300"
+                className="text-booth-maroon hover:text-gray-800"
                 aria-label="Menu"
               >
                 <svg

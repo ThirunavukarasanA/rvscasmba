@@ -28,7 +28,7 @@ export default function MBAAppliedFinancePage() {
         description1={<>Learn to think, analyze, and decide like a financial analyst</>}
         description2={<>A practice-driven MBA at RVS CAS MBA is designed around real financial decision-making rather than textbook theory. The program develops analyst-style thinking, emphasizes company and valuation-led learning, and is delivered through a faculty-led approach that prioritizes clarity, judgment, and application over content-heavy instruction.</>}
         description3=''
-        image="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1920&h=1080&fit=crop"
+        image="/images/herosection/new/finance.png"
         button1="Explore Program Structure"
         button2="Apply Now"
         button1Link="/request-information"

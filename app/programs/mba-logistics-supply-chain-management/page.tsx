@@ -34,7 +34,7 @@ export default function page() {
                     </>
                 }
                 description3=''
-                image='/images/herosection/logistics.webp'
+                image='/images/herosection/new/logistics.png'
                 // image='https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1471&auto=format&fit=crop'
                 button1='Explore the Curriculum'
                 button2='Apply Now'

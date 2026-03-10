@@ -45,7 +45,7 @@ export default function StoriesSection() {
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 mt-6 md:mt-12">
           {stories.map((story, index) => (
-            <div key={index} className="bg-white shadow-sm overflow-hidden">
+            <div key={index} className="bg-white shadow-md hover:scale-105 transition-all hover:shadow-xl p-3 overflow-hidden">
               <div className="relative h-40 md:h-64">
                 <Image
                   src={story.image}

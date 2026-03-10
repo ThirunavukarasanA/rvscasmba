@@ -34,7 +34,7 @@ export default function page() {
                     </>
                 }
                 description3=''
-                image='https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1471&auto=format&fit=crop'
+                image='/images/herosection/new/hr.png'
                 button1='Explore the HR Curriculum'
                 button2='Apply Now'
                 button1Link='/request-information'
