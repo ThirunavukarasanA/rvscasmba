@@ -16,23 +16,26 @@ export default function Header() {
   return (
     <>
       {/* Top Thin Red Strip - Sticky */}
-      <div className="sticky top-0 z-50 bg-booth-maroon h-1"></div>
+      <div className="sticky top-0 z-50 bg-booth-maroon lg:h-1 h-2"></div>
       {/* Main Navigation - Semi-transparent over hero */}
-      <nav className="absolute top-1 left-0 right-0 z-40 bg-black bg-opacity-50 backdrop-blur-sm">
-        <div className="w-full max-w-full min-[700px]:max-w-[100%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12 py-4">
+      <nav className="relative lg:absolute top-0 lg:top-1 left-0 right-0 z-40 bg-white lg:bg-black lg:bg-opacity-50 backdrop-blur-sm">
+        <div className="w-full max-w-full min-[700px]:max-w-[100%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12 py-2">
           <div className="flex items-center justify-between">
             {/* Left Side: Logo + 4 Primary Links */}
             <div className="flex items-center gap-4">
               {/* Logo Section */}
               <Link href="/" className="flex items-center gap-3">
-                <div>
+                <div className="hidden lg:block">
                   <Image src="/images/header/RVSCAS_Logo.svg" alt="Logo" width={55} height={55} className="object-contain" />
                 </div>
+                <div className="block lg:hidden">
+                  <Image src="/images/header/RVSCAS_Logo_Black.svg" alt="Logo" width={55} height={55} className="object-contain" />
+                </div>
                 <div>
-                  <div className="font-trade-gothic-bold text-white text-lg">
+                  <div className="font-trade-gothic-bold lg:text-white text-black text-lg">
                     RVS CAS MBA
                   </div>
-                  <div className="text-white text-xs font-trade-gothic-light">
+                  <div className="lg:text-white text-black text-xs font-trade-gothic-light">
                     RVS COLLEGE OF ARTS & SCIENCE
                   </div>
                 </div>
@@ -140,7 +143,7 @@ export default function Header() {
             <div className="lg:hidden flex items-center">
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="text-white hover:text-gray-300"
+                className="text-booth-maroon hover:text-gray-300"
                 aria-label="Menu"
               >
                 <svg

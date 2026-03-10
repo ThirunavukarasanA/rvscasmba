@@ -4,42 +4,56 @@ export default function HeroSection() {
   return (
     <>
       {/* Hero Section 1 - Title and description on image bottom left */}
-      <section className="relative md:h-[88svh] h-screen">
-        <div className="absolute inset-0 z-0 hidden md:block lg:block xl:block 2xl:block">
-          <Image
-            src="/images/herosection/home-img1.webp"
-            // src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1920&h=1080&fit=crop"
-            alt="University campus aerial view"
-            fill
-            className="object-cover"
-            priority
-          />
-          {/* <div className="absolute inset-0 bg-black bg-opacity-30"></div> */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-          {/* <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div> */}
+      <section className="relative bg-white">
+        {/* Desktop View */}
+        <div className="hidden lg:block relative h-[88svh]">
+          <div className="absolute inset-0 z-0">
+            <Image
+              src="/images/herosection/home-img1.webp"
+              // src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1920&h=1080&fit=crop"
+              alt="University campus aerial view"
+              fill
+              className="object-cover"
+              priority
+            />
+            {/* <div className="absolute inset-0 bg-black bg-opacity-30"></div> */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+            {/* <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div> */}
+          </div>
+          {/* Title and description overlay - bottom left aligned on image */}
+          <div className="relative z-10 h-full flex items-end">
+            <div className="w-full pb-16">
+              <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
+                <div className="w-16 h-0.5 bg-white mb-6"></div>
+                <h1 className="text-5xl md:text-7xl font-trade-gothic-bold text-white mb-6">
+                  Education for Digital Era.
+                </h1>
+                <p className="text-xl md:text-2xl text-white font-trade-gothic-light">
+                  RVS CAS MBA develops techno-managers who blend business discipline with technological fluency and analytical clarity to lead real-world decisions.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="absolute inset-0 z-0 md:hidden lg:hidden xl:hidden 2xl:hidden">
-          <Image
-            src="/images/herosection/home-img1-mobile.jpg"
-            // src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1920&h=1080&fit=crop"
-            alt="University campus aerial view"
-            fill
-            className="object-cover"
-            priority
-          />
-          {/* <div className="absolute inset-0 bg-black bg-opacity-30"></div> */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-          {/* <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div> */}
-        </div>
-        {/* Title and description overlay - bottom left aligned on image */}
-        <div className="relative z-10 h-full flex items-end">
-          <div className="w-full md:pb-16 pb-9">
-            <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
-              <div className="w-16 h-0.5 bg-white mb-6"></div>
-              <h1 className="text-5xl md:text-7xl font-trade-gothic-bold text-white mb-6">
+
+        {/* Mobile View */}
+        <div className="block lg:hidden bg-white">
+          <div className="relative h-[250px] w-full">
+            <Image
+              src="/images/herosection/home-img1.webp"
+              alt="University campus aerial view"
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
+          <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
+            <div className="py-12">
+              <h1 className="text-[2.5rem] leading-tight font-trade-gothic-bold text-booth-dark-gray mb-4">
                 Education for Digital Era.
               </h1>
-              <p className="text-xl md:text-2xl text-white font-trade-gothic-light">
+              <div className="w-16 h-1 bg-booth-maroon mb-6"></div>
+              <p className="text-lg text-booth-dark-gray font-trade-gothic-light">
                 RVS CAS MBA develops techno-managers who blend business discipline with technological fluency and analytical clarity to lead real-world decisions.
               </p>
             </div>
