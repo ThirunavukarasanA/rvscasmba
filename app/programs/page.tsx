@@ -19,7 +19,7 @@ export default function page() {
             <Header />
             <HeroSection
                 pageName="MBA Programs"
-                title='MBA Degree Programs'
+                title='MBA Degree Program'
                 description1={
                     <>
                         An integrated curriculum with flexibility and depth — for real careers in a digital era.

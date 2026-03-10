@@ -42,7 +42,7 @@ export default function ProgramsSection() {
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray">
-            Explore Our Programs / Specializations
+            Explore Our Specializations
           </h2>
         </div>
 
@@ -53,13 +53,15 @@ export default function ProgramsSection() {
               className="flex gap-3 md:gap-6 items-start pb-4 md:pb-8 border-b border-gray-200 last:border-b-0"
             >
               <div className="flex-shrink-0">
-                <Image
-                  src={program.image}
-                  alt={program.title}
-                  width={120}
-                  height={120}
-                  className="w-20 h-20 md:w-[120px] md:h-[120px]"
-                />
+                <Link href={program.title === "Applied Finance" ? "/programs/mba-applied-finance" : program.title === "Business Analytics" ? "/programs/mba-business-analytics" : program.title === "Digital Marketing" ? "/programs/mba-digital-marketing" : program.title === "Human Resources" ? "/programs/mba-human-resources" : program.title === "Logistics & Supply Chain Management" ? "/programs/mba-logistics-supply-chain-management" : "#"}>
+                  <Image
+                    src={program.image}
+                    alt={program.title}
+                    width={120}
+                    height={120}
+                    className="w-20 h-20 md:w-[120px] md:h-[120px]"
+                  />
+                </Link>
               </div>
               <div className="flex-1">
                 <h3 className="text-lg md:text-2xl font-trade-gothic-bold text-booth-dark-gray mb-2 md:mb-3">

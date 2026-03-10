@@ -7,10 +7,10 @@ export default function FinalCTASection() {
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-white mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-white mb-4">
-            Take the next step toward a analytics career.
+            Request Information / Apply
           </h2>
           <p className="text-lg md:text-xl text-white font-trade-gothic-light">
-            To explore specialization combinations, curriculum details, or application support.
+            To explore specialization combinations, curriculum details, or application support:
           </p>
         </div>
 

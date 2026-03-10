@@ -149,7 +149,7 @@ export default function Footer() {
           </div>
 
           {/* Column 4: Resources */}
-          <div>
+          {/* <div>
             <h3 className="font-trade-gothic-bold text-booth-maroon mb-3 md:mb-4">
               Resources
             </h3>
@@ -178,24 +178,8 @@ export default function Footer() {
                   Labs
                 </Link>
               </li>
-              {/* <li>
-                <Link
-                  href="#"
-                  className="text-booth-dark-gray hover:text-booth-maroon font-trade-gothic-light whitespace-nowrap"
-                >
-                  Sulur Campus
-                </Link>
-              </li> */}
-              {/* <li>
-                <Link
-                  href="#"
-                  className="text-booth-dark-gray hover:text-booth-maroon font-trade-gothic-light whitespace-nowrap"
-                >
-                  Coimbatore
-                </Link>
-              </li> */}
             </ul>
-          </div>
+          </div> */}
         </div>
 
         {/* First Three Buttons Row */}
@@ -274,7 +258,7 @@ export default function Footer() {
             <div className="flex gap-3 flex-wrap">
               {/* Facebook */}
               <Link
-                href="#"
+                href="https://www.facebook.com/rvssulur.mba/"
                 className="w-8 h-8 bg-blue-600 rounded flex items-center justify-center text-white font-bold text-xs"
                 aria-label="Facebook"
               >
@@ -282,7 +266,7 @@ export default function Footer() {
               </Link>
               {/* Instagram */}
               <Link
-                href="#"
+                href="https://www.instagram.com/rvssulur.mba/"
                 className="w-8 h-8 bg-gradient-to-br from-purple-500 to-pink-500 rounded flex items-center justify-center text-white"
                 aria-label="Instagram"
               >
@@ -304,7 +288,7 @@ export default function Footer() {
               </Link> */}
               {/* YouTube */}
               <Link
-                href="#"
+                href="https://www.youtube.com/@rvssulur-mba"
                 className="w-8 h-8 bg-red-600 rounded flex items-center justify-center text-white"
                 aria-label="YouTube"
               >
@@ -318,7 +302,7 @@ export default function Footer() {
               </Link>
               {/* LinkedIn */}
               <Link
-                href="#"
+                href="https://www.linkedin.com/company/rvssulur-cas/"
                 className="w-8 h-8 bg-blue-700 rounded flex items-center justify-center text-white font-bold text-xs"
                 aria-label="LinkedIn"
               >

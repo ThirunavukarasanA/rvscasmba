@@ -9,7 +9,7 @@ export default function ContactDetails() {
                     </h2>
                 </div>
 
-                <div className="space-y-6">
+                <div className="space-y-3">
                     <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
                         <strong>RVS College of Arts and Science – MBA</strong>
                     </p>

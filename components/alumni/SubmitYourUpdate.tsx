@@ -144,7 +144,7 @@ export default function SubmitYourUpdate() {
                 <div className="mb-6 md:mb-10">
                     <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
                     <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
-                        Submit Your Update
+                        Share Your Career Journey
                     </h2>
                     <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
                         Alumni Directory | Achievements | Career Milestones | Industry Impact

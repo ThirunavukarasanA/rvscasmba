@@ -21,9 +21,10 @@ export default function Leadership() {
                             <p className="text-lg md:text-xl text-booth-light-gray font-trade-gothic-light mb-4">
                                 Under the stewardship of <strong>Dr. K. Senthil Ganesh</strong>, Managing Trustee of RVS Educational Institutions, the group has expanded significantly while embracing technology-driven reform. With over 25 years of leadership experience across strategy, finance, and marketing, he has positioned RVS institutions toward curriculum modernization and industry integration.
                             </p>
-                            <p className="text-lg md:text-xl text-booth-light-gray font-trade-gothic-light">
+                            <Link href="" className="text-base flex items-center gap-3 underline md:text-lg text-booth-maroon font-trade-gothic-bold mb-4">Read More <BsArrowRight className="w-[18px] h-[18px]" strokeWidth={0.5} /></Link>
+                            {/* <p className="text-lg md:text-xl text-booth-light-gray font-trade-gothic-light">
                                 Academic leadership in the MBA program includes distinguished scholars and administrators with doctoral credentials, extensive experience in public policy and management, and strong industry engagement. Faculty leadership emphasizes academic discipline, applied research, and structured mentorship.
-                            </p>
+                            </p> */}
                             {/* <p className="text-booth-light-gray font-trade-gothic-light text-base md:text-[17px] leading-relaxed transition-colors group-hover:text-booth-dark-gray">
                                 The vision of the MBA program is guided by leadership committed to educational transformation and digital relevance.
                                 <span className="inline-flex items-center justify-center ml-1.5 align-middle text-booth-maroon transition-transform duration-300 group-hover:translate-x-1.5">

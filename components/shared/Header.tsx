@@ -55,7 +55,7 @@ export default function Header() {
                   href="/programs"
                   className={`${isActive("/programs") ? "border-b-4 border-white" : ""} text-white hover:text-gray-300 font-trade-gothic-light`}
                 >
-                  Programs
+                  Program
                 </Link>
                 <Link
                   href="/admissions"

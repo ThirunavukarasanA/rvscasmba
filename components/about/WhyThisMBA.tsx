@@ -8,7 +8,7 @@ export default function WhyThisMBA() {
                         {/* <Link href="/thinking-like-a-financial-analyst" className="block group"> */}
                         <div className="relative aspect-video overflow-hidden">
                             <Image
-                                src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=450&fit=crop"
+                                src="/images/herosection/about.webp"
                                 alt="Thinking Like a Financial Analyst - Learning Series"
                                 width={800}
                                 height={450}
@@ -32,7 +32,7 @@ export default function WhyThisMBA() {
                         {/* <p className="text-booth-maroon font-trade-gothic-bold text-sm mb-4">
                                     A Learning Series by Dr. K. Senthil Ganesh
                                 </p> */}
-                        <p className="text-booth-dark-gray font-trade-gothic-light text-base md:text-lg mb-6">
+                        <p className="text-booth-dark-gray font-trade-gothic-light text-lg md:text-xl mb-6">
                             This is an MBA that prioritizes thinking before execution, analysis before answers, and impact before placement numbers. The dual specialization model enriches both breadth and depth — preparing graduates for careers that demand integrated competence, analytical clarity, and professional judgment.
                         </p>
                         {/* <p className="text-booth-dark-gray font-trade-gothic-light text-base md:text-lg mb-8">

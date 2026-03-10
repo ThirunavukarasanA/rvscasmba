@@ -8,8 +8,8 @@ import Header from "@/components/shared/Header";
 import HeroSection from "@/components/shared/HeroSection";
 import type { Metadata } from "next";
 export const metadata: Metadata = {
-    title: "Internships at RVS CAS MBA",
-    description: "Internships at RVS CAS MBA",
+    title: "Alumni at RVS CAS MBA",
+    description: "Alumni at RVS CAS MBA",
 };
 export default function page() {
     return (

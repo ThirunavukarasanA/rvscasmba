@@ -55,7 +55,7 @@ export default function LegacyAccreditation() {
                                 <span className="text-booth-maroon mt-1">•</span>
                                 <span>Digital transformation initiatives</span>
                             </div>
-                            <Image src="/images/about/indian.webp" alt="Digital Transformation" width={200} height={200} />
+                            <Image src="/images/about/moodle.png" alt="Digital Transformation" width={200} height={200} />
                         </li>
                     </ul>
                     <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">The emphasis is not only on institutional history, but on sustained relevance.</p>
