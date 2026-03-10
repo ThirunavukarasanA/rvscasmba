@@ -2,11 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 const insights = [
     {
-        title: "Faculty Article / Thought Leadership",
+        title: "Onam Celebration 2025",
         description:
-            "Our faculty share their research and insights on management, technology, and business in the digital era.",
+            "The School of Management Studies (PG) celebrated Onam 2025.",
         image:
-            "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=600&h=400&fit=crop",
+            "/images/Social/onam.webp",
     },
     {
         title: "Industry Talk / Seminar Highlight",
