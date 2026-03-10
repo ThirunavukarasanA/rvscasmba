@@ -27,12 +27,10 @@ export default function HeroSection({
     "MBA in Business Analytics",
     "MBA in Digital Marketing",
     "MBA in Human Resources",
-    "MBA Programs",
     "MBA in Supply Chain Management"
   ].includes(pageName);
 
   const containerWidthClass = `w-full max-w-full min-[700px]:max-w-[${isWidePage ? "70%" : "60%"}] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12`;
-
   return (
     <section className="relative bg-white">
       <div className="hidden lg:block relative h-[88svh]">
@@ -41,7 +39,7 @@ export default function HeroSection({
             src={image}
             alt={title}
             fill
-            className="object-cover object-top"
+            className={`object-cover ${isWidePage ? "object-top" : ""}`}
             priority
           />
           {/* <div className="absolute inset-0 bg-black bg-opacity-30"></div> */}
