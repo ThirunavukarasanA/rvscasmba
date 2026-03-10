@@ -4,7 +4,7 @@ import CurriculumAccordion from "./CurriculumAccordion";
 export default function DualSpecializationModel() {
     const curriculumData = [
         {
-            title: "Students choose two specializations from the following:",
+            title: "Students choose two specializations from the following",
             content: [
                 {
                     type: "paragraph" as const,

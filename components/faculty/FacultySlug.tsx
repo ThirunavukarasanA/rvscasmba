@@ -76,9 +76,9 @@ export default async function FacultySlug({ params }: { params: Promise<{ slug: 
                                     Vision
                                 </a>
                             )}
-                            {faculty.teachingAreas && (
+                            {(faculty.teachingAreasIntro || faculty.teachingAreas || faculty.teachingAreasOutro) && (
                                 <a href="#teaching-areas" className="text-lg text-booth-dark-gray font-trade-gothic-light border-b-2 border-booth-maroon pb-1 hover:text-booth-maroon transition-colors">
-                                    Teaching Areas
+                                    {faculty.teachingAreasTitle || "Teaching Areas"}
                                 </a>
                             )}
                             {faculty.professionalExpertise && (
@@ -93,7 +93,7 @@ export default async function FacultySlug({ params }: { params: Promise<{ slug: 
                             )}
                             {faculty.engagements && (
                                 <a href="#engagement" className="text-lg text-booth-dark-gray font-trade-gothic-light border-b-2 border-booth-maroon pb-1 hover:text-booth-maroon transition-colors">
-                                    Engagement
+                                    {faculty.engagementTitle || "Engagement"}
                                 </a>
                             )}
                             {faculty.advancedPrograms && (
@@ -108,7 +108,7 @@ export default async function FacultySlug({ params }: { params: Promise<{ slug: 
                             )}
                             {faculty.publications && (
                                 <a href="#publications" className="text-lg text-booth-dark-gray font-trade-gothic-light border-b-2 border-booth-maroon pb-1 hover:text-booth-maroon transition-colors">
-                                    Publications
+                                    {faculty.publicationsTitle || "Research & Publications"}
                                 </a>
                             )}
                             {faculty.conferences && (
@@ -163,33 +163,47 @@ export default async function FacultySlug({ params }: { params: Promise<{ slug: 
                                 </div>
                                 <div className="space-y-4">
                                     {faculty.bio.map((paragraph, index) => (
-                                        <p key={index} className="text-base text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-                                            {paragraph}
-                                        </p>
+                                        <p 
+                                            key={index} 
+                                            className="text-base text-booth-dark-gray font-trade-gothic-light leading-relaxed"
+                                            dangerouslySetInnerHTML={{ __html: paragraph }}
+                                        />
                                     ))}
                                 </div>
                             </div>
                         )}
 
                         {/* Teaching Areas */}
-                        {faculty.teachingAreas && (
+                        {(faculty.teachingAreasIntro || faculty.teachingAreas || faculty.teachingAreasOutro) && (
                             <div id="teaching-areas" className="pt-8 border-t border-gray-200">
                                 <div className="flex flex-col gap-4 mb-6">
                                     <div className="w-12 md:w-16 h-[3px] md:h-[4px] bg-[#900000] shrink-0"></div>
                                     <h2 className="text-2xl md:text-3xl font-trade-gothic-bold text-booth-dark-gray tracking-wide">
-                                        Teaching Areas
+                                        {faculty.teachingAreasTitle || "Teaching Areas"}
                                     </h2>
                                 </div>
-                                <ul className="space-y-2">
-                                    {faculty.teachingAreas.map((area, index) => (
-                                        <li key={index} className="flex items-start gap-2">
-                                            <span className="text-booth-maroon leading-relaxed">•</span>
-                                            <span className="text-base text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-                                                {area}
-                                            </span>
-                                        </li>
-                                    ))}
-                                </ul>
+                                {faculty.teachingAreasIntro && (
+                                    <p className="text-base text-booth-dark-gray font-trade-gothic-light leading-relaxed mb-4">
+                                        {faculty.teachingAreasIntro}
+                                    </p>
+                                )}
+                                {faculty.teachingAreas && (
+                                    <ul className={`space-y-2 ${faculty.teachingAreasOutro ? 'mb-4' : ''}`}>
+                                        {faculty.teachingAreas.map((area, index) => (
+                                            <li key={index} className="flex items-start gap-2 ml-4">
+                                                <span className="text-booth-maroon leading-relaxed shrink-0">•</span>
+                                                <span className="text-base text-booth-dark-gray font-trade-gothic-light leading-relaxed">
+                                                    {area}
+                                                </span>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                )}
+                                {faculty.teachingAreasOutro && (
+                                    <p className="text-base text-booth-dark-gray font-trade-gothic-light leading-relaxed mt-4">
+                                        {faculty.teachingAreasOutro}
+                                    </p>
+                                )}
                             </div>
                         )}
 
@@ -287,7 +301,7 @@ export default async function FacultySlug({ params }: { params: Promise<{ slug: 
                                 <div className="flex flex-col gap-4 mb-6">
                                     <div className="w-12 md:w-16 h-[3px] md:h-[4px] bg-[#900000] shrink-0"></div>
                                     <h2 className="text-2xl md:text-3xl font-trade-gothic-bold text-booth-dark-gray tracking-wide">
-                                        Engagement
+                                        {faculty.engagementTitle || "Engagement"}
                                     </h2>
                                 </div>
                                 <ul className="space-y-4">
@@ -304,24 +318,37 @@ export default async function FacultySlug({ params }: { params: Promise<{ slug: 
                         )}
 
                         {/* Publications */}
-                        {faculty.publications && (
+                        {(faculty.publicationsIntro || faculty.publications || faculty.publicationsOutro) && (
                             <div id="publications" className="pt-8 border-t border-gray-200">
                                 <div className="flex flex-col gap-4 mb-6">
                                     <div className="w-12 md:w-16 h-[3px] md:h-[4px] bg-[#900000] shrink-0"></div>
                                     <h2 className="text-2xl md:text-3xl font-trade-gothic-bold text-booth-dark-gray tracking-wide">
-                                        Publications
+                                        {faculty.publicationsTitle || "Research & Publications"}
                                     </h2>
                                 </div>
-                                <ul className="space-y-4">
-                                    {faculty.publications.map((publication, index) => (
-                                        <li key={index} className="flex items-start gap-2">
-                                            <span className="text-booth-maroon leading-relaxed">•</span>
-                                            <span className="text-base text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-                                                {publication}
-                                            </span>
-                                        </li>
-                                    ))}
-                                </ul>
+                                {faculty.publicationsIntro && (
+                                    <p className="text-base text-booth-dark-gray font-trade-gothic-light leading-relaxed mb-4">
+                                        {faculty.publicationsIntro}
+                                    </p>
+                                )}
+                                {faculty.publications && (
+                                    <ul className={`space-y-4 ${faculty.publicationsOutro ? 'mb-4' : ''}`}>
+                                        {faculty.publications.map((publication, index) => (
+                                            <li key={index} className="flex items-start gap-2 ml-4">
+                                                <span className="text-booth-maroon leading-relaxed shrink-0">•</span>
+                                                <span 
+                                                    className="text-base text-booth-dark-gray font-trade-gothic-light leading-relaxed"
+                                                    dangerouslySetInnerHTML={{ __html: publication }}
+                                                />
+                                            </li>
+                                        ))}
+                                    </ul>
+                                )}
+                                {faculty.publicationsOutro && (
+                                    <p className="text-base text-booth-dark-gray font-trade-gothic-light leading-relaxed mt-4">
+                                        {faculty.publicationsOutro}
+                                    </p>
+                                )}
                             </div>
                         )}
 
@@ -387,9 +414,10 @@ export default async function FacultySlug({ params }: { params: Promise<{ slug: 
                                         Commitment to Lifelong Learning
                                     </h2>
                                 </div>
-                                <p className="text-base text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-                                    {faculty.lifelongLearning}
-                                </p>
+                                <p
+                                    className="text-base text-booth-dark-gray font-trade-gothic-light leading-relaxed"
+                                    dangerouslySetInnerHTML={{ __html: faculty.lifelongLearning }}
+                                />
                             </div>
                         )}
 
@@ -404,9 +432,11 @@ export default async function FacultySlug({ params }: { params: Promise<{ slug: 
                                 </div>
                                 <div className="space-y-3">
                                     {faculty.industryExperience.map((exp, index) => (
-                                        <p key={index} className="text-base text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-                                            {exp}
-                                        </p>
+                                        <p 
+                                            key={index} 
+                                            className="text-base text-booth-dark-gray font-trade-gothic-light leading-relaxed"
+                                            dangerouslySetInnerHTML={{ __html: exp }}
+                                        />
                                     ))}
                                 </div>
                             </div>
@@ -425,9 +455,10 @@ export default async function FacultySlug({ params }: { params: Promise<{ slug: 
                                     {faculty.academicBackground.map((degree, index) => (
                                         <li key={index} className="flex items-start gap-2">
                                             <span className="text-booth-maroon leading-relaxed">•</span>
-                                            <span className="text-base text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-                                                {degree}
-                                            </span>
+                                            <span 
+                                                className="text-base text-booth-dark-gray font-trade-gothic-light leading-relaxed"
+                                                dangerouslySetInnerHTML={{ __html: degree }}
+                                            />
                                         </li>
                                     ))}
                                 </ul>
@@ -443,9 +474,10 @@ export default async function FacultySlug({ params }: { params: Promise<{ slug: 
                                         Vision
                                     </h2>
                                 </div>
-                                <p className="text-base text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-                                    {faculty.vision}
-                                </p>
+                                <p 
+                                    className="text-base text-booth-dark-gray font-trade-gothic-light leading-relaxed" 
+                                    dangerouslySetInnerHTML={{ __html: faculty.vision }}
+                                />
                             </div>
                         )}
                     </div>

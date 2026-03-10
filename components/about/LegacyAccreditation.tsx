@@ -1,7 +1,29 @@
+'use client';
+
 import Image from 'next/image'
 import React from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 export default function LegacyAccreditation() {
+    const swiperConfig = {
+        modules: [Autoplay, Navigation, Pagination],
+        spaceBetween: 30,
+        slidesPerView: 1,
+        breakpoints: {
+            640: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+        },
+        autoplay: { delay: 3000, disableOnInteraction: false },
+        navigation: true,
+        pagination: { clickable: true },
+        loop: true,
+        className: "w-full mt-4 pb-16 pt-2 px-12 md:px-16"
+    };
+
     return (
         <section className="py-8 md:py-20 bg-booth-bg-gray">
             <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
@@ -12,53 +34,104 @@ export default function LegacyAccreditation() {
                     </h2>
                 </div>
 
-                <div className="space-y-6">
-                    <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+                <div className="space-y-6 flex flex-col items-center">
+                    <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light w-full">
                         RVS College of Arts and Science is affiliated with Bharathiar University and operates within recognized academic frameworks that ensure quality and compliance.
                     </p>
-                    <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+                    <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light w-full">
                         Over the years, the institution has received multiple recognitions and rankings, reflecting its growing academic stature. The MBA program builds on this legacy by integrating:
                     </p>
-                    <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
+                    <ul className="space-y-12 text-booth-dark-gray font-trade-gothic-light w-full">
                         <li className="">
-                            <div className='flex items-center gap-2'>
+                            <div className='flex items-center gap-2 mb-4'>
                                 <span className="text-booth-maroon mt-1">•</span>
-                                <span>Industry partnerships</span>
+                                <span className='text-base md:text-lg'><strong>Industry partnerships</strong></span>
                             </div>
-                            <Image
-                                src="/images/about/siliconIndia.webp"
-                                alt="Industry Partnerships"
-                                width={200}
-                                height={200}
-                                className='' />
+                            <Swiper {...swiperConfig} style={{
+                                "--swiper-navigation-color": "#900000",
+                                "--swiper-pagination-color": "#900000",
+                                "--swiper-navigation-size": "24px"
+                            } as React.CSSProperties}>
+                                <SwiperSlide className="flex items-center justify-center">
+                                    <Image src="/images/industry-connect/finshiksha.png" alt="Industry Partnerships" width={200} height={200} className="mx-auto" />
+                                </SwiperSlide>
+                                <SwiperSlide className="flex items-center justify-center">
+                                    <Image src="/images/industry-connect/cii.png" alt="Rankings" width={200} height={200} className="mx-auto" />
+                                </SwiperSlide>
+                                <SwiperSlide className="flex items-center justify-center">
+                                    <Image src="/images/industry-connect/stukent.webp" alt="Rankings" width={200} height={200} className="mx-auto" />
+                                </SwiperSlide>
+                                <SwiperSlide className="flex items-center justify-center">
+                                    <Image src="/images/industry-connect/trainedge.webp" alt="Rankings" width={200} height={200} className="mx-auto" />
+                                </SwiperSlide>
+                                <SwiperSlide className="flex items-center justify-center">
+                                    <Image src="/images/industry-connect/pipp.png" alt="Rankings" width={200} height={200} className="mx-auto" />
+                                </SwiperSlide>
+                                <SwiperSlide className="flex items-center justify-center">
+                                    <Image src="/images/industry-connect/ttlogo.png" alt="Rankings" width={200} height={200} className="mx-auto" />
+                                </SwiperSlide>
+                            </Swiper>
                         </li>
                         <li className="">
-                            <div className='flex items-center gap-2'>
+                            <div className='flex items-center gap-2 mb-4'>
                                 <span className="text-booth-maroon mt-1">•</span>
-                                <span>Rankings</span>
+                                <span className='text-base md:text-lg'><strong>Rankings</strong></span>
                             </div>
-                            <Image src="/images/about/the-week.webp" alt="Rankings" width={200} height={200} />
+                            <Swiper {...swiperConfig} style={{
+                                "--swiper-navigation-color": "#900000",
+                                "--swiper-pagination-color": "#900000",
+                                "--swiper-navigation-size": "24px"
+                            } as React.CSSProperties}>
+                                <SwiperSlide className="flex items-center justify-center">
+                                    <Image src="/images/about/ranking/aima.jpg" alt="Rankings" width={200} height={200} className="mx-auto" />
+                                </SwiperSlide>
+                                <SwiperSlide className="flex items-center justify-center">
+                                    <Image src="/images/about/ranking/best-10th-institutes.jpg" alt="Rankings" width={200} height={200} className="mx-auto" />
+                                </SwiperSlide>
+                                <SwiperSlide className="flex items-center justify-center">
+                                    <Image src="/images/about/ranking/careers360.jpg" alt="Rankings" width={200} height={200} className="mx-auto" />
+                                </SwiperSlide>
+                                <SwiperSlide className="flex items-center justify-center">
+                                    <Image src="/images/about/ranking/ranked-2nd-indianexpress.jpg" alt="Rankings" width={200} height={200} className="mx-auto" />
+                                </SwiperSlide>
+                                <SwiperSlide className="flex items-center justify-center">
+                                    <Image src="/images/about/ranking/ranked-2nd-thisweek.jpg" alt="Rankings" width={200} height={200} className="mx-auto" />
+                                </SwiperSlide>
+                                <SwiperSlide className="flex items-center justify-center">
+                                    <Image src="/images/about/ranking/ranked-9th-siliconindia.jpg" alt="Rankings" width={200} height={200} className="mx-auto" />
+                                </SwiperSlide>
+                            </Swiper>
                         </li>
                         <li className="">
-                            <div className='flex items-center gap-2 pb-2'>
+                            <div className='flex items-center gap-2 mb-4'>
                                 <span className="text-booth-maroon mt-1">•</span>
-                                <span>Accreditation</span>
+                                <span className='text-base md:text-lg'><strong>Accreditation</strong></span>
                             </div>
-                            <div className='flex flex-wrap items-center gap-4'>
-                                <Image src="/images/about/AICTE.webp" alt="Accreditation" width={200} height={200} />
-                                <Image src="/images/about/Bharathiyar.webp" alt="Accreditation" width={200} height={200} />
-                                <Image src="/images/about/NAAC.webp" alt="Accreditation" width={200} height={200} />
-                            </div>
+                            <Swiper {...swiperConfig} style={{
+                                "--swiper-navigation-color": "#900000",
+                                "--swiper-pagination-color": "#900000",
+                                "--swiper-navigation-size": "24px"
+                            } as React.CSSProperties}>
+                                <SwiperSlide className="flex items-center justify-center">
+                                    <Image src="/images/about/AICTE.webp" alt="Accreditation" width={200} height={200} className="mx-auto" />
+                                </SwiperSlide>
+                                <SwiperSlide className="flex items-center justify-center">
+                                    <Image src="/images/about/Bharathiyar.webp" alt="Accreditation" width={200} height={200} className="mx-auto" />
+                                </SwiperSlide>
+                                <SwiperSlide className="flex items-center justify-center">
+                                    <Image src="/images/about/NAAC.webp" alt="Accreditation" width={200} height={200} className="mx-auto" />
+                                </SwiperSlide>
+                            </Swiper>
                         </li>
                         <li className="">
-                            <div className='flex items-center gap-2'>
+                            <div className='flex items-center gap-2 mb-4'>
                                 <span className="text-booth-maroon mt-1">•</span>
-                                <span>Digital transformation initiatives</span>
+                                <span><strong>Digital transformation initiatives</strong></span>
                             </div>
-                            <Image src="/images/about/moodle.png" alt="Digital Transformation" width={200} height={200} />
+                            <Image src="/images/about/moodle.png" alt="Digital Transformation" width={200} height={200} className="mx-auto md:mx-0" />
                         </li>
                     </ul>
-                    <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">The emphasis is not only on institutional history, but on sustained relevance.</p>
+                    <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light w-full">The emphasis is not only on institutional history, but on sustained relevance.</p>
                 </div>
             </div>
         </section>

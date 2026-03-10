@@ -11,10 +11,17 @@ export interface FacultyMember {
   industryExperience?: string[];
   academicBackground?: string[];
   vision?: string;
+  teachingAreasTitle?: string;
+  teachingAreasIntro?: string;
   teachingAreas?: string[];
+  teachingAreasOutro?: string;
+  publicationsIntro?: string;
   publications?: string[];
+  publicationsOutro?: string;
   conferences?: string[];
   certifications?: string[];
+  publicationsTitle?: string;
+  engagementTitle?: string;
   engagements?: string[];
   advancedPrograms?: string[];
   projects?: string[];
@@ -24,7 +31,7 @@ export interface FacultyMember {
 export const facultyMembers: FacultyMember[] = [
   {
     name: "Dr. K. Senthil Ganesh",
-    title: "Associate Professor, Leadership & Strategy",
+    title: "Managing Trustee, RVS Educational Institutions",
     image: "/images/faculties/Trustee.png",
     academicArea: "Leadership & Strategy, Finance",
     slug: "dr-k-senthil-ganesh",
@@ -48,31 +55,32 @@ export const facultyMembers: FacultyMember[] = [
         items: [
           "Best College – Business Week (2008–09)",
           "Ranked among Top 100 B-Schools in India – Higher Education Review (2021)",
+          "As a recognition of his leadership in education, Dr. Senthil Ganesh also served as Chairman of CII, Coimbatore (2023–24), where he led collaborations between academia, industry, and government to strengthen regional development.",
         ],
       },
-      {
-        category: "Leadership Context",
-        items: [
-          "Served as Chairman of CII, Coimbatore (2023–24), leading collaborations between academia, industry, and government to strengthen regional development.",
-        ],
-      },
+      // {
+      //   category: "Leadership Context",
+      //   items: [
+      //     "As a recognition of his leadership in education, Dr. Senthil Ganesh also served as Chairman of CII, Coimbatore (2023–24), where he led collaborations between academia, industry, and government to strengthen regional development.",
+      //   ],
+      // },
     ],
     lifelongLearning:
-      "Dr. Ganesh is a constant learner and has completed over 20 global executive education programs from world-renowned institutions including MIT, Harvard, Oxford, Kellogg, London Business School, IMD, and ISB. His recent focus includes advanced programs in digital transformation, artificial intelligence, finance, real estate, and strategy, reflecting his commitment to bringing global insights into Indian higher education.",
+      "Dr. Ganesh is a constant learner and has completed over 20 global executive education programs from world-renowned institutions including <strong>MIT, Harvard, Oxford, Kellogg, London Business School, IMD, and ISB</strong>. His recent focus includes advanced programs in digital transformation, artificial intelligence, finance, real estate, and strategy, reflecting his commitment to bringing global insights into Indian higher education.",
     industryExperience: [
       "Prior to joining RVS full time, Dr. Ganesh worked in the US IT sector:",
-      "• Business Application Developer, Zales Corporation (1997–1998)",
-      "• Founder & Principal IT Consultant, Mantel Corporation (1998–2002), servicing Fortune 500 clients including Sprint and AT&T",
-      "• Technical Consultant, Cracker Barrel Inc. (RETEK ERP application)",
+      "• <strong class=\"\">Business Application Developer</strong>, Zales Corporation (1997–1998)",
+      "• <strong class=\"\">Founder & Principal IT Consultant</strong>, Mantel Corporation (1998–2002), servicing Fortune 500 clients including Sprint and AT&T",
+      "• <strong class=\"\">Technical Consultant</strong>, Cracker Barrel Inc. (RETEK ERP application)",
       "He continues to engage actively with industry as an investor and board member of Transform Tech, an EdTech company focused on online programs in Data Science, Artificial Intelligence, Digital Marketing, and IoT.",
     ],
     academicBackground: [
-      "Ph.D. in Management, Bharathiar University, India (2018)",
-      "M.Sc. Software Engineering, University of Westminster, UK (2004)",
-      "BBA, East Texas State University, USA (1995)",
+      "<strong class=\"\">Ph.D. in Management</strong>, Bharathiar University, India (2018)",
+      "<strong class=\"\">M.Sc. Software Engineering</strong>, University of Westminster, UK (2004)",
+      "<strong class=\"\">BBA</strong>, East Texas State University, USA (1995)",
     ],
     vision:
-      "Dr. Senthil Ganesh is widely regarded as an edupreneur with a digital vision. His initiatives in curriculum design, faculty training, and industry-linked programs aim to create future-ready graduates equipped with skills in Data Science, AI, Big Data Analytics, and Cloud Computing. With a belief that education must evolve with technology, he has consistently worked to position RVS institutions as pioneers of Education for Digital Era.",
+      "Dr. Senthil Ganesh is widely regarded as an <strong>edupreneur with a digital vision</strong>. His initiatives in curriculum design, faculty training, and industry-linked programs aim to create <strong>future-ready graduates</strong> equipped with skills in Data Science, AI, Big Data Analytics, and Cloud Computing. With a belief that education must evolve with technology, he has consistently worked to position RVS institutions as pioneers of <strong>Education for Digital Era</strong>.",
   },
   {
     name: "Dr. B. Raja Rajeswari",
@@ -82,9 +90,11 @@ export const facultyMembers: FacultyMember[] = [
     slug: "dr-b-raja-rajeswari",
     email: "rajarajeswari@rvsgroup.com",
     bio: [
-      "Dr. B. Raja Rajeswari is a management scholar with 24 years of teaching and research experience, known for a rigorous yet student-centered approach to management education. Her work bridges marketing, systems, and strategic management, with a distinctive research specialization in Green Marketing. She brings an interdisciplinary lens to the classroom—drawing on consumer behavior, psychology, and sustainability—to help students connect concepts to real managerial decisions.",
-      "She qualified for the UGC-NET (June 2011) and has contributed actively to academic publishing and conference communities. She also served as a reviewer for Information Technology for Management (McGraw-Hill), reflecting her expertise in the intersection of management and technology.",
+      "Dr. B. Raja Rajeswari is a management scholar with <strong class=\"\">24 years of teaching and research experience</strong>, known for a rigorous yet student-centered approach to management education. Her work bridges <strong class=\"\">marketing, systems, and strategic management</strong>, with a distinctive research specialization in <strong class=\"\">Green Marketing</strong>. She brings an interdisciplinary lens to the classroom—drawing on consumer behavior, psychology, and sustainability—to help students connect concepts to real managerial decisions.",
+      "She qualified for the <strong class=\"\">UGC-NET (June 2011)</strong> and has contributed actively to academic publishing and conference communities. She also served as a <strong class=\"\">reviewer</strong> for <em>Information Technology for Management</em> (McGraw-Hill), reflecting her expertise in the intersection of management and technology.",
     ],
+    teachingAreasIntro:
+      "Dr. Raja Rajeswari’s teaching spans core and specialization domains, including:",
     teachingAreas: [
       "Marketing Management",
       "Consumer Behavior",
@@ -92,6 +102,8 @@ export const facultyMembers: FacultyMember[] = [
       "Systems in Management",
       "Sustainability and Green Marketing",
     ],
+    teachingAreasOutro:
+      "Her classes emphasize conceptual clarity, discussion, and applied reasoning—linking frameworks to real-world business contexts.",
     publications: [
       "“Green Marketing – A Myth or a Reality” — International Journal of Business Intelligence and Innovation, Vol. 2, Issue 1 (March 2014), ISSN 2348-4705",
       "“Green Marketing” — Research Explorer (Refereed Bi-Annual Journal), ISSN: 2250-1940, pp. 437–440",
@@ -123,7 +135,7 @@ export const facultyMembers: FacultyMember[] = [
     email: "afsal@rvsgroup.com",
     bio: [
       "Mr. Afsal T. I. brings over 13 years of combined industry and academic experience in Logistics and Supply Chain Management. With a strong foundation in procurement, materials leadership, and operations strategy, he integrates real-world business practices into classroom learning.",
-      "A certified Lean Six Sigma Black Belt and proficient in SAP MM, he emphasizes operational excellence, process optimization, and ERP-driven supply chain management. His professional journey spans purchasing, warehouse operations, materials management, and quality improvement initiatives—allowing him to connect conceptual frameworks with practical execution.",
+      "A certified <strong class=\"\">Lean Six Sigma Black Belt</strong> and proficient in <strong class=\"\">SAP MM</strong>, he emphasizes operational excellence, process optimization, and ERP-driven supply chain management. His professional journey spans purchasing, warehouse operations, materials management, and quality improvement initiatives—allowing him to connect conceptual frameworks with practical execution.",
       "He is actively involved in mentoring students in career readiness, entrepreneurship development, and institutional incubation initiatives, supporting the MBA’s structured approach to industry alignment.",
     ],
     teachingAreas: [
@@ -211,8 +223,9 @@ export const facultyMembers: FacultyMember[] = [
       "Intelligent Authentication Systems",
       "Applied AI Models",
     ],
-    publications: [
+    publicationsIntro:
       "Dr. Suganya has authored and co-authored 25 research articles across national and international journals. Her research interests include:",
+    publications: [
       "Network security design",
       "Graphical authentication systems",
       "Intelligent data processing frameworks",
@@ -289,9 +302,11 @@ export const facultyMembers: FacultyMember[] = [
       "Generative AI Applications",
       "SQL for Data Science & AI",
     ],
+    publicationsTitle: "Publication",
     publications: [
-      "Principal Component Analysis and Hybrid Fuzzy Convolution Neural Network Techniques Based Heart Disease Prediction Model — The Bioscan",
+      "<em>Principal Component Analysis and Hybrid Fuzzy Convolution Neural Network Techniques Based Heart Disease Prediction Model</em> — The Bioscan",
     ],
+    engagementTitle: "Workshops & Industry Engagement",
     engagements: [
       "Workshop: “SQL for Data Science and AI” – RVSCAS",
       "Workshop: “SQL for Data-Driven Decision Making” – RVSCAS",
@@ -401,6 +416,7 @@ export const facultyMembers: FacultyMember[] = [
       "Mr. D. Sharan Krishnan serves as the Placement Officer at RVS CAS MBA, leading corporate engagement, student career development, and institutional placement strategy. With prior experience as a Young Professional/Consultant under the Ministry of Labour & Employment, he has coordinated large-scale job fairs, skill development initiatives, and employability programs across institutions.",
       "He focuses on building strong industry relationships, organizing campus recruitment drives, and preparing students for competitive corporate environments. His approach blends structured mentorship, communication training, and data-driven placement planning to create meaningful and sustainable career opportunities.",
     ],
+    teachingAreasTitle: "Areas of Responsibility",
     teachingAreas: [
       "Corporate Outreach & Industry Relations",
       "Campus Recruitment Coordination",

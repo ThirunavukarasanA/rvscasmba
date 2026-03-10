@@ -49,7 +49,7 @@ export default function Header() {
                   href="/about"
                   className={`${pathname === "/about" ? "border-b-4 border-white" : ""} text-white hover:text-gray-300 font-trade-gothic-light`}
                 >
-                  RVS CAS MBA
+                  About CAS MBA
                 </Link>
                 <Link
                   href="/programs"
@@ -223,7 +223,7 @@ export default function Header() {
                     : "text-booth-dark-gray border-gray-300"
                     }`}
                 >
-                  About RVS CAS MBA
+                  About CAS MBA
                   <svg
                     className="w-4 h-4"
                     fill="none"
@@ -377,7 +377,10 @@ export default function Header() {
                 </Link>
                 <Link
                   href="/internships"
-                  className="py-3 text-booth-dark-gray font-trade-gothic-light border-b border-gray-300 flex items-center justify-between"
+                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${isActive("/internships")
+                    ? "text-booth-maroon border-booth-maroon font-bold"
+                    : "text-booth-dark-gray border-gray-300"
+                    }`}
                 >
                   Internships
                   <svg
