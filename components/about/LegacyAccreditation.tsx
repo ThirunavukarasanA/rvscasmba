@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 
 export default function LegacyAccreditation() {
     const swiperConfig = {
-        modules: [Autoplay, Navigation, Pagination],
+        modules: [Autoplay, Pagination],
         spaceBetween: 30,
         slidesPerView: 1,
         breakpoints: {
@@ -18,11 +18,18 @@ export default function LegacyAccreditation() {
             1024: { slidesPerView: 3 },
         },
         autoplay: { delay: 3000, disableOnInteraction: false },
-        navigation: true,
-        pagination: { clickable: true },
+        pagination: { 
+            clickable: true,
+            dynamicBullets: true,
+        },
         loop: true,
-        className: "w-full mt-4 pb-16 pt-2 px-12 md:px-16"
+        className: "w-full pb-10"
     };
+
+    const swiperStyle = {
+        "--swiper-pagination-color": "#900000",
+        "--swiper-pagination-bottom": "0px"
+    } as React.CSSProperties;
 
     return (
         <section className="py-8 md:py-20 bg-booth-bg-gray">
@@ -47,11 +54,7 @@ export default function LegacyAccreditation() {
                                 <span className="text-booth-maroon mt-1">•</span>
                                 <span className='text-base md:text-lg'><strong>Industry partnerships</strong></span>
                             </div>
-                            <Swiper {...swiperConfig} style={{
-                                "--swiper-navigation-color": "#900000",
-                                "--swiper-pagination-color": "#900000",
-                                "--swiper-navigation-size": "24px"
-                            } as React.CSSProperties}>
+                            <Swiper {...swiperConfig} style={swiperStyle}>
                                 <SwiperSlide className="flex items-center justify-center">
                                     <Image src="/images/industry-connect/finshiksha.png" alt="Industry Partnerships" width={200} height={200} className="mx-auto" />
                                 </SwiperSlide>
@@ -77,11 +80,7 @@ export default function LegacyAccreditation() {
                                 <span className="text-booth-maroon mt-1">•</span>
                                 <span className='text-base md:text-lg'><strong>Rankings</strong></span>
                             </div>
-                            <Swiper {...swiperConfig} style={{
-                                "--swiper-navigation-color": "#900000",
-                                "--swiper-pagination-color": "#900000",
-                                "--swiper-navigation-size": "24px"
-                            } as React.CSSProperties}>
+                            <Swiper {...swiperConfig} style={swiperStyle}>
                                 <SwiperSlide className="flex items-center justify-center">
                                     <Image src="/images/about/ranking/aima.jpg" alt="Rankings" width={200} height={200} className="mx-auto" />
                                 </SwiperSlide>
@@ -107,11 +106,7 @@ export default function LegacyAccreditation() {
                                 <span className="text-booth-maroon mt-1">•</span>
                                 <span className='text-base md:text-lg'><strong>Accreditation</strong></span>
                             </div>
-                            <Swiper {...swiperConfig} style={{
-                                "--swiper-navigation-color": "#900000",
-                                "--swiper-pagination-color": "#900000",
-                                "--swiper-navigation-size": "24px"
-                            } as React.CSSProperties}>
+                            <Swiper {...swiperConfig} style={swiperStyle}>
                                 <SwiperSlide className="flex items-center justify-center">
                                     <Image src="/images/about/AICTE.webp" alt="Accreditation" width={200} height={200} className="mx-auto" />
                                 </SwiperSlide>
