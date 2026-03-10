@@ -245,6 +245,41 @@ export default function HeroSection({
             ) : (
               <></>
             )}
+            {pathname && pathname.includes("/placements") && (
+              <div className="relative group inline-block">
+                <div className="flex">
+                  <Link href="/placements">
+                    <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
+                      <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">Placements</p>
+                      <RiArrowRightDoubleFill className="text-[16px] text-white transform transition-transform duration-300 group-hover:rotate-90" />
+                    </div>
+                  </Link>
+                </div>
+                {/* Dropdown Menu */}
+                <div className="absolute bg-booth-maroon w-[250px] transition duration-300 opacity-0 invisible group-hover:opacity-100 group-hover:visible translate-y-2 group-hover:translate-y-0 z-50 top-full left-0">
+                  <div className="">
+                    <ul className="">
+                      <Link href="/internships">
+                        <li
+                          className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white border-b border-white/30"
+                        >
+                          <RiArrowRightDoubleFill className="text-[18px] mt-1" />
+                          <span className="font-trade-gothic-light">Internships</span>
+                        </li>
+                      </Link>
+                      {/* <Link href="#">
+                      <li
+                        className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white border-b border-white/30"
+                      >
+                        <RiArrowRightDoubleFill className="text-[18px] mt-1" />
+                        <span className="font-trade-gothic-light">MBA in Digital Marketing</span>
+                      </li>
+                    </Link> */}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            )}
             {pathname && pathname.includes("/insights") && (
               <div className="relative group inline-block">
                 <div className="flex">
