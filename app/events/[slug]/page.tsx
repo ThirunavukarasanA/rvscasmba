@@ -3,6 +3,10 @@ import { notFound } from "next/navigation";
 import Header from "@/components/shared/Header";
 import Footer from "@/components/shared/Footer";
 import { pastEvents, generateSlug } from "@/components/events/PastEvents";
+import { featuredEvents } from "@/components/events/FeaturedEvents";
+import { upcomingEvents } from "@/components/events/UpCommingEvents";
+
+const allEvents = [...pastEvents, ...featuredEvents, ...upcomingEvents];
 
 interface EventPageProps {
   params: Promise<{
@@ -13,7 +17,7 @@ interface EventPageProps {
 export default async function EventDetailPage({ params }: EventPageProps) {
   const resolvedParams = await params;
   const slug = decodeURIComponent(resolvedParams.slug);
-  const event = pastEvents.find((e) => generateSlug(e.title) === slug);
+  const event = allEvents.find((e) => generateSlug(e.title) === slug);
   // console.log("INCOMING SLUG:", slug);
   // console.log("AVAILABLE SLUGS:", pastEvents.map(e => generateSlug(e.title)));
   if (!event) {
@@ -24,8 +28,8 @@ export default async function EventDetailPage({ params }: EventPageProps) {
         <p>Looking for slug: "{slug}"</p>
         <p>Available slugs:</p>
         <ul>
-          {pastEvents.map((e) => (
-            <li key={e.id}>{generateSlug(e.title)}</li>
+          {allEvents.map((e) => (
+            <li key={e.title}>{generateSlug(e.title)}</li>
           ))}
         </ul>
       </main>
@@ -80,21 +84,21 @@ export default async function EventDetailPage({ params }: EventPageProps) {
               {(event as any).slugpara ? (event as any).slugpara : event.description}
             </p> */}
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 items-center md:gap-4">
-            <div className="relative w-full overflow-hidden mb-12">
-              <Image
-                src={event.image}
-                alt={event.title}
-                width={1000}
-                height={1000}
-                className=""
-                priority
-              />
-            </div>
-            <p className="text-xl leading-relaxed mb-8 font-trade-gothic-light text-booth-dark-gray">
-              {(event as any).slugpara ? (event as any).slugpara : event.description}
-            </p>
+          {/* <div className="grid grid-cols-1 md:grid-cols-2 items-center md:gap-4"> */}
+          <div className="relative w-full overflow-hidden mb-12">
+            <Image
+              src={(event as any).slugimage}
+              alt={event.title}
+              width={1000}
+              height={1000}
+              className=""
+              priority
+            />
           </div>
+          <p className="text-xl leading-relaxed mb-8 font-trade-gothic-light text-booth-dark-gray">
+            {(event as any).slugpara ? (event as any).slugpara : event.description}
+          </p>
+          {/* </div> */}
         </div>
       </section>
 
@@ -105,7 +109,7 @@ export default async function EventDetailPage({ params }: EventPageProps) {
 
 // Generate static params for SSG
 export function generateStaticParams() {
-  return pastEvents.map((event) => ({
+  return allEvents.map((event) => ({
     slug: generateSlug(event.title),
   }));
 }
