@@ -34,39 +34,39 @@ export default function HeroSection({
   const containerWidthClass = `w-full max-w-full min-[700px]:max-w-[${isWidePage ? "70%" : "60%"}] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12`;
 
   return (
-    <section className="relative md:h-[88svh] h-screen">
-      <div className="absolute inset-0 z-0">
-        <Image
-          src={image}
-          alt={title}
-          fill
-          className="object-cover"
-          priority
-        />
-        {/* <div className="absolute inset-0 bg-black bg-opacity-30"></div> */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-      </div>
+    <section className="relative bg-white">
+      <div className="hidden lg:block relative h-[88svh]">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src={image}
+            alt={title}
+            fill
+            className="object-cover"
+            priority
+          />
+          {/* <div className="absolute inset-0 bg-black bg-opacity-30"></div> */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+        </div>
 
-      {/* Main Container: Flex Column to separate Menu (Top) and Content (Bottom) */}
-      <div className="relative z-10 h-full flex flex-col justify-between pt-32 pb-16">
-
-        {/* Top Section: Programs Menu */}
-        <div className={`${containerWidthClass} flex space-x-4 md:space-x-12`}>
-          {pathname && pathname.includes("/programs") && (
-            <div className="relative group inline-block">
-              <div className="flex">
-                <Link href="/programs">
-                  <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
-                    <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">Programs</p>
-                    <RiArrowRightDoubleFill className="text-[16px] text-white transform transition-transform duration-300 group-hover:rotate-90" />
-                  </div>
-                </Link>
-              </div>
-              {/* Dropdown Menu */}
-              <div className="absolute bg-booth-maroon w-[390px] transition duration-300 opacity-0 invisible group-hover:opacity-100 group-hover:visible translate-y-2 group-hover:translate-y-0 z-50 top-full left-0">
-                <div className="">
-                  <ul className="">
-                    {/* <li className="relative group/item">
+        {/* Main Container: Flex Column to separate Menu (Top) and Content (Bottom) */}
+        <div className="relative z-10 h-full flex flex-col justify-between pt-32 pb-16">
+          {/* Top Section: Programs Menu */}
+          <div className={`${containerWidthClass} flex space-x-4 md:space-x-12`}>
+            {pathname && pathname.includes("/programs") && (
+              <div className="relative group inline-block">
+                <div className="flex">
+                  <Link href="/programs">
+                    <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
+                      <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">Programs</p>
+                      <RiArrowRightDoubleFill className="text-[16px] text-white transform transition-transform duration-300 group-hover:rotate-90" />
+                    </div>
+                  </Link>
+                </div>
+                {/* Dropdown Menu */}
+                <div className="absolute bg-booth-maroon w-[390px] transition duration-300 opacity-0 invisible group-hover:opacity-100 group-hover:visible translate-y-2 group-hover:translate-y-0 z-50 top-full left-0">
+                  <div className="">
+                    <ul className="">
+                      {/* <li className="relative group/item">
                       <div className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex items-center justify-between bg-booth-maroon hover:bg-white hover:text-booth-maroon text-white py-3 w-full border-b border-white/30">
                         <Link href="/programs/mba-applied-finance">
                           <div className="flex items-center space-x-2">
@@ -76,150 +76,150 @@ export default function HeroSection({
                         </Link>
                       </div>
                     </li> */}
-                    <Link href="/programs/mba-applied-finance">
-                      <li
-                        className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white border-b border-white/30"
-                      >
-                        <RiArrowRightDoubleFill className="text-[18px] mt-1" />
-                        <span className="font-trade-gothic-light">MBA in Applied Finance</span>
-                      </li>
-                    </Link>
-                    <Link href="/programs/mba-digital-marketing">
-                      <li
-                        className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white border-b border-white/30"
-                      >
-                        <RiArrowRightDoubleFill className="text-[18px] mt-1" />
-                        <span className="font-trade-gothic-light">MBA in Digital Marketing</span>
-                      </li>
-                    </Link>
-                    <Link href="/programs/mba-business-analytics">
-                      <li
-                        className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white border-b border-white/30"
-                      >
-                        <RiArrowRightDoubleFill className="text-[18px] mt-1" />
-                        <span className="font-trade-gothic-light">MBA in Business Analytics</span>
-                      </li>
-                    </Link>
-                    <Link href="/programs/mba-human-resources">
-                      <li
-                        className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white border-b border-white/30"
-                      >
-                        <RiArrowRightDoubleFill className="text-[18px] mt-1" />
-                        <span className="font-trade-gothic-light">MBA in Human Resources</span>
-                      </li>
-                    </Link>
-                    <Link href="/programs/mba-logistics-supply-chain-management">
-                      <li
-                        className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white"
-                      >
-                        <RiArrowRightDoubleFill className="text-[18px] mt-1" />
-                        <span className="font-trade-gothic-light">MBA in Logistics & Supply Chain Management</span>
-                      </li>
-                    </Link>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          )}
-          {pathname === '/programs/mba-digital-marketing' ? (
-            <>
-              <div className="relative group">
-                <div className="flex">
-                  <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
-                    <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">
-                      Digital Marketing
-                    </p>
+                      <Link href="/programs/mba-applied-finance">
+                        <li
+                          className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white border-b border-white/30"
+                        >
+                          <RiArrowRightDoubleFill className="text-[18px] mt-1" />
+                          <span className="font-trade-gothic-light">MBA in Applied Finance</span>
+                        </li>
+                      </Link>
+                      <Link href="/programs/mba-digital-marketing">
+                        <li
+                          className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white border-b border-white/30"
+                        >
+                          <RiArrowRightDoubleFill className="text-[18px] mt-1" />
+                          <span className="font-trade-gothic-light">MBA in Digital Marketing</span>
+                        </li>
+                      </Link>
+                      <Link href="/programs/mba-business-analytics">
+                        <li
+                          className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white border-b border-white/30"
+                        >
+                          <RiArrowRightDoubleFill className="text-[18px] mt-1" />
+                          <span className="font-trade-gothic-light">MBA in Business Analytics</span>
+                        </li>
+                      </Link>
+                      <Link href="/programs/mba-human-resources">
+                        <li
+                          className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white border-b border-white/30"
+                        >
+                          <RiArrowRightDoubleFill className="text-[18px] mt-1" />
+                          <span className="font-trade-gothic-light">MBA in Human Resources</span>
+                        </li>
+                      </Link>
+                      <Link href="/programs/mba-logistics-supply-chain-management">
+                        <li
+                          className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white"
+                        >
+                          <RiArrowRightDoubleFill className="text-[18px] mt-1" />
+                          <span className="font-trade-gothic-light">MBA in Logistics & Supply Chain Management</span>
+                        </li>
+                      </Link>
+                    </ul>
                   </div>
                 </div>
               </div>
-            </>
-          ) : (
-            <></>
-          )}
+            )}
+            {pathname === '/programs/mba-digital-marketing' ? (
+              <>
+                <div className="relative group">
+                  <div className="flex">
+                    <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
+                      <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">
+                        Digital Marketing
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </>
+            ) : (
+              <></>
+            )}
 
-          {pathname === '/programs/mba-applied-finance' ? (
-            <>
-              <div className="relative group">
-                <div className="flex">
-                  <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
-                    <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">
-                      Applied Finance
-                    </p>
+            {pathname === '/programs/mba-applied-finance' ? (
+              <>
+                <div className="relative group">
+                  <div className="flex">
+                    <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
+                      <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">
+                        Applied Finance
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </>
-          ) : (
-            <></>
-          )}
-          {pathname === '/programs/mba-business-analytics' ? (
-            <>
-              <div className="relative group">
-                <div className="flex">
-                  <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
-                    <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">
-                      Business Analytics
-                    </p>
+              </>
+            ) : (
+              <></>
+            )}
+            {pathname === '/programs/mba-business-analytics' ? (
+              <>
+                <div className="relative group">
+                  <div className="flex">
+                    <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
+                      <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">
+                        Business Analytics
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </>
-          ) : (
-            <></>
-          )}
-          {pathname === '/programs/mba-human-resources' ? (
-            <>
-              <div className="relative group">
-                <div className="flex">
-                  <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
-                    <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">
-                      Human Resources
-                    </p>
+              </>
+            ) : (
+              <></>
+            )}
+            {pathname === '/programs/mba-human-resources' ? (
+              <>
+                <div className="relative group">
+                  <div className="flex">
+                    <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
+                      <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">
+                        Human Resources
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </>
-          ) : (
-            <></>
-          )}
-          {pathname === '/programs/mba-logistics-supply-chain-management' ? (
-            <>
-              <div className="relative group">
-                <div className="flex">
-                  <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
-                    <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">
-                      MBA in Logistics & Supply Chain Management
-                    </p>
+              </>
+            ) : (
+              <></>
+            )}
+            {pathname === '/programs/mba-logistics-supply-chain-management' ? (
+              <>
+                <div className="relative group">
+                  <div className="flex">
+                    <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
+                      <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">
+                        MBA in Logistics & Supply Chain Management
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </>
-          ) : (
-            <></>
-          )}
-          {pathname && pathname.includes("/events") && (
-            <div className="relative group inline-block">
-              <div className="flex">
-                <Link href="/events">
-                  <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
-                    <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">Events</p>
-                    <RiArrowRightDoubleFill className="text-[16px] text-white transform transition-transform duration-300 group-hover:rotate-90" />
-                  </div>
-                </Link>
-              </div>
-              {/* Dropdown Menu */}
-              <div className="absolute bg-booth-maroon w-[250px] transition duration-300 opacity-0 invisible group-hover:opacity-100 group-hover:visible translate-y-2 group-hover:translate-y-0 z-50 top-full left-0">
-                <div className="">
-                  <ul className="">
-                    <Link href="/events/featured-events">
-                      <li
-                        className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white border-b border-white/30"
-                      >
-                        <RiArrowRightDoubleFill className="text-[18px] mt-1" />
-                        <span className="font-trade-gothic-light">Featured Events</span>
-                      </li>
-                    </Link>
-                    {/* <Link href="#">
+              </>
+            ) : (
+              <></>
+            )}
+            {pathname && pathname.includes("/events") && (
+              <div className="relative group inline-block">
+                <div className="flex">
+                  <Link href="/events">
+                    <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
+                      <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">Events</p>
+                      <RiArrowRightDoubleFill className="text-[16px] text-white transform transition-transform duration-300 group-hover:rotate-90" />
+                    </div>
+                  </Link>
+                </div>
+                {/* Dropdown Menu */}
+                <div className="absolute bg-booth-maroon w-[250px] transition duration-300 opacity-0 invisible group-hover:opacity-100 group-hover:visible translate-y-2 group-hover:translate-y-0 z-50 top-full left-0">
+                  <div className="">
+                    <ul className="">
+                      <Link href="/events/featured-events">
+                        <li
+                          className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white border-b border-white/30"
+                        >
+                          <RiArrowRightDoubleFill className="text-[18px] mt-1" />
+                          <span className="font-trade-gothic-light">Featured Events</span>
+                        </li>
+                      </Link>
+                      {/* <Link href="#">
                       <li
                         className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white border-b border-white/30"
                       >
@@ -227,41 +227,182 @@ export default function HeroSection({
                         <span className="font-trade-gothic-light">MBA in Digital Marketing</span>
                       </li>
                     </Link> */}
-                  </ul>
-                </div>
-              </div>
-            </div>
-          )}
-          {pathname === '/events/featured-events' ? (
-            <>
-              <div className="relative group">
-                <div className="flex">
-                  <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
-                    <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">
-                      Featured Events
-                    </p>
+                    </ul>
                   </div>
                 </div>
               </div>
-            </>
-          ) : (
-            <></>
-          )}
+            )}
+            {pathname === '/events/featured-events' ? (
+              <>
+                <div className="relative group">
+                  <div className="flex">
+                    <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
+                      <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">
+                        Featured Events
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </>
+            ) : (
+              <></>
+            )}
+          </div>
+
+          {/* Bottom Section: Hero Content */}
+          <div className={containerWidthClass}>
+            <div className="w-16 h-0.5 bg-white mb-6"></div>
+            <h1 className="text-5xl md:text-7xl font-trade-gothic-bold text-white mb-6">
+              {title}
+            </h1>
+            {description1 && <p className="text-xl md:text-2xl text-white font-trade-gothic-light mb-6">
+              {description1}
+            </p>}
+            {description2 && <p className="text-lg md:text-xl text-white font-trade-gothic-light mb-8 opacity-90">
+              {description2}
+            </p>}
+            {description3 && <p className="text-lg md:text-xl text-white font-trade-gothic-light mb-8 opacity-90">
+              {description3}
+            </p>}
+            <div className="flex flex-wrap gap-4">
+              {button1 && <Link
+                href={button1Link}
+                className="bg-booth-maroon text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-opacity-90 transition text-sm md:text-base"
+              >
+                {button1}
+              </Link>}
+              {button2 && <Link
+                href={button2Link}
+                className="border-2 border-white text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-white hover:text-booth-maroon transition text-sm md:text-base"
+              >
+                {button2}
+              </Link>}
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Mobile View */}
+      <div className="block lg:hidden bg-white "> {/* Added top margin to account for absolute header */}
+
+        {/* Mobile Sub Navigation (Scrollable) - Placed BEFORE the image */}
+        {/* {pathname && pathname.includes("/programs") || pathname && pathname.includes("/events") || pathname && pathname.includes("/insights") && ()} */}
+        <div className="border-t border-gray-200">
+          <div className="w-full overflow-x-auto hide-scrollbar">
+            <div className="flex pt-2 pb-3 min-w-max">
+              {/* Programs Links Data */}
+              {pathname && pathname.includes("/programs") && (
+                (() => {
+                  const links = [
+                    { href: "/programs", label: "Programs" },
+                    { href: "/programs/mba-applied-finance", label: "Applied Finance" },
+                    { href: "/programs/mba-digital-marketing", label: "Digital Marketing" },
+                    { href: "/programs/mba-business-analytics", label: "Business Analytics" },
+                    { href: "/programs/mba-human-resources", label: "Human Resources" },
+                    { href: "/programs/mba-logistics-supply-chain-management", label: "Logistics & Supply Chain" },
+                  ];
+                  // Sort so active link is first
+                  const sortedLinks = [...links].sort((a, b) => (pathname === a.href ? -1 : pathname === b.href ? 1 : 0));
+
+                  return (
+                    <>
+                      {sortedLinks.map((link) => (
+                        <Link
+                          key={link.href}
+                          href={link.href}
+                          className={`px-4 text-sm font-trade-gothic-light transition-colors border-r border-gray-300 last:border-0 ${pathname === link.href ? 'text-booth-maroon font-bold' : 'text-booth-dark-gray hover:text-booth-maroon'}`}
+                        >
+                          {link.label}
+                        </Link>
+                      ))}
+                    </>
+                  );
+                })()
+              )}
+              {/* Events Links Data */}
+              {pathname && pathname.includes("/events") && (
+                (() => {
+                  const links = [
+                    { href: "/events", label: "Events" },
+                    { href: "/events/featured-events", label: "Featured Events" }
+                  ];
+                  const sortedLinks = [...links].sort((a, b) => (pathname === a.href ? -1 : pathname === b.href ? 1 : 0));
+
+                  return (
+                    <>
+                      {sortedLinks.map((link) => (
+                        <Link
+                          key={link.href}
+                          href={link.href}
+                          className={`px-4 text-sm font-trade-gothic-light transition-colors border-r border-gray-300 last:border-0 ${pathname === link.href ? 'text-booth-maroon font-bold' : 'text-booth-dark-gray hover:text-booth-maroon'}`}
+                        >
+                          {link.label}
+                        </Link>
+                      ))}
+                    </>
+                  );
+                })()
+              )}
+              {/* Insights Links Data */}
+              {pathname && pathname.includes("/insights") && (
+                (() => {
+                  const links = [
+                    { href: "/insights", label: "Insights" },
+                    { href: "/faculty", label: "Faculty" } // Fixed capitalization based on previous link
+                  ];
+                  // Using includes / starting with logic for faculty edge case if needed, but strict equality is safer based on original code structure
+                  const sortedLinks = [...links].sort((a, b) => {
+                    // Check if active based on previous code logic:
+                    const isActiveA = pathname === a.href || (a.href === '/faculty' && pathname === '/insights/featured-events');
+                    const isActiveB = pathname === b.href || (b.href === '/faculty' && pathname === '/insights/featured-events');
+                    return isActiveA ? -1 : isActiveB ? 1 : 0;
+                  });
+
+                  return (
+                    <>
+                      {sortedLinks.map((link) => {
+                        const isActive = pathname === link.href || (link.href === '/faculty' && pathname === '/insights/featured-events');
+                        return (
+                          <Link
+                            key={link.href}
+                            href={link.href}
+                            className={`px-4 text-sm font-trade-gothic-light transition-colors border-r border-gray-300 last:border-0 ${isActive ? 'text-booth-maroon font-bold' : 'text-booth-dark-gray hover:text-booth-maroon'}`}
+                          >
+                            {link.label}
+                          </Link>
+                        );
+                      })}
+                    </>
+                  );
+                })()
+              )}
+            </div>
+          </div>
         </div>
 
-        {/* Bottom Section: Hero Content */}
-        <div className={containerWidthClass}>
-          <div className="w-16 h-0.5 bg-white mb-6"></div>
-          <h1 className="text-5xl md:text-7xl font-trade-gothic-bold text-white mb-6">
+        {/* Hero Image */}
+        <div className="relative h-[250px] w-full">
+          <Image
+            src={image}
+            alt={title}
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
+
+        {/* Hero Content below image and sub nav */}
+        <div className={`${containerWidthClass} py-8`}>
+          <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
+          <h1 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-6">
             {title}
           </h1>
-          {description1 && <p className="text-xl md:text-2xl text-white font-trade-gothic-light mb-6">
+          {description1 && <p className="text-xl md:text-2xl text-booth-dark-gray font-trade-gothic-light mb-6">
             {description1}
           </p>}
-          {description2 && <p className="text-lg md:text-xl text-white font-trade-gothic-light mb-8 opacity-90">
+          {description2 && <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light mb-6">
             {description2}
           </p>}
-          {description3 && <p className="text-lg md:text-xl text-white font-trade-gothic-light mb-8 opacity-90">
+          {description3 && <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light mb-6">
             {description3}
           </p>}
           <div className="flex flex-wrap gap-4">
@@ -273,7 +414,7 @@ export default function HeroSection({
             </Link>}
             {button2 && <Link
               href={button2Link}
-              className="border-2 border-white text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-white hover:text-booth-maroon transition text-sm md:text-base"
+              className="border-2 border-booth-dark-gray text-booth-dark-gray px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-white hover:text-booth-maroon transition text-sm md:text-base"
             >
               {button2}
             </Link>}

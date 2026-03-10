@@ -44,7 +44,7 @@ export default function LegacyAccreditation() {
                                 <span className="text-booth-maroon mt-1">•</span>
                                 <span>Accreditation</span>
                             </div>
-                            <div className='flex items-center gap-4'>
+                            <div className='flex flex-wrap items-center gap-4'>
                                 <Image src="/images/about/AICTE.webp" alt="Accreditation" width={200} height={200} />
                                 <Image src="/images/about/Bharathiyar.webp" alt="Accreditation" width={200} height={200} />
                                 <Image src="/images/about/NAAC.webp" alt="Accreditation" width={200} height={200} />
