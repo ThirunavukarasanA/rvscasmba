@@ -2,9 +2,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import Header from "@/components/shared/Header";
 import Footer from "@/components/shared/Footer";
-import { pastEvents, generateSlug } from "@/components/events/PastEvents";
-import { featuredEvents } from "@/components/events/FeaturedEvents";
-import { upcomingEvents } from "@/components/events/UpCommingEvents";
+import { pastEvents, generateSlug, featuredEvents, upcomingEvents } from "@/components/events/eventsData";
 
 const allEvents = [...pastEvents, ...featuredEvents, ...upcomingEvents];
 

@@ -2,35 +2,13 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { generateSlug } from './PastEvents';
+import { generateSlug } from './eventsData';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-export const upcomingEvents = [
-    {
-        title: "Onam Celebration 2025",
-        description:
-            "The School of Management Studies (PG) celebrated Onam 2025.",
-        image:
-            "/images/Social/onam.webp",
-    },
-    {
-        title: "Vidhyarambha 2025 is here!",
-        description:
-            "RVS College of Arts and Science is all set to welcome the incoming MBA batch with VIDYARAMBHA 2025 — an inspiring and engaging orientation program scheduled from 15th July to 21st July 2025.",
-        image:
-            "/images/Social/Vidyarambha_2025.webp",
-    },
-    {
-        title: "Campus to Corporate - Bridge Program",
-        description:
-            "RVS College of Arts & Science (RVS CAS MBA) successfully organized the 'Campus to Corporate - Bridge Program' on 01 Aug 2024, at 9:30 am in the prestigious VM Hall.",
-        image:
-            "/images/Social/campus-to-corporate.webp",
-    },
-];
+import { upcomingEvents } from './eventsData';
 
 export default function UpCommingEvents() {
     const swiperConfig = {
