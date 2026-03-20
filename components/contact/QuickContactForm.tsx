@@ -22,7 +22,6 @@ export default function QuickContactForm() {
     const [errors, setErrors] = useState<FormErrors>({});
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [isSuccess, setIsSuccess] = useState(false);
-
     const alphabetRegex = /^[a-zA-Z\s]+$/;
     const phoneRegex = /^[0-9+()-\s]+$/;
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;

@@ -326,9 +326,9 @@ export default function Footer() {
             <p className="text-booth-dark-gray font-trade-gothic-light mb-4 ">
               Phone: <a href="tel:+919095692229" className="hover:text-booth-maroon hover:underline transition-opacity duration-300">+91 90956 92229</a>
             </p>
-            <button className="border-2 border-booth-maroon bg-white text-booth-maroon px-4 py-2 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-sm">
+            <Link href="/contact" className="border-2 border-booth-maroon bg-white text-booth-maroon px-4 py-2 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-sm">
               CONTACT
-            </button>
+            </Link>
           </div>
         </div>
 

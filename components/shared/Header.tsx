@@ -278,7 +278,7 @@ export default function Header() {
                     }`}
                 >
                   About CAS MBA
-                  <svg
+                  {/* <svg
                     className="w-4 h-4"
                     fill="none"
                     stroke="currentColor"
@@ -290,7 +290,7 @@ export default function Header() {
                       strokeWidth={2}
                       d="M9 5l7 7-7 7"
                     />
-                  </svg>
+                  </svg> */}
                 </Link>
                 <Link
                   href="/programs"
@@ -300,7 +300,7 @@ export default function Header() {
                     }`}
                 >
                   Programs
-                  <svg
+                  {/* <svg
                     className="w-4 h-4"
                     fill="none"
                     stroke="currentColor"
@@ -312,7 +312,7 @@ export default function Header() {
                       strokeWidth={2}
                       d="M9 5l7 7-7 7"
                     />
-                  </svg>
+                  </svg> */}
                 </Link>
                 <Link
                   href="/admissions"
@@ -322,7 +322,7 @@ export default function Header() {
                     }`}
                 >
                   Admissions
-                  <svg
+                  {/* <svg
                     className="w-4 h-4"
                     fill="none"
                     stroke="currentColor"
@@ -334,7 +334,7 @@ export default function Header() {
                       strokeWidth={2}
                       d="M9 5l7 7-7 7"
                     />
-                  </svg>
+                  </svg> */}
                 </Link>
                 <Link
                   href="/insights"
@@ -344,7 +344,7 @@ export default function Header() {
                     }`}
                 >
                   Faculty & Insights
-                  <svg
+                  {/* <svg
                     className="w-4 h-4"
                     fill="none"
                     stroke="currentColor"
@@ -356,7 +356,7 @@ export default function Header() {
                       strokeWidth={2}
                       d="M9 5l7 7-7 7"
                     />
-                  </svg>
+                  </svg> */}
                 </Link>
                 <Link
                   href="/alumni"
@@ -366,7 +366,7 @@ export default function Header() {
                     }`}
                 >
                   Alumni
-                  <svg
+                  {/* <svg
                     className="w-4 h-4"
                     fill="none"
                     stroke="currentColor"
@@ -378,7 +378,7 @@ export default function Header() {
                       strokeWidth={2}
                       d="M9 5l7 7-7 7"
                     />
-                  </svg>
+                  </svg> */}
                 </Link>
                 <Link
                   href="/events"
@@ -406,7 +406,7 @@ export default function Header() {
                     }`}
                 >
                   Industry Connect
-                  <svg
+                  {/* <svg
                     className="w-4 h-4"
                     fill="none"
                     stroke="currentColor"
@@ -418,7 +418,7 @@ export default function Header() {
                       strokeWidth={2}
                       d="M9 5l7 7-7 7"
                     />
-                  </svg>
+                  </svg> */}
                 </Link>
                 <Link
                   href="/how-to-apply"
@@ -437,7 +437,7 @@ export default function Header() {
                     }`}
                 >
                   Internships
-                  <svg
+                  {/* <svg
                     className="w-4 h-4"
                     fill="none"
                     stroke="currentColor"
@@ -449,7 +449,7 @@ export default function Header() {
                       strokeWidth={2}
                       d="M9 5l7 7-7 7"
                     />
-                  </svg>
+                  </svg> */}
                 </Link>
                 <Link
                   href="/contact"

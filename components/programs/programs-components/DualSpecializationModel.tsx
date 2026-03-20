@@ -34,9 +34,6 @@ export default function DualSpecializationModel() {
                 },
             ],
         },
-    ]
-
-    const curriculumData1 = [
         {
             title: "Focused Major with Cross-Functional Advantage",
             content: [
@@ -123,7 +120,6 @@ export default function DualSpecializationModel() {
                     {/* <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
                         <strong>Focused Major with Cross-Functional Advantage</strong>
                     </p> */}
-                    <CurriculumAccordion items={curriculumData1} />
                     {/* <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
                         <li className="flex items-center gap-3 group-hover:text-booth-maroon">
                             <span className="text-booth-maroon mt-1">•</span>
