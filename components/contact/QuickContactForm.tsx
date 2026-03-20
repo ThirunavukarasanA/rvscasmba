@@ -167,9 +167,9 @@ export default function QuickContactForm() {
                                 name="firstName"
                                 value={formData.firstName}
                                 onChange={handleChange}
-                                className={`w-full px-4 py-3 border-2 ${errors.firstName ? 'border-booth-maroon focus:ring-booth-maroon' : 'border-gray-300 focus:border-booth-maroon'} focus:outline-none font-trade-gothic-light transition-colors`}
+                                className={`w-full px-4 py-3 border-2 ${errors.firstName ? 'border-red-600 focus:ring-red-600' : 'border-gray-300 focus:border-booth-maroon'} focus:outline-none font-trade-gothic-light transition-colors`}
                             />
-                            {errors.firstName && <span className="text-booth-maroon text-sm mt-1">{errors.firstName}</span>}
+                            {errors.firstName && <span className="text-red-600 text-sm mt-1">{errors.firstName}</span>}
                         </div>
 
                         <div>
@@ -182,9 +182,9 @@ export default function QuickContactForm() {
                                 name="lastName"
                                 value={formData.lastName}
                                 onChange={handleChange}
-                                className={`w-full px-4 py-3 border-2 ${errors.lastName ? 'border-booth-maroon focus:ring-booth-maroon' : 'border-gray-300 focus:border-booth-maroon'} focus:outline-none font-trade-gothic-light transition-colors`}
+                                className={`w-full px-4 py-3 border-2 ${errors.lastName ? 'border-red-600 focus:ring-red-600' : 'border-gray-300 focus:border-booth-maroon'} focus:outline-none font-trade-gothic-light transition-colors`}
                             />
-                            {errors.lastName && <span className="text-booth-maroon text-sm mt-1">{errors.lastName}</span>}
+                            {errors.lastName && <span className="text-red-600 text-sm mt-1">{errors.lastName}</span>}
                         </div>
                     </div>
 
@@ -199,9 +199,9 @@ export default function QuickContactForm() {
                                 name="email"
                                 value={formData.email}
                                 onChange={handleChange}
-                                className={`w-full px-4 py-3 border-2 ${errors.email ? 'border-booth-maroon focus:ring-booth-maroon' : 'border-gray-300 focus:border-booth-maroon'} focus:outline-none font-trade-gothic-light transition-colors`}
+                                className={`w-full px-4 py-3 border-2 ${errors.email ? 'border-red-600 focus:ring-red-600' : 'border-gray-300 focus:border-booth-maroon'} focus:outline-none font-trade-gothic-light transition-colors`}
                             />
-                            {errors.email && <span className="text-booth-maroon text-sm mt-1">{errors.email}</span>}
+                            {errors.email && <span className="text-red-600 text-sm mt-1">{errors.email}</span>}
                         </div>
 
                         <div>
@@ -214,15 +214,15 @@ export default function QuickContactForm() {
                                 name="mobile"
                                 value={formData.mobile}
                                 onChange={handleChange}
-                                className={`w-full px-4 py-3 border-2 ${errors.mobile ? 'border-booth-maroon focus:ring-booth-maroon' : 'border-gray-300 focus:border-booth-maroon'} focus:outline-none font-trade-gothic-light transition-colors`}
+                                className={`w-full px-4 py-3 border-2 ${errors.mobile ? 'border-red-600 focus:ring-red-600' : 'border-gray-300 focus:border-booth-maroon'} focus:outline-none font-trade-gothic-light transition-colors`}
                             />
-                            {errors.mobile && <span className="text-booth-maroon text-sm mt-1">{errors.mobile}</span>}
+                            {errors.mobile && <span className="text-red-600 text-sm mt-1">{errors.mobile}</span>}
                         </div>
                     </div>
 
                     <div>
                         <label htmlFor="message" className="block text-booth-dark-gray font-trade-gothic-bold mb-2">
-                            Questions / Message
+                            Questions / Message <span className="text-booth-light-gray font-normal">(optional)</span>
                         </label>
                         <textarea
                             id="message"
@@ -230,7 +230,7 @@ export default function QuickContactForm() {
                             rows={5}
                             value={formData.message}
                             onChange={handleChange}
-                            className="w-full px-4 py-3 border-2 border-gray-300 focus:border-booth-maroon focus:outline-none font-trade-gothic-light resize-y"
+                            className="w-full px-4 py-3 border-2 resize-none border-gray-300 focus:border-booth-maroon focus:outline-none font-trade-gothic-light"
                         />
                     </div>
 
@@ -257,7 +257,7 @@ export default function QuickContactForm() {
                 {/* <p className="text-booth-dark-gray font-trade-gothic-light pt-4 pb-4">
                     By submitting this form, you agree to our <a href="#" className="text-booth-maroon font-trade-gothic-bold">Privacy Policy</a>.
                 </p> */}
-                <p className="text-booth-light-gray font-trade-gothic-light italic">We respect your privacy — your contact information is used only for MBA-related communication.</p>
+                <p className="text-booth-light-gray font-trade-gothic-light italic pt-4 pb-4">We respect your privacy — your contact information is used only for MBA-related communication.</p>
             </div>
         </section>
     )

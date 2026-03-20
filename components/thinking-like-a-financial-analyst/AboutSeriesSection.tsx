@@ -25,7 +25,7 @@ export default function AboutSeriesSection() {
         </p>
         <ul className="space-y-3 mb-8">
           {clusters.map((topic, index) => (
-            <li key={index} className="flex items-start gap-3">
+            <li key={index} className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1.5 text-xs">●</span>
               <span className="text-booth-dark-gray font-trade-gothic-light text-sm md:text-base">
                 {topic}

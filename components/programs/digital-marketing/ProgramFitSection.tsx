@@ -15,21 +15,21 @@ export default function ProgramFitSection() {
           </p>
 
           <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>Graduates aspiring for digital marketing and growth roles</span>
             </li>
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>Professionals looking to transition into marketing or performance roles</span>
             </li>
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>
                 Entrepreneurs seeking data-driven customer and marketing decision-making skills
               </span>
             </li>
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>
                 Students interested in analytics-led, platform-based marketing execution

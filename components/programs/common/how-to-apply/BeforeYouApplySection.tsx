@@ -16,19 +16,19 @@ export default function BeforeYouApplySection() {
           </p>
 
           <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>Review the MBA program and specialization options</span>
             </li>
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>Ensure you meet basic eligibility requirements</span>
             </li>
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>Keep your academic documents accessible</span>
             </li>
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>Reflect on why you want to pursue an MBA at RVS CAS</span>
             </li>

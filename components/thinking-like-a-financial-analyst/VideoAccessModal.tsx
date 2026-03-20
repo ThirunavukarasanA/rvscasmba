@@ -305,7 +305,7 @@ export default function VideoAccessModal({
               </div>
 
               <div className="pt-2">
-                <label className="flex items-start gap-3 cursor-pointer">
+                <label className="flex items-center gap-3 cursor-pointer">
                   <input
                     type="checkbox"
                     name="consent"

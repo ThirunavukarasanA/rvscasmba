@@ -13,19 +13,19 @@ export default function WhyIndustryConnectMatters() {
                         By integrating industry expertise directly into the MBA journey, students gain meaningful exposure to real business challenges, hands-on access to professional tools and platforms, and guidance from experienced practitioners. This engagement helps them develop sharper career direction, stronger professional networks, and the confidence to translate classroom learning into workplace performance. At RVS CAS MBA, industry connections are not occasional — they are continuous, structured, and intentionally aligned with career outcomes.
                     </p>
                     {/* <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span><strong>Relevance:</strong> Curriculums are co-designed with industry experts to ensure that students learn the skills that businesses actually need.</span>
                         </li>
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span><strong>Practical Exposure:</strong> Students work on live projects, case studies, and simulations that mirror real business scenarios, enabling them to apply theory to practice.</span>
                         </li>
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span><strong>Career Readiness:</strong> Regular workshops, certifications, and industry interactions ensure that students graduate not just with a degree, but with the confidence and competence to step into demanding roles.</span>
                         </li>
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span><strong>Networking:</strong> Direct engagement with industry leaders, mentors, and potential employers helps students build professional networks that can shape their careers.</span>
                         </li>

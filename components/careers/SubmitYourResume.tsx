@@ -228,9 +228,9 @@ export default function SubmitYourResume() {
                                 name="fullName"
                                 value={formData.fullName}
                                 onChange={handleChange}
-                                className={`w-full px-4 py-3 border ${errors.fullName ? 'border-booth-maroon focus:ring-booth-maroon' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors`}
+                                className={`w-full px-4 py-3 border ${errors.fullName ? 'border-red-600 focus:ring-booth-maroon' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors`}
                             />
-                            {errors.fullName && <span className="text-booth-maroon text-sm mt-1">{errors.fullName}</span>}
+                            {errors.fullName && <span className="text-red-600 text-sm mt-1">{errors.fullName}</span>}
                         </div>
 
                         {/* Email Address */}
@@ -244,15 +244,15 @@ export default function SubmitYourResume() {
                                 name="email"
                                 value={formData.email}
                                 onChange={handleChange}
-                                className={`w-full px-4 py-3 border ${errors.email ? 'border-booth-maroon focus:ring-booth-maroon' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors`}
+                                className={`w-full px-4 py-3 border ${errors.email ? 'border-red-600 focus:ring-red-600' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors`}
                             />
-                            {errors.email && <span className="text-booth-maroon text-sm mt-1">{errors.email}</span>}
+                            {errors.email && <span className="text-red-600 text-sm mt-1">{errors.email}</span>}
                         </div>
 
-                        {/* Phone Number */}
+                        {/* Mobile Number */}
                         <div className="flex flex-col gap-2 relative group">
                             <label htmlFor="phone" className="text-sm font-trade-gothic-bold text-booth-dark-gray tracking-wide">
-                                Phone Number <span className="text-booth-maroon">*</span>
+                                Mobile Number <span className="text-booth-maroon">*</span>
                             </label>
                             <input
                                 type="text"
@@ -260,9 +260,9 @@ export default function SubmitYourResume() {
                                 name="phone"
                                 value={formData.phone}
                                 onChange={handleChange}
-                                className={`w-full px-4 py-3 border ${errors.phone ? 'border-booth-maroon focus:ring-booth-maroon' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors`}
+                                className={`w-full px-4 py-3 border ${errors.phone ? 'border-red-600 focus:ring-red-600' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors`}
                             />
-                            {errors.phone && <span className="text-booth-maroon text-sm mt-1">{errors.phone}</span>}
+                            {errors.phone && <span className="text-red-600 text-sm mt-1">{errors.phone}</span>}
                         </div>
 
                         {/* Area of Specialization */}
@@ -275,7 +275,7 @@ export default function SubmitYourResume() {
                                 name="specialization"
                                 value={formData.specialization}
                                 onChange={handleChange}
-                                className={`w-full px-4 py-3 border ${errors.specialization ? 'border-booth-maroon focus:ring-booth-maroon' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors cursor-pointer`}
+                                className={`w-full px-4 py-3 border ${errors.specialization ? 'border-red-600 focus:ring-red-600' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors cursor-pointer`}
                             >
                                 <option value="" disabled>Select Area...</option>
                                 <option value="Finance">Finance</option>
@@ -286,7 +286,7 @@ export default function SubmitYourResume() {
                                 <option value="Economics">Economics</option>
                                 <option value="Other">Other</option>
                             </select>
-                            {errors.specialization && <span className="text-booth-maroon text-sm mt-1">{errors.specialization}</span>}
+                            {errors.specialization && <span className="text-red-600 text-sm mt-1">{errors.specialization}</span>}
                         </div>
 
                         {/* Position Type */}
@@ -299,7 +299,7 @@ export default function SubmitYourResume() {
                                 name="positionType"
                                 value={formData.positionType}
                                 onChange={handleChange}
-                                className={`w-full px-4 py-3 border ${errors.positionType ? 'border-booth-maroon focus:ring-booth-maroon' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors cursor-pointer`}
+                                className={`w-full px-4 py-3 border ${errors.positionType ? 'border-red-600 focus:ring-red-600' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors cursor-pointer`}
                             >
                                 <option value="" disabled>Select Position...</option>
                                 <option value="Full-Time Faculty">Full-Time Faculty</option>
@@ -308,7 +308,7 @@ export default function SubmitYourResume() {
                                 <option value="Administrative">Administrative</option>
                                 <option value="Research">Research</option>
                             </select>
-                            {errors.positionType && <span className="text-booth-maroon text-sm mt-1">{errors.positionType}</span>}
+                            {errors.positionType && <span className="text-red-600 text-sm mt-1">{errors.positionType}</span>}
                         </div>
 
                         {/* Years of Experience */}
@@ -324,9 +324,9 @@ export default function SubmitYourResume() {
                                 value={formData.experience}
                                 onChange={handleChange}
                                 placeholder="E.g. 5"
-                                className={`w-full px-4 py-3 border ${errors.experience ? 'border-booth-maroon focus:ring-booth-maroon' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors`}
+                                className={`w-full px-4 py-3 border ${errors.experience ? 'border-red-600 focus:ring-red-600' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors`}
                             />
-                            {errors.experience && <span className="text-booth-maroon text-sm mt-1">{errors.experience}</span>}
+                            {errors.experience && <span className="text-red-600 text-sm mt-1">{errors.experience}</span>}
                         </div>
 
                         {/* Highest Qualification */}
@@ -341,9 +341,9 @@ export default function SubmitYourResume() {
                                 value={formData.qualification}
                                 onChange={handleChange}
                                 placeholder="E.g. Ph.D."
-                                className={`w-full px-4 py-3 border ${errors.qualification ? 'border-booth-maroon focus:ring-booth-maroon' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors`}
+                                className={`w-full px-4 py-3 border ${errors.qualification ? 'border-red-600 focus:ring-red-600' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors`}
                             />
-                            {errors.qualification && <span className="text-booth-maroon text-sm mt-1">{errors.qualification}</span>}
+                            {errors.qualification && <span className="text-red-600 text-sm mt-1">{errors.qualification}</span>}
                         </div>
 
                         {/* LinkedIn Profile */}
@@ -369,7 +369,7 @@ export default function SubmitYourResume() {
                             Upload Resume <span className="text-booth-maroon">*</span>
                         </label>
                         <p className="text-sm text-gray-500 font-trade-gothic-light -mt-2 mb-2">Upload PDF / DOC</p>
-                        <div className={`relative border-2 border-dashed ${errors.resume ? 'border-booth-maroon' : 'border-gray-300'} px-6 py-10 flex flex-col items-center justify-center bg-white hover:bg-gray-50 transition-colors cursor-pointer group`}>
+                        <div className={`relative border-2 border-dashed ${errors.resume ? 'border-red-600' : 'border-gray-300'} px-6 py-10 flex flex-col items-center justify-center bg-white hover:bg-gray-50 transition-colors cursor-pointer group`}>
                             <input
                                 type="file"
                                 id="resume"
@@ -391,7 +391,7 @@ export default function SubmitYourResume() {
                             </span>
                             <span className="text-gray-400 font-trade-gothic-light text-sm mt-1 text-center">Maximum file size: 5MB</span>
                         </div>
-                        {errors.resume && <span className="text-booth-maroon text-sm mt-1">{errors.resume}</span>}
+                        {errors.resume && <span className="text-red-600 text-sm mt-1">{errors.resume}</span>}
                     </div>
 
                     {/* Statement of Interest */}
@@ -406,7 +406,7 @@ export default function SubmitYourResume() {
                             value={formData.statement}
                             onChange={handleChange}
                             rows={4}
-                            className="w-full px-4 py-3 border border-gray-300 focus:border-booth-maroon focus:outline-none focus:ring-1 focus:ring-booth-maroon bg-white text-booth-dark-gray font-trade-gothic-light transition-colors resize-y"
+                            className="w-full px-4 py-3 border border-gray-300 focus:border-booth-maroon focus:outline-none focus:ring-1 focus:ring-booth-maroon bg-white text-booth-dark-gray font-trade-gothic-light transition-colors resize-none"
                         ></textarea>
                     </div>
 

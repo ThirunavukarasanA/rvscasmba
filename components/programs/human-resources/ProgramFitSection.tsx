@@ -15,21 +15,21 @@ export default function ProgramFitSection() {
           </p>
 
           <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>Graduates aspiring for HR and people-management roles</span>
             </li>
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>Professionals seeking to transition into HR strategy</span>
             </li>
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>
                 Students interested in workforce analytics and leadership
               </span>
             </li>
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>
                 Individuals who want to shape organizational culture and performance

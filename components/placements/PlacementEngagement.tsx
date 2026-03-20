@@ -14,23 +14,23 @@ export default function PlacementEngagement() {
 
                 <div className="space-y-6">
                     <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span><b>On-campus recruitment drives</b></span>
                         </li>
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span><b>Industry guest sessions and networking events</b></span>
                         </li>
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span><b>Sector-specific role briefings</b></span>
                         </li>
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span><b>Interview shortlisting and coordination</b></span>
                         </li>
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span><b>Feedback-driven coaching during selection processes</b></span>
                         </li>

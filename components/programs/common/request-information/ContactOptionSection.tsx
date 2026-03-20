@@ -19,11 +19,11 @@ export default function ContactOptionSection() {
             If you’d rather speak to someone:
           </p>
           <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>Contact the admissions office by phone or email</span>
             </li>
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>Visit the campus for an in-person discussion (by appointment)</span>
             </li>

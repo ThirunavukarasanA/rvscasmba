@@ -16,19 +16,19 @@ export default function TalksAndSeminars() {
                     </p>
                     <p>These sessions may include:</p>
                     <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span>Industry guest lectures</span>
                         </li>
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span>Alumni interaction forums</span>
                         </li>
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span>Academic workshops</span>
                         </li>
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span>Panel discussions on emerging business themes</span>
                         </li>

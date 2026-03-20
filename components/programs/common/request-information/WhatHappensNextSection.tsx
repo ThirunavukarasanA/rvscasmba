@@ -19,15 +19,15 @@ export default function WhatHappensNextSection() {
           </p>
 
           <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>You’ll receive a response from the admissions team</span>
             </li>
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>Program details will be shared via email or phone</span>
             </li>
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>You may be invited for a short guidance conversation (optional)</span>
             </li>

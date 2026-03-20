@@ -15,19 +15,19 @@ export default function BeyondGraduation() {
 
                 <div className="space-y-6">
                     <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span><b>Career advisory sessions</b></span>
                         </li>
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span><b>Industry refresher courses</b></span>
                         </li>
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span><b>Networking forums</b></span>
                         </li>
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span><b>Alumni mentoring for current students</b></span>
                         </li>

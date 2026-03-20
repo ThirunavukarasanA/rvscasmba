@@ -34,27 +34,27 @@ export default function ProgramExperienceSection() {
           </div>
           <div className="space-y-6">
             <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>Structured understanding of supply chain systems</span>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>Faculty-led, case-based discussions</span>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>Application of Lean Six Sigma methodologies</span>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>Integration of digital supply chain tools</span>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>Assessment-based learning through projects and simulations</span>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>Continuous mentoring focused on operational judgment</span>
               </li>

@@ -33,19 +33,17 @@ export default function CurriculumAccordion({
           <div key={index} className="w-full">
             <button
               onClick={() => toggleItem(index)}
-              className={`w-full text-left py-4 flex justify-between items-center group transition-colors border-b-4 ${
-                isOpen
+              className={`w-full text-left py-4 flex justify-between items-center group transition-colors border-b-4 ${isOpen
                   ? "border-booth-maroon"
                   : "border-gray-300 hover:border-booth-maroon"
-              }`}
+                }`}
               aria-expanded={isOpen}
             >
               <h3
-                className={`text-xl md:text-2xl font-trade-gothic-bold transition-colors ${
-                  isOpen
+                className={`text-xl md:text-2xl font-trade-gothic-bold transition-colors ${isOpen
                     ? "text-booth-maroon"
                     : "text-booth-dark-gray group-hover:text-booth-maroon"
-                }`}
+                  }`}
               >
                 {item.title}
               </h3>
@@ -74,9 +72,8 @@ export default function CurriculumAccordion({
               </div>
             </button>
             <div
-              className={`grid transition-[grid-template-rows] duration-300 ease-out ${
-                isOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
-              }`}
+              className={`grid transition-[grid-template-rows] duration-300 ease-out ${isOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
+                }`}
             >
               <div className="overflow-hidden">
                 <div className="py-6 space-y-6">
@@ -91,7 +88,7 @@ export default function CurriculumAccordion({
                           {block.items.map((point, pointIdx) => (
                             <li
                               key={pointIdx}
-                              className="flex items-start gap-3"
+                              className="flex items-center gap-3"
                             >
                               {/* Bullet Point */}
                               <span className="text-booth-maroon mt-1.5 text-xs">

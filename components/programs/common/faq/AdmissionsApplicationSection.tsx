@@ -160,7 +160,7 @@ export default function AdmissionsApplicationSection() {
                             {block.items.map((point, pointIdx) => (
                               <li
                                 key={pointIdx}
-                                className="flex items-start gap-3"
+                                className="flex items-center gap-3"
                               >
                                 {/* Bullet Point */}
                                 <span className="text-booth-maroon mt-1.5 text-xs">

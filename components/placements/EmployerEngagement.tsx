@@ -15,23 +15,23 @@ export default function EmployerEngagement() {
                 <div className="space-y-6">
                     <h3 className="text-2xl md:text-3xl font-trade-gothic-bold text-booth-dark-gray">Employer partners include:</h3>
                     {/* <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span>Curriculum advisory for industry relevance</span>
                         </li>
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span>Joint certification programs</span>
                         </li>
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span>Live projects and internships</span>
                         </li>
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span>Industry-sponsored electives</span>
                         </li>
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span>Executive guest lectures</span>
                         </li>

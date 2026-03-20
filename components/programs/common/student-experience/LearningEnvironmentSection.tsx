@@ -17,19 +17,19 @@ export default function LearningEnvironmentSection() {
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">Students learn through:</p>
           <div>
             <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>Faculty-led discussions</span>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>Case-based analysis</span>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>Simulation exercises</span>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>Applied assignments and presentations</span>
               </li>

@@ -16,19 +16,19 @@ export default function LifeBeyondAcademicsSection() {
           </p>
           <div>
             <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>Academic clubs and student initiatives</span>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>Leadership participation in events</span>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>Cultural and community engagement activities</span>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>Collaborative learning beyond coursework</span>
               </li>

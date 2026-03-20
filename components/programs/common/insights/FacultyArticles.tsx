@@ -18,15 +18,15 @@ export default function FacultyArticles() {
                     </p>
                     <p>These articles aim to:</p>
                     <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span>Simplify complex business ideas</span>
                         </li>
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span>Bridge academic frameworks with real-world application</span>
                         </li>
-                        <li className="flex items-start gap-3">
+                        <li className="flex items-center gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span>Encourage analytical thinking among students</span>
                         </li>

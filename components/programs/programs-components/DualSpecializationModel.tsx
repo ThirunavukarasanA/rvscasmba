@@ -85,31 +85,31 @@ export default function DualSpecializationModel() {
                     <CurriculumAccordion items={curriculumData} />
                     {/* <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
                         <Link href="/programs/mba-applied-finance" className="group">
-                            <li className="flex items-start gap-3 group-hover:text-booth-maroon">
+                            <li className="flex items-center gap-3 group-hover:text-booth-maroon">
                                 <span className="text-booth-maroon mt-1">•</span>
                                 <span className="group-hover:underline transition-opacity duration-150"><strong>Applied Finance</strong></span>
                             </li>
                         </Link>
                         <Link href="/programs/mba-business-analytics" className="group">
-                            <li className="flex items-start gap-3 group-hover:text-booth-maroon">
+                            <li className="flex items-center gap-3 group-hover:text-booth-maroon">
                                 <span className="text-booth-maroon mt-1">•</span>
                                 <span className="group-hover:underline transition-opacity duration-150"><strong>Business Analytics</strong></span>
                             </li>
                         </Link>
                         <Link href="/programs/mba-digital-marketing" className="group">
-                            <li className="flex items-start gap-3 group-hover:text-booth-maroon">
+                            <li className="flex items-center gap-3 group-hover:text-booth-maroon">
                                 <span className="text-booth-maroon mt-1">•</span>
                                 <span className="group-hover:underline transition-opacity duration-150"><strong>Digital Marketing</strong></span>
                             </li>
                         </Link>
                         <Link href="/programs/mba-human-resources" className="group">
-                            <li className="flex items-start gap-3 group-hover:text-booth-maroon">
+                            <li className="flex items-center gap-3 group-hover:text-booth-maroon">
                                 <span className="text-booth-maroon mt-1">•</span>
                                 <span className="group-hover:underline transition-opacity duration-150"><strong>Human Resources</strong></span>
                             </li>
                         </Link>
                         <Link href="/programs/mba-logistics-supply-chain-management" className="group">
-                            <li className="flex items-start gap-3 group-hover:text-booth-maroon">
+                            <li className="flex items-center gap-3 group-hover:text-booth-maroon">
                                 <span className="text-booth-maroon mt-1">•</span>
                                 <span className="group-hover:underline transition-opacity duration-150"><strong>Logistics & Supply Chain Management</strong></span>
                             </li>
@@ -125,23 +125,23 @@ export default function DualSpecializationModel() {
                     </p> */}
                     <CurriculumAccordion items={curriculumData1} />
                     {/* <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-                        <li className="flex items-start gap-3 group-hover:text-booth-maroon">
+                        <li className="flex items-center gap-3 group-hover:text-booth-maroon">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span className="group-hover:underline transition-opacity duration-150">Business Analytics - Finance or  HR or Digital Marketing</span>
                         </li>
-                        <li className="flex items-start gap-3 group-hover:text-booth-maroon">
+                        <li className="flex items-center gap-3 group-hover:text-booth-maroon">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span className="group-hover:underline transition-opacity duration-150">Logistics and Supply Chain - Finance or HR or Digital Marketing</span>
                         </li>
-                        <li className="flex items-start gap-3 group-hover:text-booth-maroon">
+                        <li className="flex items-center gap-3 group-hover:text-booth-maroon">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span className="group-hover:underline transition-opacity duration-150">Human Resource - Finance or Digital Marketing</span>
                         </li>
-                        <li className="flex items-start gap-3 group-hover:text-booth-maroon">
+                        <li className="flex items-center gap-3 group-hover:text-booth-maroon">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span className="group-hover:underline transition-opacity duration-150">Digital Marketing - Applied Finance or HR</span>
                         </li>
-                        <li className="flex items-start gap-3 group-hover:text-booth-maroon">
+                        <li className="flex items-center gap-3 group-hover:text-booth-maroon">
                             <span className="text-booth-maroon mt-1">•</span>
                             <span className="group-hover:underline transition-opacity duration-150">Applied Finance - HR or digital Marketing</span>
                         </li>

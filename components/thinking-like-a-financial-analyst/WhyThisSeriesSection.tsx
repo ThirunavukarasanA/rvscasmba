@@ -25,7 +25,7 @@ export default function WhyThisSeriesSection() {
         </p>
         <ul className="space-y-2 mb-8">
           {mostTeach.map((item, index) => (
-            <li key={index} className="flex items-start gap-3">
+            <li key={index} className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1.5 text-xs">●</span>
               <span className="text-booth-dark-gray font-trade-gothic-light">{item}</span>
             </li>
@@ -40,7 +40,7 @@ export default function WhyThisSeriesSection() {
         </p>
         <ul className="space-y-3 mb-8">
           {thisSeriesFocuses.map((item, index) => (
-            <li key={index} className="flex items-start gap-3">
+            <li key={index} className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1.5 text-xs">●</span>
               <span className="text-booth-dark-gray font-trade-gothic-light text-base md:text-lg">
                 {item.title}

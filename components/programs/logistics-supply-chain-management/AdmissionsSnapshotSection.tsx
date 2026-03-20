@@ -17,28 +17,28 @@ export default function AdmissionsSnapshotSection() {
               Key Admissions Criteria
             </h3>
             <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>
                   <strong>Academic Record:</strong> Strong quantitative and
                   analytical foundation
                 </span>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>
                   <strong>Entrance Test:</strong> Valid CAT / MAT / CMAT /
                   TANCET scores
                 </span>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>
                   <strong>Personal Statement:</strong> Clear interest in finance
                   and analytics
                 </span>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>
                   <strong>Interview:</strong> Demonstrated reasoning ability and

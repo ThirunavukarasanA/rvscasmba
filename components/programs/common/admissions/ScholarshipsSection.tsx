@@ -19,27 +19,27 @@ export default function ScholarshipsSection() {
               Scholarships are offered based on:
             </h3>
             <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span><strong className="font-trade-gothic-bold">Merit</strong> – Academic performance</span>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span><strong className="font-trade-gothic-bold">Entrance Exam</strong> – Performance in exams like TANCET</span>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span><strong className="font-trade-gothic-bold">Alumni (Ex-RVS Students)</strong></span>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span><strong className="font-trade-gothic-bold">Community</strong> – As per institutional policy</span>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span><strong className="font-trade-gothic-bold">Sports</strong> – State / national / international level</span>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span><strong className="font-trade-gothic-bold">Defence</strong> – Children of defence personnel</span>
               </li>

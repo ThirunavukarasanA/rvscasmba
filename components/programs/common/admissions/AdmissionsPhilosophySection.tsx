@@ -8,7 +8,7 @@ export default function AdmissionsPhilosophySection() {
             Admissions philosophy
           </h2>
         </div>
-          <h3 className="text-3xl md:text-3xl font-trade-gothic-bold text-booth-dark-gray pb-4">Selecting for Readiness, Not Just Eligibility</h3>
+        <h3 className="text-3xl md:text-3xl font-trade-gothic-bold text-booth-dark-gray pb-4">Selecting for Readiness, Not Just Eligibility</h3>
 
         <div className="space-y-6">
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
@@ -18,15 +18,15 @@ export default function AdmissionsPhilosophySection() {
             We seek students who:
           </p>
           <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>Are curious and willing to think deeply</span>
             </li>
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>Value learning through application and analysis</span>
             </li>
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>Are prepared for faculty-led, concept-driven education</span>
             </li>

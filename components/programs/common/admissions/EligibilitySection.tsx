@@ -16,23 +16,23 @@ export default function EligibilitySection() {
           </p>
 
           <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>A <strong className="font-trade-gothic-bold">recognized undergraduate degree</strong> in any discipline</span>
             </li>
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>Final-year students awaiting results may also apply</span>
             </li>
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>Minimum 50% aggregate marks in 10th, 12th, and undergraduate degree</span>
             </li>
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>Valid score in CAT / MAT / CMAT / TANCET (or equivalent)</span>
             </li>
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>Work experience is welcome but <strong className="font-trade-gothic-bold">not mandatory</strong></span>
             </li>

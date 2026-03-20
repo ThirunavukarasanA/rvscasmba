@@ -167,31 +167,31 @@ export default function CareerOutcomesSection() {
                 Typical Roles
               </h3>
               <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-                <li className="flex items-start gap-3">
+                <li className="flex items-center gap-3">
                   <span className="text-booth-maroon mt-1">•</span>
                   <span>Financial Analyst</span>
                 </li>
-                <li className="flex items-start gap-3">
+                <li className="flex items-center gap-3">
                   <span className="text-booth-maroon mt-1">•</span>
                   <span>Investment Analyst</span>
                 </li>
-                <li className="flex items-start gap-3">
+                <li className="flex items-center gap-3">
                   <span className="text-booth-maroon mt-1">•</span>
                   <span>Equity Research Associate</span>
                 </li>
-                <li className="flex items-start gap-3">
+                <li className="flex items-center gap-3">
                   <span className="text-booth-maroon mt-1">•</span>
                   <span>Wealth Management Advisor</span>
                 </li>
-                <li className="flex items-start gap-3">
+                <li className="flex items-center gap-3">
                   <span className="text-booth-maroon mt-1">•</span>
                   <span>Risk Analyst</span>
                 </li>
-                <li className="flex items-start gap-3">
+                <li className="flex items-center gap-3">
                   <span className="text-booth-maroon mt-1">•</span>
                   <span>FinTech Strategist</span>
                 </li>
-                <li className="flex items-start gap-3">
+                <li className="flex items-center gap-3">
                   <span className="text-booth-maroon mt-1">•</span>
                   <span>Corporate Finance Executive</span>
                 </li>

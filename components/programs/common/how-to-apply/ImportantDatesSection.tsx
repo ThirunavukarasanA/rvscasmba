@@ -14,15 +14,15 @@ export default function ImportantDatesSection() {
             Applications are accepted throughout the admission cycle, subject to seat availability.
           </p>
           <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>Early applications are encouraged</span>
             </li>
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>Final-year students may apply while awaiting results</span>
             </li>
-            <li className="flex items-start gap-3">
+            <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>Admission offers are made on a rolling basis</span>
             </li>

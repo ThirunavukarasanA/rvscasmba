@@ -177,9 +177,9 @@ export default function SubmitYourUpdate() {
                                 value={formData.fullName}
                                 onChange={handleChange}
                                 placeholder="E.g. John Doe"
-                                className={`w-full px-4 py-3 border ${errors.fullName ? 'border-booth-maroon focus:ring-booth-maroon' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors`}
+                                className={`w-full px-4 py-3 border ${errors.fullName ? 'border-red-600 focus:ring-red-600' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors`}
                             />
-                            {errors.fullName && <span className="text-booth-maroon text-sm mt-1">{errors.fullName}</span>}
+                            {errors.fullName && <span className="text-red-600 text-sm mt-1">{errors.fullName}</span>}
                         </div>
 
                         {/* Graduation Year */}
@@ -192,14 +192,14 @@ export default function SubmitYourUpdate() {
                                 name="graduationYear"
                                 value={formData.graduationYear}
                                 onChange={handleChange}
-                                className={`w-full px-4 py-3 border ${errors.graduationYear ? 'border-booth-maroon focus:ring-booth-maroon' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors cursor-pointer`}
+                                className={`w-full px-4 py-3 border ${errors.graduationYear ? 'border-red-600 focus:ring-red-600' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors cursor-pointer`}
                             >
                                 <option value="" disabled>Select Year...</option>
                                 {years.map((year) => (
                                     <option key={year} value={year}>{year}</option>
                                 ))}
                             </select>
-                            {errors.graduationYear && <span className="text-booth-maroon text-sm mt-1">{errors.graduationYear}</span>}
+                            {errors.graduationYear && <span className="text-red-600 text-sm mt-1">{errors.graduationYear}</span>}
                         </div>
 
                         {/* Current Position */}
@@ -214,9 +214,9 @@ export default function SubmitYourUpdate() {
                                 value={formData.currentPosition}
                                 onChange={handleChange}
                                 placeholder="E.g. Marketing Manager"
-                                className={`w-full px-4 py-3 border ${errors.currentPosition ? 'border-booth-maroon focus:ring-booth-maroon' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors`}
+                                className={`w-full px-4 py-3 border ${errors.currentPosition ? 'border-red-600 focus:ring-red-600' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors`}
                             />
-                            {errors.currentPosition && <span className="text-booth-maroon text-sm mt-1">{errors.currentPosition}</span>}
+                            {errors.currentPosition && <span className="text-red-600 text-sm mt-1">{errors.currentPosition}</span>}
                         </div>
 
                         {/* Organization */}
@@ -231,9 +231,9 @@ export default function SubmitYourUpdate() {
                                 value={formData.organization}
                                 onChange={handleChange}
                                 placeholder="E.g. Global Tech Solutions"
-                                className={`w-full px-4 py-3 border ${errors.organization ? 'border-booth-maroon focus:ring-booth-maroon' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors`}
+                                className={`w-full px-4 py-3 border ${errors.organization ? 'border-red-600 focus:ring-red-600' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors`}
                             />
-                            {errors.organization && <span className="text-booth-maroon text-sm mt-1">{errors.organization}</span>}
+                            {errors.organization && <span className="text-red-600 text-sm mt-1">{errors.organization}</span>}
                         </div>
 
                         {/* LinkedIn URL */}
@@ -248,9 +248,9 @@ export default function SubmitYourUpdate() {
                                 value={formData.linkedinUrl}
                                 onChange={handleChange}
                                 placeholder="https://linkedin.com/in/yourprofile"
-                                className={`w-full px-4 py-3 border ${errors.linkedinUrl ? 'border-booth-maroon focus:ring-booth-maroon' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors`}
+                                className={`w-full px-4 py-3 border ${errors.linkedinUrl ? 'border-red-600 focus:ring-red-600' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors`}
                             />
-                            {errors.linkedinUrl && <span className="text-booth-maroon text-sm mt-1">{errors.linkedinUrl}</span>}
+                            {errors.linkedinUrl && <span className="text-red-600 text-sm mt-1">{errors.linkedinUrl}</span>}
                         </div>
                     </div>
 
@@ -266,9 +266,9 @@ export default function SubmitYourUpdate() {
                             onChange={handleChange}
                             rows={4}
                             placeholder="Share your key achievements, awards, or recent milestones..."
-                            className={`w-full px-4 py-3 border ${errors.professionalHighlights ? 'border-booth-maroon focus:ring-booth-maroon' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors resize-y`}
+                            className={`w-full px-4 py-3 border ${errors.professionalHighlights ? 'border-red-600 focus:ring-red-600' : 'border-gray-300 focus:border-booth-maroon focus:ring-booth-maroon'} focus:outline-none focus:ring-1 bg-white text-booth-dark-gray font-trade-gothic-light transition-colors resize-none`}
                         ></textarea>
-                        {errors.professionalHighlights && <span className="text-booth-maroon text-sm mt-1">{errors.professionalHighlights}</span>}
+                        {errors.professionalHighlights && <span className="text-red-600 text-sm mt-1">{errors.professionalHighlights}</span>}
                     </div>
 
                     {/* Submit Button */}
@@ -284,7 +284,7 @@ export default function SubmitYourUpdate() {
                                         <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                                         <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                                     </svg>
-                                    Processing...
+                                    Submitting...
                                 </>
                             ) : (
                                 'Submit Update'
