@@ -43,8 +43,8 @@ export default function GlobalCommunitySection() {
         </div>
 
         {/* Statistics */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 my-8 md:my-16">
-          <div>
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4 md:gap-8 my-8 md:my-16">
+          <div className="">
             <div className="text-6xl md:text-7xl font-trade-gothic-bold text-booth-dark-gray mb-2">
               30+
             </div>
@@ -52,7 +52,7 @@ export default function GlobalCommunitySection() {
               Years of Management Education
             </p>
           </div>
-          <div>
+          <div className="">
             <div className="text-6xl md:text-7xl font-trade-gothic-bold text-booth-dark-gray mb-2">
               5000+
             </div>
@@ -60,7 +60,7 @@ export default function GlobalCommunitySection() {
               Alumni Network
             </p>
           </div>
-          <div>
+          <div className="">
             <div className="text-6xl md:text-7xl font-trade-gothic-bold text-booth-dark-gray mb-2">
               100+
             </div>

@@ -27,7 +27,7 @@ export default function MoUPartners() {
                         </li>
                         <li className="flex items-start gap-3">
                             <span className="text-booth-maroon mt-1">•</span>
-                            <span>Sofa College of Arts and Science</span>
+                            <span>Safa College of Arts and Science</span>
                         </li>
                         <li className="flex items-start gap-3">
                             <span className="text-booth-maroon mt-1">•</span>

@@ -254,9 +254,9 @@ export default function QuickContactForm() {
                         </button>
                     </div>
                 </form>
-                <p className="text-booth-dark-gray font-trade-gothic-light pt-4 pb-4">
+                {/* <p className="text-booth-dark-gray font-trade-gothic-light pt-4 pb-4">
                     By submitting this form, you agree to our <a href="#" className="text-booth-maroon font-trade-gothic-bold">Privacy Policy</a>.
-                </p>
+                </p> */}
                 <p className="text-booth-light-gray font-trade-gothic-light italic">We respect your privacy — your contact information is used only for MBA-related communication.</p>
             </div>
         </section>

@@ -62,7 +62,7 @@ export default function HeroSection() {
       </section>
 
       {/* Text Section Between Heroes */}
-      <section className="bg-white py-12">
+      <section className="bg-white lg:py-12 pb-12">
         <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
           <div className="space-y-4">
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">

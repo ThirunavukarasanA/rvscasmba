@@ -64,14 +64,14 @@ export default function Footer() {
                   Faculty
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="#"
                   className="text-booth-dark-gray hover:text-booth-maroon font-trade-gothic-light whitespace-nowrap"
                 >
                   Research
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href="/alumni"
