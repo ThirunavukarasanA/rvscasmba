@@ -23,8 +23,8 @@ export default function CurrentOpenings() {
                         <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light mb-3">
                             Full-Time | MBA Department
                         </p>
-                        <Link
-                            href="https://admissions.rvscas.ac.in/"
+                        <a
+                            href="#submit-your-resume"
                             className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline"
                         >
                             Apply Now
@@ -41,7 +41,7 @@ export default function CurrentOpenings() {
                                     d="M9 5l7 7-7 7"
                                 />
                             </svg>
-                        </Link>
+                        </a>
                     </div>
                     <div>
                         <h3 className="text-xl md:text-2xl font-trade-gothic-bold text-booth-dark-gray mb-2">
@@ -50,8 +50,8 @@ export default function CurrentOpenings() {
                         <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light mb-3">
                             Full-Time | MBA Department
                         </p>
-                        <Link
-                            href="https://admissions.rvscas.ac.in/"
+                        <a
+                            href="#submit-your-resume"
                             className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline"
                         >
                             Apply Now
@@ -68,7 +68,7 @@ export default function CurrentOpenings() {
                                     d="M9 5l7 7-7 7"
                                 />
                             </svg>
-                        </Link>
+                        </a>
                     </div>
                     <div>
                         <h3 className="text-xl md:text-2xl font-trade-gothic-bold text-booth-dark-gray mb-2">
@@ -77,8 +77,8 @@ export default function CurrentOpenings() {
                         <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light mb-3">
                             Full-Time | Career Services
                         </p>
-                        <Link
-                            href="https://admissions.rvscas.ac.in/"
+                        <a
+                            href="#submit-your-resume"
                             className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline"
                         >
                             Apply Now
@@ -95,7 +95,7 @@ export default function CurrentOpenings() {
                                     d="M9 5l7 7-7 7"
                                 />
                             </svg>
-                        </Link>
+                        </a>
                     </div>
                     <p className="text-base md:text-lg text-booth-light-gray font-trade-gothic-light italic">
                         If your area of expertise is not listed, you may still submit your profile for future consideration.

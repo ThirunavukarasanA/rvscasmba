@@ -48,9 +48,9 @@ export default function HeroSection({
         </div>
 
         {/* Main Container: Flex Column to separate Menu (Top) and Content (Bottom) */}
-        <div className="relative z-10 h-full flex flex-col justify-between pt-32 pb-16">
+        <div className={`relative z-10 h-full flex justify-between ${isWidePage ? "pb-10" : "pb-3"}`}>
           {/* Top Section: Programs Menu */}
-          <div className={`${containerWidthClass} flex space-x-4 md:space-x-12`}>
+          <div className={`${containerWidthClass} flex space-x-4 md:space-x-12 absolute top-1/4 `}>
             {pathname && pathname.includes("/programs") && (
               <div className="relative group inline-block">
                 <div className="flex">
@@ -318,7 +318,7 @@ export default function HeroSection({
           </div>
 
           {/* Bottom Section: Hero Content */}
-          <div className={containerWidthClass}>
+          <div className={`${containerWidthClass} flex flex-col justify-end`}>
             <div className="w-16 h-0.5 bg-white mb-6"></div>
             <h1 className="text-5xl md:text-7xl font-trade-gothic-bold text-white mb-6">
               {title}

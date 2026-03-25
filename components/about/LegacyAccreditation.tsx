@@ -18,12 +18,12 @@ export default function LegacyAccreditation() {
             1024: { slidesPerView: 3 },
         },
         autoplay: { delay: 3000, disableOnInteraction: false },
-        pagination: { 
+        pagination: {
             clickable: true,
             dynamicBullets: true,
         },
         loop: true,
-        className: "w-full pb-10"
+        className: "w-full !pb-6"
     };
 
     const swiperStyle = {

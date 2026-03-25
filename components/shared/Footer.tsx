@@ -240,7 +240,7 @@ export default function Footer() {
           {/* Column 1: Follow */}
           <div>
             <h3 className="font-trade-gothic-bold text-booth-maroon mb-4">
-              Follow
+              Follow Us
             </h3>
             <div className="flex gap-3 flex-wrap">
               {/* Facebook */}
