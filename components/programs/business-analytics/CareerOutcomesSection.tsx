@@ -29,7 +29,7 @@ const items = [
           "Analytics Consultant",
           "Business Intelligence (BI) Developer",
           "Python Developer (Web Scraping)",
-          "Business Analytics Professional",
+          "Artificial Intelligence Professional",
         ],
       },
     ],
@@ -120,7 +120,7 @@ export default function CareerOutcomesSection() {
             </p>
 
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              MBA in Business Analytics is designed not merely to teach tools, but to build professional competence in roles where data informs strategy and drives execution.
+              MBA in Artificial Intelligence is designed not merely to teach tools, but to build professional competence in roles where data informs strategy and drives execution.
             </p>
 
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">

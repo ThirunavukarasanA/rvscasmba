@@ -12,7 +12,7 @@ const events = [
   {
     id: 2,
     title: "IMPORT PANDAS – 2K25",
-    description: "Presented by MBA Business Analytics, RVS College of Arts and Science",
+    description: "Presented by MBA in Artificial Intelligence, RVS College of Arts and Science",
     image: "/images/Social/IMPORT-PANDAS.webp",
     link: "#"
   },
@@ -26,7 +26,7 @@ const events = [
   {
     id: 4,
     title: "FINESTA 2025 – Fuel Your Competitive Spirit!",
-    description: "Presented by RVS CAS MBA Applied Finance, RVS College of Arts and Science",
+    description: "Presented by RVS CAS MBA in Global Finance & Corporate Analyst, RVS College of Arts and Science",
     image: "/images/Social/FINESTA.webp",
     link: "#"
   },
@@ -59,7 +59,7 @@ export default function WhyProgramSection() {
 
         <div className="space-y-6 mb-9">
           {/* <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            Unlike traditional programs, the MBA in Applied Finance focuses on
+            Unlike traditional programs, the MBA in Global Finance & Corporate Analyst focuses on
             how finance professionals think and make decisions—not on
             textbook-driven learning.
           </p> */}

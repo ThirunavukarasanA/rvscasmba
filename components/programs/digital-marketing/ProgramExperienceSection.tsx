@@ -11,7 +11,7 @@ export default function ProgramExperienceSection() {
             Academic Experience
           </h2>
           {/* <p className="text-xl md:text-2xl text-booth-dark-gray font-trade-gothic-light mb-6">
-            The Applied Finance programme is structured to mirror the way
+            The Global Finance & Corporate Analyst programme is structured to mirror the way
             finance is practiced, analyzed, and taught in the professional
             world.
           </p> */}

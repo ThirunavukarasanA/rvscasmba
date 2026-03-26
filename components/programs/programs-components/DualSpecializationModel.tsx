@@ -17,8 +17,8 @@ export default function DualSpecializationModel() {
                 {
                     type: "list" as const,
                     items: [
-                        "Applied Finance",
-                        "Business Analytics",
+                        "Global Finance & Corporate Analyst",
+                        "Artificial Intelligence",
                         "Digital Marketing",
                         "Human Resources",
                         "Logistics & Supply Chain Management",
@@ -40,11 +40,11 @@ export default function DualSpecializationModel() {
                 {
                     type: "list" as const,
                     items: [
-                        "Business Analytics - Finance or HR or Digital Marketing",
+                        "Artificial Intelligence - Finance or HR or Digital Marketing",
                         "Logistics and Supply Chain - Finance or HR or Digital Marketing",
                         "Human Resource - Finance or Digital Marketing",
-                        "Digital Marketing - Applied Finance or HR",
-                        "Applied Finance - HR or digital Marketing",
+                        "Digital Marketing - Global Finance & Corporate Analyst or HR",
+                        "Global Finance & Corporate Analyst - HR or digital Marketing",
                     ],
                 },
                 {
@@ -81,16 +81,16 @@ export default function DualSpecializationModel() {
                     {/* <p className="text-md md:text-lg text-booth-dark-gray font-trade-gothic-light">Students choose two specializations from the following:</p> */}
                     <CurriculumAccordion items={curriculumData} />
                     {/* <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-                        <Link href="/programs/mba-applied-finance" className="group">
+                        <Link href="/programs/mba-global-finance-corporate-analyst" className="group">
                             <li className="flex items-center gap-3 group-hover:text-booth-maroon">
                                 <span className="text-booth-maroon mt-1">•</span>
-                                <span className="group-hover:underline transition-opacity duration-150"><strong>Applied Finance</strong></span>
+                                <span className="group-hover:underline transition-opacity duration-150"><strong>Global Finance & Corporate Analyst</strong></span>
                             </li>
                         </Link>
-                        <Link href="/programs/mba-business-analytics" className="group">
+                        <Link href="/programs/mba-artificial-intelligence" className="group">
                             <li className="flex items-center gap-3 group-hover:text-booth-maroon">
                                 <span className="text-booth-maroon mt-1">•</span>
-                                <span className="group-hover:underline transition-opacity duration-150"><strong>Business Analytics</strong></span>
+                                <span className="group-hover:underline transition-opacity duration-150"><strong>Artificial Intelligence</strong></span>
                             </li>
                         </Link>
                         <Link href="/programs/mba-digital-marketing" className="group">
@@ -123,7 +123,7 @@ export default function DualSpecializationModel() {
                     {/* <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
                         <li className="flex items-center gap-3 group-hover:text-booth-maroon">
                             <span className="text-booth-maroon mt-1">•</span>
-                            <span className="group-hover:underline transition-opacity duration-150">Business Analytics - Finance or  HR or Digital Marketing</span>
+                            <span className="group-hover:underline transition-opacity duration-150">Artificial Intelligence - Finance or  HR or Digital Marketing</span>
                         </li>
                         <li className="flex items-center gap-3 group-hover:text-booth-maroon">
                             <span className="text-booth-maroon mt-1">•</span>
@@ -135,11 +135,11 @@ export default function DualSpecializationModel() {
                         </li>
                         <li className="flex items-center gap-3 group-hover:text-booth-maroon">
                             <span className="text-booth-maroon mt-1">•</span>
-                            <span className="group-hover:underline transition-opacity duration-150">Digital Marketing - Applied Finance or HR</span>
+                            <span className="group-hover:underline transition-opacity duration-150">Digital Marketing - Global Finance & Corporate Analyst or HR</span>
                         </li>
                         <li className="flex items-center gap-3 group-hover:text-booth-maroon">
                             <span className="text-booth-maroon mt-1">•</span>
-                            <span className="group-hover:underline transition-opacity duration-150">Applied Finance - HR or digital Marketing</span>
+                            <span className="group-hover:underline transition-opacity duration-150">Global Finance & Corporate Analyst - HR or digital Marketing</span>
                         </li>
                     </ul> */}
                     {/* <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">

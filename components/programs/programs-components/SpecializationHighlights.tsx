@@ -2,10 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 const programs = [
     {
-        title: "Business Analytics",
+        title: "Artificial Intelligence",
         description: "Transforming data into strategic business insight.",
         image:
-            "/images/program/business-analytics.png",
+            "/images/program/artificial-intelligence.png",
     },
     {
         title: "Digital Marketing",
@@ -21,10 +21,10 @@ const programs = [
             "/images/program/hr.png",
     },
     {
-        title: "Applied Finance",
+        title: "Global Finance & Corporate Analyst",
         description: "Building financial expertise aligned with modern markets and fintech innovation.",
         image:
-            "/images/program/applied-finance.png",
+            "/images/program/global-finance-corporate-analyst.png",
     },
     {
         title: "Logistics & Supply Chain Management",
@@ -51,7 +51,7 @@ export default function SpecializationHighlights() {
                             className="flex gap-3 md:gap-6 items-start pb-4 md:pb-8 border-b border-gray-200 last:border-b-0"
                         >
                             <div className="flex-shrink-0">
-                                <Link href={program.title === "Applied Finance" ? "/programs/mba-applied-finance" : program.title === "Business Analytics" ? "/programs/mba-business-analytics" : program.title === "Digital Marketing" ? "/programs/mba-digital-marketing" : program.title === "Human Resources" ? "/programs/mba-human-resources" : program.title === "Logistics & Supply Chain Management" ? "/programs/mba-logistics-supply-chain-management" : "#"}>
+                                <Link href={program.title === "Global Finance & Corporate Analyst" ? "/programs/mba-global-finance-corporate-analyst" : program.title === "Artificial Intelligence" ? "/programs/mba-artificial-intelligence" : program.title === "Digital Marketing" ? "/programs/mba-digital-marketing" : program.title === "Human Resources" ? "/programs/mba-human-resources" : program.title === "Logistics & Supply Chain Management" ? "/programs/mba-logistics-supply-chain-management" : "#"}>
                                     <Image
                                         src={program.image}
                                         alt={program.title}
@@ -70,10 +70,10 @@ export default function SpecializationHighlights() {
                                 </p>
                                 <Link
                                     href={
-                                        program.title === "Applied Finance"
-                                            ? "/programs/mba-applied-finance"
-                                            : program.title === "Business Analytics"
-                                                ? "/programs/mba-business-analytics"
+                                        program.title === "Global Finance & Corporate Analyst"
+                                            ? "/programs/mba-global-finance-corporate-analyst"
+                                            : program.title === "Artificial Intelligence"
+                                                ? "/programs/mba-artificial-intelligence"
                                                 : program.title === "Digital Marketing"
                                                     ? "/programs/mba-digital-marketing"
                                                     : program.title === "Human Resources"

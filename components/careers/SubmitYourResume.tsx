@@ -279,7 +279,7 @@ export default function SubmitYourResume() {
                             >
                                 <option value="" disabled>Select Area...</option>
                                 <option value="Finance">Finance</option>
-                                <option value="Business Analytics">Business Analytics</option>
+                                <option value="Artificial Intelligence">Artificial Intelligence</option>
                                 <option value="Digital Marketing">Digital Marketing</option>
                                 <option value="HR">HR</option>
                                 <option value="Logistics & SCM">Logistics & SCM</option>

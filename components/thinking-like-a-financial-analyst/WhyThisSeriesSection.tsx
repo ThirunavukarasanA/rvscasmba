@@ -50,7 +50,7 @@ export default function WhyThisSeriesSection() {
         </ul>
 
         <p className="text-booth-dark-gray font-trade-gothic-light text-lg italic">
-          This is the analytical lens used in the MBA – Applied Finance program at RVS CAS.
+          This is the analytical lens used in the MBA in Global Finance & Corporate Analyst program at RVS CAS.
         </p>
       </div>
     </section>

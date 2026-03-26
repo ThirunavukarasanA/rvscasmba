@@ -102,15 +102,15 @@ export const featuredEvents = [
     {
         id: 2,
         title: "IMPORT PANDAS – 2K25",
-        description: "Presented by MBA Business Analytics, RVS College of Arts and Science",
+        description: "Presented by MBA in Artificial Intelligence, RVS College of Arts and Science",
         image: "/images/Social/IMPORT-PANDAS.webp",
         slugimage: "/images/Social/IMPORT-PANDAS-slug.png",
         slugtitle: "IMPORT PANDAS – 2K25",
-        resource: "Presented by MBA Business Analytics, RVS College of Arts and Science",
+        resource: "Presented by MBA in Artificial Intelligence, RVS College of Arts and Science",
         slugpara: (
             <>
                 <p className="mb-4">
-                    The MBA Business Analytics department of RVS College of Arts and Science proudly presents IMPORT PANDAS – 2K25, an exhilarating event designed to challenge participants in analytical thinking, problem-solving, and data-driven decision-making. Engage in a series of intellectually stimulating competitions that will put your analytical skills to the ultimate test!
+                    The MBA in Artificial Intelligence department of RVS College of Arts and Science proudly presents IMPORT PANDAS – 2K25, an exhilarating event designed to challenge participants in analytical thinking, problem-solving, and data-driven decision-making. Engage in a series of intellectually stimulating competitions that will put your analytical skills to the ultimate test!
                 </p>
 
                 <h3 className="text-xl font-bold text-booth-maroon mb-2 mt-6">Event Lineup</h3>
@@ -139,7 +139,7 @@ export const featuredEvents = [
                 <div className="mb-4 mt-6">
                     <p className="font-bold text-booth-maroon">Data Dynasty</p>
                     <p className="mb-1">Challenge: Prove your expertise in an exciting data-centric quiz.</p>
-                    <p className="font-bold text-booth-maroon mb-1">Answer thought-provoking questions on business analytics and data science.</p>
+                    <p className="font-bold text-booth-maroon mb-1">Answer thought-provoking questions on artificial intelligence and data science.</p>
                     <p>Compete to see who emerges as the ultimate data strategist.</p>
                 </div>
 
@@ -249,7 +249,7 @@ export const featuredEvents = [
     {
         id: 4,
         title: "FINESTA 2025 – Fuel Your Competitive Spirit!",
-        description: "Presented by RVS CAS MBA Applied Finance, RVS College of Arts and Science",
+        description: "Presented by RVS CAS MBA in Global Finance & Corporate Analyst, RVS College of Arts and Science",
         image: "/images/Social/FINESTA.webp",
         slugimage: "/images/Social/FINESTA-slug.png",
         link: "#"

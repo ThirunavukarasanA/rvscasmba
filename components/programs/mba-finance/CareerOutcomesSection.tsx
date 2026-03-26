@@ -14,7 +14,7 @@ const items = [
         text: (
           <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
             <strong>
-              Graduates of the Applied Finance specialization have gone on to
+              Graduates of the Global Finance & Corporate Analyst specialization have gone on to
               careers such as:
             </strong>
           </p>
@@ -112,7 +112,7 @@ const items = [
         text: (
           <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
             <strong>
-              Organizations that commonly recruit RVS CAS Applied Finance
+              Organizations that commonly recruit RVS CAS Global Finance & Corporate Analyst
               graduates include:
             </strong>
           </p>
@@ -151,7 +151,7 @@ export default function CareerOutcomesSection() {
             </p>
 
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              MBA in Applied Finance is designed not just to educate — but to
+              MBA in Global Finance & Corporate Analyst is designed not just to educate — but to
               build career competence, especially for roles that require
               analytical depth, financial reasoning, and business insight.
             </p>

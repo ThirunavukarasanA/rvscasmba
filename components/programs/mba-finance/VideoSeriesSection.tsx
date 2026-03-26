@@ -35,7 +35,7 @@ export default function VideoSeriesSection() {
               A Learning Series by Dr. K. Senthil Ganesh
             </p>
             <p className="text-booth-dark-gray font-trade-gothic-light text-base md:text-lg mb-6">
-              Experience the same analytical framework used in this MBA program. This free video series introduces you to how real financial analysts interpret capital, question accounting numbers, and evaluate business performance—the very approach Dr. Senthil Ganesh brings to the MBA – Applied Finance classroom.
+              Experience the same analytical framework used in this MBA program. This free video series introduces you to how real financial analysts interpret capital, question accounting numbers, and evaluate business performance—the very approach Dr. Senthil Ganesh brings to the MBA in Global Finance & Corporate Analyst classroom.
             </p>
             <p className="text-booth-dark-gray font-trade-gothic-light text-base md:text-lg mb-8">
               66 focused lessons. One analytical lens. A preview of how we teach finance at RVS CAS.

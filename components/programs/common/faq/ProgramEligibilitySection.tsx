@@ -19,10 +19,10 @@ const faqs: FAQItem[] = [
       {
         type: "list",
         items: [
-          "Applied Finance",
+          "Global Finance & Corporate Analyst",
           "Digital Marketing",
           "Human Resource Management",
-          "Business Analytics",
+          "Artificial Intelligence",
           "Logistics & Supply Chain Management"
         ]
       },

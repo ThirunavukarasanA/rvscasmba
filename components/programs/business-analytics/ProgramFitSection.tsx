@@ -5,7 +5,7 @@ export default function ProgramFitSection() {
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
-            Is This Business Analytics Mba Right For You?
+            Is This Artificial Intelligence Mba Right For You?
           </h2>
         </div>
 

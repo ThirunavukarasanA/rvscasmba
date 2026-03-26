@@ -12,7 +12,7 @@ export default function FinalCTASection() {
           Start thinking beyond formulas.
         </p>
         <p className="text-white font-trade-gothic-light text-base md:text-lg mb-8">
-          Explore the MBA – Applied Finance Program
+          Explore the MBA in Global Finance & Corporate Analyst Program
         </p>
         <Link
           href="/request-information"

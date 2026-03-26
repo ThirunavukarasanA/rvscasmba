@@ -52,7 +52,7 @@ export default function HeroSection() {
                 <strong className="font-trade-gothic-bold text-booth-dark-gray">Thinking Like a Financial Analyst</strong> is a structured video series from RVS CAS MBA. It introduces you to how real financial analysts interpret capital, question accounting numbers, and evaluate business performance beyond surface-level metrics.
               </p>
               <p className="text-booth-dark-gray font-trade-gothic-light text-base md:text-lg leading-relaxed mb-6">
-                Led by Dr. K. Senthil Ganesh, Managing Trustee of RVS Educational Institutions, the series brings the same analytical framework used in the MBA – Applied Finance classroom to a wider audience. <strong className="font-trade-gothic-bold">66 focused lessons</strong> across 10 thematic clusters—from capital structure and return on capital to M&A and analyst mindset.
+                Led by Dr. K. Senthil Ganesh, Managing Trustee of RVS Educational Institutions, the series brings the same analytical framework used in the MBA in Global Finance & Corporate Analyst classroom to a wider audience. <strong className="font-trade-gothic-bold">66 focused lessons</strong> across 10 thematic clusters—from capital structure and return on capital to M&A and analyst mindset.
               </p>
               <p className="text-booth-dark-gray font-trade-gothic-light text-base md:text-lg italic mb-8">
                 This is not simplified content. This is how finance is taught inside the MBA classroom, made accessible.

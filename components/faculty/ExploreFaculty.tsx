@@ -8,9 +8,9 @@ import { useState } from 'react';
 
 const categories = [
     "Leadership & Strategy",
-    "Applied Finance",
+    "Global Finance & Corporate Analyst",
     "Digital Marketing",
-    "Business Analytics",
+    "Artificial Intelligence",
     "Human resource",
     "Logistics & Supply Chain",
     "Aptitude & Career Readiness",
@@ -25,12 +25,12 @@ export default function ExploreFaculty() {
 
         // Advanced mapping for specific categories
         const filterMap: Record<string, string[]> = {
-            'Applied Finance': ['finance'],
+            'Global Finance & Corporate Analyst': ['finance'],
             'Human resource': ['hr', 'human resource'],
             'Economics & Statistics': ['statistics'],
             'Logistics & Supply Chain': ['logistics & supply chain'],
             'Aptitude & Career Readiness': ['aptitude', 'career'],
-            'Business Analytics': ['business analytics', 'data science & analytics', 'data engineering'],
+            'Artificial Intelligence': ['artificial intelligence', 'data science & analytics', 'data engineering'],
         };
 
         const searchTerms = filterMap[activeFilter] || [activeFilter.toLowerCase()];

@@ -5,7 +5,7 @@ export default function ProgramFitSection() {
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
-            Is This Applied Finance MBA Right for You?
+            Is This Global Finance & Corporate Analyst MBA Right for You?
           </h2>
         </div>
 

@@ -37,7 +37,7 @@ export default function IndustryConnectSection() {
               Excel · Bloomberg Terminal · RiskMetrics · FactSet · Stata · Moody's · MoneyControl
             </p> */}
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              Throughout the MBA in Business Analytics, students engage with faculty, alumni, and industry professionals who actively work at the intersection of data and business strategy. These interactions expose students to how analytics is applied in practice — across consulting environments, technology firms, financial institutions, marketing functions, and operations teams. Students gain insight into how organizations use data to drive decisions, optimize performance, and create measurable business impact.
+              Throughout the MBA in Artificial Intelligence, students engage with faculty, alumni, and industry professionals who actively work at the intersection of data and business strategy. These interactions expose students to how analytics is applied in practice — across consulting environments, technology firms, financial institutions, marketing functions, and operations teams. Students gain insight into how organizations use data to drive decisions, optimize performance, and create measurable business impact.
             </p>
           </div>
         </div>

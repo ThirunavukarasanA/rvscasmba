@@ -24,8 +24,8 @@ export default function FacultyHeroSection({ title, strong, pageName,
     const pathname = usePathname();
 
     const isWidePage = [
-        "MBA in Applied Finance",
-        "MBA in Business Analytics",
+        "MBA in Global Finance & Corporate Analyst",
+        "MBA in Artificial Intelligence",
         "MBA in Digital Marketing",
         "MBA in Human Resources",
         "MBA Programs",
@@ -67,20 +67,20 @@ export default function FacultyHeroSection({ title, strong, pageName,
                                     <ul className="">
                                         {/* <li className="relative group/item">
                       <div className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex items-center justify-between bg-booth-maroon hover:bg-white hover:text-booth-maroon text-white py-3 w-full border-b border-white/30">
-                        <Link href="/programs/mba-applied-finance">
+                        <Link href="/programs/mba-global-finance-corporate-analyst">
                           <div className="flex items-center space-x-2">
                             <RiArrowRightDoubleFill className="text-[18px]" />
-                            <span className="font-trade-gothic-light">MBA in Applied Finance</span>
+                            <span className="font-trade-gothic-light">MBA in Global Finance & Corporate Analyst</span>
                           </div>
                         </Link>
                       </div>
                     </li> */}
-                                        <Link href="/programs/mba-applied-finance">
+                                        <Link href="/programs/mba-global-finance-corporate-analyst">
                                             <li
                                                 className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white border-b border-white/30"
                                             >
                                                 <RiArrowRightDoubleFill className="text-[18px] mt-1" />
-                                                <span className="font-trade-gothic-light">MBA in Applied Finance</span>
+                                                <span className="font-trade-gothic-light">MBA in Global Finance & Corporate Analyst</span>
                                             </li>
                                         </Link>
                                         <Link href="/programs/mba-digital-marketing">
@@ -91,12 +91,12 @@ export default function FacultyHeroSection({ title, strong, pageName,
                                                 <span className="font-trade-gothic-light">MBA in Digital Marketing</span>
                                             </li>
                                         </Link>
-                                        <Link href="/programs/mba-business-analytics">
+                                        <Link href="/programs/mba-artificial-intelligence">
                                             <li
                                                 className="pr-4 pl-6 transition-all hover:pl-8 cursor-pointer flex space-x-4 bg-booth-maroon hover:bg-white hover:text-booth-maroon py-3 w-full text-white border-b border-white/30"
                                             >
                                                 <RiArrowRightDoubleFill className="text-[18px] mt-1" />
-                                                <span className="font-trade-gothic-light">MBA in Business Analytics</span>
+                                                <span className="font-trade-gothic-light">MBA in Artificial Intelligence</span>
                                             </li>
                                         </Link>
                                         <Link href="/programs/mba-human-resources">
@@ -136,13 +136,13 @@ export default function FacultyHeroSection({ title, strong, pageName,
                         <></>
                     )}
 
-                    {pathname === '/programs/mba-applied-finance' ? (
+                    {pathname === '/programs/mba-global-finance-corporate-analyst' ? (
                         <>
                             <div className="relative group">
                                 <div className="flex">
                                     <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
                                         <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">
-                                            Applied Finance
+                                            Global Finance & Corporate Analyst
                                         </p>
                                     </div>
                                 </div>
@@ -151,13 +151,13 @@ export default function FacultyHeroSection({ title, strong, pageName,
                     ) : (
                         <></>
                     )}
-                    {pathname === '/programs/mba-business-analytics' ? (
+                    {pathname === '/programs/mba-artificial-intelligence' ? (
                         <>
                             <div className="relative group">
                                 <div className="flex">
                                     <div className="flex space-x-3 items-center border border-white group-hover:border-booth-maroon group-hover:bg-booth-maroon p-2 transition-all duration-300">
                                         <p className="text-white cursor-pointer font-trade-gothic-light tracking-wide text-md group-hover:text-white">
-                                            Business Analytics
+                                            Artificial Intelligence
                                         </p>
                                     </div>
                                 </div>

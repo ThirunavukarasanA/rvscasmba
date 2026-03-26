@@ -53,7 +53,7 @@ Programs
 **Tech MBA**
 A future-focused MBA integrating business and technology.
 
-**Business Analytics**
+**Artificial Intelligence**
 Transforming data into strategic business insights.
 
 **Digital Marketing**
@@ -62,7 +62,7 @@ Building brands and growth strategies in a digital-first world.
 **Human Resources**
 Leading people, culture, and organizational change.
 
-**Applied Finance**
+**Global Finance & Corporate Analyst**
 Finance skills aligned to modern markets and fintech.
 
 **Logistics & Supply Chain Management**

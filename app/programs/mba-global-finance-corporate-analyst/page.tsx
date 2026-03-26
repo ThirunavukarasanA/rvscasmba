@@ -14,7 +14,7 @@ import FinalCTASection from "@/components/programs/mba-finance/FinalCTASection";
 import RequestProgramInformation from "@/components/programs/mba-finance/RequestProgramInformation";
 import HeroSection from "@/components/shared/HeroSection";
 export const metadata: Metadata = {
-  title: "MBA in Applied Finance - RVS CAS MBA",
+  title: "MBA in Global Finance & Corporate Analyst - RVS CAS MBA",
   description:
     "A practice-driven finance program that builds strong analytical, valuation, and decision-making skills for modern financial careers.",
 };
@@ -23,8 +23,8 @@ export default function MBAAppliedFinancePage() {
     <main className="min-h-screen">
       <Header />
       <HeroSection
-        pageName="MBA in Applied Finance"
-        title="MBA in Applied Finance"
+        pageName="MBA in Global Finance & Corporate Analyst"
+        title="MBA in Global Finance & Corporate Analyst"
         description1={<>Learn to think, analyze, and decide like a financial analyst</>}
         description2={<>A practice-driven MBA at RVS CAS MBA is designed around real financial decision-making rather than textbook theory. The program develops analyst-style thinking, emphasizes company and valuation-led learning, and is delivered through a faculty-led approach that prioritizes clarity, judgment, and application over content-heavy instruction.</>}
         description3=''

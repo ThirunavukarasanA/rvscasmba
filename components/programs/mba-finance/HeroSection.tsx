@@ -20,7 +20,7 @@ export default function HeroSection() {
           <div className="w-full max-w-full min-[700px]:max-w-[70%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
             <div className="w-16 h-0.5 bg-white mb-6"></div>
             <h1 className="text-5xl md:text-7xl font-trade-gothic-bold text-white mb-6">
-              MBA in Applied Finance
+              MBA in Global Finance & Corporate Analyst
             </h1>
             <p className="text-xl md:text-2xl text-white font-trade-gothic-light mb-6">
               Learn to think, analyze, and decide like a financial analyst

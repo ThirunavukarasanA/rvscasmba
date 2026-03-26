@@ -16,7 +16,7 @@ export default function StudentExperiences() {
                         <p className="text-lg md:text-2xl text-booth-dark-gray font-trade-gothic-light italic leading-relaxed mb-2">
                             “The dual specialization model helped me combine Finance and Analytics. The portfolio building sessions and case interview practice gave me clarity during campus recruitment.”
                         </p>
-                        <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">— MBA Graduate, Business Analytics & Applied Finance</p>
+                        <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">— MBA Graduate, Artificial Intelligence & Global Finance & Corporate Analyst</p>
                     </div>
                     <div>
                         <p className="text-lg md:text-2xl text-booth-dark-gray font-trade-gothic-light italic leading-relaxed mb-2">

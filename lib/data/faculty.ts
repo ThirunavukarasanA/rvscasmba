@@ -252,19 +252,19 @@ export const facultyMembers: FacultyMember[] = [
     email: "yamini@rvsgroup.com",
     bio: [
       "Dr. S. Yamini is an Associate Professor and Director (Academic) in the School of Computer Studies, with strong expertise in Data Science, Statistics, and Network Security. A University First Rank holder and Gold Medalist in her Master’s degree, she combines academic distinction with applied technical depth.",
-      "Her research focuses on multi-level network security design, graphical authentication systems, and advanced data-driven security models. She is certified in Business Analytics by Harvard Business School and has completed specialized certifications in Cyber Security and Machine Learning from leading global institutions including RIT (New York), University of Maryland, and Imperial College London.",
+      "Her research focuses on multi-level network security design, graphical authentication systems, and advanced data-driven security models. She is certified in Artificial Intelligence by Harvard Business School and has completed specialized certifications in Cyber Security and Machine Learning from leading global institutions including RIT (New York), University of Maryland, and Imperial College London.",
       "Dr. Yamini brings analytical rigor and structured problem-solving into management and analytics programs, integrating statistics, security frameworks, and machine learning principles into interdisciplinary learning.",
     ],
     teachingAreas: [
       "Data Science & Analytics",
-      "Business Analytics",
+      "Artificial Intelligence",
       "Statistics for Data Modeling",
       "Machine Learning Foundations",
       "Network Security Systems",
       "Cyber Security & Authentication Models",
     ],
     advancedPrograms: [
-      "Business Analytics Certification – Harvard Business School",
+      "Artificial Intelligence Certification – Harvard Business School",
       "MicroMasters in Cyber Security – Rochester Institute of Technology (edX)",
       "Cyber Security Specialization – University of Maryland (Coursera)",
       "Mathematics for Machine Learning – Imperial College London (Coursera)",
@@ -326,7 +326,7 @@ export const facultyMembers: FacultyMember[] = [
     slug: "mr-a-karthikeyan",
     email: "a.karthikeyan@rvsgroup.com",
     bio: [
-      "Mr. A. Karthikeyan is an Assistant Professor in Digital Marketing at the School of Management Studies (PG), RVS College of Arts and Science. With a background in Information Technology and an MBA specialization in Digital Marketing and Applied Finance, he brings a balanced blend of technical knowledge and business strategy into the classroom.",
+      "Mr. A. Karthikeyan is an Assistant Professor in Digital Marketing at the School of Management Studies (PG), RVS College of Arts and Science. With a background in Information Technology and an MBA specialization in Digital Marketing and Global Finance & Corporate Analyst, he brings a balanced blend of technical knowledge and business strategy into the classroom.",
       "In addition to academia, he serves as a Digital Marketing Executive at Transform Tech, where he has gained hands-on industry experience in SEO, Meta Ads, Google Ads, performance marketing, and analytics-driven campaign optimization. His corporate exposure enables him to translate live industry practices into structured learning experiences for MBA students.",
       "He focuses on building practical competence in digital marketing strategy, search engine optimization, marketing analytics tools, and performance measurement frameworks.",
     ],

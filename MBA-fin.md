@@ -15,7 +15,7 @@ Using **University of Chicago Booth School of Business – Master in Finance** a
 
 #### **A. Program-specific pages**
 
-1. **MBA – Applied Finance (Program Overview)** ← *primary page*
+1. **MBA in Global Finance & Corporate Analyst (Program Overview)** ← *primary page*
 2. *(Optional later)* Curriculum deep dive (can live as section for now)
 
 #### **B. Shared across ALL RVS MBA programs**
@@ -36,7 +36,7 @@ Using **University of Chicago Booth School of Business – Master in Finance** a
 ## 2️⃣ SITE MAP — WHAT DEV TEAM SHOULD BUILD
 
 ```
-/programs/mba-applied-finance          ← THIS PAGE (now)
+/programs/mba-global-finance-corporate-analyst          ← THIS PAGE (now)
 /programs/common/student-experience   ← shared
 /programs/common/admissions           ← shared
 /programs/common/how-to-apply         ← shared
@@ -47,7 +47,7 @@ Using **University of Chicago Booth School of Business – Master in Finance** a
 
 ---
 
-## 3️⃣ MBA – APPLIED FINANCE
+## 3️⃣ MBA IN GLOBAL FINANCE & CORPORATE ANALYST
 
 ### PROGRAM OVERVIEW PAGE
 
@@ -58,7 +58,7 @@ All content is sourced from your dump.
 
 ---
 
-# MBA – Applied Finance
+# MBA in Global Finance & Corporate Analyst
 
 *(Program Overview Page)*
 
@@ -67,13 +67,13 @@ All content is sourced from your dump.
 ## Booth Block 1: HERO
 
 **Headline**
-MBA in Applied Finance
+MBA in Global Finance & Corporate Analyst
 
 **Sub-head**
 A practice-driven finance program that builds strong analytical, valuation, and decision-making skills for modern financial careers.
 
 **Intro copy**
-The MBA in Applied Finance at **RVS CAS MBA** is designed for students who want to work at the intersection of finance, analytics, and real-world business decision-making.
+The MBA in Global Finance & Corporate Analyst at **RVS CAS MBA** is designed for students who want to work at the intersection of finance, analytics, and real-world business decision-making.
 The program blends finance fundamentals with hands-on tools, industry exposure, and applied projects.
 
 **Primary CTA**
@@ -87,7 +87,7 @@ Apply Now
 ## Booth Block 2: WHY THIS PROGRAM
 
 **Headline**
-Why MBA in Applied Finance at RVS CAS
+Why MBA in Global Finance & Corporate Analyst at RVS CAS
 
 **Body copy**
 Finance today is no longer limited to accounting or reporting roles. Organizations demand professionals who can analyze data, assess risk, value businesses, and support strategic decisions.
@@ -119,7 +119,7 @@ Learn finance by doing, not memorizing.
 * Case studies and simulations
 * Continuous assessments
 * Industry-aligned curriculum
-* Capstone project in Applied Finance
+* Capstone project in Global Finance & Corporate Analyst
 
 Students work with real datasets, financial statements, and market scenarios throughout the program.
 
@@ -164,7 +164,7 @@ This is **overview-level only**. No semester-wise breakup on this page.
 Career Outcomes
 
 **Body copy**
-Graduates of the MBA in Applied Finance pursue careers across finance, banking, investment, and fintech domains. The program builds analytical rigor and decision-making confidence valued by employers.
+Graduates of the MBA in Global Finance & Corporate Analyst pursue careers across finance, banking, investment, and fintech domains. The program builds analytical rigor and decision-making confidence valued by employers.
 
 **Typical Roles**
 
@@ -269,7 +269,7 @@ When ready, we can:
 1. Design **shared pages once** (Admissions, Student Experience, etc.)
 2. Clone this structure for:
 
-   * MBA Business Analytics
+   * MBA in Artificial Intelligence
    * MBA Digital Marketing
    * MBA HR
    * MBA Logistics

@@ -265,8 +265,8 @@ export default function RequestFormSection() {
               className={`w-full px-4 py-3 border-2 ${errors.program ? 'border-red-600' : 'border-gray-300'} focus:border-booth-maroon focus:outline-none font-trade-gothic-light`}
             >
               <option value="">Select a program</option>
-              <option value="mba-applied-finance">MBA – Applied Finance</option>
-              <option value="mba-business-analytics">MBA – Business Analytics</option>
+              <option value="mba-global-finance-corporate-analyst">MBA in Global Finance & Corporate Analyst</option>
+              <option value="mba-artificial-intelligence">MBA – Artificial Intelligence</option>
               <option value="mba-digital-marketing">MBA – Digital Marketing</option>
               <option value="mba-human-resources">MBA – Human Resources</option>
               <option value="mba-logistics-supply-chain">MBA – Logistics & Supply Chain Management</option>
