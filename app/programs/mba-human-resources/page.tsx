@@ -7,6 +7,9 @@ import ProgramExperienceSection from "@/components/programs/human-resources/Prog
 import ProgramFitSection from "@/components/programs/human-resources/ProgramFitSection";
 import RequestProgramInformation from "@/components/programs/human-resources/RequestProgramInformation";
 import WhyProgramSection from "@/components/programs/human-resources/WhyProgramSection";
+import KeyHighlightsSection from "@/components/programs/human-resources/KeyHighlightsSection";
+import ProgramFlowSection from "@/components/programs/human-resources/ProgramFlowSection";
+import ComparisonSection from "@/components/programs/human-resources/ComparisonSection";
 import Footer from "@/components/shared/Footer";
 import Header from "@/components/shared/Header";
 import HeroSection from "@/components/shared/HeroSection";
@@ -30,17 +33,20 @@ export default function page() {
                 }
                 description2={
                     <>
-                        MBA in Human Resources at RVS College of Arts & Science is designed to help you go beyond managing employees and learn how to build organizations that perform.
+                        Most people manage employees. HR leaders build organizations.
                     </>
                 }
-                description3='You learn to design performance systems, align incentives with business goals, and manage talent as a strategic asset.'
+                description3='This MBA develops professionals who move beyond administrative HR into strategic talent, workforce analytics, and organizational decision-making.'
                 image='/images/herosection/new/hr.png'
-                button1='Explore the HR Curriculum'
+                button1='Download Brochure'
                 button2='Apply Now'
-                button1Link='/request-information'
+                button1Link='/how-to-apply'
                 button2Link='https://admissions.rvscas.ac.in/'
             />
             <WhyProgramSection />
+            <KeyHighlightsSection />
+            <ProgramFlowSection />
+            <ComparisonSection />
             <ProgramExperienceSection />
             <CurriculumSection />
             <CareerOutcomesSection />

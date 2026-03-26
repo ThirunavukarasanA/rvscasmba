@@ -1,294 +1,280 @@
-# MBA in Human Resources  
-Build organizational capability with clarity, structure, and people insight.
-
-MBA in Human Resources at RVS College of Arts & Science is designed to help you go beyond managing employees — and learn how to build organizations that perform.
-
-Most people see HR as:
-
-Recruitment  
-Payroll  
-Compliance  
-
-But real HR is not administrative.
-
-It is about:
-
-- Designing performance systems  
-- Aligning incentives with business goals  
-- Building culture that drives outcomes  
-- Managing talent as a strategic asset  
-
-The real question is:
-
-**Can you build an organization that performs — not just manage one?**
+# MBA in Human Resources
+## Website Content — Rewrite
 
 ---
 
-## Explore the HR Curriculum  
-## Apply Now  
+## HERO SECTION
+
+### Headline
+Build Organizational Capability with Clarity, Structure, and People Insight.
+
+### Subheadline
+MBA in Human Resources — RVS CAS
+
+### Body
+Most people manage employees. HR leaders build organizations.
+
+HR is often seen as recruitment, payroll, and compliance. But real HR is none of those things — or rather, it is far more than those things. It is about designing performance systems, aligning incentives with business goals, building culture that drives outcomes, and managing talent as a strategic asset.
+
+The MBA in Human Resources at RVS CAS develops professionals who understand how people strategy shapes business outcomes — moving well beyond administrative HR functions into organizational decision-making, workforce analytics, and strategic talent management.
+
+The real question is: Can you build an organization that performs — not just manage one?
+
+### Proof Points (Tick List)
+- Think like a strategic HR leader
+- Understand people, performance, and systems
+- Influence business outcomes through talent
+
+### CTAs
+- Download Brochure →
+- Apply Now →
+- Get Programme Details →
 
 ---
 
-# Why MBA in Human Resource at RVS CAS MBA?  
-## Where People Decisions Drive Business Outcomes  
+## WHY THIS PROGRAMME
 
-Human Resources is not a support function.  
-It is a **business-critical discipline** that shapes how organizations perform.
+### Section Heading
+Why MBA in Human Resources at RVS CAS?
 
-Many HR programs focus on:
-
-- Processes and policies  
-- Compliance frameworks  
-- Administrative execution  
-
-This program starts from a different place:
-
-**HR is about systems, performance, and organizational effectiveness.**
+### Body
+Human Resources is not limited to recruitment or compliance. It involves shaping culture, improving productivity, aligning incentives, and using data to guide workforce decisions. This specialization goes beyond administrative HR to focus on what actually moves organizations forward.
 
 Students learn to:
+- Connect HR strategy directly with business objectives
+- Analyze workforce data to support decision-making
+- Design performance management systems
+- Evaluate organizational behavior and leadership impact
+- Apply HR analytics to real business scenarios
+- Influence culture and outcomes at an organizational level
 
-- Connect HR strategy with business objectives  
-- Design performance management and incentive systems  
-- Understand how behavior drives outcomes  
-- Analyze workforce data for decision-making  
-- Evaluate leadership impact on organizational performance  
-- Apply HR analytics in real-world scenarios  
-
-This ensures HR is learned as a **strategic and decision-oriented function**, not just execution.
-
----
-
-## Talk to an Academic Advisor  
+### CTA
+Talk to an Academic Advisor →
 
 ---
 
-# Academic Experience  
-## From Understanding People → To Designing Organizations  
+## KEY HIGHLIGHTS
 
-The academic experience is structured around how HR is actually practiced in high-performing organizations.
+### Section Heading
+What Makes This Programme Stand Out
 
-Learning follows a structured progression:
-
-**Understand Behavior → Build Systems → Manage Talent → Lead Change**
-
-Students are trained through:
-
-- Concept-first understanding of organizational behavior  
-- Case-based learning using real organizations  
-- Organizational simulations and role-based exercises  
-- Policy design and strategy workshops  
-- Continuous application of concepts  
-- HR analytics integrated across courses  
-- Faculty-led, discussion-driven sessions  
-- Assessment through projects and applied work  
-
-Students don’t just learn HR frameworks —  
-they learn how to **apply them to real organizational problems**.
+- Duration: 2 Years (4 Semesters)
+- Mode: Full-Time
+- Affiliation: Bharathiar University (Autonomous)
+- NAAC Accredited and Approved by AICTE
+- Case-Driven Learning
+- Internship: Mandatory Industry Exposure
+- Capstone Project
 
 ---
 
-## View Full Academic Experience  
+## HOW THE PROGRAMME WORKS
+
+### Section Heading
+From People Management → To Organizational Strategy
+
+**01 — Understand Human Behavior**
+Organizational behavior. Motivation and performance drivers. How individuals operate within systems — and why that understanding is the foundation for everything that follows in strategic HR.
+
+**02 — Build Performance Systems**
+Move from understanding people to designing the structures that enable them to perform. Policy design, incentive alignment, performance management frameworks, and the organizational systems that make culture more than a slogan.
+
+**03 — Manage Talent Strategically**
+Workforce planning, talent acquisition, learning and development, and compensation design — not as isolated functions, but as integrated levers that affect business outcomes.
+
+**04 — Lead Organizations Through Change**
+Organizational development, change management, and leadership — with HR analytics integrated throughout. The capability to assess organizational health, make data-informed decisions, and lead through complexity.
 
 ---
 
-# Curriculum Overview  
+## THE COMPARISON
 
-## Core Areas  
+### Section Heading
+Not All HR Programmes Create Business Leaders
 
-- Management and Organizational Behaviour  
-- Human Resource Management  
-- Economics for Decision Making  
-- Leadership & Strategy  
-
----
-
-## Specialization Courses  
-
-- Talent Acquisition & Workforce Planning  
-- Employee Relationship Management  
-- Organisation Development  
-- Business Leadership  
-- HR Analytics  
+| Typical HR Programmes | RVS MBA in Human Resources |
+|---|---|
+| Focus on processes and compliance | Focus on performance and organizational systems |
+| Limited exposure to business impact | Strong link between HR strategy and business outcomes |
+| Administrative orientation | Strategic and leadership-oriented approach |
 
 ---
 
-## Tools & Platforms  
+## ACADEMIC EXPERIENCE
 
-Students gain exposure to:
+### Section Heading
+How You Will Be Trained
 
-- HR analytics tools  
-- Workforce data systems  
-- Performance tracking frameworks  
+### Guiding Principle
+Foundations in Thought. Discipline in Application. Leadership in Action.
 
-The focus is not just on tools —  
-but on **how they support people and performance decisions**.
+The academic experience in Human Resources emphasizes structured thinking and applied organizational insight — built around how HR decisions are actually made in organizations, not how they appear in textbooks.
 
----
-
-## Capstone Project  
-
-Students apply HR concepts in real scenarios:
-
-- Organizational case studies  
-- Talent strategy design  
-- Policy drafting and implementation  
-- Performance system evaluation  
-
-Capstone ensures:
-
-- Application of HR thinking in real environments  
-- Ability to solve organizational challenges  
-- Development of practical, leadership-ready capability  
+- Case-based learning using real organizations
+- Understanding organizational behavior before applying frameworks
+- Faculty-led, discussion-driven learning
+- Organizational simulations and role-based exercises
+- Policy design and strategy workshops
+- HR analytics integrated across courses
+- Assessment-based learning through projects and case assignments
+- Continuous faculty mentoring for leadership judgment
+- Continuous application of concepts through real scenarios
 
 ---
 
-# Career Outcomes  
-## Building Careers in HR with Strategic Impact  
+## CURRICULUM
 
-This program prepares you for roles where:
+### Section Heading
+What You Will Study
 
-- People decisions influence business outcomes  
-- Culture and performance are interconnected  
-- Talent strategy drives organizational success  
+**Core Areas**
+- Management and Organizational Behaviour
+- Human Resource Management
+- Economics for Decision Making
+- Leadership & Strategy
 
-Graduates are trained not just for execution —  
-but for **decision-focused HR roles**.
+**HR Specialization**
+- Talent Acquisition & Workforce Planning
+- Business Leadership
+- Employee Relationship Management
+- Organisation Development
+- HR Analytics
 
----
+**Capstone Experience**
 
-## Real Roles for Real Organizational Leadership  
+Apply HR concepts in real organizational scenarios:
 
-- HR Executive  
-- Talent Acquisition Specialist  
-- HR Business Partner  
-- Compensation & Benefits Analyst  
-- Learning & Development Manager  
-- Organizational Development Executive  
+- Organizational case studies
+- Talent strategy design
+- Policy drafting and implementation
+- Performance system evaluation
 
----
-
-## Career Support with Purpose  
-
-- Interview preparation  
-- Corporate grooming  
-- Case-based assessment practice  
-- Internship support  
-- Placement assistance  
-- Industry exposure  
+*Core Areas | Specialization Courses | Tools & Platforms | Capstone Project | Career Outcomes*
 
 ---
 
-## Sample Career Progression  
+## INSTITUTIONS & ACADEMIC FRAMEWORK
 
-- Entry: HR and talent roles  
-- Mid: HR Business Partner / functional specialist  
-- Growth: Strategic HR leadership roles  
+### Section Heading
+Where You Study & How It's Recognised
 
----
+**RVS College of Arts & Science (Autonomous)**
+- Affiliated to Bharathiar University
+- NAAC Accredited
+- Approved by AICTE
 
-## Employer Ecosystem  
-
-Students gain exposure to how HR functions operate across:
-
-- Corporate HR teams  
-- Talent acquisition and recruitment firms  
-- Organizational development roles  
-- Workforce analytics functions  
-
-Through projects, simulations, and industry interaction, students understand how HR contributes to **organizational performance and long-term success**.
+**Programme Designed With Focus On:**
+- Strategic HR thinking
+- Organizational effectiveness
+- Real-world application
 
 ---
 
-# Industry Exposure & Certifications  
+## INDUSTRY EXPOSURE & CERTIFICATIONS
 
-- Industry partnerships and MoUs  
-- Internships and live HR projects  
-- Exposure to HR systems and analytics tools  
-- Certification-oriented learning  
+### Section Heading
+Industry Exposure & Certifications
 
-Students engage with:
+- Industry partnerships and MoUs
+- Internships and live HR projects
+- Exposure to real-world HR systems and analytics tools
+- Certification-oriented learning
 
-- Faculty  
-- Alumni  
-- Industry professionals  
-
-to understand how HR operates in practice — across:
-
-- Talent management  
-- Organizational development  
-- Workforce analytics  
-- Leadership and culture-building  
+Throughout the MBA in Human Resources, students engage with faculty, alumni, and industry professionals who actively shape people strategy and organizational development within businesses. These interactions provide insight into how HR functions operate in practice — across talent acquisition teams, HR operations, payroll administration, workforce analytics, and organizational leadership roles. Students gain practical exposure to how strategic human capital decisions influence productivity, culture, and long-term business success.
 
 ---
 
-# What Makes This Program Stand Out  
+## CAREER OUTCOMES
 
-- 2-Year Full-Time MBA  
-- Bharathiar University Affiliated  
-- AICTE Approved  
-- Case-driven learning approach  
-- Strong focus on organizational effectiveness  
-- Strategic HR orientation (not administrative)  
-- Integration of analytics and people strategy  
-- Internship and real-world exposure  
+### Section Heading
+Where This Programme Can Take You
 
----
+The MBA in Human Resources is designed not merely to educate — but to build professional competence for roles that require organizational insight, strategic people management, and data-informed decision-making.
 
-# Is This Human Resources MBA Right for You?  
+This specialization prepares you for HR careers where aligning talent strategy with business objectives, shaping culture, and applying workforce analytics matter more than routine administrative execution.
 
-This program is suited for:
+After completing the programme, graduates are positioned to work in HR, talent, and organizational roles — building expertise in people and performance systems, and moving into strategic HR leadership positions over time.
 
-- Graduates aspiring for HR and people-management roles  
-- Professionals transitioning into HR strategy roles  
-- Students interested in organizational behavior and leadership  
-- Individuals who want to influence culture and performance  
-- Learners who see HR as strategic, not administrative  
+### Career Opportunities
 
----
+**Roles**
+- HR Executive
+- Talent Acquisition Specialist
+- HR Business Partner
+- Compensation Analyst
+- Learning & Development Manager
+- Organizational Development Executive
 
-# Admissions Snapshot  
-
-## Key Admissions Criteria  
-
-- Strong analytical and reasoning ability  
-- Valid CAT / MAT / CMAT / TANCET scores  
-- Clear interest in HR, people strategy, and leadership  
-- Demonstrated program fit through interview  
+### Career Support
+- Interview preparation and corporate grooming
+- Case-based assessment practice
+- Industry exposure through internships and live HR projects
+- Continuous guidance throughout the programme
 
 ---
 
-## Admissions Details  
-## How to Apply  
+## BUILD A STRONG HR CAREER FOUNDATION
+
+### Section Heading
+Build a Strong HR Career Foundation
+
+Choosing without understanding can lead to limited administrative roles, slow career progression, and a career that never breaks through to real business impact.
+
+This programme helps you:
+
+- Build strong HR fundamentals grounded in organizational theory and practice
+- Understand and demonstrate organizational impact — not just functional competence
+- Develop long-term leadership capability in people and performance management
 
 ---
 
-# Final Thought  
-## Build Organizations. Don’t Just Manage Them.  
+## WHO SHOULD APPLY
 
-Choosing the wrong program can lead to:
+### Section Heading
+Is This Human Resources MBA Right for You?
 
-- Limited administrative roles  
-- Slow career growth  
-- Low business impact  
+This programme is suited for:
 
-This program helps you:
-
-- Build strong HR fundamentals  
-- Understand organizational systems and behavior  
-- Develop strategic thinking in people management  
-- Influence business outcomes through talent  
-- Build long-term leadership capability  
-
-**Structured. Practical. Outcome-focused.**
+- Graduates aspiring for HR and people-management roles
+- Professionals seeking to transition into HR strategy
+- Students interested in workforce analytics and leadership
+- Individuals who want to shape organizational culture and performance
+- Anyone who sees HR as strategic, not administrative — and wants to influence business outcomes through talent
 
 ---
 
-# Limited Intake  
+## ADMISSIONS
 
-Seats are limited to maintain quality.
+### Section Heading
+Admissions Snapshot
 
-Selection Process:
+**Limited Intake Only**
+Seats are limited to maintain quality. The selection process ensures the cohort is built around candidates who are serious about HR as a leadership discipline.
 
-- Application Review  
-- Group Discussion (GD)  
-- Personal Interview  
+**Key Admissions Criteria**
+- Academic Record: Strong quantitative and analytical foundation
+- Entrance Test: Valid CAT / MAT / CMAT / TANCET scores
+- Personal Statement: Clear interest in people strategy, HR, and organizational leadership
+- Group Discussion (GD)
+- Personal Interview: Demonstrated reasoning ability and programme fit
+
+### CTAs
+- Download Brochure →
+- Book Counselling →
+- Apply Now →
+
+---
+
+## STILL EXPLORING?
+
+Get guidance on:
+- HR career paths and role clarity
+- Programme fit for your background
+- Admissions process and eligibility
+
+### CTA
+Request a Call Back →
+
+---
+
+*RVS CAS MBA is recognised by AICTE and affiliated with Bharathiar University. All programmes are designed to meet industry standards and prepare students for successful careers in management.*

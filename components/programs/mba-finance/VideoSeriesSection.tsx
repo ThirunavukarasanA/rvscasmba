@@ -32,7 +32,7 @@ export default function VideoSeriesSection() {
               Thinking Like a Financial Analyst
             </h2>
             <p className="text-booth-maroon font-trade-gothic-bold text-sm mb-4">
-              A Learning Series by Dr. K. Senthil Ganesan
+              A Learning Series by Dr. K. Senthil Ganesh
             </p>
             <p className="text-booth-dark-gray font-trade-gothic-light text-base md:text-lg mb-6">
               Experience the same analytical framework used in this MBA program. This series introduces how analysts interpret capital, why accounting numbers are not absolute truth, and how business performance is evaluated beyond ratios.

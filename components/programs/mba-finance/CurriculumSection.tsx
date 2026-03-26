@@ -7,10 +7,10 @@ const curriculumData = [
       {
         type: "list" as const,
         items: [
-          "Financial Reporting and Analysis",
+          "Financial Accounting (I & II)",
           "Financial Management",
           "Accounting & Financial Analysis",
-          "Financial Planning & Analysis (FP&A)",
+          "Financial Planning & Analysis (FP&A I & II)",
           "Capital Markets",
           "Planning & Performance Systems",
           "Data-Driven Finance",
@@ -26,10 +26,10 @@ const curriculumData = [
       {
         type: "list" as const,
         items: [
-          "Accounting integration with corporate finance",
-          "FP&A and decision-support frameworks",
-          "Analytics-led financial interpretation",
-          "Strategic decision-making through real cases",
+          "Corporate finance",
+          "Investment analysis",
+          "Business finance",
+          "Financial strategy",
         ],
       },
     ],

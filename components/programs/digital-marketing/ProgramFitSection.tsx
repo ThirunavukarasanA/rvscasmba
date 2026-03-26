@@ -21,7 +21,7 @@ export default function ProgramFitSection() {
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Professionals looking to transition into marketing or performance roles</span>
+              <span>Professionals transitioning into marketing or performance roles</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
@@ -38,6 +38,10 @@ export default function ProgramFitSection() {
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>Learners who prefer applied, hands-on training over theory-heavy programs</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Anyone who has completed an undergraduate degree and wants to build a career in the digital domain</span>
             </li>
           </ul>
         </div>

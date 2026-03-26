@@ -38,7 +38,7 @@ const curriculumData = [
         items: [
           "HR analytics tools",
           "Workforce data systems",
-          "Performance tracking frameworks",
+          "Performance management frameworks",
         ],
       },
     ],

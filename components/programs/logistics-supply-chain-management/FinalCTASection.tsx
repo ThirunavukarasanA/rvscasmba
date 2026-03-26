@@ -7,7 +7,7 @@ export default function FinalCTASection() {
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-white mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-white mb-4">
-            Build Systems. Don't Just Manage Operations.
+            Build a Strong Career Foundation in Supply Chain.
           </h2>
         </div>
 

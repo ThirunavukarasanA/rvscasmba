@@ -19,7 +19,7 @@ export default function ProgramExperienceSection() {
             The academic experience goes beyond programming and platforms. It is designed to build end-to-end problem-solving capability using AI.
           </p>
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            Concept First. Tools Second. Decisions Always.
+            Understand Problem {"->"} Work with Data {"->"} Build Models {"->"} Apply {"->"} Decide
           </p>
         </div>
 

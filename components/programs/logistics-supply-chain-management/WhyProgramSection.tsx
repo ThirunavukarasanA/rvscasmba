@@ -17,7 +17,7 @@ export default function WhyProgramSection() {
 
         <div className="space-y-6">
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            Modern supply chains operate across global networks, digital systems, and complex dependencies. This program is built around how supply chains actually work.
+            Modern supply chains operate across global networks, digital systems, and interconnected operations. This program is built around how supply chains actually work.
           </p>
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
             Many programs focus on execution and isolated operations. This program starts from a different place: supply chain is a system-level, decision-driven discipline.
@@ -38,7 +38,7 @@ export default function WhyProgramSection() {
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Evaluate cost, service, and efficiency trade-offs</span>
+              <span>Evaluate cost, risk, and operational performance</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
@@ -54,7 +54,7 @@ export default function WhyProgramSection() {
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Manage risk, disruption, and operational complexity</span>
+              <span>Manage disruptions and trade-offs in real-world environments</span>
             </li>
           </ul>
 

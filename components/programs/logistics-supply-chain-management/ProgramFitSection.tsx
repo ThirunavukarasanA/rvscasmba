@@ -21,24 +21,30 @@ export default function ProgramFitSection() {
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Students interested in systems, processes, and optimization</span>
+              <span>Professionals interested in digital logistics systems</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>
-                Individuals who think analytically and structurally
+                Students who value structured process improvement
               </span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>
-                Learners interested in digital logistics and ERP systems
+                Individuals seeking careers in global trade and operations
               </span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>
-                Candidates aiming for careers in manufacturing, retail, or global trade
+                Anyone who thinks in processes, data, and outcomes and wants to work in manufacturing, retail, e-commerce, or global trade
+              </span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>
+                Students interested in working with industry tools like SAP and planning systems
               </span>
             </li>
           </ul>

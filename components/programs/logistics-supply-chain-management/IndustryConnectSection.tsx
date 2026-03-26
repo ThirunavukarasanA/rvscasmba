@@ -25,7 +25,7 @@ export default function IndustryConnectSection() {
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Lean Six Sigma-based learning</span>
+              <span>Certification-oriented learning in Lean Six Sigma</span>
             </li>
           </ul>
 

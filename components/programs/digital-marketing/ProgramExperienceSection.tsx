@@ -19,7 +19,7 @@ export default function ProgramExperienceSection() {
             The academic experience is structured around how marketers actually learn: not through theory alone, but through practice, feedback, and iteration.
           </p>
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            Learn through practice. Build through application.
+            Learn {"->"} Simulate {"->"} Apply {"->"} Optimize {"->"} Decide
           </p>
         </div>
 
@@ -44,7 +44,7 @@ export default function ProgramExperienceSection() {
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Hands-on project work</span>
+                <span>Project-based learning</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>

@@ -23,11 +23,11 @@ const items = [
         type: "list" as const,
         items: [
           "AI Analyst",
+          "Generative AI Developer",
           "Data Analyst",
           "Data Engineer",
-          "Generative AI Specialist",
-          "AI Product Associate",
-          "Python / AI Developer",
+          "Python Developer / Software Developer",
+          "AI Product Specialist",
         ],
       },
     ],
@@ -47,9 +47,8 @@ const items = [
           "Resume refinement",
           "Case-based interview preparation",
           "Project-to-portfolio guidance",
-          "Internship support",
-          "Placement assistance",
           "Industry exposure",
+          "Internship and placement support",
         ],
       },
     ],
@@ -67,10 +66,10 @@ const items = [
         type: "list" as const,
         items: [
           "Consulting environments",
-          "Technology companies",
+          "Technology firms",
           "Financial institutions",
-          "Marketing analytics",
-          "Operations and supply chain",
+          "Marketing analytics teams",
+          "Operations and supply chain functions",
         ],
       },
     ],
@@ -91,15 +90,15 @@ export default function CareerOutcomesSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-8">
           <div className="space-y-6">
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              Building Careers in AI with Decision-Making Strength
+              Building Careers in Analytics with Clarity and Analytical Strength
             </p>
 
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              This program prepares you for roles where AI informs strategy, data drives execution, and decisions matter more than dashboards.
+              The MBA in Artificial Intelligence is designed not merely to teach tools, but to build professional competence where data informs strategy and drives execution.
             </p>
 
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              You are trained not just for tools, but for decision-focused AI roles.
+              After completing the programme, graduates are positioned to enter AI and analytics roles with strong technical and business capability.
             </p>
 
             {/* <CurriculumAccordion items={items} /> */}

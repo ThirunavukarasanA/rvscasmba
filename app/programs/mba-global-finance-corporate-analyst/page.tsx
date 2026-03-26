@@ -3,8 +3,12 @@ import Header from "@/components/shared/Header";
 import Footer from "@/components/shared/Footer";
 // import HeroSection from "@/components/programs/mba-finance/HeroSection";
 import WhyProgramSection from "@/components/programs/mba-finance/WhyProgramSection";
+import KeyHighlightsSection from "@/components/programs/mba-finance/KeyHighlightsSection";
+import ProgramFlowSection from "@/components/programs/mba-finance/ProgramFlowSection";
+import FinanceComparisonSection from "@/components/programs/mba-finance/FinanceComparisonSection";
 import ProgramExperienceSection from "@/components/programs/mba-finance/ProgramExperienceSection";
 import CurriculumSection from "@/components/programs/mba-finance/CurriculumSection";
+import AdditionalCertificationsSection from "@/components/programs/mba-finance/AdditionalCertificationsSection";
 import CareerOutcomesSection from "@/components/programs/mba-finance/CareerOutcomesSection";
 import VideoSeriesSection from "@/components/programs/mba-finance/VideoSeriesSection";
 import IndustryConnectSection from "@/components/programs/mba-finance/IndustryConnectSection";
@@ -26,17 +30,21 @@ export default function MBAAppliedFinancePage() {
         pageName="MBA in Global Finance & Corporate Analyst"
         title="MBA in Global Finance & Corporate Analyst"
         description1={<>Learn to think, analyze, and decide like a financial analyst</>}
-        description2={<>MBA in Global Finance & Corporate Analyst is designed to help you understand how finance actually works inside businesses — beyond formulas, ratios, and textbook definitions.</>}
-        description3={<>You learn to connect business reality, financial statements, capital decisions, and strategic outcomes.</>}
+        description2={<>A practice-driven MBA at RVS CAS MBA designed around how finance actually works inside businesses, not how it is taught in textbooks.</>}
+        description3={<>Most students learn finance as formulas, but real finance needs judgment. You learn to understand what is actually happening behind the numbers.</>}
         image="/images/herosection/new/finance.png"
-        button1="Explore Program Structure"
+        button1="Download Brochure"
         button2="Apply Now"
-        button1Link="/request-information"
+        button1Link="/how-to-apply"
         button2Link="https://admissions.rvscas.ac.in/"
       />
       <WhyProgramSection />
+      <KeyHighlightsSection />
+      <ProgramFlowSection />
+      <FinanceComparisonSection />
       <ProgramExperienceSection />
       <CurriculumSection />
+      <AdditionalCertificationsSection />
       <CareerOutcomesSection />
       <VideoSeriesSection />
       <FinalCTASection />

@@ -17,11 +17,11 @@ export default function IndustryConnectSection() {
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Internships and live AI projects</span>
+              <span>Internships and live analytics projects</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Exposure to real-world data platforms</span>
+              <span>Exposure to real-world data platforms and tools</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>

@@ -26,7 +26,7 @@ export default function ProgramFitSection() {
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>
-                Students interested in organizational behavior and leadership
+                Students interested in workforce analytics and leadership
               </span>
             </li>
             <li className="flex items-center gap-3">
@@ -38,7 +38,7 @@ export default function ProgramFitSection() {
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>
-                Learners who see HR as strategic, not administrative
+                Anyone who sees HR as strategic, not administrative, and wants to influence business outcomes through talent
               </span>
             </li>
           </ul>

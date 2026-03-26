@@ -13,39 +13,25 @@ export default function WhyProgramSection() {
 
         <div className="space-y-6">
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            Most finance programs focus on formulas, ratios, and accounting as absolute truth. This program starts from a different place: finance is decision-making under uncertainty.
+            Unlike traditional programs, this MBA focuses on how finance professionals think and make decisions, not on textbook-driven learning.
+          </p>
+          <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+            Most finance programs focus on formulas and ratios, treat accounting numbers as absolute truth, and offer limited exposure to real-world decision-making.
+          </p>
+          <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+            This program starts from a different place: finance is decision-making under uncertainty.
           </p>
 
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            What you’ll build here
+            This is a serious programme for serious learners. You will not just study finance, you will build the judgment to practice it.
           </p>
 
-          <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-            <li className="flex items-center gap-3">
-              <span className="text-booth-maroon mt-1">•</span>
-              <span>Think beyond financial statements</span>
-            </li>
-            <li className="flex items-center gap-3">
-              <span className="text-booth-maroon mt-1">•</span>
-              <span>Understand how businesses create or destroy value</span>
-            </li>
-            <li className="flex items-center gap-3">
-              <span className="text-booth-maroon mt-1">•</span>
-              <span>Interpret accounting numbers with skepticism</span>
-            </li>
-            <li className="flex items-center gap-3">
-              <span className="text-booth-maroon mt-1">•</span>
-              <span>Analyze capital allocation decisions</span>
-            </li>
-            <li className="flex items-center gap-3">
-              <span className="text-booth-maroon mt-1">•</span>
-              <span>Connect finance with business models and strategy</span>
-            </li>
-            <li className="flex items-center gap-3">
-              <span className="text-booth-maroon mt-1">•</span>
-              <span>Build FP&A and forecasting thinking</span>
-            </li>
-          </ul>
+          <div className="space-y-4 text-booth-dark-gray font-trade-gothic-light">
+            <p className="text-lg md:text-xl"><strong className="font-trade-gothic-bold">Faculty-Led, Thinking-Driven Learning</strong><br />Learn from global-level faculty and industry practitioners. The classroom mirrors professional finance rigor, not textbook repetition.</p>
+            <p className="text-lg md:text-xl"><strong className="font-trade-gothic-bold">Applied by Design, Not by Label</strong><br />Concepts are taught through real companies, real decisions, and real consequences. Theory is used only where it improves practice.</p>
+            <p className="text-lg md:text-xl"><strong className="font-trade-gothic-bold">Career Readiness Through Clarity, Not Shortcuts</strong><br />Graduate ready to analyze financial statements critically, question what is not visible in the numbers, and evaluate real economic value.</p>
+            <p className="text-lg md:text-xl"><strong className="font-trade-gothic-bold">A Serious Programme for Serious Learners</strong><br />Seats are limited and selection is rigorous, designed for students committed to finance as a career.</p>
+          </div>
 
           {/* <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
             The curriculum emphasizes{" "}
@@ -54,9 +40,6 @@ export default function WhyProgramSection() {
             </strong>
             , ensuring graduates are industry-ready.
           </p> */}
-          <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            This is a thinking-first, application-driven program, not a content-heavy degree.
-          </p>
           <Link
             href="/request-information"
             className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline"

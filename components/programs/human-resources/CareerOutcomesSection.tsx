@@ -19,7 +19,7 @@ const items = [
           "HR Executive",
           "Talent Acquisition Specialist",
           "HR Business Partner",
-          "Compensation & Benefits Analyst",
+          "Compensation Analyst",
           "Learning & Development Manager",
           "Organizational Development Executive",
         ],
@@ -46,7 +46,7 @@ const items = [
         type: "paragraph" as const,
         text: (
           <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            Entry: HR and talent roles → Mid: HR Business Partner / functional specialist → Growth: Strategic HR leadership roles
+            Entry: HR and talent roles {"->"} Mid: HR Business Partner / functional specialist {"->"} Growth: Strategic HR leadership roles
           </p>
         ),
       },
@@ -69,7 +69,7 @@ const items = [
         type: "list" as const,
         items: [
           "Corporate HR teams",
-          "Talent acquisition and recruitment firms",
+          "Talent acquisition and recruitment",
           "Organizational development roles",
           "Workforce analytics functions",
         ],
@@ -92,11 +92,11 @@ export default function CareerOutcomesSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-8">
           <div className="space-y-6">
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              This program prepares you for roles where people decisions influence business outcomes, culture and performance are interconnected, and talent strategy drives organizational success.
+              The MBA in Human Resources builds professional competence for roles requiring organizational insight, strategic people management, and data-informed decision-making.
             </p>
 
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              Graduates are trained not just for execution, but for decision-focused HR roles.
+              Graduates are positioned to move into HR, talent, and organizational roles and progress toward strategic HR leadership over time.
             </p>
 
             {/* <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">

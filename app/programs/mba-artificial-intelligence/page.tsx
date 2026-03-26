@@ -7,6 +7,9 @@ import ProgramExperienceSection from "@/components/programs/artificial-intellige
 import ProgramFitSection from "@/components/programs/artificial-intelligence/ProgramFitSection";
 import RequestProgramInformation from "@/components/programs/artificial-intelligence/RequestProgramInformation";
 import WhyProgramSection from "@/components/programs/artificial-intelligence/WhyProgramSection";
+import KeyHighlightsSection from "@/components/programs/artificial-intelligence/KeyHighlightsSection";
+import ProgramFlowSection from "@/components/programs/artificial-intelligence/ProgramFlowSection";
+import ComparisonSection from "@/components/programs/artificial-intelligence/ComparisonSection";
 import Footer from "@/components/shared/Footer";
 import Header from "@/components/shared/Header";
 import HeroSection from "@/components/shared/HeroSection";
@@ -30,21 +33,24 @@ export default function page() {
                 }
                 description2={
                     <>
-                        MBA in Artificial Intelligence is designed to help you go beyond tools and models and build the ability to use AI for real-world decision-making.
+                        Most people learn tools. AI leaders learn how to connect data, technology, and business insight to solve real-world problems.
                     </>
                 }
                 description3={
                     <>
-                        Most programs teach algorithms. This program trains you to decide where AI should be used, what problem is worth solving, and what action to take from outputs.
+                        This MBA equips you with analytical frameworks, quantitative understanding, and the judgment to bridge business questions with analytic answers.
                     </>
                 }
                 image='/images/herosection/new/artificial-intelligence.png'
-                button1='Explore Analytics Curriculum'
+                button1='Download Brochure'
                 button2='Apply Now'
-                button1Link='/request-information'
+                button1Link='/how-to-apply'
                 button2Link='https://admissions.rvscas.ac.in/'
             />
             <WhyProgramSection />
+            <KeyHighlightsSection />
+            <ProgramFlowSection />
+            <ComparisonSection />
             <ProgramExperienceSection />
             <CurriculumSection />
             <CareerOutcomesSection />

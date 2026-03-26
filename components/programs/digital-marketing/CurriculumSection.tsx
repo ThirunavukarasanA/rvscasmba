@@ -22,12 +22,10 @@ const curriculumData = [
       {
         type: "list" as const,
         items: [
-          "Stukent Digital Marketing Simulations",
-          "Google Ads, Google Analytics, Search Console",
-          "Meta Ads Manager, LinkedIn Campaign Manager",
-          "Mailchimp, HubSpot CRM",
-          "SEMrush, Ahrefs",
-          "Hootsuite, Canva, WordPress, Hotjar",
+          "Performance marketing",
+          "Growth strategy",
+          "Customer acquisition and retention",
+          "Analytics-led decision making",
         ],
       },
     ],

@@ -1,321 +1,338 @@
-# MBA in Global Finance & Corporate Analyst  
-Learn to think, analyze, and decide like a financial analyst  
-
-MBA in Global Finance & Corporate Analyst is designed to help you understand how finance actually works inside businesses — beyond formulas, ratios, and textbook definitions.
-
-Most students learn finance as calculations.  
-In the real world:
-
-Companies show profits — and still destroy value  
-High returns look impressive — and still mislead  
-Financial statements look precise — but are incomplete  
-
-The real question is:
-
-**Can you understand what is actually happening behind the numbers?** :contentReference[oaicite:0]{index=0}  
-
-This program trains you to connect:
-
-- Business reality  
-- Financial statements  
-- Capital decisions  
-- Strategic outcomes  
-
-You don’t just learn finance.  
-You learn how to **think like a financial analyst**.
+# MBA in Global Finance & Corporate Analyst
+## Website Content — Rewrite
 
 ---
 
-## Explore Program Structure  
-## Apply Now  
+## HERO SECTION
+
+### Headline
+Learn to Think, Analyze, and Decide Like a Financial Analyst
+
+### Subheadline
+MBA in Global Finance & Corporate Analyst — RVS CAS
+
+### Body
+Most students learn finance as formulas. The real world doesn't work that way.
+
+Companies report profits — and still destroy value. High returns look impressive — and still mislead. The real question isn't whether you can calculate a ratio. It's whether you can understand what's actually happening behind the numbers.
+
+This practice-driven MBA at RVS CAS is built around real financial decision-making — not textbook theory. It develops analyst-style thinking, emphasizes company and valuation-led learning, and is delivered by faculty who prioritize clarity, judgment, and application over content-heavy instruction.
+
+### Proof Points (Tick List)
+- Think beyond financial statements
+- Understand how businesses create — or destroy — value
+- Make capital allocation decisions with clarity and confidence
+
+### CTAs
+- Download Brochure →
+- Apply Now →
+- Get Programme Details →
 
 ---
 
-# Why MBA in Global Finance & Corporate Analyst at RVS CAS?  
-## Built Around How Finance Professionals Actually Think  
+## WHY THIS PROGRAMME
 
-Most finance programs focus on:
+### Section Heading
+Why MBA in Global Finance & Corporate Analyst at RVS CAS?
 
-- Formulas and ratios  
-- Accounting as truth  
-- Isolated subjects without integration  
+### Body
+Unlike traditional programmes, the MBA in Global Finance & Corporate Analyst focuses on how finance professionals think and make decisions — not on memorizing textbook content.
 
-This program starts from a different place:
+This is a serious programme for serious learners. You won't just study finance. You'll build the judgment to practice it.
 
-**Finance is not calculation. It is decision-making under uncertainty.**
+### What You'll Build Here
 
-Students are trained to:
+**Faculty-Led, Thinking-Driven Learning**
+Learn from global-level faculty and real industry practitioners — not just textbooks. The classroom mirrors the rigor of professional finance environments.
 
-- Think beyond financial statements  
-- Understand how businesses create or destroy value :contentReference[oaicite:1]{index=1}  
-- Interpret accounting numbers with skepticism  
-- Analyze capital allocation decisions  
-- Connect finance with business models and strategy  
-- Build Financial Planning & Analysis (FP&A) thinking  
+**Applied by Design, Not by Label**
+Every concept is taught through real companies, real decisions, and real consequences. Theory earns its place only when it serves practice.
 
-This is a **thinking-first, application-driven program** — not a content-heavy degree.
+**Career Readiness Through Clarity, Not Shortcuts**
+You'll graduate able to analyze any company's financials, question what isn't in the books, and evaluate the true economic value behind business decisions.
 
----
+**A Serious Programme for Serious Learners**
+Seats are limited. Selection is rigorous. The programme is designed for those committed to finance as a career — not as a checkbox.
 
-## What You’ll Build Here  
-
-- Faculty-led, thinking-driven learning  
-- Financial judgment, not just calculation  
-- FP&A and forecasting capability  
-- Ability to interpret incomplete and imperfect data  
-- Career readiness through clarity, not shortcuts  
-- A serious program for serious learners  
+### CTA
+Talk to an Academic Advisor →
 
 ---
 
-## Talk to an Academic Advisor  
+## KEY HIGHLIGHTS
+
+### Section Heading
+What Makes This Programme Stand Out
+
+- Duration: 2 Years (4 Semesters)
+- Mode: Full-Time
+- Affiliation: Bharathiar University
+- Credits: 60–120 (as per university norms)
+- Internship: Mandatory Industry Exposure
+- Capstone: Real-Time Finance Project
+- Re-Accredited with A+ Grade by NAAC
+- 40+ years legacy institution
+- Strong alumni network with graduates in leading global companies
 
 ---
 
-# Academic Experience  
-## Learn Finance the Way It Works in the Real World  
+## HOW THE PROGRAMME WORKS
 
-The program is structured to mirror how finance is actually practiced in organizations.
+### Section Heading
+Learn Finance the Way It Works in the Real World
 
-Learning follows a structured progression:
+**01 — Understand the Business First**
+Before you can analyze numbers, you need to understand the business generating them. How different businesses operate. What drives revenue, cost, and risk. Why business models matter in the first place.
 
-**Understand Business → Decode Numbers → Think in Capital → Apply → Decide** :contentReference[oaicite:2]{index=2}  
+**02 — Decode Financial Statements**
+Go beyond reading statements to questioning them. Learn what balance sheets hide, why profitable companies go bankrupt, and how accounting numbers can both reveal and conceal reality.
 
-Students are trained through:
+**03 — Think in Terms of Capital**
+Return on capital is the central lens of financial analysis. Learn to evaluate not just what a business earns — but whether it earns more than it costs to run.
 
-- Concept-first learning (not formula memorization)  
-- Case-based learning using real companies  
-- Simulation-based financial decision exercises  
-- Continuous application of concepts to real scenarios  
-- Financial modelling and analysis  
-- Industry-oriented case studies and business problems  
-- FP&A-driven thinking (planning, forecasting, decision support)  
-- Building dashboards and presenting financial insights  
+**04 — Apply Through Real Scenarios**
+Case-based learning drawn from real companies — Young's Brewery, British Airways, AOL-Time Warner, Kingfisher, Boeing, and others. Finance learned through decisions, not definitions.
 
-Students don’t just solve problems —  
-they learn how to **frame and interpret them**.
+**05 — Build the FP&A Mindset**
+Develop the forecasting, planning, and partnering skills that modern finance teams actually use. Excel modelling, data visualization, AI tools — applied in context, not in isolation.
 
 ---
 
-## View Full Academic Experience  
+## THE COMPARISON
+
+### Section Heading
+Not All Finance Degrees Teach You How to Think
+
+| Typical Finance Programmes | RVS MBA — Global Finance & Corporate Analyst |
+|---|---|
+| Focus on formulas and ratios | Focus on financial judgment, not just calculation |
+| Treat accounting numbers as absolute truth | Understand the limitations and context behind numbers |
+| Limited exposure to real-world decision-making | Learn how real business decisions are actually made |
+
+### Core Philosophy
+Finance is about decision-making, not just numbers.
+
+### What You'll Graduate With
+- Financial Statement Mastery
+- FP&A & Forecasting Skills
+- Corporate Finance Expertise
+- Capital Markets Exposure
+- Real-World Decision-Making Ability
+- Business-Focused Financial Thinking
 
 ---
 
-# Curriculum Overview  
+## ACADEMIC EXPERIENCE
 
-## Core Learning Areas  
+### Section Heading
+How You Will Be Trained
 
-- Financial Accounting (Foundations to Advanced)  
-- Financial Management  
-- Accounting & Financial Analysis  
-- Financial Planning & Analysis (FP&A)  
-- Capital Markets  
-- Planning & Performance Systems  
-- Data-Driven Finance  
-- Finance Business Partnering  
-- AI in Finance  
+The Global Finance & Corporate Analyst programme is structured to mirror the way finance is practiced, analyzed, and taught in the professional world. Learn finance by doing — not by memorizing.
 
-The curriculum is designed to integrate:
-
-- Accounting  
-- Corporate finance  
-- Analytics  
-- Strategic decision-making  
+- Case-based learning with real companies
+- Concept-first approach, not formula memorization
+- Simulation-based financial decision exercises
+- Continuous real-world application of concepts
+- Hands-on financial modelling and analysis
+- Industry-oriented case studies, projects, and business scenarios
+- Case studies reflecting how top companies plan, forecast, and make decisions
+- Exposure to tools used in modern finance teams: Excel modelling, data visualization, and AI tools (ChatGPT, Copilot)
+- Build dashboards, present financial insights, and influence business decisions
+- Project-based learning and continuous assessments
+- Capstone project in Global Finance & Corporate Analyst
 
 ---
 
-## Tools & Platforms  
+## CURRICULUM
 
-Students gain exposure to tools used in modern finance teams:
+### Section Heading
+What You Will Study
 
-- Excel for financial modelling  
-- Data visualization tools  
-- Business dashboards  
-- AI tools (ChatGPT, Copilot)  
+**Core Finance Curriculum**
 
-Focus is not just on tools —  
-but on **how they support financial decision-making**.
+1. Financial Accounting – I
+   - Accounting fundamentals, financial statements, introduction to corporate reporting
 
----
+2. Financial Accounting – II
 
-## Capstone Project  
+3. Financial Management
 
-- Real-world finance project  
-- Application of FP&A and analytical frameworks  
-- End-to-end financial problem-solving  
-- Portfolio demonstrating decision-making capability  
+4. Accounting and Financial Analysis
 
----
+5. Financial Planning & Analysis – I
 
-# Career Outcomes  
-## A Launchpad for Financial Careers with Real Judgment  
+6. Financial Planning & Analysis – II (Advanced FP&A)
 
-This program prepares you for roles where:
+7. Capital Markets
 
-- Financial reasoning matters  
-- Business understanding is critical  
-- Decisions have real consequences  
+8. Planning & Performance Systems
 
-You are trained for **decision-focused finance roles**, not routine execution.
+9. Data-Driven Finance
+
+10. Finance Business Partnering
+
+11. AI in Finance
+
+*Core Learning Areas | Specialization Courses | Tools & Platforms | Capstone Project | Career Outcomes*
 
 ---
 
-## Real Roles for Real Financial Thinking  
+## ADDITIONAL CERTIFICATIONS
 
-- Financial Analyst  
-- FP&A Analyst  
-- Investment Analyst  
-- Equity Research Analyst  
-- Credit Risk Analyst  
-- Corporate Finance Executive  
+### Section Heading
+Make a Better Career Decision
 
----
+Alongside the core curriculum, students can pursue certification programmes in:
 
-## Career Support with Purpose  
-
-- Resume building  
-- Case-based interview preparation  
-- Financial storytelling and communication  
-- Internship support  
-- Placement assistance  
+- Financial Modelling
+- Tax & Accounts
+- Mergers & Acquisitions
+- Valuation
+- NISM
+- SWAYAM
+- Coursera
 
 ---
 
-## Sample Career Trajectory  
+## FACULTY
 
-- Entry: Analyst roles  
-- Mid: Business finance / FP&A roles  
-- Growth: Strategic finance, leadership roles  
+### Section Heading
+Who Will Train You?
 
----
+- Global-level faculty trained at institutions including LBS, IIM, and SDA Bocconi
+- Industry experts — CFA charterholders, stock brokers, and senior corporate professionals
+- Learn from real practitioners, not just textbooks
 
-## Employer Ecosystem  
-
-Students gain exposure to:
-
-- Corporate finance teams  
-- Advisory and consulting firms  
-- Financial services companies  
-- FinTech firms  
-- Investment and asset management companies  
+Throughout the programme, students engage with faculty, alumni, and industry professionals who actively shape financial decision-making in organizations — across corporate finance teams, advisory roles, analytics functions, and emerging financial domains.
 
 ---
 
-# Thinking Like a Financial Analyst — Learning Series  
+## THE LEARNING SERIES
 
-## Thinking Like a Financial Analyst  
-A Learning Series by Dr. K. Senthil Ganesan  
+### Section Heading
+Thinking Like a Financial Analyst — A Learning Series by Dr. K. Senthil Ganesh
 
-Experience the same analytical framework used in this MBA program.
+Experience the same analytical framework used in this MBA programme — before you even apply.
 
-This series introduces you to:
+This free video series introduces you to how real financial analysts interpret capital, question accounting numbers, and evaluate business performance. It's the very approach Dr. Senthil Ganesh brings to the MBA in Global Finance & Corporate Analyst classroom.
 
-- How analysts interpret capital  
-- Why accounting numbers are not absolute truth  
-- How business performance is evaluated beyond ratios  
+66 focused lessons. One analytical lens. A genuine preview of how we teach finance at RVS CAS.
 
-66 focused lessons. One analytical lens.  
-
-A preview of how finance is taught in this program.
+### CTA
+Explore the Series →
 
 ---
 
-## Explore the Series  
+## CAREER OUTCOMES
+
+### Section Heading
+Where This Programme Can Take You
+
+The MBA in Global Finance & Corporate Analyst is designed not just to educate — but to build career competence, especially for roles that require analytical depth, financial reasoning, and business insight.
+
+This is a specialisation that prepares you for decision-focused financial careers, not routine execution.
+
+### Career Opportunities
+- Financial Analyst
+- FP&A Analyst
+- Investment Analyst
+- Credit Risk Analyst
+- Corporate Finance Executive
+- Equity Research Analyst
+
+### Top Recruiters
+- Big 4 Firms
+- Corporate Finance Departments
+- Financial Services Companies
+- FinTech Firms
+- Asset Management Companies
+- Wealth Management Companies
+
+### Career Support
+- Resume building and interview preparation
+- Case-based training aligned to interview formats
+- Industry exposure through internships and live projects
+- Certification-oriented learning throughout the programme
+
+### Sample Career Trajectory
+Structured. Practical. Outcome-Focused.
+
+- Learn. Apply. Succeed.
+- Think Finance. Act Strategically.
+- Beyond Theory. Into Real Finance.
+- From Concepts to Corporate Decisions.
+- Where Finance Meets Real-World Impact.
 
 ---
 
-# Industry Exposure & Certifications  
+## INSTITUTIONS & ACADEMIC FRAMEWORK
 
-- Industry partnerships and MoUs  
-- Internships and live projects  
-- Exposure to real-world financial tools  
-- Certification-oriented learning  
+### Section Heading
+Where You Study & How It's Recognised
 
-Students interact with:
+**RVS College of Arts & Science (Autonomous)**
+- Affiliated to Bharathiar University
+- NAAC Re-Accredited with A+ Grade
+- Approved by AICTE
 
-- Faculty  
-- Alumni  
-- Industry professionals  
-
-to understand how finance operates across:
-
-- Corporate finance  
-- FP&A functions  
-- Advisory roles  
-- Analytics-driven finance environments  
+**Programme Designed With Focus On:**
+- Industry-Relevant Finance Skills
+- Financial Planning & Analysis (FP&A)
+- Career-Oriented Learning
+- Analytical & Strategic Thinking
+- Industry Exposure & Internships
+- Communication & Financial Storytelling
 
 ---
 
-# What Makes This Program Stand Out  
+## WHO SHOULD APPLY
 
-- 2-Year Full-Time MBA  
-- Bharathiar University Affiliated  
-- AICTE Approved  
-- Re-Accredited with A+ Grade by NAAC  
-- 40+ year legacy institution  
-- Strong alumni network in global companies :contentReference[oaicite:3]{index=3}  
-- FP&A-focused curriculum (rare in traditional MBA programs)  
-- Business-first, finance-second learning approach  
-- Strong emphasis on judgment and analytical thinking  
+### Section Heading
+Is This Right for You?
 
----
+This programme is suited for:
 
-# Is This Global Finance & Corporate Analyst MBA Right for You?  
-
-This program is suited for:
-
-- Graduates aspiring for finance, investment, and analyst roles  
-- Professionals transitioning into finance  
-- Students interested in analytical and decision-driven careers  
-- Learners who want to go beyond formulas into real finance thinking  
-- Individuals interested in fintech and data-driven finance  
+- Graduates aspiring for finance and investment roles
+- Professionals looking to move into finance
+- Entrepreneurs seeking strong financial decision-making skills
+- Students interested in fintech and analytics-driven finance
+- Anyone with an analytical and business mindset who is serious about a career in finance
 
 ---
 
-# Admissions Snapshot  
+## ADMISSIONS
 
-## Key Admissions Criteria  
+### Section Heading
+Admissions Snapshot
 
-- Strong quantitative and analytical foundation  
-- Valid CAT / MAT / CMAT / TANCET scores  
-- Clear interest in finance and analytical thinking  
-- Demonstrated reasoning ability and program fit  
+**Limited Intake Only**
+Seats are limited to maintain quality. The selection process ensures the cohort is built for depth, not volume.
 
----
+**Key Admissions Criteria**
+- Academic Record: Strong quantitative and analytical foundation
+- Entrance Test: Valid CAT / MAT / CMAT / TANCET scores
+- Personal Statement: Clear interest in finance and analytics
+- Group Discussion (GD)
+- Personal Interview: Demonstrated reasoning ability and programme fit
 
-## Admissions Details  
-## How to Apply  
-
----
-
-# Final Thought  
-## A Smarter Way to Build a Finance Career  
-
-Choosing the wrong program can lead to:
-
-- Learning formulas without understanding  
-- Misinterpreting financial performance  
-- Weak analytical capability  
-- Limited career growth  
-
-This program helps you:
-
-- Build strong conceptual foundations  
-- Develop real financial judgment  
-- Understand business beyond numbers  
-- Apply finance in real-world decisions  
-- Reduce long-term career risk  
-
-**Structured. Practical. Outcome-focused.**
+### CTAs
+- Download Brochure →
+- Book Counselling →
+- Apply Now →
 
 ---
 
-# Limited Intake  
+## STILL EXPLORING?
 
-Seats are limited to maintain quality.
+Get guidance on:
+- Global finance & corporate analyst career paths
+- Programme fit for your background
+- Admissions process and eligibility
 
-Selection Process:
+### CTAs
+- Request a Call Back →
+- Explore the Learning Series →
 
-- Application Review  
-- Group Discussion (GD)  
-- Personal Interview  
+---
+
+*RVS CAS MBA is recognised by AICTE and affiliated with Bharathiar University. All programmes are designed to meet industry standards and prepare students for successful careers in management.*

@@ -8,6 +8,9 @@ import ProgramExperienceSection from "@/components/programs/digital-marketing/Pr
 import ProgramFitSection from "@/components/programs/digital-marketing/ProgramFitSection";
 import RequestProgramInformation from "@/components/programs/digital-marketing/RequestProgramInformation";
 import WhyProgramSection from "@/components/programs/digital-marketing/WhyProgramSection";
+import KeyHighlightsSection from "@/components/programs/digital-marketing/KeyHighlightsSection";
+import ProgramFlowSection from "@/components/programs/digital-marketing/ProgramFlowSection";
+import ComparisonSection from "@/components/programs/digital-marketing/ComparisonSection";
 import Footer from "@/components/shared/Footer";
 import Header from "@/components/shared/Header";
 import HeroSection from "@/components/shared/HeroSection";
@@ -31,18 +34,21 @@ export default function page() {
                 }
                 description2={
                     <>
-                        MBA in Digital Marketing at RVS CAS is designed to help you understand how modern businesses grow in a digital-first world.
+                        The MBA in Digital Marketing at RVS CAS is built around how digital marketing actually works across platforms, funnels, and business objectives.
                     </>
                 }
-                description3='You learn to combine strategy, execution, and performance thinking — not just run campaigns.'
+                description3='This is not a programme about platforms in isolation. You learn how platforms interact with strategy, data, and outcomes.'
                 image='/images/herosection/new/dm.png'
                 // image='https://images.unsplash.com/photo-1563986768494-4dee2763ff3f'
-                button1='Explore Program Structure'
+                button1='Download Brochure'
                 button2='Apply Now'
-                button1Link='/request-information'
+                button1Link='/how-to-apply'
                 button2Link='https://admissions.rvscas.ac.in/'
             />
             <WhyProgramSection />
+            <KeyHighlightsSection />
+            <ProgramFlowSection />
+            <ComparisonSection />
             <ProgramExperienceSection />
             <CurriculumSection />
             <CareerOutcomesSection />

@@ -41,6 +41,12 @@ export default function ProgramFitSection() {
                 Individuals interested in fintech and data-driven finance
               </span>
             </li>
+            <li className="flex items-center gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>
+                Anyone with an analytical and business mindset who is serious about a career in finance
+              </span>
+            </li>
           </ul>
         </div>
       </div>

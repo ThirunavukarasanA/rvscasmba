@@ -56,11 +56,11 @@ const items = [
       {
         type: "list" as const,
         items: [
-          "Resume refinement",
-          "Campaign and portfolio guidance",
-          "Interview preparation",
+          "Resume building and portfolio development",
+          "Campaign-based interview preparation",
           "Internship support",
           "Placement assistance",
+          "Industry exposure",
         ],
       },
       {
@@ -86,9 +86,9 @@ const items = [
       },
       {
         type: "list" as const,
-        items: ["Entry-level digital or performance marketing roles",
-          "Channel-specific specialist or analyst positions",
-          "Strategic or managerial responsibilities with experience"],
+        items: ["Entry: Digital marketing execution roles",
+          "Mid: Performance marketing / channel specialization",
+          "Growth: Marketing strategy and leadership roles"],
       },
       {
         type: "paragraph" as const,
@@ -117,7 +117,7 @@ const items = [
         type: "list" as const,
         items: [
           "Startups and growth-stage companies",
-          "Agencies and consulting environments",
+          "Digital marketing agencies",
           "E-commerce businesses",
           "Corporate marketing teams",
         ],
@@ -148,15 +148,15 @@ export default function CareerOutcomesSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-8">
           <div className="space-y-6">
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              This program prepares students for marketing roles where execution matters, performance is measurable, and decisions impact growth.
+              The MBA in Digital Marketing prepares students for professional roles where strategic thinking, execution capability, and performance analysis matter.
             </p>
 
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              Graduates are trained to plan and execute campaigns, use platforms with intent, analyze performance, and optimize outcomes.
+              The programme builds role-ready graduates by combining academic frameworks, simulation-based learning, and applied projects.
             </p>
 
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              The outcome is role-ready capability with execution clarity and business-aligned decision-making.
+              You gain the knowledge, tools, and hands-on experience to enter this field with confidence.
             </p>
 
             {/* <CurriculumAccordion items={items} /> */}

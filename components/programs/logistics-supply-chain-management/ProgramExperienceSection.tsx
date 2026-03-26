@@ -61,7 +61,7 @@ export default function ProgramExperienceSection() {
             </ul>
 
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              Students learn how to design, evaluate, and improve systems — not just manage processes.
+              Students engage in applied exercises that mirror real procurement, production, and distribution challenges.
             </p>
 
             <Link

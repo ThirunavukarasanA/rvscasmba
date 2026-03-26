@@ -1,269 +1,332 @@
-# MBA in Artificial Intelligence  
-Learn to interpret complexity. Decide with clarity.
-
-MBA in Artificial Intelligence is designed to help you go beyond tools and models — and build the ability to use AI for real-world decision-making.
-
-Most programs teach you how to run algorithms.  
-This program trains you to ask:
-
-Where should AI be used?  
-What problem is worth solving?  
-Can the output be trusted?  
-What decision should be made?
-
-You learn to connect **data, models, and business judgment** — not just generate outputs.
+# MBA in Artificial Intelligence
+## Website Content — Rewrite
 
 ---
 
-## Explore Analytics Curriculum  
-## Apply Now
+## HERO SECTION
+
+### Headline
+Learn to Interpret Complexity. Decide with Clarity.
+
+### Subheadline
+MBA in Artificial Intelligence — RVS CAS
+
+### Body
+Most people learn tools. AI leaders learn how to connect data, technology, and business insight to solve real-world problems.
+
+AI looks powerful in demos. In the real world, it is incomplete, biased, and often difficult to apply. The real question is: Can you use AI to make reliable, context-aware business decisions?
+
+This MBA equips you with the analytical frameworks, quantitative understanding, and real tools required to transform data into strategic insight — and the judgment to bridge business questions and analytic answers, not just extract reports.
+
+### Proof Points (Tick List)
+- Practical AI problem-solving
+- Analytical and computational thinking
+- Decision-making using AI systems
+
+### CTAs
+- Download Brochure →
+- Apply Now →
+- Get Programme Details →
 
 ---
 
-# Why This Program  
-## Built Around How AI Is Actually Used in Business
+## WHY THIS PROGRAMME
 
-AI looks powerful in demos.  
-In real-world environments, it is often incomplete, biased, and difficult to apply.
+### Section Heading
+Built Around How AI and Analytics Are Actually Used in Business
 
-The real challenge is not building models —  
-It is **using AI to make reliable, context-aware business decisions**. :contentReference[oaicite:0]{index=0}
-
-Many programs focus heavily on:
-- Coding
-- Tools
-- Pre-built models
-
-This program starts with something more fundamental:
-
-**How analytical and AI-driven decisions are actually made.**
+### Body
+Many AI and analytics programmes focus on tools and coding. This programme begins with something more fundamental — how analytical decisions are made, and how AI can be applied to real business problems with reliability and context.
 
 Students learn to:
+- Frame business problems before building models
+- Question the assumptions behind data
+- Select appropriate analytical approaches
+- Interpret results in a business context
+- Translate insights into strategic decisions
 
-- Frame business problems before building models  
-- Identify where AI creates real value (and where it doesn’t)  
-- Question assumptions behind data and models  
-- Select appropriate analytical and AI approaches  
-- Interpret outputs in a business context  
-- Convert AI-driven insights into decisions and actions  
+Faculty trained at leading global institutions bring academic rigor and applied clarity, ensuring structured thinking remains central to learning — not an afterthought to technical training.
 
-This is a **problem-first, tools-second approach** — ensuring AI is used with purpose, not blindly. :contentReference[oaicite:1]{index=1}
-
-Faculty trained at leading global institutions bring academic rigor and applied clarity, ensuring structured thinking remains central to learning.
-
----
-
-# Academic Experience  
-## Concept First. Tools Second. Decisions Always.
-
-The academic experience goes beyond programming and platforms.  
-It is designed to build **end-to-end problem-solving capability using AI**.
-
-Students are trained through:
-
-- Concept-first learning before tool application  
-- Faculty-led, discussion-driven sessions  
-- Demonstration-based teaching for every concept  
-- Guided hands-on practice to build confidence step-by-step  
-- Problem formulation and model justification  
-- Interpretation of outputs in business context  
-- Case-based learning using real-world AI applications  
-- Continuous project-based learning  
-- Hackathon-driven assessments  
-
-Every concept moves through a structured flow:
-
-**Understand → Work with Data → Build → Apply → Decide** :contentReference[oaicite:2]{index=2}
-
-This ensures students don’t just “learn AI” —  
-they learn how to **use AI in real situations**.
+### CTA
+Talk to an Academic Advisor →
 
 ---
 
-## View Full Academic Experience
+## KEY HIGHLIGHTS
+
+### Section Heading
+What Makes This Programme Stand Out
+
+- 2 Years — Full-Time MBA
+- AICTE Approved
+- Bharathiar University Affiliated
+- NAAC Accredited
+- Industry-aligned, in-demand AI & Generative AI curriculum
+- World-class faculty trained by global institutions
+- Hackathon-based assessments
+- Demonstrations and guided exercises for every concept
+- Portfolio of AI & Generative AI projects
+- Prime internship and placement opportunities
 
 ---
 
-# Curriculum Overview  
+## HOW THE PROGRAMME WORKS
 
-## Core Areas of Learning
+### Section Heading
+From Data → To Intelligence → To Decision
 
-- Programming with Python  
-- Data Structures and Computational Thinking  
-- Structured Query Language (SQL)  
-- Data Visualization (Tableau)  
-- Data Engineering for Real-World Applications  
-- Generative AI Foundations  
-- Generative AI for Business Applications  
+**01 — Understand the Problem**
+Define real-world business problems. Identify where AI can create value. Learn to avoid solving problems that are irrelevant or poorly framed — a discipline that separates analysts from decision-makers.
 
----
+**02 — Work with Real Data**
+Core analytical thinking before tool application. Learn to question assumptions, handle incomplete data, and understand what the numbers are and aren't telling you.
 
-## Tools & Platforms
+**03 — Build AI Systems**
+Faculty-led, discussion-driven learning with guided hands-on practice at every step. Every concept is paired with demonstrated problem-solving so you build confidence progressively, not in isolation.
 
-Students work with industry-relevant tools including:
+**04 — Apply AI in Business Contexts**
+Case-based learning using real-world AI applications — across industries, functions, and problem types. Problem formulation and model justification are central, not optional.
 
-- Python (Pandas, NumPy, Scikit-Learn, etc.)  
-- SQL  
-- Tableau  
-- Web Scraping Tools (Selenium, BeautifulSoup, Scrapy)  
-- Generative AI Stack (Transformers, Hugging Face, LangChain, FAISS)  
-- GitHub  
-
-The focus is not tool familiarity alone —  
-but **when, why, and how to use them correctly**.
+**05 — Convert Insight into Action**
+Interpret results in a business context. Translate analytical output into decisions that organizations can act on. Simulations, live data exercises, and assessment-based learning through projects and cases complete the cycle.
 
 ---
 
-## Projects & Capstone
+## THE COMPARISON
 
-Students work on real-world projects such as:
+### Section Heading
+Not All AI Programmes Create Problem-Solvers
 
-- Social Media Analytics (bias, sentiment, intent detection)  
-- Retail Data Project (web scraping, cleaning, EDA)  
-- Stock Market Sentiment Analysis  
-- AI-Powered Assistants  
-- Business-focused AI applications  
-
-Capstone experience includes:
-
-- Solving real-world business problems using AI  
-- Building an end-to-end project portfolio  
-- Demonstrating applied AI capability across domains  
+| Typical AI Programmes | RVS MBA in Artificial Intelligence |
+|---|---|
+| Tool-heavy learning | Problem-first, tools-second approach |
+| Focus on coding without real-world application | Strong integration of data, technology, and business |
+| Limited business integration | Focus on decision-making using AI |
 
 ---
 
-# Career Outcomes  
-## Building Careers in AI with Decision-Making Strength
+## ACADEMIC EXPERIENCE
 
-This program prepares you for roles where:
+### Section Heading
+How You Will Be Trained
 
-- AI informs strategy  
-- Data drives execution  
-- Decisions matter more than dashboards  
+The academic experience in the Artificial Intelligence MBA goes beyond programming and platforms. Learning is structured around one core principle: Concept First. Tools Second. Decisions Always.
 
-You are trained not just for tools —  
-but for **decision-focused AI roles**.
-
----
-
-## Real Roles
-
-- AI Analyst  
-- Data Analyst  
-- Data Engineer  
-- Generative AI Specialist  
-- AI Product Associate  
-- Python / AI Developer  
+- Every concept is paired with faculty-demonstrated problem-solving
+- Guided hands-on practice to build confidence step-by-step
+- Core analytical thinking before tool application
+- Faculty-led, discussion-driven learning
+- Problem formulation and model justification throughout
+- Case-based learning using real-world AI applications
+- Continuous project-based learning
+- Hackathon-driven assessments
+- Simulations and live data exercises
 
 ---
 
-## Career Support with Purpose
+## CURRICULUM
 
-- Resume refinement  
-- Case-based interview preparation  
-- Project-to-portfolio guidance  
-- Internship support  
-- Placement assistance  
-- Industry exposure  
+### Section Heading
+What You Will Study
 
----
+**Core Areas**
 
-## Employer Ecosystem
+**Programming with Python**
+- Core components: data, variables, expressions, statements
+- Control flow: functions, conditionals, loops, recursion, classes
+- Data structures: lists, sets, dictionaries, objects
+- Libraries: Pandas, NumPy
 
-Students gain exposure to how AI is applied across:
+**Structured Query Language (SQL)**
 
-- Consulting environments  
-- Technology companies  
-- Financial institutions  
-- Marketing analytics  
-- Operations and supply chain  
+**Data Visualization using Tableau**
 
-Through interactions with faculty, alumni, and industry professionals,  
-students understand how AI drives **real business impact**.
+**Data Engineering for the Social World**
 
----
+**Generative AI Foundations**
 
-# Industry Exposure & Certifications
-
-- Industry partnerships and MoUs  
-- Internships and live AI projects  
-- Exposure to real-world data platforms  
-- Certification-oriented learning  
-
-Students continuously engage with professionals working at the intersection of AI, data, and business — building both **technical and contextual understanding**.
+**Generative AI for Business Applications**
 
 ---
 
-# What Makes This Program Stand Out
+**Industry Standard Tools**
 
-- 2-Year Full-Time MBA  
-- AICTE Approved  
-- Bharathiar University Affiliated  
-- Industry-aligned AI & Generative AI curriculum  
-- Problem-first, decision-focused learning approach  
-- Globally trained faculty  
-- Hackathon-based assessments  
-- Demonstration-driven teaching methodology  
-- Strong portfolio of AI projects  
-- Internship and placement opportunities :contentReference[oaicite:3]{index=3}  
+Students work with industry-relevant tools and technologies to ensure practical readiness:
+
+- Python (Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib, SciPy, Plotnine, Altair)
+- SQL
+- Tableau
+- Web Scraping Libraries (Selenium, Scrapy, Beautiful Soup)
+- Generative AI Tools (Transformers, Hugging Face, LangChain, FAISS)
+- GitHub
 
 ---
 
-# Is This MBA Right for You?
+**Projects**
 
-This program is suited for:
+Students work on real-world projects across industries:
 
-- Graduates aspiring for AI and data-driven roles  
-- Professionals looking to transition into AI-based decision roles  
-- Students interested in solving real-world problems using data  
-- Learners who prefer applied, rigorous training over tool-only courses  
-- Individuals willing to think critically, experiment, and build  
-
----
-
-# Admissions Snapshot  
-
-## Key Criteria
-
-- Strong academic foundation (quantitative preferred)  
-- Valid CAT / MAT / CMAT / TANCET scores  
-- Clear interest in AI, analytics, and business problem-solving  
-- Demonstrated reasoning ability and program fit  
+- **Social Media Analytics Project** — Analyze social media datasets to identify bias, partisanship, and message intent
+- **Retail Data Project** — Web Scraping, Data Cleaning & EDA
+- **Stock Market Sentiment Analysis** (Finance)
+- **AI-Powered Medical Assistant** (Healthcare)
+- **FoodHub AI Chatbot** (Retail)
 
 ---
 
-## How to Apply
+**Capstone Experience**
 
-## Request Information  
-## Apply Now  
+In addition to the listed projects, all students complete a Capstone project using the concepts learned throughout the programme.
 
----
+You will:
+- Apply AI to real-world business problems
+- Build a strong portfolio of end-to-end projects
+- Develop the ability to move from problem definition to deployed solution
 
-# Final Thought  
-## A Smarter Way to Build an AI Career
-
-Choosing the wrong program can lead to:
-
-- Learning tools without real application  
-- Weak project portfolios  
-- Limited career growth  
-
-This program is designed to help you:
-
-- Build strong conceptual foundations  
-- Develop real-world AI capability  
-- Create a portfolio of meaningful projects  
-- Reduce long-term career risk  
-
-**Structured. Practical. Outcome-focused.**
+*Core Areas of Learning | Specialization Courses | Tools & Platforms | Capstone Project | Career Outcomes*
 
 ---
 
-# Limited Intake
+## INSTITUTIONS & ACADEMIC FRAMEWORK
 
-Seats are limited to maintain learning quality.
+### Section Heading
+Where You Study & How It's Recognised
 
-Selection Process:
+**RVS College of Arts & Science (Autonomous)**
+- Affiliated to Bharathiar University
+- NAAC Accredited
+- Approved by AICTE
 
-- Application Review  
-- Personal Interview  
+**Programme Designed With Focus On:**
+- Analytical rigor
+- Industry relevance
+- Practical application
+
+---
+
+## FACULTY
+
+### Section Heading
+Learn from Globally Trained Experts
+
+The programme is delivered by faculty certified by leading global institutions, including:
+
+- Harvard Business School
+- Massachusetts Institute of Technology (MIT)
+- London School of Economics (LSE)
+- Kellogg School of Management
+- IMD Business School (Switzerland)
+- Carnegie Mellon University
+
+This ensures exposure to global best practices in AI, analytics, and business decision-making — brought directly into the RVS CAS classroom.
+
+---
+
+## INDUSTRY EXPOSURE & CERTIFICATIONS
+
+### Section Heading
+Industry Exposure & Certifications
+
+- Industry partnerships and MoUs
+- Internships and live analytics projects
+- Exposure to real-world data platforms and analytical tools
+- Certification-oriented learning
+
+Throughout the MBA in Artificial Intelligence, students engage with faculty, alumni, and industry professionals who actively work at the intersection of data and business strategy. These interactions expose students to how analytics is applied in practice — across consulting environments, technology firms, financial institutions, marketing functions, and operations teams. Students gain insight into how organizations use data to drive decisions, optimize performance, and create measurable business impact.
+
+---
+
+## CAREER OUTCOMES
+
+### Section Heading
+Building Careers in AI and Analytics with Clarity and Analytical Strength
+
+The MBA in Artificial Intelligence is designed not merely to teach tools, but to build professional competence in roles where data informs strategy and drives execution. This specialization prepares you for decision-focused careers — where structured thinking, model interpretation, and business judgment matter more than routine reporting.
+
+After completing the programme, graduates are positioned to enter AI, analytics, and technology-driven roles, build strong technical and business capability, and move into high-impact decision-making positions.
+
+### Career Opportunities
+
+**Roles**
+- AI Analyst
+- Generative AI Developer
+- Data Analyst
+- Data Engineer
+- Python Developer / Software Developer
+- AI Product Specialist
+
+### Career Support
+- Resume refinement
+- Case-based interview preparation
+- Project-to-portfolio guidance
+- Industry exposure
+- Internship and placement support
+
+---
+
+## A SMARTER WAY TO BUILD AN AI CAREER
+
+### Section Heading
+Build Real AI Capability — Not Just Familiarity with Tools
+
+Choosing without understanding can lead to learning tools without real application, a weak project portfolio, and limited career growth in a field that rewards genuine problem-solving ability.
+
+This programme helps you:
+
+- Build strong conceptual foundations before touching tools
+- Develop real-world AI capability through project-based learning
+- Create a portfolio of practical, industry-relevant projects
+- Reduce long-term career risk by graduating with demonstrated competence
+
+---
+
+## WHO SHOULD APPLY
+
+### Section Heading
+Is This Artificial Intelligence MBA Right for You?
+
+This programme is suited for:
+
+- Graduates aspiring for analytics and data-driven business roles
+- Professionals seeking to transition into analytical decision roles
+- Students interested in solving business problems with data and models
+- Learners who prefer rigorous, applied training over purely theoretical or tool-based courses
+- Anyone who wants to go beyond theory into real application — willing to think, experiment, and build
+
+---
+
+## ADMISSIONS
+
+### Section Heading
+Admissions Snapshot
+
+**Limited Intake Only**
+Seats are limited to maintain quality. The selection process ensures every student is positioned to benefit from — and contribute to — a rigorous, hands-on learning environment.
+
+**Key Admissions Criteria**
+- Academic Record: Strong quantitative and analytical foundation
+- Entrance Test: Valid CAT / MAT / CMAT / TANCET scores
+- Personal Statement: Clear interest in AI, data, and analytics
+- Group Discussion (GD)
+- Personal Interview: Demonstrated reasoning ability and programme fit
+
+### CTAs
+- Download Brochure →
+- Book Counselling →
+- Apply Now →
+
+---
+
+## STILL EXPLORING?
+
+Get guidance on:
+- AI career paths and role clarity
+- Programme fit for your background
+- Admissions process and eligibility
+
+### CTA
+Request a Call Back →
+
+---
+
+*RVS CAS MBA is recognised by AICTE and affiliated with Bharathiar University. All programmes are designed to meet industry standards and prepare students for successful careers in management.*

@@ -5,7 +5,7 @@ export default function IndustryConnectSection() {
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
-            Industry Exposure & Certifications
+            Who Will Train You?
           </h2>
         </div>
 
@@ -13,19 +13,15 @@ export default function IndustryConnectSection() {
           <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Industry partnerships and MoUs</span>
+              <span>Global-level faculty trained at institutions including LBS, IIM, and SDA Bocconi</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Internships and live projects</span>
+              <span>Industry experts including CFA charterholders, stock brokers, and senior corporate professionals</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Exposure to real-world financial tools</span>
-            </li>
-            <li className="flex items-center gap-3">
-              <span className="text-booth-maroon mt-1">•</span>
-              <span>Certification-oriented learning</span>
+              <span>Learn from real practitioners, not just textbooks</span>
             </li>
           </ul>
 
@@ -37,7 +33,7 @@ export default function IndustryConnectSection() {
               Excel · Bloomberg Terminal · RiskMetrics · FactSet · Stata · Moody's · MoneyControl
             </p> */}
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              Students engage with faculty, alumni, and industry professionals to understand how finance operates across corporate finance teams, FP&A functions, advisory roles, and analytics-driven finance environments.
+              Throughout the programme, students engage with faculty, alumni, and industry professionals who actively shape financial decision-making across corporate finance teams, advisory roles, analytics functions, and emerging financial domains.
             </p>
           </div>
         </div>

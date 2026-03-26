@@ -8,10 +8,9 @@ const curriculumData = [
         type: "list" as const,
         items: [
           "Programming with Python",
-          "Data Structures and Computational Thinking",
           "Structured Query Language (SQL)",
           "Data Visualization (Tableau)",
-          "Data Engineering for Real-World Applications",
+          "Data Engineering",
           "Generative AI Foundations",
           "Generative AI for Business Applications",
         ],
@@ -24,21 +23,11 @@ const curriculumData = [
       {
         type: "list" as const,
         items: [
-          "Python (Pandas, NumPy, Scikit-Learn)",
-          "SQL",
-          "Tableau",
-          "Web Scraping Tools (Selenium, BeautifulSoup, Scrapy)",
-          "Generative AI Stack (Transformers, Hugging Face, LangChain, FAISS)",
-          "GitHub",
+          "AI applications in business",
+          "Data-driven decision systems",
+          "Model development and deployment",
+          "Analytical problem-solving",
         ],
-      },
-      {
-        type: "paragraph" as const,
-        text: (
-          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            The focus is not tool familiarity alone, but when, why, and how to use tools correctly in decision contexts.
-          </p>
-        ),
       },
     ],
   },
@@ -48,25 +37,12 @@ const curriculumData = [
       {
         type: "list" as const,
         items: [
-          "Python",
-          "Pandas",
-          "NumPy",
+          "Python (Pandas, NumPy, Scikit-Learn)",
           "SQL",
-          "Excel",
           "Tableau",
-          "Scikit-learn",
-          "Seaborn",
-          "Matplotlib",
-          "Streamlit",
+          "Web scraping tools (Selenium, Scrapy, Beautiful Soup)",
+          "Generative AI tools (Transformers, Hugging Face, LangChain, FAISS)",
           "GitHub",
-          "Transformers",
-          "Hugging Face",
-          "LangChain",
-          "FAISS",
-          "ChatGPT",
-          "Gemini",
-          "DALL·E",
-          "Whisper",
         ],
       },
     ],

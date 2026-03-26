@@ -37,7 +37,7 @@ const items = [
           "Interview preparation",
           "Case simulation training",
           "Industry exposure",
-          "LinkedIn mastery for career growth",
+          "LinkedIn mastery for career growth and networking",
           "Professional development guidance",
           "Skill-building aligned with ERP and analytics tools",
         ],
@@ -105,11 +105,14 @@ export default function CareerOutcomesSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-8">
           <div className="space-y-6">
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              This program prepares students for roles where operations directly impact business performance and where decisions influence end-to-end supply networks.
+              MBA in Logistics & Supply Chain Management is designed not just to educate, but to build professional competence for roles that require operational precision, analytical thinking, and systems-level insight.
             </p>
 
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              Graduates are trained for decision-focused supply chain careers, not just coordination roles.
+              This specialization prepares you for decision-focused supply chain careers, where managing complexity, optimizing processes, and integrating digital systems matter more than routine coordination.
+            </p>
+            <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+              After completing the programme, graduates are positioned to work in operations, analytics, and supply chain roles, and progress into strategic and operational leadership over time.
             </p>
 
             {/* <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
