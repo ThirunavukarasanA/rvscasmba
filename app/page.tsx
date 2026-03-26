@@ -10,7 +10,6 @@ import SocialSection from "@/components/home/SocialSection";
 import FacultyInsightsSection from "@/components/home/FacultyInsightsSection";
 import FinalCTASection from "@/components/home/FinalCTASection";
 import VideoSeriesSection from "@/components/home/VideoSeriesSection";
-
 export const metadata: Metadata = {
   title: "RVS CAS MBA - Management Education for the Digital Era",
   description:
