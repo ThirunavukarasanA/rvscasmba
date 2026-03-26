@@ -35,6 +35,10 @@ export default function ProgramFitSection() {
                 Learners who prefer rigorous, applied training over purely theoretical or tool-based courses
               </span>
             </li>
+            <li className="flex items-center gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Individuals willing to think critically, experiment, and build</span>
+            </li>
           </ul>
         </div>
       </div>

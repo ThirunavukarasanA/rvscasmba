@@ -21,18 +21,24 @@ export default function ProgramFitSection() {
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Professionals seeking to transition into HR strategy</span>
+              <span>Professionals transitioning into HR strategy roles</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>
-                Students interested in workforce analytics and leadership
+                Students interested in organizational behavior and leadership
               </span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>
-                Individuals who want to shape organizational culture and performance
+                Individuals who want to influence culture and performance
+              </span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>
+                Learners who see HR as strategic, not administrative
               </span>
             </li>
           </ul>

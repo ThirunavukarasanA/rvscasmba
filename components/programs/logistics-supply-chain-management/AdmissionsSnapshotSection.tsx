@@ -34,8 +34,8 @@ export default function AdmissionsSnapshotSection() {
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>
-                  <strong>Personal Statement:</strong> Clear interest in finance
-                  and analytics
+                  <strong>Personal Statement:</strong> Clear interest in operations,
+                  logistics, and systems thinking
                 </span>
               </li>
               <li className="flex items-center gap-3">

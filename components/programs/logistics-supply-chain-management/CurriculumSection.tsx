@@ -7,23 +7,12 @@ const curriculumData = [
       {
         type: "list" as const,
         items: [
-          "Supply Chain Strategy & Network Design",
-          "Procurement & Vendor Management",
-          "Inventory & Warehouse Management",
-          "Logistics & Transportation Planning",
+          "Managerial Economics",
+          "Financial Management",
+          "Business Statistics & SPSS",
+          "Strategic Management",
           "Lean Six Sigma & Process Optimization",
-          "Operations Analytics",
-          "Risk Management & Global Trade",
-          "Digital Supply Chain Management",
         ],
-      },
-      {
-        type: "paragraph" as const,
-        text: (
-          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            The curriculum reflects the increasing digitalization of logistics and supply networks.
-          </p>
-        ),
       },
     ],
   },
@@ -33,11 +22,12 @@ const curriculumData = [
       {
         type: "list" as const,
         items: [
-          "Introduction to Logistics Management",
-          "Sourcing and Procurement",
-          "Warehousing and Distribution Facilities Management",
-          "Logistics and Supply Chain Management Models",
-          "International Logistics & Global Supply Chain Management",
+          "Logistics & Distribution Management",
+          "Inventory & Warehouse Management",
+          "Procurement & Materials Management",
+          "Supply Chain Models & Analytics",
+          "International Trade & Documentation",
+          "Risk & Disruption Management",
         ],
       },
     ],
@@ -48,13 +38,10 @@ const curriculumData = [
       {
         type: "list" as const,
         items: [
-          "SAP MM (Materials Management)",
-          "ERP systems and supply chain modules",
-          "Advanced Excel for operations analytics",
-          "Lean Six Sigma tools",
-          "Power BI / Tableau for performance visualization",
-          "Inventory planning and demand forecasting models",
-          "Process mapping and optimization frameworks",
+          "SAP",
+          "Frepple",
+          "ERPNext",
+          "Supply chain planning and analytics tools",
         ],
       },
     ],
@@ -66,7 +53,7 @@ const curriculumData = [
         type: "paragraph" as const,
         text: (
           <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            The Capstone Project integrates supply chain strategy and digital tools into a structured applied engagement. Students work on either a real logistics challenge or a simulated operational scenario involving supply network analysis, cost and efficiency evaluation, digital system integration, risk assessment, and strategic performance recommendations. Evaluation emphasizes clarity of reasoning, process improvement logic, and measurable operational impact, rather than routine execution.
+            Students apply concepts through supply chain case studies, network design projects, cost optimization exercises, operational strategy simulations, and ERP-driven projects. Capstone work ensures end-to-end understanding, practical problem-solving, and system-level thinking capability.
           </p>
         ),
       },

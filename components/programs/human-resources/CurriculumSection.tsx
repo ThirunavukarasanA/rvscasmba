@@ -7,13 +7,10 @@ const curriculumData = [
       {
         type: "list" as const,
         items: [
-          "Strategic Human Resource Management",
-          "Organizational Behavior & Leadership",
-          "Talent Acquisition & Workforce Planning",
-          "Performance Management Systems",
-          "Payroll & Compensation Management",
-          "Industrial Relations & Labour Law",
-          "HR Analytics & Data-Driven Decision-Making"
+          "Management and Organizational Behaviour",
+          "Human Resource Management",
+          "Economics for Decision Making",
+          "Leadership & Strategy",
         ],
       },
     ],
@@ -24,12 +21,11 @@ const curriculumData = [
       {
         type: "list" as const,
         items: [
-          "Recruitment and Selection",
-          "Human Resource Management",
+          "Talent Acquisition & Workforce Planning",
           "Employee Relationship Management",
           "Organizational Development",
           "Business Leadership",
-          "HR Analytics"
+          "HR Analytics",
         ],
       },
     ],
@@ -40,17 +36,9 @@ const curriculumData = [
       {
         type: "list" as const,
         items: [
-          "Chatgpt",
-          "Excel",
-          "Survey monkey",
-          "HRIS platforms",
-          "G-suite",
-          "Workday",
-          "bambooHR",
-          "iCIMS",
-          "Zohorecurit",
-          "Greenhouse",
-          "JazzHR",
+          "HR analytics tools",
+          "Workforce data systems",
+          "Performance tracking frameworks",
         ],
       },
     ],
@@ -62,7 +50,7 @@ const curriculumData = [
         type: "paragraph" as const,
         text: (
           <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            The Capstone Project integrates learning into a structured HR engagement where students address either a real organizational HR challenge or a simulated workforce scenario. This involves workforce analysis and planning, policy design, performance strategy development, data-driven evaluation, and assessment of organizational impact. Evaluation emphasizes clarity of reasoning, strategic alignment, and measurable outcomes rather than procedural execution. The capstone ultimately demonstrates a student’s ability to translate people data into informed leadership decisions.
+            Students apply HR concepts through organizational case studies, talent strategy design, policy drafting and implementation, and performance system evaluation. Capstone work demonstrates practical, leadership-ready capability in solving real organizational challenges.
           </p>
         ),
       },

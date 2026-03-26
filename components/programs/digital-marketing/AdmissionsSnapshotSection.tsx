@@ -20,8 +20,7 @@ export default function AdmissionsSnapshotSection() {
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>
-                  <strong>Academic Record:</strong> Strong quantitative and
-                  analytical foundation
+                  <strong>Academic Record:</strong> Strong analytical and problem-solving ability
                 </span>
               </li>
               <li className="flex items-center gap-3">

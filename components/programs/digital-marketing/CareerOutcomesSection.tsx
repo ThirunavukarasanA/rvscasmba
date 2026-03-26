@@ -19,17 +19,16 @@ const items = [
         type: "list" as const,
         items: [
           "Digital Marketing Executive",
-          "Performance Marketing Analyst",
-          "Social Media Strategist",
-          "SEO & Content Marketing Executive",
-          "Marketing Operations Executive",
+          "SEO / SEM Specialist",
+          "Social Media Manager",
+          "Marketing Analyst",
         ],
       },
       {
         type: "paragraph" as const,
         text: (
           <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            The emphasis is on <b>role readiness</b>, not inflated titles.
+            The emphasis is on role readiness with practical execution capability.
           </p>
         ),
       },
@@ -42,9 +41,7 @@ const items = [
         type: "paragraph" as const,
         text: (
           <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            <strong>
-              Career support at RVS CAS MBA is designed to strengthen long-term employability, not short-term placement outcomes.
-            </strong>
+            <strong>Career support with purpose:</strong>
           </p>
         ),
       },
@@ -59,16 +56,18 @@ const items = [
       {
         type: "list" as const,
         items: [
-          "Resume and profile building aligned to digital marketing roles",
-          "Interview preparation focused on decision-making and reasoning",
-          "Guidance on presenting academic projects, simulations, and capstone work",
+          "Resume refinement",
+          "Campaign and portfolio guidance",
+          "Interview preparation",
+          "Internship support",
+          "Placement assistance",
         ],
       },
       {
         type: "paragraph" as const,
         text: (
           <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            Students learn to <b>articulate how they think</b>, not just what tools they used.
+            Students are prepared to communicate marketing decisions with clarity.
           </p>
         ),
       },
@@ -117,17 +116,17 @@ const items = [
       {
         type: "list" as const,
         items: [
-          "Digital marketing and performance agencies",
-          "Small and mid-sized businesses building in-house teams",
-          "Startups and entrepreneurial ventures",
-          "Marketing functions within established organizations",
+          "Startups and growth-stage companies",
+          "Agencies and consulting environments",
+          "E-commerce businesses",
+          "Corporate marketing teams",
         ],
       },
       {
         type: "paragraph" as const,
         text: (
           <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            This reflects the wide applicability of digital marketing expertise across sectors.
+            Through simulations, projects, and industry interaction, students understand how marketing contributes to real business growth.
           </p>
         ),
       },
@@ -149,15 +148,15 @@ export default function CareerOutcomesSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-8">
           <div className="space-y-6">
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              The MBA in Digital Marketing prepares students for professional marketing roles where strategic thinking, execution capability, and performance analysis matter.
+              This program prepares students for marketing roles where execution matters, performance is measurable, and decisions impact growth.
             </p>
 
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              The program focuses on building role-ready graduates by combining academic frameworks, simulation-based learning, and applied projects.
+              Graduates are trained to plan and execute campaigns, use platforms with intent, analyze performance, and optimize outcomes.
             </p>
 
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              Graduates are equipped to enter digital marketing functions with the ability to plan campaigns, use tools with intent, analyze outcomes, and explain their decisions clearly.
+              The outcome is role-ready capability with execution clarity and business-aligned decision-making.
             </p>
 
             {/* <CurriculumAccordion items={items} /> */}

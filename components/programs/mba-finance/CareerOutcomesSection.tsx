@@ -23,11 +23,12 @@ const items = [
       {
         type: "list" as const,
         items: [
-          "Financial Analyst – corporate, investment & equity research",
-          "Corporate Finance Associate – budgeting, capital planning, funding strategy",
-          "Valuation & Investment Analyst – valuation modeling, DCF, multiples, scenario analysis",
-          "Business Analyst – financial performance and strategic improvement",
-          "Consulting Analyst (Finance Focus) – decision frameworks for clients",
+          "Financial Analyst",
+          "FP&A Analyst",
+          "Investment Analyst",
+          "Equity Research Analyst",
+          "Credit Risk Analyst",
+          "Corporate Finance Executive",
         ],
       },
       {
@@ -57,10 +58,11 @@ const items = [
       {
         type: "list" as const,
         items: [
-          "Dedicated Career Workshops – resume strategy, case interviewing, analytics portfolio",
-          "Live Case Challenges & Industry Projects – real problem solving with organizations",
-          "Mentoring by Faculty & Industry Experts – feedback that strengthens real skills",
-          "Internships with Evaluation – conversion opportunities into full-time roles",
+          "Resume building",
+          "Case-based interview preparation",
+          "Financial storytelling and communication",
+          "Internship support",
+          "Placement assistance",
         ],
       },
       {
@@ -89,9 +91,9 @@ const items = [
       {
         type: "list" as const,
         items: [
-          "Entry-level roles such as Financial Analyst, Banking Associate, or Credit Analyst",
-          "Specialized roles in investment analysis, financial planning, risk management, or corporate finance",
-          "Strategic or managerial responsibilities in finance, investment management, or treasury with experience",
+          "Entry: Analyst roles",
+          "Mid: Business finance / FP&A roles",
+          "Growth: Strategic finance and leadership roles",
         ],
       },
       {
@@ -121,11 +123,11 @@ const items = [
       {
         type: "list" as const,
         items: [
-          "Banks & Financial Institutions",
-          "Consulting & Advisory Firms",
-          "Investment & Asset Management Houses",
+          "Advisory and consulting firms",
+          "Financial services companies",
+          "FinTech firms",
+          "Investment and asset management companies",
           "Corporate Finance Departments",
-          "Startups Seeking Financial Strategy Talent",
         ],
       },
     ],
@@ -157,8 +159,7 @@ export default function CareerOutcomesSection() {
             </p>
 
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              This is a specialization that prepares you for decision-focused
-              financial careers, not just routine execution.
+              You are trained for decision-focused finance roles, not routine execution.
             </p>
 
             {/* <CurriculumAccordion items={items} /> */}

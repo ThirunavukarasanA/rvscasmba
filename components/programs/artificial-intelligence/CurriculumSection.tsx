@@ -2,15 +2,18 @@ import CurriculumAccordion from "./CurriculumAccordion";
 
 const curriculumData = [
   {
-    title: "Core Areas Of Learning",
+    title: "Core Areas of Learning",
     content: [
       {
         type: "list" as const,
         items: [
-          "Data cleaning and preprocessing",
-          "Exploratory Data Analysis (EDA)",
-          "Model building using machine learning algorithms",
-          "Communicating results through visualization and dashboards",
+          "Programming with Python",
+          "Data Structures and Computational Thinking",
+          "Structured Query Language (SQL)",
+          "Data Visualization (Tableau)",
+          "Data Engineering for Real-World Applications",
+          "Generative AI Foundations",
+          "Generative AI for Business Applications",
         ],
       },
     ],
@@ -21,21 +24,19 @@ const curriculumData = [
       {
         type: "list" as const,
         items: [
-          "SQL** - Practical",
-          "Excel for Managers** - Practical",
-          "Python for Managers** - Practical",
-          "Machine Learning** - Practical",
-          "Data Visualization Using Tableau** - Practical",
-          "Marketing Analytics** - Practical",
-          "Data Engineering** - Practical",
-          "LLM and GenAI Applications** - Practical",
+          "Python (Pandas, NumPy, Scikit-Learn)",
+          "SQL",
+          "Tableau",
+          "Web Scraping Tools (Selenium, BeautifulSoup, Scrapy)",
+          "Generative AI Stack (Transformers, Hugging Face, LangChain, FAISS)",
+          "GitHub",
         ],
       },
       {
         type: "paragraph" as const,
         text: (
           <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            Courses are sequenced to build from foundations to applied integration.
+            The focus is not tool familiarity alone, but when, why, and how to use tools correctly in decision contexts.
           </p>
         ),
       },
@@ -77,7 +78,7 @@ const curriculumData = [
         type: "paragraph" as const,
         text: (
           <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            The Capstone Project brings together the full spectrum of knowledge gained throughout the Artificial Intelligence specialization into a single, integrated applied engagement. Students work on either a real organizational data challenge or a structured business scenario that requires careful problem formulation, data collection and preparation, model development and validation, insight generation, and strategic recommendations. Evaluation is based on the clarity of analytical reasoning, sound justification of models, and the demonstrated business impact of the recommendations — not merely on technical execution. The capstone ultimately reflects a student’s ability to move from data to informed decision-making, which lies at the core of effective analytics leadership.
+            Students work on real-world projects including social media analytics, retail data projects, stock sentiment analysis, AI-powered assistants, and business-focused AI use cases. The capstone requires solving real business problems, building an end-to-end project portfolio, and demonstrating applied AI capability across domains.
           </p>
         ),
       },

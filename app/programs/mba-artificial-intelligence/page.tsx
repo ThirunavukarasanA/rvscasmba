@@ -14,7 +14,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
     title: "MBA in Artificial Intelligence - RVS CAS MBA",
     description:
-        "Master the art of data-driven decision-making with our MBA in Artificial Intelligence. Gain expertise in data interpretation, predictive modeling, and strategic insights to transform data into business value.",
+        "MBA in Artificial Intelligence focused on problem-first, decision-oriented learning with applied AI, analytics, and business judgment.",
 };
 export default function page() {
     return (
@@ -30,12 +30,12 @@ export default function page() {
                 }
                 description2={
                     <>
-                        MBA in Artificial Intelligence equips you with the analytical frameworks, quantitative understanding, and real tools required to transform data into strategic insight.
+                        MBA in Artificial Intelligence is designed to help you go beyond tools and models and build the ability to use AI for real-world decision-making.
                     </>
                 }
                 description3={
                     <>
-                        Build capability to bridge business questions and analytic answers — not just extract reports.
+                        Most programs teach algorithms. This program trains you to decide where AI should be used, what problem is worth solving, and what action to take from outputs.
                     </>
                 }
                 image='/images/herosection/new/artificial-intelligence.png'

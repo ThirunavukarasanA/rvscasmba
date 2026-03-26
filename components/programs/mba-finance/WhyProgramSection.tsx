@@ -13,9 +13,7 @@ export default function WhyProgramSection() {
 
         <div className="space-y-6">
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            Unlike traditional programs, the MBA in Global Finance & Corporate Analyst focuses on
-            how finance professionals think and make decisions—not on
-            textbook-driven learning.
+            Most finance programs focus on formulas, ratios, and accounting as absolute truth. This program starts from a different place: finance is decision-making under uncertainty.
           </p>
 
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
@@ -25,19 +23,27 @@ export default function WhyProgramSection() {
           <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Faculty-Led, Thinking-Driven Learning</span>
+              <span>Think beyond financial statements</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Applied by Design, Not by Label</span>
+              <span>Understand how businesses create or destroy value</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Career Readiness Through Clarity, Not Shortcuts</span>
+              <span>Interpret accounting numbers with skepticism</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>A Serious Program for Serious Learners</span>
+              <span>Analyze capital allocation decisions</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Connect finance with business models and strategy</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Build FP&A and forecasting thinking</span>
             </li>
           </ul>
 
@@ -48,6 +54,9 @@ export default function WhyProgramSection() {
             </strong>
             , ensuring graduates are industry-ready.
           </p> */}
+          <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+            This is a thinking-first, application-driven program, not a content-heavy degree.
+          </p>
           <Link
             href="/request-information"
             className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline"

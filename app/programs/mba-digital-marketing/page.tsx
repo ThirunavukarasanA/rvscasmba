@@ -15,7 +15,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
     title: "MBA in Digital Marketing - RVS CAS MBA",
     description:
-        "A practice-intensive MBA at RVS CAS focused on how digital marketing actually works — across platforms, funnels, and business objectives",
+        "MBA in Digital Marketing at RVS CAS focused on strategy, execution, and performance-driven decisions in digital environments.",
 };
 export default function page() {
     return (
@@ -31,10 +31,10 @@ export default function page() {
                 }
                 description2={
                     <>
-                        A practice-intensive MBA at <strong className="font-trade-gothic-bold">RVS CAS</strong> focused on how digital marketing actually works — across platforms, funnels, and business objectives
+                        MBA in Digital Marketing at RVS CAS is designed to help you understand how modern businesses grow in a digital-first world.
                     </>
                 }
-                description3=''
+                description3='You learn to combine strategy, execution, and performance thinking — not just run campaigns.'
                 image='/images/herosection/new/dm.png'
                 // image='https://images.unsplash.com/photo-1563986768494-4dee2763ff3f'
                 button1='Explore Program Structure'

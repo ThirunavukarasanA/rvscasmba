@@ -7,9 +7,17 @@ export default function FinalCTASection() {
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-white mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-white mb-4">
-            Take the next step toward an L&SCM career.
+            Build Systems. Don't Just Manage Operations.
           </h2>
         </div>
+
+        <p className="text-lg md:text-xl text-white font-trade-gothic-light mb-8 max-w-4xl">
+          Build strong operational and analytical foundations, gain real exposure to tools and environments, and grow toward long-term leadership in supply chain and operations.
+        </p>
+
+        <p className="text-lg md:text-xl text-white font-trade-gothic-bold mb-8">
+          Structured. Practical. Outcome-focused.
+        </p>
 
         <div className="flex flex-wrap gap-4">
           <Link

@@ -32,13 +32,13 @@ export default function VideoSeriesSection() {
               Thinking Like a Financial Analyst
             </h2>
             <p className="text-booth-maroon font-trade-gothic-bold text-sm mb-4">
-              A Learning Series by Dr. K. Senthil Ganesh
+              A Learning Series by Dr. K. Senthil Ganesan
             </p>
             <p className="text-booth-dark-gray font-trade-gothic-light text-base md:text-lg mb-6">
-              Experience the same analytical framework used in this MBA program. This free video series introduces you to how real financial analysts interpret capital, question accounting numbers, and evaluate business performance—the very approach Dr. Senthil Ganesh brings to the MBA in Global Finance & Corporate Analyst classroom.
+              Experience the same analytical framework used in this MBA program. This series introduces how analysts interpret capital, why accounting numbers are not absolute truth, and how business performance is evaluated beyond ratios.
             </p>
             <p className="text-booth-dark-gray font-trade-gothic-light text-base md:text-lg mb-8">
-              66 focused lessons. One analytical lens. A preview of how we teach finance at RVS CAS.
+              66 focused lessons. One analytical lens. A preview of how finance is taught in this program.
             </p>
             <Link
               href="/thinking-like-a-financial-analyst"

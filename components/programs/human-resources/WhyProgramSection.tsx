@@ -11,13 +11,14 @@ export default function WhyProgramSection() {
           </h2>
         </div>
 
-        <p className="text-lg pb-7 md:text-xl text-booth-dark-gray font-trade-gothic-light">
-          <b>Where Human Capital Decisions Shape Organizational Success</b>
-        </p>
+        <p className="text-lg pb-7 md:text-xl text-booth-dark-gray font-trade-gothic-light"><b>Where People Decisions Drive Business Outcomes</b></p>
 
         <div className="space-y-6">
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            Human Resources is not limited to recruitment or compliance. It involves shaping culture, improving productivity, aligning incentives, and using data to guide workforce decisions.
+            Human Resources is not a support function. It is a business-critical discipline that shapes how organizations perform.
+          </p>
+          <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+            Many HR programs focus on processes, compliance, and administrative execution. This program starts from a different place: HR is about systems, performance, and organizational effectiveness.
           </p>
 
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
@@ -31,21 +32,28 @@ export default function WhyProgramSection() {
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Analyze workforce data to support decision-making</span>
+              <span>Design performance management and incentive systems</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Design performance management systems</span>
+              <span>Understand how behavior drives outcomes</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Evaluate organizational behavior and leadership impact</span>
+              <span>Analyze workforce data for decision-making</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Apply HR analytics to real business scenarios</span>
+              <span>Evaluate leadership impact on organizational performance</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Apply HR analytics in real-world scenarios</span>
             </li>
           </ul>
+          <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+            This ensures HR is learned as a strategic and decision-oriented function, not just execution.
+          </p>
 
           {/* <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
             The curriculum emphasizes{" "}

@@ -16,10 +16,10 @@ export default function ProgramExperienceSection() {
             world.
           </p> */}
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light mb-6">
-            The academic experience integrates operations theory with applied digital tools.
+            The academic experience is structured around how supply chains are designed and managed in real organizations.
           </p>
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            <strong className="font-trade-gothic-bold">Principles First. Systems Second. Performance Always.</strong>
+            <strong className="font-trade-gothic-bold">Understand Operations → Design Systems → Manage Trade-offs → Apply → Optimize</strong>
           </p>
         </div>
 
@@ -36,32 +36,32 @@ export default function ProgramExperienceSection() {
             <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Structured understanding of supply chain systems</span>
+                <span>Concept-first understanding of supply chain systems</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Faculty-led, case-based discussions</span>
+                <span>Case-based learning using real business scenarios</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Application of Lean Six Sigma methodologies</span>
+                <span>Simulation-driven operational exercises</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Integration of digital supply chain tools</span>
+                <span>Continuous project-based learning</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Assessment-based learning through projects and simulations</span>
+                <span>Lean Six Sigma and ERP tool exposure (SAP, Frepple, ERPNext)</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Continuous mentoring focused on operational judgment</span>
+                <span>Industry interaction through MoUs, expert sessions, and faculty mentorship</span>
               </li>
             </ul>
 
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              Students engage in applied exercises that mirror real procurement, production, and distribution challenges.
+              Students learn how to design, evaluate, and improve systems — not just manage processes.
             </p>
 
             <Link

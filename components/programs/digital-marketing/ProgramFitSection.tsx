@@ -35,6 +35,10 @@ export default function ProgramFitSection() {
                 Students interested in analytics-led, platform-based marketing execution
               </span>
             </li>
+            <li className="flex items-center gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Learners who prefer applied, hands-on training over theory-heavy programs</span>
+            </li>
           </ul>
         </div>
       </div>

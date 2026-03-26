@@ -7,12 +7,11 @@ const curriculumData = [
       {
         type: "list" as const,
         items: [
-          "Marketing Strategy & Customer Insight",
-          "Digital Marketing Analytics & Measurement",
-          "Search & Performance Marketing",
-          "Social Media & Content Strategy",
-          "Simulation-Based Digital Campaign Management",
-          "Integrated Marketing & Brand Management",
+          "Introduction to Digital Marketing",
+          "Search Engine Optimization (SEO)",
+          "Search Engine Marketing (SEM)",
+          "Social Media Marketing",
+          "Content and Brand Strategy",
         ],
       },
     ],
@@ -23,11 +22,12 @@ const curriculumData = [
       {
         type: "list" as const,
         items: [
-          "Introduction to Digital Marketing",
-          "Search Engine Optimization (SEO) - Practical",
-          "Search Engine Marketing (SEM) - Practical",
-          "Social Media Marketing (SMM)",
-          "Social Media Marketing (SMM) - Practical",
+          "Stukent Digital Marketing Simulations",
+          "Google Ads, Google Analytics, Search Console",
+          "Meta Ads Manager, LinkedIn Campaign Manager",
+          "Mailchimp, HubSpot CRM",
+          "SEMrush, Ahrefs",
+          "Hootsuite, Canva, WordPress, Hotjar",
         ],
       },
     ],
@@ -63,7 +63,7 @@ const curriculumData = [
         type: "paragraph" as const,
         text: (
           <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            The Capstone Project is the final integrative component of the MBA in Digital Marketing. Students apply the frameworks, concepts, and tools studied throughout the program to either a real organizational marketing problem or the structured creation and growth of a digital brand.
+            Students gain practical exposure through campaign-based simulations, real-world project work, internship experience, and performance-driven marketing scenarios.
           </p>
         ),
       },
@@ -71,7 +71,7 @@ const curriculumData = [
         type: "paragraph" as const,
         text: (
           <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            The focus is on strategic thinking and decision-making, not isolated campaign execution. Students are expected to define objectives, design integrated digital strategies, implement using appropriate tools, and evaluate outcomes using performance metrics.
+            Capstone work ensures application of digital strategies in business-like environments, hands-on execution across channels, and portfolio-ready practical capability.
           </p>
         ),
       },

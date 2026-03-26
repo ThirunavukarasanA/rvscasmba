@@ -17,7 +17,10 @@ export default function WhyProgramSection() {
 
         <div className="space-y-6">
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            Modern supply chains operate across global networks and digital systems. This program develops structured, data-driven decision-making for the supply chain.
+            Modern supply chains operate across global networks, digital systems, and complex dependencies. This program is built around how supply chains actually work.
+          </p>
+          <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+            Many programs focus on execution and isolated operations. This program starts from a different place: supply chain is a system-level, decision-driven discipline.
           </p>
 
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
@@ -31,6 +34,14 @@ export default function WhyProgramSection() {
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
+              <span>Analyze how products move across systems</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Evaluate cost, service, and efficiency trade-offs</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
               <span>Optimize procurement, warehousing, and logistics</span>
             </li>
             <li className="flex items-center gap-3">
@@ -39,20 +50,16 @@ export default function WhyProgramSection() {
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Faculty with <strong>real industry experience</strong></span>
-            </li>
-            <li className="flex items-center gap-3">
-              <span className="text-booth-maroon mt-1">•</span>
               <span>Integrate digital tools and ERP systems</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Evaluate cost, risk, and operational performance</span>
+              <span>Manage risk, disruption, and operational complexity</span>
             </li>
           </ul>
 
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            The program emphasizes strategic supply chain management, not just execution.
+            This ensures supply chain is learned as a strategic function, not just execution.
           </p>
 
           {/* <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">

@@ -16,7 +16,7 @@ import HeroSection from "@/components/shared/HeroSection";
 export const metadata: Metadata = {
   title: "MBA in Global Finance & Corporate Analyst - RVS CAS MBA",
   description:
-    "A practice-driven finance program that builds strong analytical, valuation, and decision-making skills for modern financial careers.",
+    "MBA in Global Finance & Corporate Analyst focused on financial judgment, FP&A thinking, and decision-making under uncertainty.",
 };
 export default function MBAAppliedFinancePage() {
   return (
@@ -26,8 +26,8 @@ export default function MBAAppliedFinancePage() {
         pageName="MBA in Global Finance & Corporate Analyst"
         title="MBA in Global Finance & Corporate Analyst"
         description1={<>Learn to think, analyze, and decide like a financial analyst</>}
-        description2={<>A practice-driven MBA at RVS CAS MBA is designed around real financial decision-making rather than textbook theory. The program develops analyst-style thinking, emphasizes company and valuation-led learning, and is delivered through a faculty-led approach that prioritizes clarity, judgment, and application over content-heavy instruction.</>}
-        description3=''
+        description2={<>MBA in Global Finance & Corporate Analyst is designed to help you understand how finance actually works inside businesses — beyond formulas, ratios, and textbook definitions.</>}
+        description3={<>You learn to connect business reality, financial statements, capital decisions, and strategic outcomes.</>}
         image="/images/herosection/new/finance.png"
         button1="Explore Program Structure"
         button2="Apply Now"

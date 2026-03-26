@@ -37,12 +37,7 @@ export default function IndustryConnectSection() {
               Excel · Bloomberg Terminal · RiskMetrics · FactSet · Stata · Moody's · MoneyControl
             </p> */}
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              Throughout the MBA, students engage with faculty, alumni, and
-              industry professionals who actively shape financial
-              decision-making in organizations. These interactions expose
-              students to how finance operates in practice — across corporate
-              finance teams, advisory roles, analytics functions, and emerging
-              financial domains.
+              Students engage with faculty, alumni, and industry professionals to understand how finance operates across corporate finance teams, FP&A functions, advisory roles, and analytics-driven finance environments.
             </p>
           </div>
         </div>

@@ -30,10 +30,10 @@ export default function page() {
                 }
                 description2={
                     <>
-                        The MBA in Human Resources at RVS College of Arts & Science is designed to develop professionals who understand how people strategy shapes business outcomes. This specialization goes beyond administrative HR functions to focus on organizational decision-making, workforce analytics, and strategic talent management.
+                        MBA in Human Resources at RVS College of Arts & Science is designed to help you go beyond managing employees and learn how to build organizations that perform.
                     </>
                 }
-                description3=''
+                description3='You learn to design performance systems, align incentives with business goals, and manage talent as a strategic asset.'
                 image='/images/herosection/new/hr.png'
                 button1='Explore the HR Curriculum'
                 button2='Apply Now'

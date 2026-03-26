@@ -25,7 +25,7 @@ export default function IndustryConnectSection() {
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Simulation-Based Certification</span>
+              <span>Simulation-based certification (Stukent)</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
@@ -41,7 +41,7 @@ export default function IndustryConnectSection() {
               Excel · Bloomberg Terminal · RiskMetrics · FactSet · Stata · Moody's · MoneyControl
             </p> */}
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              Students gain industry exposure through live projects, simulations, guest sessions, and interactions with alumni and industry professionals. Relevant certifications support practical readiness, while the program’s core focus remains on conceptual clarity, applied thinking, and marketing decision-making.
+              Students learn through simulations, live projects, guest sessions, and industry interaction. The focus remains on applied capability and decision-making, not certification alone.
             </p>
           </div>
         </div>

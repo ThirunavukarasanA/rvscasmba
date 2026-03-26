@@ -14,7 +14,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
     title: "MBA in Logistics & Supply Chain Management - RVS CAS MBA",
     description:
-        "Build organizational capability with clarity, structure, and people insight.",
+        "Design systems, optimize flow, and build strategic supply chain capability with analytics and operational decision-making.",
 };
 export default function page() {
     return (
@@ -30,10 +30,10 @@ export default function page() {
                 }
                 description2={
                     <>
-                        MBA in Logistics & Supply Chain Management at RVS CAS prepares students to design, manage, and improve integrated supply networks in a digitally connected economy. Supply chain leadership today demands more than coordination — it requires structured thinking, data fluency, and systems optimization.
+                        MBA in Logistics & Supply Chain Management at RVS CAS is designed to help you go beyond managing operations and learn how to design and optimize systems that drive business performance.
                     </>
                 }
-                description3=''
+                description3='You learn to balance cost, risk, service, and flow across complex supply networks in real business environments.'
                 image='/images/herosection/new/logistics.png'
                 // image='https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1471&auto=format&fit=crop'
                 button1='Explore the Curriculum'

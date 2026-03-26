@@ -20,8 +20,7 @@ export default function AdmissionsSnapshotSection() {
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>
-                  <strong>Academic Record:</strong> Strong quantitative and
-                  analytical foundation
+                  <strong>Academic Record:</strong> Strong analytical and reasoning ability
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -34,15 +33,13 @@ export default function AdmissionsSnapshotSection() {
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>
-                  <strong>Personal Statement:</strong> Clear interest in finance
-                  and analytics
+                  <strong>Personal Statement:</strong> Clear interest in HR, people strategy, and leadership
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>
-                  <strong>Interview:</strong> Demonstrated reasoning ability and
-                  program fit
+                  <strong>Interview:</strong> Demonstrated program fit through interview
                 </span>
               </li>
             </ul>
