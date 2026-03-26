@@ -7,7 +7,7 @@ const curriculumData = [
       {
         type: "list" as const,
         items: [
-          "Financial Accounting (Foundations to Advanced)",
+          "Financial Reporting and Analysis",
           "Financial Management",
           "Accounting & Financial Analysis",
           "Financial Planning & Analysis (FP&A)",
