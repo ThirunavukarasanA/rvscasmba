@@ -12,6 +12,9 @@ export default function AdmissionsSnapshotSection() {
         </div>
 
         <div className="space-y-6">
+          <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+            <strong className="font-trade-gothic-bold">Limited Intake Only:</strong> Seats are limited to maintain quality and a cohort serious about HR as a leadership discipline.
+          </p>
           <div>
             <h3 className="text-xl md:text-2xl font-trade-gothic-bold text-booth-dark-gray mb-4">
               Key Admissions Criteria
@@ -20,8 +23,7 @@ export default function AdmissionsSnapshotSection() {
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>
-                  <strong>Academic Record:</strong> Strong quantitative and
-                  analytical foundation
+                  <strong>Academic Record:</strong> Strong quantitative and analytical foundation
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -34,15 +36,19 @@ export default function AdmissionsSnapshotSection() {
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>
-                  <strong>Personal Statement:</strong> Clear interest in finance
-                  and analytics
+                  <strong>Personal Statement:</strong> Clear interest in people strategy, HR, and organizational leadership
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>
-                  <strong>Interview:</strong> Demonstrated reasoning ability and
-                  program fit
+                  <strong>Group Discussion:</strong> Discussion-based evaluation
+                </span>
+              </li>
+              <li className="flex items-center gap-3">
+                <span className="text-booth-maroon mt-1">•</span>
+                <span>
+                  <strong>Personal Interview:</strong> Demonstrated reasoning ability and program fit
                 </span>
               </li>
             </ul>
@@ -50,16 +56,22 @@ export default function AdmissionsSnapshotSection() {
 
           <div className="flex flex-wrap gap-4">
             <Link
-              href="/admissions"
-              className="border-2 border-booth-maroon bg-white text-booth-maroon px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-sm md:text-base"
-            >
-              Admissions Details
-            </Link>
-            <Link
               href="/how-to-apply"
               className="border-2 border-booth-maroon bg-white text-booth-maroon px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-sm md:text-base"
             >
-              How to Apply
+              Download Brochure
+            </Link>
+            <Link
+              href="/request-information"
+              className="border-2 border-booth-maroon bg-white text-booth-maroon px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-sm md:text-base"
+            >
+              Book Counselling
+            </Link>
+            <Link
+              href="https://admissions.rvscas.ac.in/"
+              className="border-2 border-booth-maroon bg-white text-booth-maroon px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-sm md:text-base"
+            >
+              Apply Now
             </Link>
           </div>
         </div>

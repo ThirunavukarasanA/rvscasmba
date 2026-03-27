@@ -35,6 +35,18 @@ export default function ProgramFitSection() {
                 Individuals seeking careers in global trade and operations
               </span>
             </li>
+            <li className="flex items-center gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>
+                Anyone who thinks in processes, data, and outcomes and wants to work in manufacturing, retail, e-commerce, or global trade
+              </span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>
+                Students interested in working with industry tools like SAP and planning systems
+              </span>
+            </li>
           </ul>
         </div>
       </div>

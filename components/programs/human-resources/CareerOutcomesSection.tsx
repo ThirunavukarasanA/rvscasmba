@@ -9,9 +9,7 @@ const items = [
         type: "paragraph" as const,
         text: (
           <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            <strong>
-              These roles helps people strategy shapes business success.
-            </strong>
+            <strong>Roles where people decisions influence business outcomes.</strong>
           </p>
         ),
       },
@@ -20,10 +18,10 @@ const items = [
         items: [
           "HR Executive",
           "Talent Acquisition Specialist",
-          "HR Analyst",
-          "Payroll Executive",
-          "Recruitment Executive",
-          "HR Business Partner (entry-level roles)"
+          "HR Business Partner",
+          "Compensation Analyst",
+          "Learning & Development Manager",
+          "Organizational Development Executive",
         ],
       },
     ],
@@ -35,7 +33,7 @@ const items = [
         type: "paragraph" as const,
         text: (
           <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            Students receive guidance in resume preparation, interview readiness, workshops, case discussions, and practical exposure through internships and projects.
+            Interview preparation, corporate grooming, case-based assessment practice, internship support, placement assistance, and industry exposure.
           </p>
         ),
       },
@@ -48,7 +46,7 @@ const items = [
         type: "paragraph" as const,
         text: (
           <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            HR Executive → HR Specialist → HR Manager → Strategic HR Leader
+            Entry: HR and talent roles {"->"} Mid: HR Business Partner / functional specialist {"->"} Growth: Strategic HR leadership roles
           </p>
         ),
       },
@@ -71,11 +69,9 @@ const items = [
         type: "list" as const,
         items: [
           "Corporate HR teams",
-          "Manufacturing firms",
-          "Service industries",
-          "IT companies",
-          "Consulting organizations",
-          "Emerging startups",
+          "Talent acquisition and recruitment",
+          "Organizational development roles",
+          "Workforce analytics functions",
         ],
       },
     ],
@@ -96,11 +92,11 @@ export default function CareerOutcomesSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-8">
           <div className="space-y-6">
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              MBA in Human Resources is designed not merely to educate — but to build professional competence for roles that require organizational insight, strategic people management, and data-informed decision-making.
+              The MBA in Human Resources builds professional competence for roles requiring organizational insight, strategic people management, and data-informed decision-making.
             </p>
 
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              This specialization prepares you for HR careers where aligning talent strategy with business objectives, shaping culture, and applying workforce analytics matter more than routine administrative execution.
+              Graduates are positioned to move into HR, talent, and organizational roles and progress toward strategic HR leadership over time.
             </p>
 
             {/* <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">

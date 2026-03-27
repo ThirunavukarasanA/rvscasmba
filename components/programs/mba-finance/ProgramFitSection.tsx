@@ -17,7 +17,7 @@ export default function ProgramFitSection() {
           <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Graduates aspiring for finance and investment roles</span>
+              <span>Graduates aspiring for finance, investment, and analyst roles</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
@@ -26,13 +26,25 @@ export default function ProgramFitSection() {
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>
-                Entrepreneurs seeking strong financial decision-making skills
+                Students interested in analytical and decision-driven careers
               </span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>
-                Students interested in fintech and analytics-driven finance
+                Learners who want to go beyond formulas into real finance thinking
+              </span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>
+                Individuals interested in fintech and data-driven finance
+              </span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>
+                Anyone with an analytical and business mindset who is serious about a career in finance
               </span>
             </li>
           </ul>

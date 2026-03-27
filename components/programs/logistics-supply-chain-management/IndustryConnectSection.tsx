@@ -37,7 +37,7 @@ export default function IndustryConnectSection() {
               Excel · Bloomberg Terminal · RiskMetrics · FactSet · Stata · Moody's · MoneyControl
             </p> */}
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              Students engage with faculty, alumni, and industry professionals who actively manage procurement networks, logistics operations, and digital supply systems. These interactions provide insight into how supply chains operate across manufacturing, distribution, e-commerce, and global trade environments.
+              Students gain real-world exposure through manufacturing facilities, warehouses and distribution centers, Container Freight Stations (CFS), Inland Container Depots (ICD), and port logistics infrastructure.
             </p>
           </div>
         </div>

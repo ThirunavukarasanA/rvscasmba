@@ -7,12 +7,15 @@ const curriculumData = [
       {
         type: "list" as const,
         items: [
-          "Financial Reporting & Performance Analysis",
-          "Capital Markets & Investment Analysis",
-          "Financial Planning & Analysis (FP&A)",
-          "Wealth & Portfolio Management",
-          "Equity Valuation & Financial Modeling",
-          "Financial Decision-Making for Business Leadership",
+          "Financial Accounting (I & II)",
+          "Financial Management",
+          "Accounting & Financial Analysis",
+          "Financial Planning & Analysis (FP&A I & II)",
+          "Capital Markets",
+          "Planning & Performance Systems",
+          "Data-Driven Finance",
+          "Finance Business Partnering",
+          "AI in Finance",
         ],
       },
     ],
@@ -23,15 +26,10 @@ const curriculumData = [
       {
         type: "list" as const,
         items: [
-          "Financial Reporting Analysis",
-          "Financial Management",
-          "Financial Statement Analysis (AFSA)",
-          "Accounting and Financial Analysis",
-          "Wealth Management",
-          "Capital Markets",
-          "Financial Planning and Analysis (FP&A) – I",
-          "Financial Planning and Analysis (FP&A) – II",
-          "Financial Modelling and Equity Valuation",
+          "Corporate finance",
+          "Investment analysis",
+          "Business finance",
+          "Financial strategy",
         ],
       },
     ],
@@ -42,13 +40,10 @@ const curriculumData = [
       {
         type: "list" as const,
         items: [
-          "Excel",
-          "Bloomberg Terminal",
-          "RiskMetrics",
-          "FactSet",
-          "Stata",
-          "Moody's",
-          "MoneyControl",
+          "Excel for financial modelling",
+          "Data visualization tools",
+          "Business dashboards",
+          "AI tools (ChatGPT, Copilot)",
         ],
       },
     ],
@@ -61,9 +56,9 @@ const curriculumData = [
         text: (
           <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
             Students complete a capstone project focused on real financial
-            cases, complemented by company visits that offer practical insights
-            into pricing decisions, cost structures, and applied financial
-            concepts used by businesses.
+            problems with end-to-end analysis and recommendation design. The capstone
+            demonstrates applied FP&A capability, analytical judgment, and decision-focused
+            financial thinking in business-like scenarios.
           </p>
         ),
       },

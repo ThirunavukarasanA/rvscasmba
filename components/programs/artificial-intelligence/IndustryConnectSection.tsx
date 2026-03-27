@@ -21,7 +21,7 @@ export default function IndustryConnectSection() {
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Exposure to real-world data platforms and analytical tools</span>
+              <span>Exposure to real-world data platforms and tools</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
@@ -37,7 +37,7 @@ export default function IndustryConnectSection() {
               Excel · Bloomberg Terminal · RiskMetrics · FactSet · Stata · Moody's · MoneyControl
             </p> */}
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              Throughout the MBA in Artificial Intelligence, students engage with faculty, alumni, and industry professionals who actively work at the intersection of data and business strategy. These interactions expose students to how analytics is applied in practice — across consulting environments, technology firms, financial institutions, marketing functions, and operations teams. Students gain insight into how organizations use data to drive decisions, optimize performance, and create measurable business impact.
+              Students continuously engage with professionals working at the intersection of AI, data, and business, building both technical and contextual understanding of how AI creates measurable business impact.
             </p>
           </div>
         </div>

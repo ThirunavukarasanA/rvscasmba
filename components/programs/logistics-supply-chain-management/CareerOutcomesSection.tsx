@@ -9,11 +9,11 @@ const items = [
         type: "list" as const,
         items: [
           "Supply Chain Executive",
-          "Logistics Coordinator",
+          "Logistics Manager",
           "Procurement Analyst",
-          "Inventory Control Specialist",
-          "SAP MM Consultant (entry-level)",
-          "Operations Analyst"
+          "Inventory Planner",
+          "Operations Manager",
+          "Distribution Manager",
         ],
       },
     ],
@@ -34,17 +34,19 @@ const items = [
       {
         type: "list" as const,
         items: [
-          "Dedicated Career Workshops – Resume strategy, operations case preparation, SAP and analytics portfolio development",
-          "Live Industry Projects & Supply Chain Case Challenges – Solving real procurement and logistics problems",
-          "Mentoring by Faculty & Industry Professionals – Practical feedback grounded in Lean Six Sigma and ERP systems",
-          "Internships with Structured Evaluation – Exposure to manufacturing, logistics, retail, and operations environments",
+          "Interview preparation",
+          "Case simulation training",
+          "Industry exposure",
+          "LinkedIn mastery for career growth and networking",
+          "Professional development guidance",
+          "Skill-building aligned with ERP and analytics tools",
         ],
       },
       {
         type: "paragraph" as const,
         text: (
           <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            Unlike programs that focus only on placement statistics, we focus on operational competence and career clarity — helping you demonstrate your systems thinking, digital fluency, and long-term leadership potential in supply chain roles.
+            Graduates are prepared for decision-focused supply chain roles where cost, service, and efficiency must be balanced across complex operations.
           </p>
         ),
       },
@@ -57,7 +59,7 @@ const items = [
         type: "paragraph" as const,
         text: (
           <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            Supply Chain Analyst → Operations Manager → Supply Chain Manager → Head of Supply Chain
+            Entry: Operations and supply chain roles {"->"} Mid: Planning, procurement, or logistics leadership {"->"} Growth: Strategic supply chain and operations leadership
           </p>
         ),
       },
@@ -79,12 +81,10 @@ const items = [
       {
         type: "list" as const,
         items: [
-          "Manufacturing firms",
-          "Logistics and transportation companies",
-          "Retail supply networks",
-          "FMCG organizations",
-          "E-commerce operations",
-          "Global trade and export enterprises",
+          "Manufacturing companies",
+          "Retail and e-commerce businesses",
+          "Logistics and distribution firms",
+          "Global trade and export-import environments",
         ],
       },
     ],
@@ -105,11 +105,14 @@ export default function CareerOutcomesSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-8">
           <div className="space-y-6">
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              MBA in Logistics & Supply Chain Management is designed not just to educate — but to build professional competence for roles that require operational precision, analytical thinking, and systems-level insight.
+              MBA in Logistics & Supply Chain Management is designed not just to educate, but to build professional competence for roles that require operational precision, analytical thinking, and systems-level insight.
             </p>
 
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
               This specialization prepares you for decision-focused supply chain careers, where managing complexity, optimizing processes, and integrating digital systems matter more than routine coordination.
+            </p>
+            <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+              After completing the programme, graduates are positioned to work in operations, analytics, and supply chain roles, and progress into strategic and operational leadership over time.
             </p>
 
             {/* <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
