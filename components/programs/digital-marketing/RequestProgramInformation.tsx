@@ -55,7 +55,7 @@ export default function RequestProgramInformation() {
     },
     {
       title: "Download Brochure",
-      href: "/how-to-apply",
+      href: "/request-information",
       icon: (
         <svg
           width="80"

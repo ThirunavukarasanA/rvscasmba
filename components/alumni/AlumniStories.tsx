@@ -1,43 +1,88 @@
 import Image from "next/image";
-import Link from "next/link";
+
 const insights = [
     {
-        title: "DIJO PHILIP",
-        batch: "(Batch 2015-17)",
+        title: "[Name]",
+        batch: "[Batch / year range]",
         description:
-            "Chief Business Development Officer Box Room Innovations",
-        image:
-            "/images/alumni/dijo.jpg",
-        place: "Cochin",
+            "[Role, organization — short story placeholder. Replace with final copy.]",
+        image: "/images/alumni/1.jpg",
+        place: "[Location]",
     },
     {
-        title: "ABHIRAJ",
-        batch: "(Batch 2015-17)",
+        title: "[Name]",
+        batch: "[Batch / year range]",
         description:
-            "Tax Analyst Ernst & Young",
-        image:
-            "/images/alumni/abhiraj.jpg",
-        place: "Bangalore",
+            "[Role, organization — short story placeholder. Replace with final copy.]",
+        image: "/images/alumni/2.jpg",
+        place: "[Location]",
     },
     {
-        title: "PARTHIBAN",
-        batch: "(Batch 2014-16)",
+        title: "[Name]",
+        batch: "[Batch / year range]",
         description:
-            "Assistant Manager – Projects Sundaram Finance",
-        image:
-            "/images/alumni/parthiban.jpg",
-        place: "Chennai",
+            "[Role, organization — short story placeholder. Replace with final copy.]",
+        image: "/images/alumni/3.jpg",
+        place: "[Location]",
     },
     {
-        title: "PREDEESH K. VARGHESE",
-        batch: "(Batch 2015-17)",
+        title: "[Name]",
+        batch: "[Batch / year range]",
         description:
-            "Resource Specialist NewAgeSys Solutions P.Ltd.,",
-        image:
-            "/images/alumni/predeesh.jpg",
-        place: "Cochin",
+            "[Role, organization — short story placeholder. Replace with final copy.]",
+        image: "/images/alumni/4.jpg",
+        place: "[Location]",
+    },
+    {
+        title: "[Name]",
+        batch: "[Batch / year range]",
+        description:
+            "[Role, organization — short story placeholder. Replace with final copy.]",
+        image: "/images/alumni/5.jpg",
+        place: "[Location]",
+    },
+    {
+        title: "[Name]",
+        batch: "[Batch / year range]",
+        description:
+            "[Role, organization — short story placeholder. Replace with final copy.]",
+        image: "/images/alumni/6.jpg",
+        place: "[Location]",
+    },
+    {
+        title: "[Name]",
+        batch: "[Batch / year range]",
+        description:
+            "[Role, organization — short story placeholder. Replace with final copy.]",
+        image: "/images/alumni/old-1.jpg",
+        place: "[Location]",
+    },
+    {
+        title: "[Name]",
+        batch: "[Batch / year range]",
+        description:
+            "[Role, organization — short story placeholder. Replace with final copy.]",
+        image: "/images/alumni/old-2.jpg",
+        place: "[Location]",
+    },
+    {
+        title: "[Name]",
+        batch: "[Batch / year range]",
+        description:
+            "[Role, organization — short story placeholder. Replace with final copy.]",
+        image: "/images/alumni/old-3.jpg",
+        place: "[Location]",
+    },
+    {
+        title: "[Name]",
+        batch: "[Batch / year range]",
+        description:
+            "[Role, organization — short story placeholder. Replace with final copy.]",
+        image: "/images/alumni/old-4.jpg",
+        place: "[Location]",
     },
 ];
+
 export default function AlumniStories() {
     return (
         <section className="py-8 md:py-20 bg-booth-bg-gray">
@@ -47,65 +92,41 @@ export default function AlumniStories() {
                     <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-3 md:mb-4">
                         Alumni Stories
                     </h2>
-                    {/* <p className="text-booth-light-gray text-sm md:text-lg font-trade-gothic-light">
-                        Our faculty and thought leaders share their research and insights on
-                        the most pressing business and management issues.
-                    </p> */}
                 </div>
 
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mt-6 md:mt-12">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4 mt-6 md:mt-12">
                     {insights.map((insight, index) => (
-                        <div key={index} className="bg-booth-bg-gray shadow-md hover:scale-105 transition-all hover:shadow-xl p-3 overflow-hidden">
-                            <div className="relative h-40 md:h-60">
+                        <div
+                            key={`${insight.image}-${index}`}
+                            className="bg-white border border-gray-200 shadow-md hover:scale-[1.02] transition-all hover:shadow-xl p-3 overflow-hidden"
+                        >
+                            <div className="relative aspect-[3/4] w-full">
                                 <Image
                                     src={insight.image}
-                                    alt={insight.title} fill
+                                    alt={insight.title}
+                                    fill
+                                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                                     className="object-cover object-top"
                                 />
                             </div>
-                            <div className="py-2 md:py-6">
+                            <div className="py-2 md:py-4">
                                 <h3 className="text-lg md:text-xl font-trade-gothic-bold text-booth-dark-gray mb-2 md:mb-3">
                                     {insight.title}
                                 </h3>
-                                <p className="text-booth-dark-gray mb-2 md:mb-4 font-trade-gothic-light text-base">
+                                <p className="text-booth-dark-gray mb-2 md:mb-3 font-trade-gothic-light text-base">
                                     <strong>{insight.batch}</strong>
                                 </p>
-                                <p className="text-booth-maroon mb-2 md:mb-4 font-trade-gothic-light text-base">
+                                <p className="text-booth-maroon mb-2 md:mb-3 font-trade-gothic-light text-sm md:text-base">
                                     {insight.description}
                                 </p>
-                                <p className="text-booth-dark-gray mb-2 md:mb-4 font-trade-gothic-bold text-base">
+                                <p className="text-booth-dark-gray font-trade-gothic-bold text-base">
                                     {insight.place}
                                 </p>
-                                {/* <Link
-                                    href="#"
-                                    className="inline-flex items-center gap-2 text-booth-maroon font-medium hover:underline"
-                                >
-                                    Read More
-                                    <svg
-                                        className="w-4 h-4"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        viewBox="0 0 24 24"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={2}
-                                            d="M9 5l7 7-7 7"
-                                        />
-                                    </svg>
-                                </Link> */}
                             </div>
                         </div>
                     ))}
                 </div>
-
-                {/* <div className="mt-6 md:mt-12">
-                    <button className="bg-booth-maroon text-white px-8 py-4 font-trade-gothic-bold uppercase hover:bg-opacity-90 transition">
-                        EXPLORE INSIGHTS
-                    </button>
-                </div> */}
             </div>
         </section>
-    )
+    );
 }

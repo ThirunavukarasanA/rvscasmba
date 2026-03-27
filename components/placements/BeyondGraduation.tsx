@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import React from 'react'
 
 export default function BeyondGraduation() {
@@ -33,28 +32,6 @@ export default function BeyondGraduation() {
                         </li>
                     </ul>
 
-                    {/* <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-                        Each interaction is framed as an opportunity for learning, not simply a transaction.
-                    </p> */}
-                    <Link
-                        href="/request-information"
-                        className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline"
-                    >
-                        JOIN RVS CAS MBA COMMUNITY
-                        <svg
-                            className="w-4 h-4"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                        >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={2}
-                                d="M9 5l7 7-7 7"
-                            />
-                        </svg>
-                    </Link>
                 </div>
             </div>
         </section>

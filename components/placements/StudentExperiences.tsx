@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function StudentExperiences() {
     return (
         <section className="py-8 md:py-20 bg-booth-bg-gray">
@@ -32,6 +30,30 @@ export default function StudentExperiences() {
                     </div>
                 </div>
 
+                <div className="mt-10 md:mt-14">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 md:gap-6">
+                        {[1, 2, 3, 4].map((slot) => (
+                            <div
+                                key={`student-placeholder-${slot}`}
+                                className="w-full bg-white border border-dashed border-gray-300 overflow-hidden"
+                            >
+                                <div className="aspect-[16/10] flex items-center justify-center bg-gray-200">
+                                    <span className="text-booth-dark-gray font-trade-gothic-bold text-xs uppercase tracking-wide">
+                                        Coming Soon
+                                    </span>
+                                </div>
+                                <div className="p-3">
+                                    <p className="text-sm md:text-base font-trade-gothic-bold text-booth-dark-gray">
+                                        Student Video {slot}
+                                    </p>
+                                    <p className="text-xs md:text-sm text-booth-dark-gray font-trade-gothic-light mt-1">
+                                        Placeholder for upcoming student stories.
+                                    </p>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
             </div>
         </section>
     )

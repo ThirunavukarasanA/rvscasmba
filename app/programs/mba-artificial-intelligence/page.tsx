@@ -44,7 +44,7 @@ export default function page() {
                 image='/images/herosection/new/artificial-intelligence.png'
                 button1='Download Brochure'
                 button2='Apply Now'
-                button1Link='/how-to-apply'
+                button1Link='/request-information'
                 button2Link='https://admissions.rvscas.ac.in/'
             />
             <WhyProgramSection />

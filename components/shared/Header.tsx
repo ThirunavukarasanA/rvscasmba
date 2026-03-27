@@ -113,6 +113,12 @@ export default function Header() {
                   Admissions
                 </Link>
                 <Link
+                  href="/request-information"
+                  className={`${isActive("/request-information") ? "border-b-4 border-white" : ""} text-white hover:text-gray-300 font-trade-gothic-light`}
+                >
+                  Request Info
+                </Link>
+                <Link
                   href="/insights"
                   className={`${isActive("/insights") ? "border-b-4 border-white" : ""} text-white hover:text-gray-300 font-trade-gothic-light`}
                 >
@@ -335,6 +341,15 @@ export default function Header() {
                       d="M9 5l7 7-7 7"
                     />
                   </svg> */}
+                </Link>
+                <Link
+                  href="/request-information"
+                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${isActive("/request-information")
+                    ? "text-booth-maroon border-booth-maroon font-bold"
+                    : "text-booth-dark-gray border-gray-300"
+                    }`}
+                >
+                  Request Info
                 </Link>
                 <Link
                   href="/insights"

@@ -1,7 +1,26 @@
-// Placeholder YouTube video ID for all topics (replace with actual IDs when available)
+// Placeholder YouTube video ID for topics not yet published
 const PLACEHOLDER_VIDEO_ID = "95VIIL_tao8";
 
+const TOPIC_VIDEO_ID_OVERRIDES: Record<string, string> = {
+  "0-0": "SXu-MglZKD8", // What Return on Capital Actually Means
+  "0-1": "MD_Z8JcoiuQ", // Why Asset-Light Companies Look Superhuman
+  "0-2": "s8VI1m3FCRA", // Why Two Companies With the Same ROIC Are Not Equal
+};
+
 export const clusters = [
+  {
+    title: "Return on Capital: The Analyst's Core Lens",
+    topics: [
+      "What Return on Capital Actually Means",
+      "Why Asset-Light Companies Look Superhuman",
+      "Why Two Companies With Same ROIC Are Not Equal",
+      "How Old Companies Look Bad on Paper",
+      "Why Historical Cost Distorts Performance",
+      "When ROIC Completely Breaks Down",
+      "Why 1000% ROIC Can Be Meaningless",
+      "Spread vs Profit: The Real Value Test",
+    ],
+  },
   {
     title: "Power, Control & Capital Structure",
     topics: [
@@ -13,19 +32,6 @@ export const clusters = [
       "Debt vs Equity: Power Trade-offs",
       "Why Lenders Have More Power Than Shareholders",
       "Why Banks Care About Assets, Not Ideas",
-    ],
-  },
-  {
-    title: "Return on Capital: The Analyst's Core Lens",
-    topics: [
-      "What Return on Capital Actually Means",
-      "Why Two Companies With Same ROIC Are Not Equal",
-      "How Old Companies Look Bad on Paper",
-      "Why Historical Cost Distorts Performance",
-      "Why Asset-Light Companies Look Superhuman",
-      "When ROIC Completely Breaks Down",
-      "Why 1000% ROIC Can Be Meaningless",
-      "Spread vs Profit: The Real Value Test",
     ],
   },
   {
@@ -135,7 +141,9 @@ export const allTopics: TopicItem[] = clusters.flatMap(
       clusterIndex,
       topicIndex,
       title,
-      videoId: PLACEHOLDER_VIDEO_ID,
+      videoId:
+        TOPIC_VIDEO_ID_OVERRIDES[`${clusterIndex}-${topicIndex}`] ??
+        PLACEHOLDER_VIDEO_ID,
     })),
 );
 

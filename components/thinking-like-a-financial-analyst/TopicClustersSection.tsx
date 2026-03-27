@@ -15,6 +15,7 @@ const placeholderThumbnails = [
 ];
 
 export default function TopicClustersSection() {
+  const ACTIVE_TOPIC_IDS = new Set<string>(["0-0", "0-1", "0-2"]);
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const [modalTopicId, setModalTopicId] = useState<string | null>(null);
   const [watchedIds, setWatchedIds] = useState<Set<string>>(new Set());
@@ -33,6 +34,9 @@ export default function TopicClustersSection() {
     setOpenIndex(openIndex === index ? null : index);
   };
 
+  const isTopicAvailable = (clusterIndex: number, topicIndex: number) =>
+    ACTIVE_TOPIC_IDS.has(`${clusterIndex}-${topicIndex}`);
+
   const handleTopicClick = (topicId: string) => {
     setModalTopicId(topicId);
   };
@@ -44,11 +48,12 @@ export default function TopicClustersSection() {
 
   // Compute cluster status for each cluster
   const getClusterStatus = (clusterIndex: number) => {
-    const topicIds = clusters[clusterIndex].topics.map(
-      (_, i) => `${clusterIndex}-${i}`,
-    );
+    const topicIds = clusters[clusterIndex].topics
+      .map((_, i) => `${clusterIndex}-${i}`)
+      .filter((id) => ACTIVE_TOPIC_IDS.has(id));
     const watchedCount = topicIds.filter((id) => watchedIds.has(id)).length;
     const total = topicIds.length;
+    if (total === 0) return "coming_soon";
     if (watchedCount === total) return "done";
     if (watchedCount > 0) return "in_progress";
     return "pending";
@@ -57,7 +62,7 @@ export default function TopicClustersSection() {
   // Find first cluster with pending videos (start here)
   const startHereClusterIndex = clusters.findIndex((_, clusterIndex) => {
     const status = getClusterStatus(clusterIndex);
-    return status !== "done";
+    return status !== "done" && status !== "coming_soon";
   });
 
   const goToStartHere = () => {
@@ -70,9 +75,11 @@ export default function TopicClustersSection() {
     }
   };
 
-  const totalWatched = Array.from(watchedIds).length;
-  const totalVideos = clusters.reduce((acc, c) => acc + c.topics.length, 0);
-  const allDone = totalWatched === totalVideos;
+  const totalVideos = Array.from(ACTIVE_TOPIC_IDS).length;
+  const watchedAvailableCount = Array.from(watchedIds).filter((id) =>
+    ACTIVE_TOPIC_IDS.has(id),
+  ).length;
+  const allDone = watchedAvailableCount === totalVideos;
 
   return (
     <section id="roadmap" className="py-12 md:py-20 bg-white scroll-mt-20">
@@ -105,13 +112,12 @@ export default function TopicClustersSection() {
                 <span className="text-booth-dark-gray font-trade-gothic-light">
                   {startHereClusterIndex >= 0 && (
                     <>
-                      Cluster {startHereClusterIndex + 1}:{" "}
                       {clusters[startHereClusterIndex].title}
                     </>
                   )}
                 </span>
                 <span className="text-booth-light-gray font-trade-gothic-light text-sm">
-                  ({totalWatched} of {totalVideos} watched)
+                  ({watchedAvailableCount} of {totalVideos} watched)
                 </span>
               </>
             )}
@@ -122,14 +128,15 @@ export default function TopicClustersSection() {
           {clusters.map((cluster, clusterIndex) => {
             const isOpen = openIndex === clusterIndex;
             const status = getClusterStatus(clusterIndex);
-            const topicIds = cluster.topics.map(
-              (_, i) => `${clusterIndex}-${i}`,
-            );
+            const topicIds = cluster.topics
+              .map((_, i) => `${clusterIndex}-${i}`)
+              .filter((id) => ACTIVE_TOPIC_IDS.has(id));
             const watchedCount = topicIds.filter((id) =>
               watchedIds.has(id),
             ).length;
             const total = topicIds.length;
             const isStartHere = startHereClusterIndex === clusterIndex;
+            const isComingSoon = status === "coming_soon";
 
             return (
               <div
@@ -149,9 +156,6 @@ export default function TopicClustersSection() {
                   aria-expanded={isOpen}
                 >
                   <div className="flex flex-wrap items-center gap-3">
-                    <span className="text-booth-maroon font-trade-gothic-bold text-sm">
-                      Cluster {clusterIndex + 1}
-                    </span>
                     <h3 className="text-lg md:text-xl font-trade-gothic-bold text-booth-dark-gray group-hover:text-booth-maroon">
                       {cluster.title}
                     </h3>
@@ -179,6 +183,11 @@ export default function TopicClustersSection() {
                       {status === "pending" && !isStartHere && (
                         <span className="bg-gray-300 text-booth-dark-gray text-xs font-trade-gothic-light px-2 py-1 rounded">
                           Pending
+                        </span>
+                      )}
+                      {isComingSoon && (
+                        <span className="bg-gray-300 text-booth-dark-gray text-xs font-trade-gothic-bold px-2 py-1 rounded">
+                          Coming Soon
                         </span>
                       )}
                     </div>
@@ -209,6 +218,29 @@ export default function TopicClustersSection() {
                         {cluster.topics.map((topic, topicIndex) => {
                           const topicId = `${clusterIndex}-${topicIndex}`;
                           const isWatched = watchedIds.has(topicId);
+                          const isAvailable = isTopicAvailable(
+                            clusterIndex,
+                            topicIndex,
+                          );
+                          if (!isAvailable) {
+                            return (
+                              <div
+                                key={topicIndex}
+                                className="text-left bg-booth-bg-gray border border-gray-200 overflow-hidden relative"
+                              >
+                                <div className="aspect-video flex items-center justify-center bg-gray-200">
+                                  <span className="text-booth-dark-gray font-trade-gothic-bold text-sm uppercase tracking-wide">
+                                    Coming Soon
+                                  </span>
+                                </div>
+                                <div className="p-3">
+                                  <p className="text-sm font-trade-gothic-bold text-booth-dark-gray line-clamp-2">
+                                    {topic}
+                                  </p>
+                                </div>
+                              </div>
+                            );
+                          }
                           return (
                             <button
                               key={topicIndex}

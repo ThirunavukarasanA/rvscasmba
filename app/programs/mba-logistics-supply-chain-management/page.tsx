@@ -41,7 +41,7 @@ export default function page() {
                 // image='https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1471&auto=format&fit=crop'
                 button1='Download Brochure'
                 button2='Apply Now'
-                button1Link='/how-to-apply'
+                button1Link='/request-information'
                 button2Link='https://admissions.rvscas.ac.in/'
             />
             <WhyProgramSection />
