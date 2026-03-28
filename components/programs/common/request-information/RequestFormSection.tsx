@@ -166,7 +166,7 @@ export default function RequestFormSection() {
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
-            Request Information Form
+            Request Information and Download Brochure
           </h2>
           <p className="text-sm md:text-lg text-booth-dark-gray font-trade-gothic-light">The request form is simple and quick to complete. You’ll just need to provide your name and contact details, academic background, and your area of interest or specialization so we can share information that’s most relevant to you.</p>
         </div>

@@ -10,7 +10,7 @@ export default function FinalCTASection() {
             Education for Digital Era.
           </h2>
           <p className="text-base md:text-xl text-booth-dark-gray mb-4 md:mb-8 font-trade-gothic-light">
-            Learn more about studying at RVS CAS MBA
+            Learn more about studying at RVS CAS MBA Programmes and explore possibilities.
           </p>
           <Link
             href="/programs"

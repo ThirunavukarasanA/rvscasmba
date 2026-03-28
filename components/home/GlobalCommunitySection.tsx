@@ -92,25 +92,28 @@ export default function GlobalCommunitySection() {
                 <p className="text-booth-light-gray mb-2 md:mb-4 font-trade-gothic-light text-base">
                   {location.description}
                 </p>
-                <Link
-                  href="#"
-                  className="inline-flex items-center gap-2 text-booth-maroon font-medium hover:underline"
-                >
-                  Learn More
-                  <svg
-                    className="w-4 h-4"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg>
-                </Link>
+                {location.title !== "Campus Life" &&
+                  location.title !== "Student Experience" && (
+                    <Link
+                      href="#"
+                      className="inline-flex items-center gap-2 text-booth-maroon font-medium hover:underline"
+                    >
+                      Learn More
+                      <svg
+                        className="w-4 h-4"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M9 5l7 7-7 7"
+                        />
+                      </svg>
+                    </Link>
+                  )}
               </div>
             </div>
           ))}
