@@ -82,7 +82,6 @@ const insights = [
         company: "[Company]",
     },
 ];
-
 export default function AlumniStories() {
     return (
         <section className="py-8 md:py-20 bg-booth-bg-gray">
