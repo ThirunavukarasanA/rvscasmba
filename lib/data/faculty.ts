@@ -69,15 +69,15 @@ export const facultyMembers: FacultyMember[] = [
       "Dr. Ganesh is a constant learner and has completed over 20 global executive education programs from world-renowned institutions including <strong>MIT, Harvard, Oxford, Kellogg, London Business School, IMD, and ISB</strong>. His recent focus includes advanced programs in digital transformation, artificial intelligence, finance, real estate, and strategy, reflecting his commitment to bringing global insights into Indian higher education.",
     industryExperience: [
       "Prior to joining RVS full time, Dr. Ganesh worked in the US IT sector:",
-      "• <strong class=\"\">Business Application Developer</strong>, Zales Corporation (1997–1998)",
-      "• <strong class=\"\">Founder & Principal IT Consultant</strong>, Mantel Corporation (1998–2002), servicing Fortune 500 clients including Sprint and AT&T",
-      "• <strong class=\"\">Technical Consultant</strong>, Cracker Barrel Inc. (RETEK ERP application)",
+      '• <strong class="">Business Application Developer</strong>, Zales Corporation (1997–1998)',
+      '• <strong class="">Founder & Principal IT Consultant</strong>, Mantel Corporation (1998–2002), servicing Fortune 500 clients including Sprint and AT&T',
+      '• <strong class="">Technical Consultant</strong>, Cracker Barrel Inc. (RETEK ERP application)',
       "He continues to engage actively with industry as an investor and board member of Transform Tech, an EdTech company focused on online programs in Data Science, Artificial Intelligence, Digital Marketing, and IoT.",
     ],
     academicBackground: [
-      "<strong class=\"\">Ph.D. in Management</strong>, Bharathiar University, India (2018)",
-      "<strong class=\"\">M.Sc. Software Engineering</strong>, University of Westminster, UK (2004)",
-      "<strong class=\"\">BBA</strong>, East Texas State University, USA (1995)",
+      '<strong class="">Ph.D. in Management</strong>, Bharathiar University, India (2018)',
+      '<strong class="">M.Sc. Software Engineering</strong>, University of Westminster, UK (2004)',
+      '<strong class="">BBA</strong>, East Texas State University, USA (1995)',
     ],
     vision:
       "Dr. Senthil Ganesh is widely regarded as an <strong>edupreneur with a digital vision</strong>. His initiatives in curriculum design, faculty training, and industry-linked programs aim to create <strong>future-ready graduates</strong> equipped with skills in Data Science, AI, Big Data Analytics, and Cloud Computing. With a belief that education must evolve with technology, he has consistently worked to position RVS institutions as pioneers of <strong>Education for Digital Era</strong>.",
@@ -85,13 +85,13 @@ export const facultyMembers: FacultyMember[] = [
   {
     name: "Dr. B. Raja Rajeswari",
     title: "Associate Professor, Marketing",
-    image: "/images/faculties/Dr. B. Raja Rajeswari.webp",
+    image: "/images/faculties/Rajeshwari.jpeg",
     academicArea: "Leadership & Strategy, Human Resource",
     slug: "dr-b-raja-rajeswari",
     email: "rajarajeswari@rvsgroup.com",
     bio: [
-      "Dr. B. Raja Rajeswari is a management scholar with <strong class=\"\">24 years of teaching and research experience</strong>, known for a rigorous yet student-centered approach to management education. Her work bridges <strong class=\"\">marketing, systems, and strategic management</strong>, with a distinctive research specialization in <strong class=\"\">Green Marketing</strong>. She brings an interdisciplinary lens to the classroom—drawing on consumer behavior, psychology, and sustainability—to help students connect concepts to real managerial decisions.",
-      "She qualified for the <strong class=\"\">UGC-NET (June 2011)</strong> and has contributed actively to academic publishing and conference communities. She also served as a <strong class=\"\">reviewer</strong> for <em>Information Technology for Management</em> (McGraw-Hill), reflecting her expertise in the intersection of management and technology.",
+      'Dr. B. Raja Rajeswari is a management scholar with <strong class="">24 years of teaching and research experience</strong>, known for a rigorous yet student-centered approach to management education. Her work bridges <strong class="">marketing, systems, and strategic management</strong>, with a distinctive research specialization in <strong class="">Green Marketing</strong>. She brings an interdisciplinary lens to the classroom—drawing on consumer behavior, psychology, and sustainability—to help students connect concepts to real managerial decisions.',
+      'She qualified for the <strong class="">UGC-NET (June 2011)</strong> and has contributed actively to academic publishing and conference communities. She also served as a <strong class="">reviewer</strong> for <em>Information Technology for Management</em> (McGraw-Hill), reflecting her expertise in the intersection of management and technology.',
     ],
     teachingAreasIntro:
       "Dr. Raja Rajeswari’s teaching spans core and specialization domains, including:",
@@ -129,13 +129,13 @@ export const facultyMembers: FacultyMember[] = [
   {
     name: "Mr. Afsal T. I.",
     title: "Assistant Professor – Logistics & Supply Chain Management",
-    image: "/images/faculties/Mr. Afsal TI.webp",
+    image: "/images/faculties/Afsal.jpeg",
     academicArea: "Logistics & Supply Chain Management",
     slug: "mr-afsal-t-i",
     email: "afsal@rvsgroup.com",
     bio: [
       "Mr. Afsal T. I. brings over 13 years of combined industry and academic experience in Logistics and Supply Chain Management. With a strong foundation in procurement, materials leadership, and operations strategy, he integrates real-world business practices into classroom learning.",
-      "A certified <strong class=\"\">Lean Six Sigma Black Belt</strong> and proficient in <strong class=\"\">SAP MM</strong>, he emphasizes operational excellence, process optimization, and ERP-driven supply chain management. His professional journey spans purchasing, warehouse operations, materials management, and quality improvement initiatives—allowing him to connect conceptual frameworks with practical execution.",
+      'A certified <strong class="">Lean Six Sigma Black Belt</strong> and proficient in <strong class="">SAP MM</strong>, he emphasizes operational excellence, process optimization, and ERP-driven supply chain management. His professional journey spans purchasing, warehouse operations, materials management, and quality improvement initiatives—allowing him to connect conceptual frameworks with practical execution.',
       "He is actively involved in mentoring students in career readiness, entrepreneurship development, and institutional incubation initiatives, supporting the MBA’s structured approach to industry alignment.",
     ],
     teachingAreas: [
@@ -169,7 +169,7 @@ export const facultyMembers: FacultyMember[] = [
   {
     name: "Mrs. M. Surya",
     title: "Assistant Professor – Finance",
-    image: "/images/faculties/Mrs. M. Surya.webp",
+    image: "/images/faculties/Soorya.jpeg",
     academicArea: "Finance",
     slug: "mrs-m-surya",
     email: "surya@rvsgroup.com",
@@ -207,7 +207,7 @@ export const facultyMembers: FacultyMember[] = [
   {
     name: "Dr. M. Suganya",
     title: "Associate Professor – Machine Learning & Computer Networks",
-    image: "/images/faculties/Dr. M. Suganya.webp",
+    image: "/images/faculties/Suganya.png",
     academicArea: "Machine Learning & Computer Networks",
     slug: "dr-m-suganya",
     email: "suganya@rvsgroup.com",
@@ -246,7 +246,7 @@ export const facultyMembers: FacultyMember[] = [
     name: "Dr. S. Yamini",
     title:
       "Associate Professor & Director (Academic) – Data Science & Analytics",
-    image: "/images/faculties/Dr. S. Yamini.webp",
+    image: "/images/faculties/Yamini.jpeg",
     academicArea: "Data Science & Analytics",
     slug: "dr-s-yamini",
     email: "yamini@rvsgroup.com",
@@ -284,7 +284,7 @@ export const facultyMembers: FacultyMember[] = [
   {
     name: "Mr. N. Vellingiri",
     title: "Assistant Professor – Data Engineering & Generative AI",
-    image: "/images/faculties/Mr. N. Vellingiri.png",
+    image: "/images/faculties/Vellingiri.jpeg",
     academicArea: "Data Engineering",
     slug: "mr-n-vellingiri",
     email: "nvellingiri@rvsgroup.com",
@@ -345,7 +345,7 @@ export const facultyMembers: FacultyMember[] = [
   {
     name: "Dr. V. Radja Ramane",
     title: "Associate Professor – Economics, Statistics & Research Methods",
-    image: "/images/faculties/Dr. V. Radja Ramane.png",
+    image: "/images/faculties/Radja Ramane.jpeg",
     academicArea: "Economics, Statistics & Research Methods",
     slug: "dr-v-radja-ramane",
     email: "radjaramane@rvsgroup.com",
@@ -381,7 +381,7 @@ export const facultyMembers: FacultyMember[] = [
   {
     name: "Dr. K. Mangayarkarasi",
     title: "Head – Aptitude Training & Career Guidance",
-    image: "/images/faculties/Dr. K. Mangayarkarasi.webp",
+    image: "/images/faculties/Mangai.jpeg",
     academicArea: "Aptitude Training",
     slug: "dr-k-mangayarkarasi",
     email: "mangayarkarasi@rvsgroup.com",
@@ -408,7 +408,7 @@ export const facultyMembers: FacultyMember[] = [
   {
     name: "Mr. D. Sharan Krishnan",
     title: "Placement Officer – Corporate Outreach & Career Development",
-    image: "/images/faculties/Mr. D. Sharan Krishnan.jpg",
+    image: "/images/faculties/Saran.jpeg",
     academicArea: "Corporate Outreach",
     slug: "mr-d-sharan-krishnan",
     email: "sharankrishnan@rvsgroup.com",

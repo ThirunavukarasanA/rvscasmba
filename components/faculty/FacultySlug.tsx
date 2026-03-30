@@ -22,6 +22,8 @@ export default async function FacultySlug({ params }: { params: Promise<{ slug: 
                                 src={faculty.image}
                                 alt={faculty.name}
                                 fill
+                                sizes="(max-width: 768px) 100vw, 33vw"
+                                quality={100}
                                 className="object-cover w-full h-full"
                                 priority
                             />

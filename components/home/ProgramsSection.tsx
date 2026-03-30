@@ -41,7 +41,7 @@ export default function ProgramsSection() {
       <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
-          <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray">
+          <h2 className="text-3xl md:text-[39.6px] font-trade-gothic-bold text-booth-dark-gray">
             Explore Our Specializations
           </h2>
         </div>
@@ -64,10 +64,10 @@ export default function ProgramsSection() {
                 </Link>
               </div>
               <div className="flex-1">
-                <h3 className="text-lg md:text-2xl font-trade-gothic-bold text-booth-dark-gray mb-2 md:mb-3">
+                <h3 className="text-lg md:text-[32.6px] font-trade-gothic-bold text-booth-dark-gray mb-2 md:mb-3">
                   {program.title}
                 </h3>
-                <p className="text-booth-light-gray mb-2 md:mb-4 font-trade-gothic-light text-sm md:text-base">
+                <p className="text-booth-light-gray mb-2 md:mb-4 font-trade-gothic-light text-sm md:text-[19.68px]">
                   {program.description}
                 </p>
                 <Link

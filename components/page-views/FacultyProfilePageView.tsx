@@ -21,6 +21,8 @@ export default function FacultyProfilePageView({ params, faculty }: Props) {
             src="/images/herosection/faculty-hero.webp"
             alt={faculty.name}
             fill
+            sizes="100vw"
+            quality={100}
             className="object-cover"
             priority
           />
