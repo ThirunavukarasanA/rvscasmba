@@ -25,10 +25,10 @@ export default function HeroSection() {
             <div className="w-full pb-16">
               <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
                 <div className="w-16 h-0.5 bg-white mb-6"></div>
-                <h1 className="text-5xl md:text-7xl font-trade-gothic-bold text-white mb-6">
+                <h1 className="text-5xl md:text-[60.1987px] font-trade-gothic-bold text-white mb-6">
                   Education for Digital Era.
                 </h1>
-                <p className="text-xl md:text-2xl text-white font-trade-gothic-light">
+                <p className="text-xl md:text-[33.6px] text-white leading-relaxed font-trade-gothic-light">
                   RVS CAS MBA develops techno-managers who blend business discipline with technological fluency and analytical clarity to lead real-world decisions.
                 </p>
               </div>
@@ -65,10 +65,10 @@ export default function HeroSection() {
       <section className="bg-white lg:py-12 pb-12">
         <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
           <div className="space-y-4">
-            <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+            <p className="text-lg md:text-[33.6px] leading-snug text-booth-dark-gray font-trade-gothic-bold">
               At RVS CAS MBA, The value of an MBA lies in how you think — not just what you learn. Our Tech MBA model integrates business knowledge with digital tools, analytics, and industry exposure—helping students think critically, adapt quickly, and lead confidently in a rapidly changing economy.
             </p>
-            <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+            <p className="text-lg md:text-2xl text-booth-dark-gray font-trade-gothic-light">
               With over 30 years of management education, RVS CAS MBA focuses on relevance, rigor, and real-world readiness.
             </p>
           </div>
