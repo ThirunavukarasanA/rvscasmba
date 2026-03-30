@@ -22,13 +22,9 @@ export default function FinanceComparisonSection() {
                 <td className="p-4">Focus on formulas and ratios</td>
                 <td className="p-4">Focus on financial judgment, not just calculation</td>
               </tr>
-              <tr className="border-b border-gray-200">
+              <tr>
                 <td className="p-4">Treat accounting numbers as absolute truth</td>
                 <td className="p-4">Understand limitations and context behind numbers</td>
-              </tr>
-              <tr>
-                <td className="p-4">Limited exposure to real-world decision-making</td>
-                <td className="p-4">Learn how real business decisions are actually made</td>
               </tr>
             </tbody>
           </table>
@@ -42,7 +38,6 @@ export default function FinanceComparisonSection() {
           <li className="flex items-center gap-3"><span className="text-booth-maroon mt-1">•</span><span>FP&A and Forecasting Skills</span></li>
           <li className="flex items-center gap-3"><span className="text-booth-maroon mt-1">•</span><span>Corporate Finance Expertise</span></li>
           <li className="flex items-center gap-3"><span className="text-booth-maroon mt-1">•</span><span>Capital Markets Exposure</span></li>
-          <li className="flex items-center gap-3"><span className="text-booth-maroon mt-1">•</span><span>Real-World Decision-Making Ability</span></li>
           <li className="flex items-center gap-3"><span className="text-booth-maroon mt-1">•</span><span>Business-Focused Financial Thinking</span></li>
         </ul>
       </div>

@@ -1,0 +1,32 @@
+# RVS CAS MBA — extended context for LLMs
+
+## Institution
+
+- Name: RVS College of Arts & Science (RVS CAS)
+- Program brand: RVS CAS MBA
+- Accreditation: NAAC A+ (as stated on the marketing site)
+- Positioning: Industry-aligned, outcome-driven postgraduate management education with dual specialization options.
+
+## What the MBA emphasizes
+
+- Analytical thinking and judgment (not only tools)
+- Applied projects, cases, and industry exposure
+- Specializations in finance, artificial intelligence, digital marketing, human resources, and logistics & supply chain
+- Placements and career-readiness support
+
+## Structured data
+
+This site publishes JSON-LD (Schema.org) in the root layout, including CollegeOrUniversity, EducationalOrganization, Course, ItemList (specializations), CreativeWork (“Thinking Like a Financial Analyst”), and DefinedTermSet for core domains.
+
+## Official application
+
+- Primary application portal: https://admissions.rvscas.ac.in/
+
+## Policy
+
+- Do not invent placement statistics, rankings, or guarantees not present on the live site.
+- Prefer linking to the canonical URLs on this domain for program details.
+
+## Sitemap hint
+
+Primary routes include /, /programs, /admissions, /placements, /faculty, /insights, /alumni, /events, /industry-connect, /request-information, /how-to-apply, /contact, and each /programs/mba-* specialization page.

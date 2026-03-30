@@ -1,16 +1,6 @@
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
-import { Metadata } from "next";
 import { facultyMembers } from '@/lib/data/faculty';
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
-    const slug = (await params).slug;
-    const faculty = facultyMembers.find(f => f.slug === slug);
-    if (!faculty) return { title: 'Faculty Not Found - RVS CAS MBA' };
-    return {
-        title: `${faculty.name} - Faculty at RVS CAS MBA`,
-        description: faculty.title,
-    };
-}
 
 export default async function FacultySlug({ params }: { params: Promise<{ slug: string }> }) {
     const slug = (await params).slug;

@@ -7,7 +7,7 @@ export default function AdmissionsSnapshotSection() {
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
-            Admissions Snapshot
+            Admissions
           </h2>
         </div>
 
@@ -36,7 +36,7 @@ export default function AdmissionsSnapshotSection() {
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>
-                  <strong>Personal Statement:</strong> Clear interest in marketing, technology and analytics
+                  <strong>Personal Statement:</strong> Clear interest in marketing, technology, and analytics
                 </span>
               </li>
               <li className="flex items-center gap-3">

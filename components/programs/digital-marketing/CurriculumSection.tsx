@@ -8,7 +8,7 @@ const curriculumData = [
         type: "list" as const,
         items: [
           "Introduction to Digital Marketing",
-          "Search Engine Optimization (SEO)",
+          "Search Engine Optimisation (SEO)",
           "Search Engine Marketing (SEM)",
           "Social Media Marketing",
           "Content and Brand Strategy",
@@ -17,39 +17,25 @@ const curriculumData = [
     ],
   },
   {
-    title: "Specialization Courses",
-    content: [
-      {
-        type: "list" as const,
-        items: [
-          "Performance marketing",
-          "Growth strategy",
-          "Customer acquisition and retention",
-          "Analytics-led decision making",
-        ],
-      },
-    ],
-  },
-  {
     title: "Tools & Platforms",
     content: [
+      {
+        type: "paragraph" as const,
+        text: (
+          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed mb-4">
+            Students gain hands-on exposure to industry platforms used by companies:
+          </p>
+        ),
+      },
       {
         type: "list" as const,
         items: [
           "Stukent Digital Marketing Simulations",
-          "Google Ads",
-          "Google Analytics",
-          "Google Search Console",
-          "Meta Ads Manager",
-          "LinkedIn Campaign Manager",
-          "Mailchimp",
-          "HubSpot CRM",
-          "SEMrush",
-          "Ahrefs",
-          "Hootsuite",
-          "Canva",
-          "WordPress",
-          "Hotjar",
+          "Google Ads, Google Analytics, Google Search Console",
+          "Meta Ads Manager, LinkedIn Campaign Manager",
+          "Mailchimp, HubSpot CRM",
+          "SEMrush, Ahrefs",
+          "Hootsuite, Canva, WordPress, Hotjar",
         ],
       },
     ],
@@ -58,39 +44,15 @@ const curriculumData = [
     title: "Capstone Project",
     content: [
       {
-        type: "paragraph" as const,
-        text: (
-          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            Students gain practical exposure through campaign-based simulations, real-world project work, internship experience, and performance-driven marketing scenarios.
-          </p>
-        ),
-      },
-      {
-        type: "paragraph" as const,
-        text: (
-          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            Capstone work ensures application of digital strategies in business-like environments, hands-on execution across channels, and portfolio-ready practical capability.
-          </p>
-        ),
-      },
-      {
-        type: "paragraph" as const,
-        text: (
-          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            All capstone work is faculty-guided and framework-driven, with assessment based on the clarity of reasoning, quality of integration across channels, and the ability to connect marketing actions to measurable results.
-          </p>
-        ),
+        type: "list" as const,
+        items: [
+          "Apply digital strategies in real business-like environments",
+          "Work with campaign and performance scenarios",
+          "Translate learning into portfolio-ready practical capability",
+        ],
       },
     ],
   },
-  // {
-  //   title: "Test",
-  //   content: [
-  //     { type: "paragraph" as const, text: "Intro text..." },
-  //     { type: "list" as const, items: ["Point 1", "Point 2"] },
-  //     { type: "paragraph" as const, text: "Conclusion text..." },
-  //   ],
-  // },
 ];
 
 export default function CurriculumSection() {

@@ -34,29 +34,43 @@ export default function ProgramExperienceSection() {
           </div>
           <div className="space-y-6">
             <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
-              <li className="flex items-center gap-3">
+              <li className="flex items-start gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Concept-first learning, not formula memorization</span>
+                <span>Case-based learning with real companies</span>
               </li>
-              <li className="flex items-center gap-3">
+              <li className="flex items-start gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Case-based learning using real companies</span>
+                <span>Concept-first approach, not formula memorization</span>
               </li>
-              <li className="flex items-center gap-3">
+              <li className="flex items-start gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Simulation-based financial decision exercises</span>
+                <span>Simulation-based financial exercises</span>
               </li>
-              <li className="flex items-center gap-3">
+              <li className="flex items-start gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Continuous application to real scenarios</span>
+                <span>Continuous real-world application of concepts</span>
               </li>
-              <li className="flex items-center gap-3">
+              <li className="flex items-start gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Financial modelling, analysis, and dashboard-based communication</span>
+                <span>
+                  Hands-on financial modelling & analysis with the help of
+                  Excel.
+                </span>
               </li>
-              <li className="flex items-center gap-3">
+              <li className="flex items-start gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>FP&A-driven thinking for planning, forecasting, and decision support</span>
+                <span>
+                  Industry-oriented case studies, projects and business scenarios
+                  which reflects how top companies plan, forecast, and make
+                  decisions.
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-booth-maroon mt-1">•</span>
+                <span>
+                  Build dashboards, present financial insights, and influence
+                  business decisions.
+                </span>
               </li>
             </ul>
 

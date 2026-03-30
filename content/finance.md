@@ -107,7 +107,6 @@ Not All Finance Degrees Teach You How to Think
 |---|---|
 | Focus on formulas and ratios | Focus on financial judgment, not just calculation |
 | Treat accounting numbers as absolute truth | Understand the limitations and context behind numbers |
-| Limited exposure to real-world decision-making | Learn how real business decisions are actually made |
 
 ### Core Philosophy
 Finance is about decision-making, not just numbers.
@@ -117,7 +116,6 @@ Finance is about decision-making, not just numbers.
 - FP&A & Forecasting Skills
 - Corporate Finance Expertise
 - Capital Markets Exposure
-- Real-World Decision-Making Ability
 - Business-Focused Financial Thinking
 
 ---
