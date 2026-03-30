@@ -9,14 +9,14 @@ const insights = [
         image: "/images/alumni/1.jpg",
         company: "Amazon",
     },
-    {
-        title: "[Name]",
-        batch: "[Batch]",
-        description:
-            "[Role]",
-        image: "/images/alumni/2.jpg",
-        company: "[Location]",
-    },
+    // {
+    //     title: "[Name]",
+    //     batch: "[Batch]",
+    //     description:
+    //         "[Role]",
+    //     image: "/images/alumni/2.jpg",
+    //     company: "[Location]",
+    // },
     {
         title: "Manikanda prabu",
         batch: "2016 - Batch",
@@ -49,38 +49,38 @@ const insights = [
         image: "/images/alumni/6.jpg",
         company: "Amazon",
     },
-    {
-        title: "[Name]",
-        batch: "[Batch]",
-        description:
-            "[Role]",
-        image: "/images/alumni/old-1.jpg",
-        company: "[Company]",
-    },
-    {
-        title: "[Name]",
-        batch: "[Batch]",
-        description:
-            "[Role]",
-        image: "/images/alumni/old-2.jpg",
-        company: "[Company]",
-    },
-    {
-        title: "[Name]",
-        batch: "[Batch]",
-        description:
-            "[Role]",
-        image: "/images/alumni/old-3.jpg",
-        company: "[Company]",
-    },
-    {
-        title: "[Name]",
-        batch: "[Batch]",
-        description:
-            "[Role]",
-        image: "/images/alumni/old-4.jpg",
-        company: "[Company]",
-    },
+    // {
+    //     title: "[Name]",
+    //     batch: "[Batch]",
+    //     description:
+    //         "[Role]",
+    //     image: "/images/alumni/old-1.jpg",
+    //     company: "[Company]",
+    // },
+    // {
+    //     title: "[Name]",
+    //     batch: "[Batch]",
+    //     description:
+    //         "[Role]",
+    //     image: "/images/alumni/old-2.jpg",
+    //     company: "[Company]",
+    // },
+    // {
+    //     title: "[Name]",
+    //     batch: "[Batch]",
+    //     description:
+    //         "[Role]",
+    //     image: "/images/alumni/old-3.jpg",
+    //     company: "[Company]",
+    // },
+    // {
+    //     title: "[Name]",
+    //     batch: "[Batch]",
+    //     description:
+    //         "[Role]",
+    //     image: "/images/alumni/old-4.jpg",
+    //     company: "[Company]",
+    // },
 ];
 export default function AlumniStories() {
     return (

@@ -32,7 +32,7 @@ export const facultyMembers: FacultyMember[] = [
   {
     name: "Dr. K. Senthil Ganesh",
     title: "Managing Trustee, RVS Educational Institutions",
-    image: "/images/faculties/Trustee.png",
+    image: "/images/faculties/Trustee.jpg",
     academicArea: "Leadership & Strategy, Finance",
     slug: "dr-k-senthil-ganesh",
     email: "",
@@ -321,7 +321,7 @@ export const facultyMembers: FacultyMember[] = [
     name: "Mr. A. Karthikeyan",
     title:
       "Assistant Professor – Digital Marketing\nDigital Marketing Executive",
-    image: "/images/faculties/Mr. A. Karthikeyan.webp",
+    image: "/images/faculties/Karthik.jpeg",
     academicArea: "Digital Marketing",
     slug: "mr-a-karthikeyan",
     email: "a.karthikeyan@rvsgroup.com",
