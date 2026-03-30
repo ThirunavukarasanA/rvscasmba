@@ -6,7 +6,6 @@ import { SITE_NAME } from "@/lib/seo";
 import { getSiteUrl } from "@/lib/site";
 
 const siteUrl = getSiteUrl();
-
 /**
  * Site-wide defaults only. Per-route SEO (canonical, OG, Twitter, page JSON-LD) belongs in each
  * server `page.tsx` via `buildPageMetadata` / `getWebPageJsonLd` / domain helpers in `lib/structuredData.ts`.
