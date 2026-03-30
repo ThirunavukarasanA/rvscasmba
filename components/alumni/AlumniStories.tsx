@@ -2,84 +2,84 @@ import Image from "next/image";
 
 const insights = [
     {
-        title: "[Name]",
-        batch: "[Batch / year range]",
+        title: "Suresh",
+        batch: "2016 - Batch",
         description:
-            "[Role, organization — short story placeholder. Replace with final copy.]",
+            "Human Resource Manager",
         image: "/images/alumni/1.jpg",
-        place: "[Location]",
+        company: "Amazon",
     },
     {
         title: "[Name]",
-        batch: "[Batch / year range]",
+        batch: "[Batch]",
         description:
-            "[Role, organization — short story placeholder. Replace with final copy.]",
+            "[Role]",
         image: "/images/alumni/2.jpg",
-        place: "[Location]",
+        company: "[Location]",
     },
     {
-        title: "[Name]",
-        batch: "[Batch / year range]",
+        title: "Manikanda prabu",
+        batch: "2016 - Batch",
         description:
-            "[Role, organization — short story placeholder. Replace with final copy.]",
+            "Digital Marketing Manager",
         image: "/images/alumni/3.jpg",
-        place: "[Location]",
+        company: "Amazon",
     },
     {
-        title: "[Name]",
-        batch: "[Batch / year range]",
+        title: "Babu S",
+        batch: "2016 - Batch",
         description:
-            "[Role, organization — short story placeholder. Replace with final copy.]",
+            "Applied Finance",
         image: "/images/alumni/4.jpg",
-        place: "[Location]",
+        company: "Amazon",
     },
     {
-        title: "[Name]",
-        batch: "[Batch / year range]",
+        title: "Arun",
+        batch: "2016 - Batch",
         description:
-            "[Role, organization — short story placeholder. Replace with final copy.]",
+            "Logistics & Supply Chain Management",
         image: "/images/alumni/5.jpg",
-        place: "[Location]",
+        company: "Amazon",
     },
     {
-        title: "[Name]",
-        batch: "[Batch / year range]",
+        title: "Anuraj",
+        batch: "2016 - Batch",
         description:
-            "[Role, organization — short story placeholder. Replace with final copy.]",
+            "Bussines Analytics",
         image: "/images/alumni/6.jpg",
-        place: "[Location]",
+        company: "Amazon",
     },
     {
         title: "[Name]",
-        batch: "[Batch / year range]",
+        batch: "[Batch]",
         description:
-            "[Role, organization — short story placeholder. Replace with final copy.]",
+            "[Role]",
         image: "/images/alumni/old-1.jpg",
-        place: "[Location]",
+        company: "[Company]",
     },
     {
         title: "[Name]",
-        batch: "[Batch / year range]",
+        batch: "[Batch]",
         description:
-            "[Role, organization — short story placeholder. Replace with final copy.]",
+            "[Role]",
         image: "/images/alumni/old-2.jpg",
-        place: "[Location]",
+        company: "[Company]",
     },
     {
         title: "[Name]",
-        batch: "[Batch / year range]",
+        batch: "[Batch]",
         description:
-            "[Role, organization — short story placeholder. Replace with final copy.]",
+            "[Role]",
         image: "/images/alumni/old-3.jpg",
-        place: "[Location]",
+        company: "[Company]",
     },
     {
         title: "[Name]",
-        batch: "[Batch / year range]",
+        batch: "[Batch]",
         description:
-            "[Role, organization — short story placeholder. Replace with final copy.]",
+            "[Role]",
         image: "/images/alumni/old-4.jpg",
-        place: "[Location]",
+        company: "[Company]",
     },
 ];
 
@@ -120,7 +120,7 @@ export default function AlumniStories() {
                                     {insight.description}
                                 </p>
                                 <p className="text-booth-dark-gray font-trade-gothic-bold text-base">
-                                    {insight.place}
+                                    {insight.company}
                                 </p>
                             </div>
                         </div>
