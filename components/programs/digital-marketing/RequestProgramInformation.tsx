@@ -170,9 +170,12 @@ export default function RequestProgramInformation() {
             Request Program Information
           </h2>
         </div>
-        <div className="mb-6 md:mb-12">
+        <div className="mb-6 md:mb-12 space-y-4">
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
             Get detailed insights about the curriculum, pedagogy, outcomes, and admissions process delivered straight to your inbox.
+          </p>
+          <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+            Still exploring? Get guidance on programme fit, admission process, and career direction in digital marketing.
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 text-center">

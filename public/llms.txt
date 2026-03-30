@@ -1,0 +1,31 @@
+# RVS CAS MBA
+
+> NAAC A+ accredited RVS College of Arts & Science — MBA programs combining business fundamentals with analytics, technology, and applied decision-making.
+
+## Key pages
+
+- [Home](/): RVS CAS MBA overview
+- [Programs](/programs): MBA degree and specializations
+- [Admissions](/admissions): Entry requirements and process
+- [How to apply](/how-to-apply): Application steps
+- [Placements](/placements): Career preparation and outcomes
+- [Faculty & Insights](/insights): Faculty and thought leadership
+- [Thinking Like a Financial Analyst](/thinking-like-a-financial-analyst): Video learning series
+- [Request information](/request-information): Brochure and enquiries
+
+## MBA specializations (paths)
+
+- /programs/mba-global-finance-corporate-analyst
+- /programs/mba-artificial-intelligence
+- /programs/mba-digital-marketing
+- /programs/mba-human-resources
+- /programs/mba-logistics-supply-chain-management
+
+## Contact
+
+- [Contact](/contact)
+- Online admission: https://admissions.rvscas.ac.in/
+
+## Optional
+
+See also: /llms-full.txt for extended context.

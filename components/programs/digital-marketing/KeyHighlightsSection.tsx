@@ -1,10 +1,15 @@
 export default function KeyHighlightsSection() {
   const points = [
+    "2 Years — Full-Time MBA",
+    "AICTE Approved",
+    "Bharathiar University Affiliated",
+    "NAAC Accredited | Autonomous Institution",
     "Strong foundation in business and management",
-    "Specialization in digital marketing tools and strategies",
+    "Specialisation in digital marketing tools and strategies",
     "Hands-on learning through Stukent simulations and capstone projects",
     "Internship for real-world exposure",
     "Focus on analytics and performance thinking",
+    "Case-driven learning",
     "Structured curriculum aligned with current business needs",
   ];
 
@@ -19,7 +24,7 @@ export default function KeyHighlightsSection() {
         </div>
         <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
           {points.map((point) => (
-            <li key={point} className="flex items-center gap-3">
+            <li key={point} className="flex items-start gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>{point}</span>
             </li>

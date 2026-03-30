@@ -7,13 +7,9 @@ export default function WhyProgramSection() {
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
-            Why Digital Marketing Program at RVS CAS MBA
+            Why Digital Marketing at RVS CAS MBA
           </h2>
         </div>
-
-        <p className="text-lg pb-7 md:text-xl text-booth-dark-gray font-trade-gothic-light">
-          <b>Built Around Real Digital Marketing Decisions</b>
-        </p>
 
         <div className="space-y-6">
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
@@ -46,7 +42,7 @@ export default function WhyProgramSection() {
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Interpret performance data and optimize decisions</span>
+              <span>Interpret performance data and optimise decisions</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>

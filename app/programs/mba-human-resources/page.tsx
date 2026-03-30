@@ -1,61 +1,29 @@
-import AdmissionsSnapshotSection from "@/components/programs/human-resources/AdmissionsSnapshotSection";
-import CareerOutcomesSection from "@/components/programs/human-resources/CareerOutcomesSection";
-import CurriculumSection from "@/components/programs/human-resources/CurriculumSection";
-import FinalCTASection from "@/components/programs/human-resources/FinalCTASection";
-import IndustryConnectSection from "@/components/programs/human-resources/IndustryConnectSection";
-import ProgramExperienceSection from "@/components/programs/human-resources/ProgramExperienceSection";
-import ProgramFitSection from "@/components/programs/human-resources/ProgramFitSection";
-import RequestProgramInformation from "@/components/programs/human-resources/RequestProgramInformation";
-import WhyProgramSection from "@/components/programs/human-resources/WhyProgramSection";
-import KeyHighlightsSection from "@/components/programs/human-resources/KeyHighlightsSection";
-import ProgramFlowSection from "@/components/programs/human-resources/ProgramFlowSection";
-import ComparisonSection from "@/components/programs/human-resources/ComparisonSection";
-import Footer from "@/components/shared/Footer";
-import Header from "@/components/shared/Header";
-import HeroSection from "@/components/shared/HeroSection";
 import type { Metadata } from "next";
-export const metadata: Metadata = {
-    title: "MBA in Human Resources - RVS CAS MBA",
-    description:
-        "Build organizational capability with clarity, structure, and people insight.",
-};
-export default function page() {
-    return (
-        <main className="min-h-screen">
-            <Header />
-            <HeroSection
-                pageName="MBA in Human Resources"
-                title='MBA in Human Resources'
-                description1={
-                    <>
-                        Build organizational capability with clarity, structure, and people insight.
-                    </>
-                }
-                description2={
-                    <>
-                        Most people manage employees. HR leaders build organizations.
-                    </>
-                }
-                description3='This MBA develops professionals who move beyond administrative HR into strategic talent, workforce analytics, and organizational decision-making.'
-                image='/images/herosection/new/hr.png'
-                button1='Download Brochure'
-                button2='Apply Now'
-                button1Link='/request-information'
-                button2Link='https://admissions.rvscas.ac.in/'
-            />
-            <WhyProgramSection />
-            <KeyHighlightsSection />
-            <ProgramFlowSection />
-            <ComparisonSection />
-            <ProgramExperienceSection />
-            <CurriculumSection />
-            <CareerOutcomesSection />
-            <FinalCTASection />
-            <IndustryConnectSection />
-            <ProgramFitSection />
-            <AdmissionsSnapshotSection />
-            <RequestProgramInformation />
-            <Footer />
-        </main>
-    )
+import JsonLd from "@/components/seo/JsonLd";
+import MbaHumanResourcesPageClient from "@/components/page-views/MbaHumanResourcesPageClient";
+import { buildPageMetadata, getWebPageJsonLd } from "@/lib/seo";
+import { ROUTE_SEO } from "@/lib/seo/route-seo";
+
+const path = "/programs/mba-human-resources";
+const seo = ROUTE_SEO[path];
+
+export const metadata: Metadata = buildPageMetadata({
+  title: seo.title,
+  description: seo.description,
+  path,
+});
+
+export default function MbaHumanResourcesPage() {
+  return (
+    <>
+      <JsonLd
+        data={getWebPageJsonLd({
+          path,
+          name: seo.jsonLdName,
+          description: seo.description,
+        })}
+      />
+      <MbaHumanResourcesPageClient />
+    </>
+  );
 }

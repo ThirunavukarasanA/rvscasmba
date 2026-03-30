@@ -5,13 +5,13 @@ export default function ProgramFitSection() {
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
-            Is This Digital Marketing MBA Right for You?
+            Is This Programme Right for You?
           </h2>
         </div>
 
         <div className="space-y-6">
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            This program is suited for:
+            This programme is suited for:
           </p>
 
           <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
@@ -37,7 +37,7 @@ export default function ProgramFitSection() {
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Learners who prefer applied, hands-on training over theory-heavy programs</span>
+              <span>Learners who prefer applied, hands-on training over theory-heavy programmes</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>

@@ -1,19 +1,19 @@
 export default function ProgramFlowSection() {
   const steps = [
     {
-      title: "01 - Build Core Business Foundation",
-      text: "Understand management fundamentals and how businesses function before entering marketing specialization.",
+      title: "01 — Build Core Business Foundation",
+      text: "Understand management fundamentals and how businesses function before entering marketing specialisation.",
     },
     {
-      title: "02 - Learn Digital Marketing Concepts",
+      title: "02 — Learn Digital Marketing Concepts",
       text: "Concept-first and platform-second learning that explains strategy, channels, and funnel logic before execution.",
     },
     {
-      title: "03 - Practice with Stukent Simulations",
+      title: "03 — Practice with Stukent Simulations",
       text: "Apply learning in business-like scenarios with budgets, campaign trade-offs, and measurable outcomes.",
     },
     {
-      title: "04 - Apply Through Projects and Internship",
+      title: "04 — Apply Through Projects and Internship",
       text: "Hands-on projects, structured internship exposure, and capstone work that converts learning into portfolio-ready capability.",
     },
   ];
