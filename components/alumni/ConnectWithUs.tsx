@@ -41,8 +41,8 @@ export default function ConnectWithUs() {
                         <h3 className="text-xl md:text-2xl font-trade-gothic-bold text-booth-dark-gray mb-2">
                             Phone Number:
                         </h3>
-                        <a href="tel:+919750915171" className="text-lg hover:text-booth-maroon hover:underline transition-all duration-300 md:text-xl text-booth-dark-gray font-trade-gothic-light">
-                            +91 97509 15171
+                        <a href="tel:+919865860917" className="text-lg hover:text-booth-maroon hover:underline transition-all duration-300 md:text-xl text-booth-dark-gray font-trade-gothic-light">
+                            +91 98658 60917
                         </a>
                     </div>
                 </div>

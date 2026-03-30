@@ -38,7 +38,7 @@ export default function EmployerEngagement() {
                 </div>
 
                 <div className="space-y-6">
-                    <h3 className="text-2xl md:text-3xl font-trade-gothic-bold text-booth-dark-gray">Employer partners include:</h3>
+                    {/* <h3 className="text-2xl md:text-3xl font-trade-gothic-bold text-booth-dark-gray">Employer partners include:</h3> */}
                     <div className="relative overflow-hidden py-0">
                         <div className="logo-scroll-track flex w-max gap-4 md:gap-6 lg:gap-8">
                             {[...logos, ...logos].map((logo, index) => (
