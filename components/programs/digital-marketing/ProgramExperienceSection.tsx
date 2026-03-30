@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function ProgramExperienceSection() {
   return (
@@ -16,10 +15,10 @@ export default function ProgramExperienceSection() {
             world.
           </p> */}
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light mb-6">
-            The academic experience in the Digital Marketing MBA is designed around <b>how marketers actually learn to make decisions</b> — through structured thinking, repeated practice, and faculty guidance.
+            The academic experience is structured around how marketers actually learn: not through theory alone, but through practice, feedback, and iteration.
           </p>
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            You will learn:
+            Learn {"->"} Simulate {"->"} Apply {"->"} Optimize {"->"} Decide
           </p>
         </div>
 
@@ -36,15 +35,11 @@ export default function ProgramExperienceSection() {
             <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Concept-First, Platform-Second Learning</span>
+                <span>Concept-first, platform-second learning</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Continuous Evaluation Through Application</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <span className="text-booth-maroon mt-1">•</span>
-                <span>Integration Across Marketing Functions</span>
+                <span>Stukent-based campaign simulations</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
@@ -52,7 +47,15 @@ export default function ProgramExperienceSection() {
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Case studies</span>
+                <span>Analytics and performance-driven thinking</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <span className="text-booth-maroon mt-1">•</span>
+                <span>Faculty-guided learning and feedback</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <span className="text-booth-maroon mt-1">•</span>
+                <span>Continuous evaluation through application and case-based learning</span>
               </li>
             </ul>
 
@@ -61,25 +64,6 @@ export default function ProgramExperienceSection() {
               scenarios throughout the program.
             </p> */}
 
-            <Link
-              href="/student-experience"
-              className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline"
-            >
-              View Full Academic Experience
-              <svg
-                className="w-4 h-4"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </Link>
           </div>
         </div>
       </div>

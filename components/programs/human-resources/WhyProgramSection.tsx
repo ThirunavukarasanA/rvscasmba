@@ -7,17 +7,18 @@ export default function WhyProgramSection() {
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
-            Why MBA in Human Resource at RVS CAS MBA?
+            Why MBA in Human Resources at RVS CAS?
           </h2>
         </div>
 
-        <p className="text-lg pb-7 md:text-xl text-booth-dark-gray font-trade-gothic-light">
-          <b>Where Human Capital Decisions Shape Organizational Success</b>
-        </p>
+        <p className="text-lg pb-7 md:text-xl text-booth-dark-gray font-trade-gothic-light"><b>Where Human Capital Decisions Shape Organizational Success</b></p>
 
         <div className="space-y-6">
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            Human Resources is not limited to recruitment or compliance. It involves shaping culture, improving productivity, aligning incentives, and using data to guide workforce decisions.
+            Human Resources is not limited to recruitment or compliance. It is a strategic function that shapes how organizations perform.
+          </p>
+          <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+            Many HR programs focus on processes, compliance, and administrative execution. This program starts from a different place: HR is about systems, performance, and organizational effectiveness.
           </p>
 
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
@@ -31,21 +32,28 @@ export default function WhyProgramSection() {
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Analyze workforce data to support decision-making</span>
-            </li>
-            <li className="flex items-center gap-3">
-              <span className="text-booth-maroon mt-1">•</span>
               <span>Design performance management systems</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Evaluate organizational behavior and leadership impact</span>
+              <span>Influence culture and outcomes at an organizational level</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Apply HR analytics to real business scenarios</span>
+              <span>Analyze workforce data for decision-making</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Evaluate leadership impact on organizational performance</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Apply HR analytics in real-world scenarios</span>
             </li>
           </ul>
+          <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+            This specialization goes beyond administrative HR to focus on what actually moves organizations forward.
+          </p>
 
           {/* <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
             The curriculum emphasizes{" "}

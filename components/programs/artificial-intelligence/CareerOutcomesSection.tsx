@@ -3,7 +3,7 @@ import CurriculumAccordion from "./CurriculumAccordion";
 
 const items = [
   {
-    title: "Real Roles for Real Financial Thinking",
+    title: "Real Roles",
     content: [
       // {
       //   type: "paragraph" as const,
@@ -22,14 +22,12 @@ const items = [
       {
         type: "list" as const,
         items: [
+          "AI Analyst",
+          "Generative AI Developer",
           "Data Analyst",
           "Data Engineer",
-          "Associate Software Engineer",
-          "Junior Data Scientist",
-          "Analytics Consultant",
-          "Business Intelligence (BI) Developer",
-          "Python Developer (Web Scraping)",
-          "Artificial Intelligence Professional",
+          "Python Developer / Software Developer",
+          "AI Product Specialist",
         ],
       },
     ],
@@ -40,37 +38,17 @@ const items = [
       {
         type: "paragraph" as const,
         text: (
-          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            RVS CAS combines academic discipline with structured career readiness:
-          </p>
+          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">Career support with purpose:</p>
         ),
       },
       {
         type: "list" as const,
         items: [
-          "Dedicated Career Workshops – Resume strategy, analytics case preparation, and portfolio development (Python, SQL, dashboards)",
-          "Live Industry Projects & Analytics Case Challenges – Solving real data-driven business problems",
-          "Mentoring by Faculty & Industry Professionals – Practical feedback grounded in statistical reasoning and model validation",
-          "Internships with Structured Evaluation – Exposure to analytics, consulting, fintech, marketing, and operations roles",
-        ],
-      },
-    ],
-  },
-  {
-    title: "Sample Career Progression",
-    content: [
-      {
-        type: "paragraph" as const,
-        text: (
-          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            A typical trajectory starts from analytic execution roles and can lead to strategic analytics or leadership functions:
-          </p>
-        ),
-      },
-      {
-        type: "list" as const,
-        items: [
-          "Business Analyst → Analytics Lead → Analytics Strategy Manager"
+          "Resume refinement",
+          "Case-based interview preparation",
+          "Project-to-portfolio guidance",
+          "Industry exposure",
+          "Internship and placement support",
         ],
       },
     ],
@@ -81,21 +59,17 @@ const items = [
       {
         type: "paragraph" as const,
         text: (
-          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">
-            <strong>
-              Opportunities span:
-            </strong>
-          </p>
+          <p className="text-base md:text-lg text-booth-dark-gray font-trade-gothic-light leading-relaxed">Students gain exposure to how AI is applied across:</p>
         ),
       },
       {
         type: "list" as const,
         items: [
-          "Analytics and consulting firms",
-          "Tech and product companies",
+          "Consulting environments",
+          "Technology firms",
           "Financial institutions",
-          "Operations and supply chain divisions",
-          "Market research and customer insights practices",
+          "Marketing analytics teams",
+          "Operations and supply chain functions",
         ],
       },
     ],
@@ -120,11 +94,11 @@ export default function CareerOutcomesSection() {
             </p>
 
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              MBA in Artificial Intelligence is designed not merely to teach tools, but to build professional competence in roles where data informs strategy and drives execution.
+              The MBA in Artificial Intelligence is designed not merely to teach tools, but to build professional competence where data informs strategy and drives execution.
             </p>
 
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              This specialization prepares you for decision-focused analytics careers — where structured thinking, model interpretation, and business judgment matter more than routine reporting.
+              After completing the programme, graduates are positioned to enter AI and analytics roles with strong technical and business capability.
             </p>
 
             {/* <CurriculumAccordion items={items} /> */}

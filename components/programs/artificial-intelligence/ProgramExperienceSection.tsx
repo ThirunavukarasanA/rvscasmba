@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function ProgramExperienceSection() {
   return (
@@ -16,10 +15,10 @@ export default function ProgramExperienceSection() {
             world.
           </p> */}
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light mb-6">
-            The academic experience in Artificial Intelligence goes beyond programming and platforms. Learning is structured around.
+            The academic experience goes beyond programming and platforms. It is designed to build end-to-end problem-solving capability using AI.
           </p>
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            Concept First. Tools Second. Decisions Always.
+            Understand Problem {"->"} Work with Data {"->"} Build Models {"->"} Apply {"->"} Decide
           </p>
         </div>
 
@@ -36,7 +35,7 @@ export default function ProgramExperienceSection() {
             <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Core analytical thinking before tool application</span>
+                <span>Concept-first learning before tool application</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
@@ -44,19 +43,19 @@ export default function ProgramExperienceSection() {
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Problem formulation and model justification</span>
+                <span>Demonstration-based teaching for each concept</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Interpretation of results in business context</span>
+                <span>Guided hands-on practice to build confidence step-by-step</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Simulations and live data exercises</span>
+                <span>Problem formulation, model justification, and output interpretation in business context</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Assessment-based learning through projects, cases, and analysis</span>
+                <span>Case-based and project-based learning with hackathon-driven assessments</span>
               </li>
             </ul>
 
@@ -65,25 +64,6 @@ export default function ProgramExperienceSection() {
               scenarios throughout the program.
             </p> */}
 
-            <Link
-              href="/student-experience"
-              className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline"
-            >
-              View Full Academic Experience
-              <svg
-                className="w-4 h-4"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </Link>
           </div>
         </div>
       </div>

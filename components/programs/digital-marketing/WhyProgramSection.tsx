@@ -17,27 +17,45 @@ export default function WhyProgramSection() {
 
         <div className="space-y-6">
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            Many programs teach platforms in isolation. This program teaches how platforms interact with strategy, data, and outcomes. Digital Marketing is taught as a decision discipline.
+            Digital marketing is not just about running ads or posting content. It is about making decisions under uncertainty, where budgets, channels, and outcomes keep changing.
+          </p>
+          <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+            Many programs focus on tools in isolation and surface-level execution. This program starts with how digital marketing decisions are actually made in real businesses.
           </p>
 
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            Program highlights
+            Students learn to:
           </p>
 
           <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Simulation-based learning using Stukent</span>
+              <span>Understand how businesses use digital channels to grow</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Platform, performance, and strategy integration</span>
+              <span>Connect platforms with strategy and business objectives</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Faculty-led, decision-driven pedagogy</span>
+              <span>Evaluate which channels to use and why</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Design campaigns with measurable outcomes</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Interpret performance data and optimize decisions</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Balance brand-building and performance marketing</span>
             </li>
           </ul>
+          <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
+            This ensures digital marketing is learned as a decision discipline, not just a toolset.
+          </p>
 
           {/* <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
             The curriculum emphasizes{" "}

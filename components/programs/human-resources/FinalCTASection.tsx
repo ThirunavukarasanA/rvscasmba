@@ -7,8 +7,11 @@ export default function FinalCTASection() {
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-white mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-white mb-4">
-            Take the next step toward a HR career.
+            Build a Strong HR Career Foundation.
           </h2>
+          <p className="text-lg md:text-xl text-white font-trade-gothic-light">
+            Structured. Practical. Outcome-focused.
+          </p>
         </div>
 
         <div className="flex flex-wrap gap-4">

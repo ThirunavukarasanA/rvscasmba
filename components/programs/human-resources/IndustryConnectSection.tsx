@@ -37,7 +37,7 @@ export default function IndustryConnectSection() {
               Excel · Bloomberg Terminal · RiskMetrics · FactSet · Stata · Moody's · MoneyControl
             </p> */}
             <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-              Throughout the MBA in Human Resources, students engage with faculty, alumni, and industry professionals who actively shape people strategy and organizational development within businesses. These interactions provide insight into how HR functions operate in practice — across talent acquisition teams, HR operations, payroll administration, workforce analytics, and organizational leadership roles. Students gain practical exposure to how strategic human capital decisions influence productivity, culture, and long-term business success.
+              Students engage with faculty, alumni, and industry professionals to understand how HR operates in practice across talent management, organizational development, workforce analytics, leadership, and culture-building.
             </p>
           </div>
         </div>

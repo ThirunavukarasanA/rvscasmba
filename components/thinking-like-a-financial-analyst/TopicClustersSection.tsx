@@ -14,8 +14,12 @@ const placeholderThumbnails = [
   "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&h=225&fit=crop",
 ];
 
+/** Only this cluster is expandable; others are disabled until more videos ship. */
+const ENABLED_CLUSTER_INDEX = 0;
+
 export default function TopicClustersSection() {
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const ACTIVE_TOPIC_IDS = new Set<string>(["0-0", "0-1", "0-2"]);
+  const [openIndex, setOpenIndex] = useState<number | null>(ENABLED_CLUSTER_INDEX);
   const [modalTopicId, setModalTopicId] = useState<string | null>(null);
   const [watchedIds, setWatchedIds] = useState<Set<string>>(new Set());
   const clusterRefs = useRef<(HTMLDivElement | null)[]>([]);
@@ -30,8 +34,12 @@ export default function TopicClustersSection() {
   }, [loadWatched]);
 
   const toggleCluster = (index: number) => {
+    if (index !== ENABLED_CLUSTER_INDEX) return;
     setOpenIndex(openIndex === index ? null : index);
   };
+
+  const isTopicAvailable = (clusterIndex: number, topicIndex: number) =>
+    ACTIVE_TOPIC_IDS.has(`${clusterIndex}-${topicIndex}`);
 
   const handleTopicClick = (topicId: string) => {
     setModalTopicId(topicId);
@@ -44,11 +52,12 @@ export default function TopicClustersSection() {
 
   // Compute cluster status for each cluster
   const getClusterStatus = (clusterIndex: number) => {
-    const topicIds = clusters[clusterIndex].topics.map(
-      (_, i) => `${clusterIndex}-${i}`,
-    );
+    const topicIds = clusters[clusterIndex].topics
+      .map((_, i) => `${clusterIndex}-${i}`)
+      .filter((id) => ACTIVE_TOPIC_IDS.has(id));
     const watchedCount = topicIds.filter((id) => watchedIds.has(id)).length;
     const total = topicIds.length;
+    if (total === 0) return "coming_soon";
     if (watchedCount === total) return "done";
     if (watchedCount > 0) return "in_progress";
     return "pending";
@@ -57,7 +66,7 @@ export default function TopicClustersSection() {
   // Find first cluster with pending videos (start here)
   const startHereClusterIndex = clusters.findIndex((_, clusterIndex) => {
     const status = getClusterStatus(clusterIndex);
-    return status !== "done";
+    return status !== "done" && status !== "coming_soon";
   });
 
   const goToStartHere = () => {
@@ -70,9 +79,11 @@ export default function TopicClustersSection() {
     }
   };
 
-  const totalWatched = Array.from(watchedIds).length;
-  const totalVideos = clusters.reduce((acc, c) => acc + c.topics.length, 0);
-  const allDone = totalWatched === totalVideos;
+  const totalVideos = Array.from(ACTIVE_TOPIC_IDS).length;
+  const watchedAvailableCount = Array.from(watchedIds).filter((id) =>
+    ACTIVE_TOPIC_IDS.has(id),
+  ).length;
+  const allDone = watchedAvailableCount === totalVideos;
 
   return (
     <section id="roadmap" className="py-12 md:py-20 bg-white scroll-mt-20">
@@ -83,8 +94,7 @@ export default function TopicClustersSection() {
             Explore the Complete Roadmap
           </h2>
           <p className="text-booth-light-gray text-sm md:text-lg font-trade-gothic-light mb-6">
-            Click on a cluster to expand and view all topics. Click any topic to
-            watch the video.
+            Open <strong className="font-trade-gothic-bold text-booth-dark-gray">Return on Capital: The Analyst&apos;s Core Lens</strong> to watch available videos. Additional clusters are coming soon.
           </p>
 
           {/* Start here banner */}
@@ -105,13 +115,12 @@ export default function TopicClustersSection() {
                 <span className="text-booth-dark-gray font-trade-gothic-light">
                   {startHereClusterIndex >= 0 && (
                     <>
-                      Cluster {startHereClusterIndex + 1}:{" "}
                       {clusters[startHereClusterIndex].title}
                     </>
                   )}
                 </span>
                 <span className="text-booth-light-gray font-trade-gothic-light text-sm">
-                  ({totalWatched} of {totalVideos} watched)
+                  ({watchedAvailableCount} of {totalVideos} watched)
                 </span>
               </>
             )}
@@ -120,16 +129,18 @@ export default function TopicClustersSection() {
 
         <div className="space-y-4">
           {clusters.map((cluster, clusterIndex) => {
-            const isOpen = openIndex === clusterIndex;
+            const isClusterEnabled = clusterIndex === ENABLED_CLUSTER_INDEX;
+            const isOpen = isClusterEnabled && openIndex === clusterIndex;
             const status = getClusterStatus(clusterIndex);
-            const topicIds = cluster.topics.map(
-              (_, i) => `${clusterIndex}-${i}`,
-            );
+            const topicIds = cluster.topics
+              .map((_, i) => `${clusterIndex}-${i}`)
+              .filter((id) => ACTIVE_TOPIC_IDS.has(id));
             const watchedCount = topicIds.filter((id) =>
               watchedIds.has(id),
             ).length;
             const total = topicIds.length;
             const isStartHere = startHereClusterIndex === clusterIndex;
+            const isComingSoon = status === "coming_soon";
 
             return (
               <div
@@ -139,9 +150,11 @@ export default function TopicClustersSection() {
                 }}
                 className={`border overflow-hidden transition-colors ${
                   isOpen ? "border-booth-maroon border-2" : "border-gray-200"
-                }`}
+                } ${!isClusterEnabled ? "opacity-90" : ""}`}
               >
+                {isClusterEnabled ? (
                 <button
+                  type="button"
                   onClick={() => toggleCluster(clusterIndex)}
                   className={`w-full text-left py-4 px-6 flex justify-between items-center group transition-colors ${
                     isOpen ? "bg-booth-bg-gray" : "hover:bg-booth-bg-gray"
@@ -149,9 +162,6 @@ export default function TopicClustersSection() {
                   aria-expanded={isOpen}
                 >
                   <div className="flex flex-wrap items-center gap-3">
-                    <span className="text-booth-maroon font-trade-gothic-bold text-sm">
-                      Cluster {clusterIndex + 1}
-                    </span>
                     <h3 className="text-lg md:text-xl font-trade-gothic-bold text-booth-dark-gray group-hover:text-booth-maroon">
                       {cluster.title}
                     </h3>
@@ -181,10 +191,15 @@ export default function TopicClustersSection() {
                           Pending
                         </span>
                       )}
+                      {isComingSoon && (
+                        <span className="bg-gray-300 text-booth-dark-gray text-xs font-trade-gothic-bold px-2 py-1 rounded">
+                          Coming Soon
+                        </span>
+                      )}
                     </div>
                   </div>
                   <svg
-                    className={`w-6 h-6 text-booth-dark-gray transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}
+                    className={`w-6 h-6 text-booth-dark-gray transition-transform duration-300 shrink-0 ${isOpen ? "rotate-180" : ""}`}
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -197,7 +212,37 @@ export default function TopicClustersSection() {
                     />
                   </svg>
                 </button>
+                ) : (
+                <div
+                  className="w-full text-left py-4 px-6 flex justify-between items-center bg-gray-100 cursor-not-allowed select-none"
+                  aria-disabled="true"
+                >
+                  <div className="flex flex-wrap items-center gap-3">
+                    <h3 className="text-lg md:text-xl font-trade-gothic-bold text-booth-light-gray">
+                      {cluster.title}
+                    </h3>
+                    <span className="bg-gray-300 text-booth-dark-gray text-xs font-trade-gothic-bold px-2 py-1 rounded">
+                      Coming Soon
+                    </span>
+                  </div>
+                  <svg
+                    className="w-6 h-6 text-gray-400 shrink-0"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    aria-hidden={true}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </div>
+                )}
 
+                {isClusterEnabled ? (
                 <div
                   className={`grid transition-[grid-template-rows] duration-300 ease-out ${
                     isOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
@@ -209,6 +254,29 @@ export default function TopicClustersSection() {
                         {cluster.topics.map((topic, topicIndex) => {
                           const topicId = `${clusterIndex}-${topicIndex}`;
                           const isWatched = watchedIds.has(topicId);
+                          const isAvailable = isTopicAvailable(
+                            clusterIndex,
+                            topicIndex,
+                          );
+                          if (!isAvailable) {
+                            return (
+                              <div
+                                key={topicIndex}
+                                className="text-left bg-booth-bg-gray border border-gray-200 overflow-hidden relative"
+                              >
+                                <div className="aspect-video flex items-center justify-center bg-gray-200">
+                                  <span className="text-booth-dark-gray font-trade-gothic-bold text-sm uppercase tracking-wide">
+                                    Coming Soon
+                                  </span>
+                                </div>
+                                <div className="p-3">
+                                  <p className="text-sm font-trade-gothic-bold text-booth-dark-gray line-clamp-2">
+                                    {topic}
+                                  </p>
+                                </div>
+                              </div>
+                            );
+                          }
                           return (
                             <button
                               key={topicIndex}
@@ -255,6 +323,7 @@ export default function TopicClustersSection() {
                     </div>
                   </div>
                 </div>
+                ) : null}
               </div>
             );
           })}

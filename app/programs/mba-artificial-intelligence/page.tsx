@@ -7,6 +7,9 @@ import ProgramExperienceSection from "@/components/programs/artificial-intellige
 import ProgramFitSection from "@/components/programs/artificial-intelligence/ProgramFitSection";
 import RequestProgramInformation from "@/components/programs/artificial-intelligence/RequestProgramInformation";
 import WhyProgramSection from "@/components/programs/artificial-intelligence/WhyProgramSection";
+import KeyHighlightsSection from "@/components/programs/artificial-intelligence/KeyHighlightsSection";
+import ProgramFlowSection from "@/components/programs/artificial-intelligence/ProgramFlowSection";
+import ComparisonSection from "@/components/programs/artificial-intelligence/ComparisonSection";
 import Footer from "@/components/shared/Footer";
 import Header from "@/components/shared/Header";
 import HeroSection from "@/components/shared/HeroSection";
@@ -14,7 +17,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
     title: "MBA in Artificial Intelligence - RVS CAS MBA",
     description:
-        "Master the art of data-driven decision-making with our MBA in Artificial Intelligence. Gain expertise in data interpretation, predictive modeling, and strategic insights to transform data into business value.",
+        "MBA in Artificial Intelligence focused on problem-first, decision-oriented learning with applied AI, analytics, and business judgment.",
 };
 export default function page() {
     return (
@@ -30,21 +33,24 @@ export default function page() {
                 }
                 description2={
                     <>
-                        MBA in Artificial Intelligence equips you with the analytical frameworks, quantitative understanding, and real tools required to transform data into strategic insight.
+                        Most people learn tools. AI leaders learn how to connect data, technology, and business insight to solve real-world problems.
                     </>
                 }
                 description3={
                     <>
-                        Build capability to bridge business questions and analytic answers — not just extract reports.
+                        This MBA equips you with analytical frameworks, quantitative understanding, and the judgment to bridge business questions with analytic answers.
                     </>
                 }
                 image='/images/herosection/new/artificial-intelligence.png'
-                button1='Explore Analytics Curriculum'
+                button1='Download Brochure'
                 button2='Apply Now'
                 button1Link='/request-information'
                 button2Link='https://admissions.rvscas.ac.in/'
             />
             <WhyProgramSection />
+            <KeyHighlightsSection />
+            <ProgramFlowSection />
+            <ComparisonSection />
             <ProgramExperienceSection />
             <CurriculumSection />
             <CareerOutcomesSection />

@@ -7,6 +7,9 @@ import ProgramExperienceSection from "@/components/programs/logistics-supply-cha
 import ProgramFitSection from "@/components/programs/logistics-supply-chain-management/ProgramFitSection";
 import RequestProgramInformation from "@/components/programs/logistics-supply-chain-management/RequestProgramInformation";
 import WhyProgramSection from "@/components/programs/logistics-supply-chain-management/WhyProgramSection";
+import KeyHighlightsSection from "@/components/programs/logistics-supply-chain-management/KeyHighlightsSection";
+import ProgramFlowSection from "@/components/programs/logistics-supply-chain-management/ProgramFlowSection";
+import ComparisonSection from "@/components/programs/logistics-supply-chain-management/ComparisonSection";
 import Footer from "@/components/shared/Footer";
 import Header from "@/components/shared/Header";
 import HeroSection from "@/components/shared/HeroSection";
@@ -14,7 +17,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
     title: "MBA in Logistics & Supply Chain Management - RVS CAS MBA",
     description:
-        "Build organizational capability with clarity, structure, and people insight.",
+        "Design systems, optimize flow, and build strategic supply chain capability with analytics and operational decision-making.",
 };
 export default function page() {
     return (
@@ -30,18 +33,21 @@ export default function page() {
                 }
                 description2={
                     <>
-                        MBA in Logistics & Supply Chain Management at RVS CAS prepares students to design, manage, and improve integrated supply networks in a digitally connected economy. Supply chain leadership today demands more than coordination — it requires structured thinking, data fluency, and systems optimization.
+                        Most people see operations. Leaders see systems.
                     </>
                 }
-                description3=''
+                description3='Build capability in operations, analytics, and strategic supply chain decision-making through case-driven practice, simulation, and industry exposure.'
                 image='/images/herosection/new/logistics.png'
                 // image='https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1471&auto=format&fit=crop'
-                button1='Explore the Curriculum'
+                button1='Download Brochure'
                 button2='Apply Now'
                 button1Link='/request-information'
                 button2Link='https://admissions.rvscas.ac.in/'
             />
             <WhyProgramSection />
+            <KeyHighlightsSection />
+            <ProgramFlowSection />
+            <ComparisonSection />
             <ProgramExperienceSection />
             <CurriculumSection />
             <CareerOutcomesSection />

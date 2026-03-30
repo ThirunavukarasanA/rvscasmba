@@ -21,7 +21,7 @@ export default function ProgramFitSection() {
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Professionals seeking to transition into HR strategy</span>
+              <span>Professionals transitioning into HR strategy roles</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
@@ -32,7 +32,13 @@ export default function ProgramFitSection() {
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
               <span>
-                Individuals who want to shape organizational culture and performance
+                Individuals who want to influence culture and performance
+              </span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>
+                Anyone who sees HR as strategic, not administrative, and wants to influence business outcomes through talent
               </span>
             </li>
           </ul>

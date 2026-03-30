@@ -11,11 +11,11 @@ export default function WhyProgramSection() {
 
         <div className="space-y-6">
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            Built Around How Analytics Is Actually Used in Business
+            Built Around How AI Is Actually Used in Business
           </p>
 
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            Many analytics programs focus on tools and coding. This program begins with something more fundamental — how analytical decisions are made.
+            AI looks powerful in demos, but in real environments it can be incomplete, biased, and hard to apply. The real challenge is not building models alone, but using AI for reliable, context-aware decisions.
           </p>
           <p className="text-md md:text-lg text-booth-dark-gray font-trade-gothic-light">Students learn to:</p>
           <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
@@ -25,24 +25,28 @@ export default function WhyProgramSection() {
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Question assumptions behind data</span>
+              <span>Identify where AI creates real value (and where it does not)</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Select appropriate analytical approaches</span>
+              <span>Question assumptions behind data and models</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Interpret results in a business context</span>
+              <span>Select appropriate analytical and AI approaches</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-booth-maroon mt-1">•</span>
-              <span>Translate insights into strategic decisions</span>
+              <span>Interpret outputs in a business context</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Convert AI-driven insights into decisions and actions</span>
             </li>
           </ul>
 
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            Faculty trained at leading global business schools bring academic rigor and applied clarity, ensuring structured thinking remains central to learning
+            This is a problem-first, tools-second approach. Faculty trained at leading global institutions bring academic rigor and applied clarity, ensuring structured thinking remains central to learning.
           </p>
           {/* <Link
             href="/request-information"

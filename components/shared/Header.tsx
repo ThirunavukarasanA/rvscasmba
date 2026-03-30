@@ -34,6 +34,16 @@ export default function Header() {
     }
     return pathname?.startsWith(path);
   };
+
+  const mobileLinkClass = (active: boolean) =>
+    `block py-3 font-trade-gothic-light border-b border-gray-300 ${
+      active ? "text-booth-maroon font-bold border-booth-maroon" : "text-booth-dark-gray"
+    }`;
+
+  const closeMobileMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <>
       {/* Top Thin Red Strip - Sticky */}
@@ -113,6 +123,12 @@ export default function Header() {
                   Admissions
                 </Link>
                 <Link
+                  href="/request-information"
+                  className={`${isActive("/request-information") ? "border-b-4 border-white" : ""} text-white hover:text-gray-300 font-trade-gothic-light`}
+                >
+                  Request Info
+                </Link>
+                <Link
                   href="/insights"
                   className={`${isActive("/insights") ? "border-b-4 border-white" : ""} text-white hover:text-gray-300 font-trade-gothic-light`}
                 >
@@ -121,8 +137,14 @@ export default function Header() {
               </div>
             </div>
 
-            {/* Right Side: Secondary Links (visible only on XL) + Search + Burger */}
-            <div className="hidden lg:flex items-center gap-4">
+            {/* Right Side: Video series + Secondary Links (XL) + Search + Burger */}
+            <div className="hidden lg:flex items-center gap-3 xl:gap-4">
+              <Link
+                href="/thinking-like-a-financial-analyst"
+                className={`text-white hover:text-gray-300 font-trade-gothic-light text-sm text-center leading-snug max-w-[11rem] xl:max-w-[14rem] ${isActive("/thinking-like-a-financial-analyst") ? "border-b-4 border-white pb-0 -mb-0.5" : ""}`}
+              >
+                Thinking Like a Financial Analyst
+              </Link>
               <div className="hidden xl:flex items-center gap-4">
                 <Link
                   href="/alumni"
@@ -267,205 +289,123 @@ export default function Header() {
               </button>
             </div>
 
-            {/* Menu Links */}
-            <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-4">
-              <nav className="grid grid-cols-2 gap-4">
+            {/* Menu Links — grouped single column */}
+            <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-4 pb-10">
+              <nav className="flex flex-col">
+                <p className="text-xs font-trade-gothic-bold uppercase tracking-wider text-booth-maroon mb-1 mt-1">
+                  Explore
+                </p>
                 <Link
                   href="/about"
-                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${pathname === "/about"
-                    ? "text-booth-maroon border-booth-maroon font-bold"
-                    : "text-booth-dark-gray border-gray-300"
-                    }`}
+                  onClick={closeMobileMenu}
+                  className={mobileLinkClass(pathname === "/about")}
                 >
                   About CAS MBA
-                  {/* <svg
-                    className="w-4 h-4"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg> */}
                 </Link>
                 <Link
                   href="/programs"
-                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${isActive("/programs")
-                    ? "text-booth-maroon border-booth-maroon font-bold"
-                    : "text-booth-dark-gray border-gray-300"
-                    }`}
+                  onClick={closeMobileMenu}
+                  className={mobileLinkClass(isActive("/programs"))}
                 >
                   Programs
-                  {/* <svg
-                    className="w-4 h-4"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg> */}
                 </Link>
-                <Link
-                  href="/admissions"
-                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${isActive("/admissions")
-                    ? "text-booth-maroon border-booth-maroon font-bold"
-                    : "text-booth-dark-gray border-gray-300"
-                    }`}
-                >
-                  Admissions
-                  {/* <svg
-                    className="w-4 h-4"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg> */}
-                </Link>
+
+                <p className="text-xs font-trade-gothic-bold uppercase tracking-wider text-booth-maroon mb-1 mt-6">
+                  Learn &amp; insights
+                </p>
                 <Link
                   href="/insights"
-                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${isActive("/insights")
-                    ? "text-booth-maroon border-booth-maroon font-bold"
-                    : "text-booth-dark-gray border-gray-300"
-                    }`}
+                  onClick={closeMobileMenu}
+                  className={mobileLinkClass(isActive("/insights"))}
                 >
-                  Faculty & Insights
-                  {/* <svg
-                    className="w-4 h-4"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg> */}
+                  Faculty &amp; Insights
                 </Link>
                 <Link
-                  href="/alumni"
-                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${isActive("/alumni")
-                    ? "text-booth-maroon border-booth-maroon font-bold"
-                    : "text-booth-dark-gray border-gray-300"
-                    }`}
+                  href="/thinking-like-a-financial-analyst"
+                  onClick={closeMobileMenu}
+                  className={mobileLinkClass(isActive("/thinking-like-a-financial-analyst"))}
                 >
-                  Alumni
-                  {/* <svg
-                    className="w-4 h-4"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg> */}
+                  Thinking Like a Financial Analyst
+                </Link>
+
+                <p className="text-xs font-trade-gothic-bold uppercase tracking-wider text-booth-maroon mb-1 mt-6">
+                  Admissions
+                </p>
+                <Link
+                  href="/admissions"
+                  onClick={closeMobileMenu}
+                  className={mobileLinkClass(isActive("/admissions"))}
+                >
+                  Admissions
                 </Link>
                 <Link
-                  href="/events"
-                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${isActive("/events")
-                    ? "text-booth-maroon border-booth-maroon font-bold"
-                    : "text-booth-dark-gray border-gray-300"
-                    }`}
+                  href="/request-information"
+                  onClick={closeMobileMenu}
+                  className={mobileLinkClass(isActive("/request-information"))}
                 >
-                  Events
-                </Link>
-                <Link
-                  href="/placements"
-                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${isActive("/placements")
-                    ? "text-booth-maroon border-booth-maroon font-bold"
-                    : "text-booth-dark-gray border-gray-300"
-                    }`}
-                >
-                  Placements
-                </Link>
-                <Link
-                  href="/industry-connect"
-                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${isActive("/industry-connect")
-                    ? "text-booth-maroon border-booth-maroon font-bold"
-                    : "text-booth-dark-gray border-gray-300"
-                    }`}
-                >
-                  Industry Connect
-                  {/* <svg
-                    className="w-4 h-4"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg> */}
+                  Request Info
                 </Link>
                 <Link
                   href="/how-to-apply"
-                  className={`py-3 font-trade-gothic-light border-b ${isActive("/how-to-apply")
-                    ? "text-booth-maroon border-booth-maroon font-bold"
-                    : "text-booth-dark-gray border-gray-300"
-                    }`}
+                  onClick={closeMobileMenu}
+                  className={mobileLinkClass(isActive("/how-to-apply"))}
                 >
                   Apply
                 </Link>
                 <Link
                   href="/internships"
-                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${isActive("/internships")
-                    ? "text-booth-maroon border-booth-maroon font-bold"
-                    : "text-booth-dark-gray border-gray-300"
-                    }`}
+                  onClick={closeMobileMenu}
+                  className={mobileLinkClass(isActive("/internships"))}
                 >
                   Internships
-                  {/* <svg
-                    className="w-4 h-4"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg> */}
+                </Link>
+
+                <p className="text-xs font-trade-gothic-bold uppercase tracking-wider text-booth-maroon mb-1 mt-6">
+                  Campus &amp; network
+                </p>
+                <Link
+                  href="/alumni"
+                  onClick={closeMobileMenu}
+                  className={mobileLinkClass(isActive("/alumni"))}
+                >
+                  Alumni
                 </Link>
                 <Link
+                  href="/events"
+                  onClick={closeMobileMenu}
+                  className={mobileLinkClass(isActive("/events"))}
+                >
+                  Events
+                </Link>
+                <Link
+                  href="/placements"
+                  onClick={closeMobileMenu}
+                  className={mobileLinkClass(isActive("/placements"))}
+                >
+                  Placements
+                </Link>
+                <Link
+                  href="/industry-connect"
+                  onClick={closeMobileMenu}
+                  className={mobileLinkClass(isActive("/industry-connect"))}
+                >
+                  Industry Connect
+                </Link>
+
+                <p className="text-xs font-trade-gothic-bold uppercase tracking-wider text-booth-maroon mb-1 mt-6">
+                  Connect
+                </p>
+                <Link
                   href="/contact"
-                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${isActive("/contact")
-                    ? "text-booth-maroon border-booth-maroon font-bold"
-                    : "text-booth-dark-gray border-gray-300"
-                    }`}
+                  onClick={closeMobileMenu}
+                  className={mobileLinkClass(isActive("/contact"))}
                 >
                   Contact
                 </Link>
                 <Link
                   href="/careers"
-                  className={`py-3 font-trade-gothic-light border-b flex items-center justify-between ${isActive("/careers")
-                    ? "text-booth-maroon border-booth-maroon font-bold"
-                    : "text-booth-dark-gray border-gray-300"
-                    }`}
+                  onClick={closeMobileMenu}
+                  className={mobileLinkClass(isActive("/careers"))}
                 >
                   Careers
                 </Link>

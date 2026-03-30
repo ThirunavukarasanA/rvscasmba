@@ -5,7 +5,7 @@ export default function ProgramFitSection() {
         <div className="mb-6 md:mb-12">
           <div className="w-16 h-0.5 bg-booth-maroon mb-6"></div>
           <h2 className="text-3xl md:text-5xl font-trade-gothic-bold text-booth-dark-gray mb-4">
-            Is This Artificial Intelligence Mba Right For You?
+            Is This Artificial Intelligence MBA Right For You?
           </h2>
         </div>
 
@@ -34,6 +34,10 @@ export default function ProgramFitSection() {
               <span>
                 Learners who prefer rigorous, applied training over purely theoretical or tool-based courses
               </span>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="text-booth-maroon mt-1">•</span>
+              <span>Anyone who wants to go beyond theory into real application and is willing to think, experiment, and build</span>
             </li>
           </ul>
         </div>

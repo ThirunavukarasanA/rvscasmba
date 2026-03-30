@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function ProgramExperienceSection() {
   return (
@@ -16,12 +15,11 @@ export default function ProgramExperienceSection() {
             world.
           </p> */}
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light mb-6">
-            The Global Finance & Corporate Analyst programme is structured to mirror the way
-            finance is practiced, analyzed, and taught in the professional
-            world.
+            The program mirrors how finance is actually practiced in organizations.
+            Learning follows a structured progression:
           </p>
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            Learn finance by doing, not memorizing.
+            Understand Business → Decode Numbers → Think in Capital → Apply → Decide.
           </p>
         </div>
 
@@ -38,23 +36,27 @@ export default function ProgramExperienceSection() {
             <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Project-based learning</span>
+                <span>Concept-first learning, not formula memorization</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Case studies and simulations</span>
+                <span>Case-based learning using real companies</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Continuous assessments</span>
+                <span>Simulation-based financial decision exercises</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Industry-aligned curriculum</span>
+                <span>Continuous application to real scenarios</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Capstone project in Global Finance & Corporate Analyst</span>
+                <span>Financial modelling, analysis, and dashboard-based communication</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <span className="text-booth-maroon mt-1">•</span>
+                <span>FP&A-driven thinking for planning, forecasting, and decision support</span>
               </li>
             </ul>
 
@@ -63,25 +65,6 @@ export default function ProgramExperienceSection() {
               scenarios throughout the program.
             </p> */}
 
-            <Link
-              href="/student-experience"
-              className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline"
-            >
-              View Full Academic Experience
-              <svg
-                className="w-4 h-4"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </Link>
           </div>
         </div>
       </div>

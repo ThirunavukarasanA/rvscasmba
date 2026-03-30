@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function ProgramExperienceSection() {
   return (
@@ -16,10 +15,10 @@ export default function ProgramExperienceSection() {
             world.
           </p> */}
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light mb-6">
-            The academic experience in Human Resources emphasizes structured thinking and applied organizational insight.
+            The academic experience is structured around how HR is practiced in high-performing organizations.
           </p>
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            <strong className="font-trade-gothic-bold">Foundations in Thought. Discipline in Application. Leadership in Action.</strong>
+            <strong className="font-trade-gothic-bold">Understand Behavior → Build Systems → Manage Talent → Lead Change</strong>
           </p>
         </div>
 
@@ -36,7 +35,7 @@ export default function ProgramExperienceSection() {
             <ul className="space-y-3 text-booth-dark-gray font-trade-gothic-light">
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Understanding organizational behavior before applying frameworks</span>
+                <span>Concept-first understanding of organizational behavior</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
@@ -44,19 +43,19 @@ export default function ProgramExperienceSection() {
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Case-based and applied assignments</span>
+                <span>Case-based learning using real organizations</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>HR analytics integrated across courses</span>
+                <span>Organizational simulations and role-based exercises</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Assessment-based learning through projects</span>
+                <span>Policy design and strategy workshops</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
-                <span>Continuous faculty mentoring for leadership judgment</span>
+                <span>Continuous application of concepts with HR analytics integration</span>
               </li>
             </ul>
 
@@ -65,25 +64,6 @@ export default function ProgramExperienceSection() {
               scenarios throughout the program.
             </p> */}
 
-            <Link
-              href="/student-experience"
-              className="inline-flex items-center gap-2 text-booth-maroon font-trade-gothic-bold hover:underline"
-            >
-              View Full Academic Experience
-              <svg
-                className="w-4 h-4"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </Link>
           </div>
         </div>
       </div>
