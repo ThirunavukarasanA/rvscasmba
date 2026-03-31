@@ -29,7 +29,7 @@ export default function MbaLogisticsSupplyChainPageClient() {
         image="/images/herosection/new/logistics.png"
         button1="Download Brochure"
         button2="Apply Now"
-        button1Link="/request-information"
+        button1Link=""
         button2Link="https://admissions.rvscas.ac.in/"
       />
       <WhyProgramSection />

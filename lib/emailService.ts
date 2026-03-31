@@ -49,7 +49,7 @@ export const sendThankYouEmail = async (
       <style>
         body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
         .container { max-width: 600px; margin: 0 auto; padding: 20px; }
-        .header { background-color: #1a365d; color: white; padding: 20px; text-align: center; }
+        .header { background-color: #800020; color: white; padding: 20px; text-align: center; }
         .content { padding: 30px 20px; background-color: #f8f9fa; }
         .footer { background-color: #e2e8f0; padding: 20px; text-align: center; font-size: 12px; }
         .button { display: inline-block; padding: 10px 20px; background-color: #1a365d; color: white; text-decoration: none; border-radius: 5px; margin: 10px 0; }

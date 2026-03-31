@@ -1,4 +1,31 @@
 import Link from "next/link";
+import { useState } from "react";
+import BrochurePopup from "../../shared/BrochurePopup";
+
+// Download Brochure Button with Popup
+function DownloadBrochureButton() {
+  const [showPopup, setShowPopup] = useState(false);
+  const courseName = "MBA in Artificial Intelligence";
+  const brochurePath = "/pdfs/MBA in Artificial Intelligence.pdf";
+  return (
+    <>
+      <button
+        type="button"
+        className="border-2 border-booth-maroon bg-white text-booth-maroon px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-sm md:text-base"
+        onClick={() => setShowPopup(true)}
+      >
+        Download Brochure
+      </button>
+      {showPopup && (
+        <BrochurePopup
+          courseName={courseName}
+          onClose={() => setShowPopup(false)}
+          brochurePath={brochurePath}
+        />
+      )}
+    </>
+  );
+}
 
 export default function AdmissionsSnapshotSection() {
   return (
@@ -13,7 +40,11 @@ export default function AdmissionsSnapshotSection() {
 
         <div className="space-y-6">
           <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
-            <strong className="font-trade-gothic-bold">Limited Intake Only:</strong> Seats are limited to maintain quality and a rigorous, hands-on learning environment.
+            <strong className="font-trade-gothic-bold">
+              Limited Intake Only:
+            </strong>{" "}
+            Seats are limited to maintain quality and a rigorous, hands-on
+            learning environment.
           </p>
           <div>
             <h3 className="text-xl md:text-2xl font-trade-gothic-bold text-booth-dark-gray mb-4">
@@ -44,26 +75,23 @@ export default function AdmissionsSnapshotSection() {
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>
-                  <strong>Group Discussion:</strong> Participation and clarity of thought
+                  <strong>Group Discussion:</strong> Participation and clarity
+                  of thought
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-booth-maroon mt-1">•</span>
                 <span>
-                  <strong>Personal Interview:</strong> Demonstrated reasoning ability and
-                  program fit
+                  <strong>Personal Interview:</strong> Demonstrated reasoning
+                  ability and program fit
                 </span>
               </li>
             </ul>
           </div>
 
           <div className="flex flex-wrap gap-4">
-            <Link
-              href="/request-information"
-              className="border-2 border-booth-maroon bg-white text-booth-maroon px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-sm md:text-base"
-            >
-              Download Brochure
-            </Link>
+            {/* Download Brochure Popup Button */}
+            {typeof window !== "undefined" && <DownloadBrochureButton />}
             <Link
               href="/request-information"
               className="border-2 border-booth-maroon bg-white text-booth-maroon px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-sm md:text-base"
@@ -71,7 +99,7 @@ export default function AdmissionsSnapshotSection() {
               Book Counselling
             </Link>
             <Link
-              href="https://admissions.rvscas.ac.in/"
+              href="https://admissions.rvscas.ac.in?id=69b938da3944a9a8e9823781&leadform=RVSCAS_MBA_Website"
               className="border-2 border-booth-maroon bg-white text-booth-maroon px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-sm md:text-base"
             >
               Apply Now
