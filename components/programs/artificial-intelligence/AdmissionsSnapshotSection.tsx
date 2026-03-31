@@ -99,7 +99,7 @@ export default function AdmissionsSnapshotSection() {
               Book Counselling
             </Link>
             <Link
-              href="https://admissions.rvscas.ac.in?id=69b938da3944a9a8e9823781&leadform=RVSCAS_MBA_Website"
+              href="https://admissions.rvscas.ac.in?id=69b938da3944a9a8e9823781&leadform=RVSCAS_MBA_Website_Artificial_Intelligence_Admissions_Snapshot_Section"
               className="border-2 border-booth-maroon bg-white text-booth-maroon px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-sm md:text-base"
             >
               Apply Now

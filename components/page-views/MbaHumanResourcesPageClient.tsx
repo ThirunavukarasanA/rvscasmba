@@ -24,15 +24,20 @@ export default function MbaHumanResourcesPageClient() {
         pageName="MBA in Human Resources"
         title="MBA in Human Resources"
         description1={
-          <>Build organizational capability with clarity, structure, and people insight.</>
+          <>
+            Build organizational capability with clarity, structure, and people
+            insight.
+          </>
         }
-        description2={<>Most people manage employees. HR leaders build organizations.</>}
+        description2={
+          <>Most people manage employees. HR leaders build organizations.</>
+        }
         description3="This MBA develops professionals who move beyond administrative HR into strategic talent, workforce analytics, and organizational decision-making."
         image="/images/herosection/new/hr.png"
         button1="Download Brochure"
         button2="Apply Now"
         button1Link="/request-information"
-        button2Link="https://admissions.rvscas.ac.in/"
+        button2Link="https://admissions.rvscas.ac.in?id=6246955d74b78f49cd6c2bc2&leadform=RVSCAS_MBA_Website_Human_Resources_Hero_Section"
       />
       <WhyProgramSection />
       <KeyHighlightsSection />

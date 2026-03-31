@@ -12,7 +12,9 @@ export default function FinalCTASection() {
         </div>
 
         <p className="text-lg md:text-xl text-white font-trade-gothic-light mb-8 max-w-4xl">
-          Build strong operational and analytical foundations, gain real exposure to tools and environments, and grow toward long-term leadership in supply chain and operations.
+          Build strong operational and analytical foundations, gain real
+          exposure to tools and environments, and grow toward long-term
+          leadership in supply chain and operations.
         </p>
 
         <p className="text-lg md:text-xl text-white font-trade-gothic-bold mb-8">
@@ -27,7 +29,7 @@ export default function FinalCTASection() {
             Request Information
           </Link>
           <Link
-            href="https://admissions.rvscas.ac.in/"
+            href="https://admissions.rvscas.ac.in?id=6246952974b78f49cd6c2bb8&leadform=RVSCAS_MBA_Website_Logistics_Supply_Chain_Build_Strong_Career_Section"
             className="border-2 border-white text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-white hover:text-booth-teal transition text-sm md:text-base"
           >
             Apply Now

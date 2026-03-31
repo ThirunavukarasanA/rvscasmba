@@ -21,16 +21,18 @@ export default function MbaLogisticsSupplyChainPageClient() {
     <main className="min-h-screen">
       <Header />
       <HeroSection
-        pageName="MBA in Supply Chain Management"
+        pageName="MBA in Logistics & Supply Chain Management"
         title="MBA in Logistics & Supply Chain Management"
-        description1={<>Design systems. Optimize flow. Lead operational excellence.</>}
+        description1={
+          <>Design systems. Optimize flow. Lead operational excellence.</>
+        }
         description2={<>Most people see operations. Leaders see systems.</>}
         description3="Build capability in operations, analytics, and strategic supply chain decision-making through case-driven practice, simulation, and industry exposure."
         image="/images/herosection/new/logistics.png"
         button1="Download Brochure"
         button2="Apply Now"
         button1Link=""
-        button2Link="https://admissions.rvscas.ac.in/"
+        button2Link="https://admissions.rvscas.ac.in?id=6246952974b78f49cd6c2bb8&leadform=RVSCAS_MBA_Website_Logistics_Supply_Chain_Hero_Section"
       />
       <WhyProgramSection />
       <KeyHighlightsSection />

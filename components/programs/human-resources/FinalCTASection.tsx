@@ -22,7 +22,7 @@ export default function FinalCTASection() {
             Request Information
           </Link>
           <Link
-            href="https://admissions.rvscas.ac.in/"
+            href="https://admissions.rvscas.ac.in?id=6246955d74b78f49cd6c2bc2&leadform=RVSCAS_MBA_Website_Human_Resources_Build_Strong_HR_Career_Foundation_CTA_Section"
             className="border-2 border-white text-white px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-white hover:text-booth-teal transition text-sm md:text-base"
           >
             Apply Now

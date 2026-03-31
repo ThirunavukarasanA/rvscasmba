@@ -1,6 +1,12 @@
+"use client";
+
 import Link from "next/link";
+import { useState } from "react";
+import BrochurePopup from "../../shared/BrochurePopup";
 
 export default function RequestProgramInformation() {
+  const [showBrochurePopup, setShowBrochurePopup] = useState(false);
+
   const items = [
     {
       title: "Take Career Guidance",
@@ -176,45 +182,84 @@ export default function RequestProgramInformation() {
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 text-center">
-          {items.map((item, index) => (
-            <Link
-              key={index}
-              href={item.href}
-              className="group flex flex-col items-center justify-start gap-y-6 "
-            >
-              {/* Icon Container with Scale Effect */}
-              <div className="transform transition-transform duration-300 group-hover:scale-110">
-                {item.icon}
-              </div>
-
-              {/* Title and Arrow Container */}
-              <div className="flex flex-col items-center gap-2">
-                <h3 className="text-xl md:text-2xl font-trade-gothic-bold text-booth-dark-gray decoration-booth-maroon transition-opacity decoration-4 group-hover:underline group-hover:underline-offset-4">
-                  {item.title}
-                </h3>
-
-                {/* Arrow Icon with Translation Effect */}
-                <div className="text-booth-maroon transform transition-transform duration-300 group-hover:translate-x-2">
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M5 12H19M19 12L12 5M19 12L12 19"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
+          {items.map((item, index) => {
+            if (item.title === "Download Brochure") {
+              return (
+                <button
+                  key={index}
+                  onClick={() => setShowBrochurePopup(true)}
+                  className="group flex flex-col items-center justify-start gap-y-6 cursor-pointer"
+                >
+                  <div className="transform transition-transform duration-300 group-hover:scale-110">
+                    {item.icon}
+                  </div>
+                  <div className="flex flex-col items-center gap-2">
+                    <h3 className="text-xl md:text-2xl font-trade-gothic-bold text-booth-dark-gray decoration-booth-maroon transition-opacity decoration-4 group-hover:underline group-hover:underline-offset-4">
+                      {item.title}
+                    </h3>
+                    <div className="text-booth-maroon transform transition-transform duration-300 group-hover:translate-x-2">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M5 12H19M19 12L12 5M19 12L12 19"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </button>
+              );
+            }
+            return (
+              <Link
+                key={index}
+                href={item.href}
+                className="group flex flex-col items-center justify-start gap-y-6 "
+              >
+                <div className="transform transition-transform duration-300 group-hover:scale-110">
+                  {item.icon}
                 </div>
-              </div>
-            </Link>
-          ))}
+                <div className="flex flex-col items-center gap-2">
+                  <h3 className="text-xl md:text-2xl font-trade-gothic-bold text-booth-dark-gray decoration-booth-maroon transition-opacity decoration-4 group-hover:underline group-hover:underline-offset-4">
+                    {item.title}
+                  </h3>
+                  <div className="text-booth-maroon transform transition-transform duration-300 group-hover:translate-x-2">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M5 12H19M19 12L12 5M19 12L12 19"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </Link>
+            );
+          })}
         </div>
+        {showBrochurePopup && (
+          <BrochurePopup
+            courseName="MBA in Human Resources"
+            onClose={() => setShowBrochurePopup(false)}
+            brochurePath="/pdfs/MBA in Human Resources.pdf"
+          />
+        )}
       </div>
     </section>
   );

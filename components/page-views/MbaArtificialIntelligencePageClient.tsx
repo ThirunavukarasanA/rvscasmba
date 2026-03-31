@@ -25,22 +25,29 @@ export default function MbaArtificialIntelligencePageClient() {
         title="MBA in Artificial Intelligence"
         description1={
           <>
-            <strong className="font-trade-gothic-bold">Learn to interpret complexity. Decide with clarity.</strong>
+            <strong className="font-trade-gothic-bold">
+              Learn to interpret complexity. Decide with clarity.
+            </strong>
           </>
         }
         description2={
-          <>Most people learn tools. AI leaders learn how to connect data, technology, and business insight to solve real-world problems.</>
+          <>
+            Most people learn tools. AI leaders learn how to connect data,
+            technology, and business insight to solve real-world problems.
+          </>
         }
         description3={
           <>
-            This MBA equips you with analytical frameworks, quantitative understanding, and the judgment to bridge business questions with analytic answers.
+            This MBA equips you with analytical frameworks, quantitative
+            understanding, and the judgment to bridge business questions with
+            analytic answers.
           </>
         }
         image="/images/herosection/new/artificial-intelligence.png"
         button1="Download Brochure"
         button2="Apply Now"
         button1Link="/request-information"
-        button2Link="https://admissions.rvscas.ac.in/"
+        button2Link="https://admissions.rvscas.ac.in?id=69b938da3944a9a8e9823781&leadform=RVSCAS_MBA_Website_Artificial_Intelligence_Hero_Section"
       />
       <WhyProgramSection />
       <KeyHighlightsSection />

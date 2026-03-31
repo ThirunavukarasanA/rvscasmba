@@ -35,7 +35,7 @@ export default function MbaDigitalMarketingPageClient() {
         button1="Download Brochure"
         button2="Apply Now"
         button1Link="/request-information"
-        button2Link="https://admissions.rvscas.ac.in/"
+        button2Link="https://admissions.rvscas.ac.in?id=624695a374b78f49cd6c2bc6&leadform=RVSCAS_MBA_Website_Digital_Marketing_Hero_Section"
       />
       <WhyProgramSection />
       <KeyHighlightsSection />
