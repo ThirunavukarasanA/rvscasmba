@@ -124,7 +124,7 @@ export const sendLeadEmail = async (
           <p>Please follow up with this lead as soon as possible to provide additional information and assistance.</p>
         </div>
         <div class="footer">
-          <p>RVSCAS MBA Lead Management System</p>
+          <p>RVSCAS Website Team</p>
         </div>
       </div>
     </body>
@@ -132,7 +132,7 @@ export const sendLeadEmail = async (
   `;
 
   await sendEmail({
-    to: "thirunavuakarasan@rvsgroup.com",
+    to: "thirunavukarasan@rvsgroup.com",
     cc: "thirugopi733@gmail.com",
     subject: `New Brochure Download Lead - ${courseName}`,
     html,
