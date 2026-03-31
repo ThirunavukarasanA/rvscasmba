@@ -22,13 +22,13 @@ export default function HeroSection() {
           </div>
           {/* Title and description overlay - bottom left aligned on image */}
           <div className="relative z-10 h-full flex items-end">
-            <div className="w-full pb-16">
-              <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
+            <div className="w-full pb-10">
+              <div className="w-full max-w-full md:max-w-[80%] xl:max-w-[60%] mx-auto px-4 md:px-6 lg:px-8 xl:px-12">
                 <div className="w-16 h-0.5 bg-white mb-6"></div>
-                <h1 className="text-5xl md:text-[60.1987px] font-trade-gothic-bold text-white mb-6">
+                <h1 className="text-4xl md:text-5xl lg:text-[50px] xl:text-[60.1987px] font-trade-gothic-bold text-white mb-6">
                   Education for Digital Era.
                 </h1>
-                <p className="text-xl md:text-[33.6px] leading-relaxed text-white font-trade-gothic-light">
+                <p className="text-lg md:text-xl lg:text-[24px] xl:text-[33.6px] leading-relaxed md:leading-relaxed lg:leading-relaxed xl:leading-relaxed text-white font-trade-gothic-light">
                   RVS CAS MBA develops techno-managers who blend business discipline with technological fluency and analytical clarity to lead real-world decisions.
                 </p>
               </div>
@@ -47,13 +47,13 @@ export default function HeroSection() {
               priority
             />
           </div>
-          <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
+          <div className="w-full max-w-full md:max-w-[80%] xl:max-w-[60%] mx-auto px-4 md:px-6 lg:px-8 xl:px-12">
             <div className="py-12">
               <h1 className="text-4xl md:text-6xl font-trade-gothic-bold text-booth-dark-gray mb-4">
                 Education for Digital Era.
               </h1>
               <div className="w-16 h-1 bg-booth-maroon mb-6"></div>
-              <p className="text-lg text-booth-dark-gray font-trade-gothic-light">
+              <p className="text-lg md:text-xl text-booth-dark-gray font-trade-gothic-light">
                 RVS CAS MBA develops techno-managers who blend business discipline with technological fluency and analytical clarity to lead real-world decisions.
               </p>
             </div>
@@ -63,12 +63,12 @@ export default function HeroSection() {
 
       {/* Text Section Between Heroes */}
       <section className="bg-white lg:py-12 pb-12">
-        <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
+        <div className="w-full max-w-full md:max-w-[80%] xl:max-w-[60%] mx-auto px-4 md:px-6 lg:px-8 xl:px-12">
           <div className="space-y-4">
-            <p className="text-lg md:text-[33.6px] leading-relaxed tracking-wide text-booth-dark-gray pb-6">
+            <p className="text-lg md:text-xl lg:text-[24px] xl:text-[33.6px] leading-relaxed md:leading-relaxed lg:leading-relaxed xl:leading-relaxed tracking-wide text-booth-dark-gray pb-6">
               At RVS CAS MBA, The value of an MBA lies in how you think — not just what you learn. Our Tech MBA model integrates business knowledge with digital tools, analytics, and industry exposure—helping students think critically, adapt quickly, and lead confidently in a rapidly changing economy.
             </p>
-            <p className="text-lg md:text-[21.6px] leading-relaxed text-booth-dark-gray font-trade-gothic-light">
+            <p className="text-lg md:text-xl lg:text-[21.6px] leading-relaxed md:leading-relaxed lg:leading-relaxed xl:leading-relaxed text-booth-dark-gray font-trade-gothic-light">
               With over 30 years of management education, RVS CAS MBA focuses on relevance, rigor, and real-world readiness.
             </p>
           </div>
@@ -92,12 +92,12 @@ export default function HeroSection() {
           {/* Text overlay - left aligned at bottom */}
           <div className="relative z-10 h-full flex items-end">
             <div className="w-full pb-16">
-              <div className="w-full max-w-full min-[700px]:max-w-[60%] mx-auto px-4 min-[700px]:px-6 lg:px-8 xl:px-12">
+              <div className="w-full max-w-full md:max-w-[80%] xl:max-w-[60%] mx-auto px-4 md:px-6 lg:px-8 xl:px-12">
                 <div className="w-16 h-0.5 bg-white mb-6"></div>
-                <h2 className="text-4xl md:text-6xl font-trade-gothic-bold text-white mb-6">
+                <h2 className="text-4xl md:text-5xl lg:text-6xl font-trade-gothic-bold text-white mb-6">
                   Why RVS CAS MBA
                 </h2>
-                <p className="text-xl md:text-2xl text-white leading-relaxed font-trade-gothic-light">
+                <p className="text-lg md:text-xl lg:text-2xl xl:text-[28px] text-white leading-relaxed md:leading-relaxed lg:leading-relaxed xl:leading-relaxed font-trade-gothic-light">
                   RVS CAS MBA is for those who want to combine business excellence with technology expertise. We believe management education should train the mind before it trains the resume.
                 </p>
               </div>

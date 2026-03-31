@@ -67,7 +67,7 @@ export default function ProgramsSection() {
                 <h3 className="text-lg md:text-[32.6px] font-trade-gothic-bold text-booth-dark-gray mb-2 md:mb-3">
                   {program.title}
                 </h3>
-                <p className="text-booth-light-gray mb-2 md:mb-4 font-trade-gothic-light text-sm md:text-[19.68px]">
+                <p className="text-booth-light-gray mb-2 md:mb-4 font-trade-gothic-light leading-relaxed text-sm lg:text-[19.68px] md:text-[17.464px]">
                   {program.description}
                 </p>
                 <Link
