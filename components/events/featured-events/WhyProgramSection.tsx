@@ -92,12 +92,10 @@ export default function WhyProgramSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12">
+        {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12">
           {events.map((event) => (
             <Link href={event.link} key={event.id} className="group flex flex-col cursor-pointer">
-              {/* Image Container */}
               <div className="relative w-full aspect-[4/3] overflow-hidden mb-5 bg-gray-100">
-                {/* Using standard img to avoid next/image domain configuration issues with placeholder images */}
                 <img
                   src={event.image}
                   alt={event.title}
@@ -105,8 +103,6 @@ export default function WhyProgramSection() {
                   loading="lazy"
                 />
               </div>
-
-              {/* Content */}
               <h3 className="text-lg md:text-xl font-trade-gothic-bold text-booth-dark-gray mb-2 md:mb-3 leading-[1.3] group-hover:text-[#7c0201] transition-colors duration-300">
                 {event.title}
               </h3>
@@ -118,7 +114,8 @@ export default function WhyProgramSection() {
               </p>
             </Link>
           ))}
-        </div>
+        </div> */}
+        
       </div>
     </section>
   );

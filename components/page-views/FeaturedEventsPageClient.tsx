@@ -4,6 +4,7 @@ import WhyProgramSection from "@/components/events/featured-events/WhyProgramSec
 import Footer from "@/components/shared/Footer";
 import Header from "@/components/shared/Header";
 import HeroSection from "@/components/shared/HeroSection";
+import FeaturedEvents from "@/components/events/FeaturedEvents";
 
 export default function FeaturedEventsPageClient() {
   return (
@@ -30,6 +31,7 @@ export default function FeaturedEventsPageClient() {
         button2Link=""
       />
       <WhyProgramSection />
+      <FeaturedEvents />
       <Footer />
     </main>
   );
