@@ -21,7 +21,7 @@ export default function HeroSection() {
             {/* <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div> */}
           </div>
           {/* Title and description overlay - bottom left aligned on image */}
-          <div className="relative z-10 h-full flex items-end">
+          {/* <div className="relative z-10 h-full flex items-end">
             <div className="w-full pb-10">
               <div className="w-full max-w-full md:max-w-[80%] xl:max-w-[60%] mx-auto px-4 md:px-6 lg:px-8 xl:px-12">
                 <div className="w-16 h-0.5 bg-white mb-6"></div>
@@ -33,7 +33,7 @@ export default function HeroSection() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Mobile View */}
