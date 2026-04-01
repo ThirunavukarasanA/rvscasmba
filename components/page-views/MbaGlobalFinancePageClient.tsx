@@ -36,7 +36,7 @@ export default function MbaGlobalFinancePageClient() {
         button1="Download Brochure"
         button2="Apply Now"
         button1Link="/request-information"
-        button2Link="https://admissions.rvscas.ac.in/"
+        button2Link="https://admissions.rvscas.ac.in?id=69ccdafa9aadac17d6f6b64a&leadform=RVSCAS_MBA_Website_Global_Finance_Hero_Section"
       />
       <WhyProgramSection />
       <KeyHighlightsSection />

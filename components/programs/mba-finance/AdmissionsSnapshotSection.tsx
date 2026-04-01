@@ -71,7 +71,7 @@ export default function AdmissionsSnapshotSection() {
               Book Counselling
             </Link>
             <Link
-              href="https://admissions.rvscas.ac.in/"
+              href="https://admissions.rvscas.ac.in?id=69ccdafa9aadac17d6f6b64a&leadform=RVSCAS_MBA_Website_Global_Finance_Admissions_Snapshot_Section"
               className="border-2 border-booth-maroon bg-white text-booth-maroon px-6 py-3 md:px-8 md:py-4 font-trade-gothic-bold uppercase hover:bg-booth-maroon hover:text-white transition text-sm md:text-base"
             >
               Apply Now
